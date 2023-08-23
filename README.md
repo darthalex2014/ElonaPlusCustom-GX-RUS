@@ -1,49 +1,42 @@
-# Elona+ Custom-GX 2.19R
+# Elona+ Custom-GX 2.19R RUS
 
 *\~Believe in Jure and hold a determination to mince.\~*
 
-Elona+ Custom-GX is a new variant of Elona+ based on Elona+ Custom-G, updated with the changes in Elona+ up to version 2.19R.
+Elona+ Custom-GX - новый вариант Elona+, основанный на Elona+ Custom-G, обновленный с учетом изменений в Elona+ до версии 2.19R.
 
-It is originally created and maintained by [Ruin0x11](https://github.com/Ruin0x11), on [this repository](https://github.com/Ruin0x11/ElonaPlusCustom-GX).  
-This repository is an unofficial continuation of the above repository using Ruin0x11's [borscht/erystia](https://github.com/Ruin0x11/borscht) decompiler.
+Он изначально создавался и поддерживался [Ruin0x11](https://github.com/Ruin0x11), в [этом репозитории](https://github.com/Ruin0x11/ElonaPlusCustom-GX).  
+Теперь он поддерживается [JianmengYu](https://github.com/JianmengYu), в [этом репозитории](https://github.com/JianmengYu/ElonaPlusCustom-GX).  
 
-### **[Download the latest release here.](https://github.com/JianmengYu/ElonaPlusCustom-GX/releases/)**
 
-## Installation
+### **[Скачать последнюю версию можно здесь.](https://github.com/darthalex2014/ElonaPlusCustom-GX/releases/)**
 
-1. Download Elona+ 2.19R from [here](https://mega.nz/file/cftXiQrQ#2sIXE97ov_V4qlPF7HUNZkkSt3Z8mId9DNwoqAwnA4k). Extract it to `elonaplus2.19R`.
-2. Extract the contents of Custom-GX's archive to the `elonaplus2.19R` folder, overwriting all existing files.
-3. Run `elonapluscgx.exe`.
+## Установка
 
-## Building
+1. Скачать Elona+ 2.19R [тут](https://mega.nz/file/cftXiQrQ#2sIXE97ov_V4qlPF7HUNZkkSt3Z8mId9DNwoqAwnA4k). Извлечь ее в `elonaplus2.19R`.
+2. Распакуйте содержимое архива Custom-GX-RUS в папку `elonaplus2.19R`, перезаписав все существующие файлы.
+3. Запустить `elonapluscgx.exe`.
 
-1. Follow the installation instructions above. Rename the `elonaplus2.19R` folder to `2.05-custom-gx` and move it to the `assets/` folder of this repository.
-2. Download the HSP3.4 SDK (`hsp34a.zip`) from [here](http://hsp.tv/make/downlist.html) and extract it somewhere.
-3. Copy `hsplua.dll` from the `2.05-custom-gx` folder into the HSP3.4 SDK folder. Otherwise, you'll get an error saying it's missing when running the game from the editor.
-4. Open `2.05-custom-gx/main.hsp` with `hsed3.exe` from the HSP3.4 SDK folder. Press <kbd>F5</kbd> to compile and run under debug mode.
-5. Press <kbd>Ctrl+F9</kbd> to create an executable named `elonapluscgx.exe`. You can then copy it to your Custom-GX install folder.
+## Спасибо
 
-**Warning**: If you make any changes to the code, *always make sure the file encoding is set to SHIFT_JIS!* Otherwise, you'll get a lot of cryptic compiler errors.
+JianmengYu, за продолжение поддержки Elona+ Custom-GX.
 
-## Thanks
+Ruin0x11, за создание и поддержку Elona+ Custom-GX.
 
-Ruin0x11, for creating and maintaining Elona+ Custom-GX.
+Glyphy, за создание Elona+ Custom-G.
 
-Glyphy, for creating Elona+ Custom-G.
+AnnaBannana и BloodyShade, за создание и поддержку Elona+ Custom.
 
-AnnaBannana and BloodyShade, for creating and maintaining Elona+ Custom.
-
-Everyone else who contributed to Elona+ Custom:
+Всем остальным, кто участвовал в создании Elona+ Custom:
  - Hebiko
  - Glyphy
  - Jehmil
- - Anon(s) from /jp/
- - And others.
+ - Аноним(ы) из /jp/
+ - И другие.
 
-Ano, for creating and maintaining Elona+.
+Ano, за создание и поддержку Elona+.
 
-f1r3fly, Sunstrike, Schmidt, and Elvenspirit, for contributing to Elona's original English translation.
+f1r3fly, Sunstrike, Schmidt, и Elvenspirit, за участие в создании оригинального перевода Elona на английский язык.
 
-Noa, for creating a neat little game.
+Noa, за создание небольшой игры.
 
-And *you*!
+И *тебе*!
