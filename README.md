@@ -2,7 +2,8 @@
 
 *\~Believe in Jure and hold a determination to mince.\~*
 
-Elona+ Custom-GX - новый вариант Elona+, основанный на Elona+ Custom-G, обновленный с учетом изменений в Elona+ до версии 2.19R.
+Elona+ Custom-GX - новый вариант Elona+, основанный на Elona+ Custom-G, 
+обновленный с учетом изменений в Elona+ до версии 2.19R.
 
 Он изначально создавался и поддерживался [Ruin0x11](https://github.com/Ruin0x11), в [этом репозитории](https://github.com/Ruin0x11/ElonaPlusCustom-GX).  
 Теперь он поддерживается [JianmengYu](https://github.com/JianmengYu), в [этом репозитории](https://github.com/JianmengYu/ElonaPlusCustom-GX).  
