@@ -52,7 +52,7 @@
 		f += 1 * (TweakData(cnt + 100, 0) != 0) + 1 * (TweakData(cnt + 200, 0) != 0) + 1 * (TweakData(cnt + 300, 0) != 0) + 1 * (TweakData(cnt + 400, 0) != 0)
 	loop
 	if ( f > 0 ) {
-		txt "Tweak Data is expanded to 2500 entries."
+		txt "Tweak Data расширен до 2500 записей."
 		repeat 100
 			TweakData(cnt, 4) = TweakData(cnt + 400, 0)
 			TweakData(cnt, 3) = TweakData(cnt + 300, 0)
@@ -71,7 +71,7 @@
 *fixSave
 	gosub *fixTweakData6190
 	if ( gdata(GDATA_VERSION) != VERSION_NUMBER ) {
-		dialog lang("Ver." + gdata(GDATA_VERSION) + "のセーブデータをアップデートします。", "Updating your save data from Ver." + gdata(GDATA_VERSION) + " now.")
+		dialog lang("Ver." + gdata(GDATA_VERSION) + "‚МѓZЃ[ѓuѓfЃ[ѓ^‚рѓAѓbѓvѓfЃ[ѓg‚µ‚Ь‚·ЃB", "Updating your save data from Ver." + gdata(GDATA_VERSION) + " now.")
 	}
 	if ( gdata(GDATA_HEIR_DEED) < 0 ) {
 		gdata(GDATA_HEIR_DEED) = 1
@@ -138,7 +138,7 @@
 			deletewrapper file + "mdata_5_103.s2"
 		}
 		if ( gdata(GDATA_AREA) == AREA_VERNIS ) {
-			dialog "マップをアップデートするため、一度ヴェルニースに出入りしてください。"
+			dialog "ѓ}ѓbѓv‚рѓAѓbѓvѓfЃ[ѓg‚·‚й‚Ѕ‚ЯЃA€к“xѓ”ѓFѓ‹ѓjЃ[ѓX‚ЙЏo“ь‚и‚µ‚Д‚­‚ѕ‚і‚ўЃB"
 		}
 	}
 	if ( gdata(GDATA_VERSION) < 1010 ) {
@@ -177,7 +177,7 @@
 	}
 	if ( gdata(GDATA_VERSION) < 1111 ) {
 		gdata(GDATA_WORLD_RENEW) = 1
-		dialog lang("ユーザー物件の情報をアップデートするため、ゲーム開始後一度ワールドマップに出てください。", "Please exit the current area and enter the world map once to update game data.")
+		dialog lang("ѓ†Ѓ[ѓUЃ[•ЁЊЏ‚МЏо•с‚рѓAѓbѓvѓfЃ[ѓg‚·‚й‚Ѕ‚ЯЃAѓQЃ[ѓЂЉJЋnЊг€к“xѓЏЃ[ѓ‹ѓhѓ}ѓbѓv‚ЙЏo‚Д‚­‚ѕ‚і‚ўЃB", "Пожалуйста, выйдите из текущей области и один раз войдите на карту мира, чтобы обновить игровые данные.")
 	}
 	if ( gdata(GDATA_VERSION) < 1130 ) {
 		cfg_net = 1
@@ -207,10 +207,10 @@
 	}
 	if ( gdata(GDATA_VERSION) < 1170 ) {
 		if ( adata(ADATA_TYPE, gdata(GDATA_AREA)) != MAP_TYPE_TOWN ) {
-			dialog lang("アップデートを行うには、街中でセーブしたセーブデータが必要です。", "To update your game, please save your game in a town in the previous version then retry.")
+			dialog lang("ѓAѓbѓvѓfЃ[ѓg‚рЌs‚¤‚Й‚НЃAЉX’†‚ЕѓZЃ[ѓu‚µ‚ЅѓZЃ[ѓuѓfЃ[ѓ^‚Є•K—v‚Е‚·ЃB", "Чтобы обновить игру, пожалуйста, сохраните игру в городе предыдущей версии, а затем повторите попытку.")
 			goto *exit_game
 		}
-		dialog lang("次のプロセスの完了までには、しばらく時間がかかることがあります。", "The next updating process may take a while to complete.")
+		dialog lang("Ћџ‚МѓvѓЌѓZѓX‚МЉ®—№‚Ь‚Е‚Й‚НЃA‚µ‚О‚з‚­ЋћЉФ‚Є‚©‚©‚й‚±‚Ж‚Є‚ ‚и‚Ь‚·ЃB", "Следующий процесс обновления может занять некоторое время.")
 		memcpy adata(ADATA_TYPE, STARTING_USER_AREA), adata(ADATA_TYPE, STARTING_USER_AREA_OLD), MAX_AREA_DATA * (STARTING_RANDOM_AREA_OLD - STARTING_USER_AREA_OLD) * 4
 		memcpy adata(ADATA_TYPE, STARTING_RANDOM_AREA), adata(ADATA_TYPE, STARTING_RANDOM_AREA_OLD), MAX_AREA_DATA * (MAX_AREA_OLD - STARTING_RANDOM_AREA_OLD) * 4
 		repeat MAX_AREA_OLD - STARTING_USER_AREA_OLD, STARTING_USER_AREA_OLD
@@ -254,7 +254,7 @@
 	if ( gdata(GDATA_VERSION) < 2130 ) {
 		if ( gdata(GDATA_QUEST) == QUEST_TYPE_THIEVES ) {
 			gdata(GDATA_QUEST) = QUEST_TYPE_NONE
-			dialog lang("盗賊団フラグ抹消。", "Death bug is corrected.")
+			dialog lang("“ђ‘Ї’cѓtѓ‰ѓO–•ЏБЃB", "Death bug исправлен.")
 		}
 	}
 	if ( gdata(GDATA_VERSION) < 2160 ) {
@@ -401,7 +401,7 @@
 		loop
 	}
 	if ( gdata(GDATA_VERSION) == 2180 ) {
-		dialog lang("アップデートを行うには、1.1555以外のセーブデータが必要です。", "To update your game, please save not 1.1555 version then retry.")
+		dialog lang("ѓAѓbѓvѓfЃ[ѓg‚рЌs‚¤‚Й‚НЃA1.1555€ИЉO‚МѓZЃ[ѓuѓfЃ[ѓ^‚Є•K—v‚Е‚·ЃB", "To update your game, please save not 1.1555 version then retry.")
 		goto *exit_game
 	}
 	if ( gdata(GDATA_VERSION) < 2210 ) {
@@ -410,7 +410,7 @@
 		loop
 	}
 	if ( gdata(GDATA_VERSION) == 2220 ) {
-		dialog lang("1.18fix以外のセーブデータは使えません。", "To update your game, please save not 1.18fix version then retry.")
+		dialog lang("1.18fix€ИЉO‚МѓZЃ[ѓuѓfЃ[ѓ^‚НЋg‚¦‚Ь‚№‚сЃB", "To update your game, please save not 1.18fix version then retry.")
 		goto *exit_game
 	}
 	if ( gdata(GDATA_VERSION) < 2260 ) {
@@ -478,7 +478,7 @@
 		gdata(GDATA_FLAG_HIGHEST_NORMAL_DAMAGE) = 0
 	}
 	if ( gdata(GDATA_VERSION) == 2310 ) {
-		dialog lang("アップデートを行うには、1.25以外のセーブデータが必要です。", "To update your game, please save not 1.25 version then retry.")
+		dialog lang("ѓAѓbѓvѓfЃ[ѓg‚рЌs‚¤‚Й‚НЃA1.25€ИЉO‚МѓZЃ[ѓuѓfЃ[ѓ^‚Є•K—v‚Е‚·ЃB", "To update your game, please save not 1.25 version then retry.")
 		goto *exit_game
 	}
 	if ( gdata(GDATA_VERSION) <= 2390 ) {
@@ -496,7 +496,7 @@
 						cbitmod CHARA_BIT_BODYGUARD, cnt, 0
 						chatc@DP = tc
 						if ( cdata(CDATA_EXIST, tc) == CHAR_STATE_ALIVE ) {
-							s = lang("「おい、暗殺者が私の後ろにいるぞ」", cnvtalk("Hey, the assassins are killing me."))
+							s = lang("Ѓu‚Ё‚ўЃA€ГЋEЋТ‚ЄЋ„‚МЊг‚л‚Й‚ў‚й‚јЃv", cnvtalk("Hey, the assassins are killing me."))
 							p = DAMAGE_FROM_UNSEEN
 							txtef COLOR_SKY_BLUE
 							txtmore
@@ -539,7 +539,7 @@
 		loop
 	}
 	if ( gdata(GDATA_VERSION) == 2500 ) {
-		dialog lang("1.38のセーブデータはアップデートできません。", "To update your game, please save not 1.38 version then retry.")
+		dialog lang("1.38‚МѓZЃ[ѓuѓfЃ[ѓ^‚НѓAѓbѓvѓfЃ[ѓg‚Е‚«‚Ь‚№‚сЃB", "To update your game, please save not 1.38 version then retry.")
 		goto *exit_game
 	}
 	if ( gdata(GDATA_VERSION) < 2510 ) {
@@ -561,7 +561,7 @@
 			spact(SKILL_SPACT_GAUGE_RELEASE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_GAUGE_RELEASE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_GAUGE_RELEASE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_GAUGE_RELEASE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "Вы научились новой способности, " + skillname(SKILL_SPACT_GAUGE_RELEASE) + ".")
 		}
 		repeat MAX_CHARA_SAVE
 			if ( cbit(CHARA_BIT_AWAKE_NEAR_DEATH_DAMAGE, cnt) ) {
@@ -708,7 +708,7 @@
 		if ( gdata(GDATA_FLAG_GAME_MODE) == GAMEMODE_PURGE ) {
 			gdata(GDATA_FLAG_SCROLL_OF_WITCHCRAFT_TOTAL_SPELL_BONUS) += 10000
 		}
-		txt lang("あなたはスペルボーナスを獲得した。", "You gain spell bonus points.")
+		txt lang("‚ ‚И‚Ѕ‚НѓXѓyѓ‹ѓ{Ѓ[ѓiѓX‚рЉl“ѕ‚µ‚ЅЃB", "Вы получаете бонусные очки заклинаний.")
 	}
 	if ( gdata(GDATA_VERSION) < 3990 ) {
 		repeat MAX_CHARA_TOTAL
@@ -717,7 +717,7 @@
 			}
 			if ( cdata(CDATA_ID, cnt) == CREATURE_ID_FLOATING_EYE | cdata(CDATA_ID, cnt) == CREATURE_ID_CHAOS_EYE | cdata(CDATA_ID, cnt) == CREATURE_ID_MAD_GAZE | cdata(CDATA_ID, cnt) == CREATURE_ID_DEATH_GAZE | cdata(CDATA_ID, cnt) == CREATURE_ID_DEFORMED_EYE | cdata(CDATA_ID, cnt) == CREATURE_ID_IMPURE_EYE ) {
 				cdata(CDATA_CHARA_PIC, cnt) = xy2pic(1, 0)
-				txt lang("目系進化体グラフィック修正。", "The graphic of the eye evolution character have been corrected.")
+				txt lang("–ЪЊnђi‰»‘МѓOѓ‰ѓtѓBѓbѓNЏCђіЃB", "The graphic of the eye evolution character have been corrected.")
 			}
 		loop
 		gdata(GDATA_CARGO_LIMIT) = gdata(GDATA_CARGO_LIMIT) / 10000 * 10000
@@ -742,7 +742,7 @@
 
 		if ( gdata(GDATA_FLAG_SCROLL_OF_WITCHCRAFT_TOTAL_SPELL_BONUS) >= 100 | cdata(CDATA_SKILLPOINT, CHARA_PLAYER) >= 100 | cdata(CDATA_PLATINUM, CHARA_PLAYER) >= 100 ) {
 			if ( gdata(GDATA_FLAG_GAME_MODE) != 2 & gdata(GDATA_FLAG_GAME_MODE) != GAMEMODE_PURGE ) {
-				dialog lang("注意！スペルボーナス、スキルボーナス、プラチナ硬貨は100以上所持していると新たに獲得できない。", "Caution! While the spell bonus is 100 or more, you cannot get new.")
+				dialog lang("’Ќ€УЃIѓXѓyѓ‹ѓ{Ѓ[ѓiѓXЃAѓXѓLѓ‹ѓ{Ѓ[ѓiѓXЃAѓvѓ‰ѓ`ѓiЌd‰Э‚Н100€ИЏгЏЉЋќ‚µ‚Д‚ў‚й‚ЖђV‚Ѕ‚ЙЉl“ѕ‚Е‚«‚И‚ўЃB", "Caution! While the spell bonus is 100 or more, you cannot get new.")
 			}
 		}
 
@@ -810,7 +810,7 @@
 				spact(SKILL_SPACT_MAGNECOAT - STARTING_SKILL_SPACT) = 1
 				txtmore
 				txtef COLOR_YELLOW
-				txt lang("あなたは「" + skillname(SKILL_SPACT_MAGNECOAT) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_MAGNECOAT) + ".")
+				txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MAGNECOAT) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "Вы научились новым навыкам, " + skillname(SKILL_SPACT_MAGNECOAT) + ".")
 			}
 		}
 		repeat 245
@@ -871,7 +871,7 @@
 		cdata(CDATA_SPINDLE_COMBINATION_B, CHARA_PLAYER) = 1
 		snd SOUNDLIST_WRITE1
 		txtef COLOR_GREEN
-		txt lang("ジャーナルが更新された。", "Your journal has been updated.")
+		txt lang("ѓWѓѓЃ[ѓiѓ‹‚ЄЌXђV‚і‚к‚ЅЃB", "Ваш журнал был обновлен.")
 		if ( gdata(GDATA_FLAG_GUILD_FIGHTER_NORMA) > 0 ) {
 			gdata(GDATA_FLAG_GUILD_FIGHTER_THIEF) = 15
 			gdata(GDATA_FLAG_FIGHTER_GUILD_QUEST_LEVEL) = rnd(8)
@@ -915,7 +915,7 @@
 	}
 	if ( gdata(GDATA_FLAG_GAME_MODE) == GAMEMODE_LOSS ) {
 		if ( gdata(GDATA_GAMEMODE_PENALTY) == 4 ) {
-			dialog lang("その冒険者は蘇らない…。", "This adventurer can not be revived...")
+			dialog lang("‚»‚М–`ЊЇЋТ‚Н‘h‚з‚И‚ўЃcЃB", "Этот приключенец не может быть возрожден...")
 			goto *exit_game
 		}
 	}
@@ -963,7 +963,7 @@
 
 	if ( gdata(GDATA_FLAG_GAME_MODE) == GAMEMODE_ABNORMAL | gdata(GDATA_FLAG_GAME_MODE) == GAMEMODE_LOSS | gdata(GDATA_FLAG_GAME_MODE) == GAMEMODE_NATURAL ) {
 		if ( gdata(GDATA_GAMEMODE_PENALTY) == 0 ) {
-			dialog lang("Escキーでセーブ後自動終了せずに、強制終了したセーブデータにはペナルティが与えられます。", "It is a nosave penalty.")
+			dialog lang("EscѓLЃ[‚ЕѓZЃ[ѓuЊгЋ©“®ЏI—№‚№‚ё‚ЙЃA‹­ђ§ЏI—№‚µ‚ЅѓZЃ[ѓuѓfЃ[ѓ^‚Й‚Нѓyѓiѓ‹ѓeѓB‚Є—^‚¦‚з‚к‚Ь‚·ЃB", "It is a nosave penalty.")
 			modkarma CHARA_PLAYER, -100
 			skillmod SKILL_ATTR_LIFE, CHARA_PLAYER, -5000
 			skillmod SKILL_ATTR_MANA, CHARA_PLAYER, -5000
@@ -1361,7 +1361,7 @@
 		if ( instr(untaglist, 0, "/" + userdatan(0, tg) + "/") != (-1) ) {
 			usernpcmax--
 			if ( instr(s, 0, "_tmp_") == (-1) ) {
-				msgtemp += lang("同名NPCは読み込まれない。", "A npc of the same name exists.") + "(skipped:" + userdatan(0, tg) + "," + s + ") "
+				msgtemp += lang("“Ї–јNPC‚Н“З‚ЭЌћ‚Ь‚к‚И‚ўЃB", "Существует npc с таким же именем.") + "(skipped:" + userdatan(0, tg) + "," + s + ") "
 			}
 			continue
 		}
@@ -1488,7 +1488,7 @@
 *user_npc
 	fread = 0
 	cun = usernpcmax
-	txt lang("どのファイルからNPCを作成する？", "Choose the original file.")
+	txt lang("‚З‚Мѓtѓ@ѓCѓ‹‚©‚зNPC‚рЌмђ¬‚·‚йЃH", "Выберите исходный файл.")
 	redraw 1
 	fileext = "txt"
 	filedsc = "Custom Npc Text"
@@ -1502,10 +1502,10 @@
 	sdim txtbuff, strsize
 	bload txtfile, txtbuff
 	if ( instr(txtbuff, 0, "%Elona Custom Npc") == (-1) ) {
-		txt "Invalid File. Aborting."
+		txt "Недопустимый файл.."
 		return
 	}
-	txt lang("どの画像を埋め込む？", "Choose the graphic file.")
+	txt lang("‚З‚М‰ж‘њ‚р–„‚ЯЌћ‚ЮЃH", "Выберите графический файл.")
 	redraw 1
 	fileext = "bmp"
 	filedsc = "Bit Map File"
@@ -1516,7 +1516,7 @@
 	bmpfile = refstr
 	exist bmpfile
 	if ( strsize > 30000 ) {
-		txt "The file size must be lower than 30KB. Aborting."
+		txt "Размер файла должен быть меньше 30 КБ."
 		return
 	}
 	userdata(0, cun) = strsize
@@ -1556,15 +1556,15 @@
 	csvstr2 s, s
 	cnv_filestr s
 	if ( instr(s, 0, "_tmp_") != (-1) ) {
-		dialog "The name contains an invalid word \"_tmp_\""
+		dialog "Имя содержит недопустимое слово \"_tmp_\""
 		return
 	}
 	if ( peek(s) < 65 | peek(s) > 90 & (peek(s) < 97 | peek(s) > 122) ) {
-		dialog "The first letter of the name must be alphabetic."
+		dialog "Первая буква имени должна быть алфавитной."
 		return
 	}
 	if ( strlen(s) >= 32 | strlen(s(1)) >= 32 ) {
-		dialog "The name is too long."
+		dialog "Имя слишком длинное."
 		return
 	}
 	zipinit2 exedir + "user\\", s + ".npc"
@@ -1575,7 +1575,7 @@
 	q = s
 	gosub *userNpc_update
 	initunid = findunid(q)
-	txt lang("カスタムNPCを作成した！", "A custom NPC has been successfully generated!")
+	txt lang("ѓJѓXѓ^ѓЂNPC‚рЌмђ¬‚µ‚ЅЃI", "Пользовательский NPC успешно сгенерирован")
 	if ( cdata(CDATA_X, CHARA_PLAYER) > 1 ) {
 		sux = cdata(CDATA_X, CHARA_PLAYER) - 1
 	}
@@ -1587,7 +1587,7 @@
 		}
 	loop
 	cdata(CDATA_RELATION, rc) = -3
-	txt lang(name(rc) + "は興奮して襲い掛かってきた。", name(rc) + " is excited and attacks you.")
+	txt lang(name(rc) + "‚Н‹»•±‚µ‚ДЏP‚ўЉ|‚©‚Б‚Д‚«‚ЅЃB", name(rc) + " возбуждается и нападает на вас.")
 	folder = exedir + "user\\"
 	gosub *del_userTemp
 	gosub *userNpc_update
@@ -1702,7 +1702,7 @@
 					exist file
 					if ( strsize == (-1) ) {
 						if ( cnt != 15 ) {
-							dialog lang("セーブファイル：" + file + "が存在しません。ファイル移植ミスの可能性があるので該当フォルダ内を確認してください。", "Save file: " + file + " does not exist. Please check the appropriate folder.")
+							dialog lang("ѓZЃ[ѓuѓtѓ@ѓCѓ‹ЃF" + file + "‚Є‘¶ЌЭ‚µ‚Ь‚№‚сЃBѓtѓ@ѓCѓ‹€ЪђAѓ~ѓX‚М‰В”\ђ«‚Є‚ ‚й‚М‚ЕЉY“–ѓtѓHѓ‹ѓ_“а‚рЉm”F‚µ‚Д‚­‚ѕ‚і‚ўЃB", "Файл сохранения:  " + file + " не существует. Проверьте соответствующую папку.")
 							goto *exit_game
 						}
 					}
@@ -1730,7 +1730,7 @@
 					exist file
 					if ( strsize == (-1) ) {
 						if ( cnt != 15 ) {
-							dialog lang("セーブファイル：" + file + "が存在しません。ファイル移植ミスの可能性があるので該当フォルダ内を確認してください。", "Save file: " + file + " does not exist. Please check the appropriate folder.")
+							dialog lang("ѓZЃ[ѓuѓtѓ@ѓCѓ‹ЃF" + file + "‚Є‘¶ЌЭ‚µ‚Ь‚№‚сЃBѓtѓ@ѓCѓ‹€ЪђAѓ~ѓX‚М‰В”\ђ«‚Є‚ ‚й‚М‚ЕЉY“–ѓtѓHѓ‹ѓ_“а‚рЉm”F‚µ‚Д‚­‚ѕ‚і‚ўЃB", "Файл сохранения: " + file + " не существует. Проверьте соответствующую папку.")
 							goto *exit_game
 						}
 					}
@@ -1752,7 +1752,7 @@
 					zOpen hgz, file, 0
 					if ( stat != 0 ) {
 						if ( cnt != 15 ) {
-							dialog lang("セーブファイル：" + file + "が読み込めませんでした。該当のファイルが破損している可能性があります。", "Save file: " + file + " could not be read. There is a possibility that the file in question is corrupted.")
+							dialog lang("ѓZЃ[ѓuѓtѓ@ѓCѓ‹ЃF" + file + "‚Є“З‚ЭЌћ‚Я‚Ь‚№‚с‚Е‚µ‚ЅЃBЉY“–‚Мѓtѓ@ѓCѓ‹‚Є”j‘№‚µ‚Д‚ў‚й‰В”\ђ«‚Є‚ ‚и‚Ь‚·ЃB", "Не удалось прочитать Файл сохранения: " + file + " Существует вероятность того, что данный файл поврежден.")
 							goto *exit_game
 						}
 					}
@@ -2002,7 +2002,7 @@
 			folder = exedir + "save\\" + geneuse + "\\"
 		}
 		if ( fmode == 14 ) {
-			playerheader = "" + cdatan(CDATAN_NAME, CHARA_PLAYER) + "(Lv" + cdata(CDATA_LEVEL, CHARA_PLAYER) + ")" + lang("の遺伝子", "'s Gene")
+			playerheader = "" + cdatan(CDATAN_NAME, CHARA_PLAYER) + "(Lv" + cdata(CDATA_LEVEL, CHARA_PLAYER) + ")" + lang("‚М€в“`Ћq", "'s Gene")
 			file = folder + "gene_header.txt"
 			bsave file, playerheader
 			fileadd file
@@ -2778,16 +2778,16 @@
 	lensum = 1024
 	sdim filebuff, lensum
 	if ( usertitle != "" ) {
-		headtemp = lang("[＋製]【", "[Made by][") + usertitle + lang("】", "]") + "\n"
+		headtemp = lang("[Ѓ{ђ»]Ѓy", "[Made by][") + usertitle + lang("Ѓz", "]") + "\n"
 	}
 	else {
-		headtemp = lang("[＋製]【", "[Made by][") + mdatan(MDATAN_NAME) + lang("】", "]") + "\n"
+		headtemp = lang("[Ѓ{ђ»]Ѓy", "[Made by][") + mdatan(MDATAN_NAME) + lang("Ѓz", "]") + "\n"
 	}
 	headtemp += "" + cdatan(CDATAN_AKA, CHARA_PLAYER) + " " + cdatan(CDATAN_NAME, CHARA_PLAYER) + "\n"
 	headtemp += "\n"
 	headtemp += "" + VARIANT_NAME + "\n"
 	headtemp += "" + NET_VERSION + "\n"
-	headtemp += lang("[＋製]", "[Made by]") + usermsg + "\n"
+	headtemp += lang("[Ѓ{ђ»]", "[Made by]") + usermsg + "\n"
 	headtemp += "" + userrelation + "\n"
 	memcpy filebuff, headtemp, 1024, 0
 	fmode = 20
@@ -2823,7 +2823,7 @@
 	id = 0
 	lensum = 1024
 	sdim filebuff, lensum
-	headtemp = lang("【", "[") + gdatan(GDATAN_TEAM1) + lang("】", "]") + "(" + n + lang("体", "p") + ") Lv" + lv + "\n"
+	headtemp = lang("Ѓy", "[") + gdatan(GDATAN_TEAM1) + lang("Ѓz", "]") + "(" + n + lang("‘М", "p") + ") Lv" + lv + "\n"
 	headtemp += "" + cdatan(CDATAN_AKA, CHARA_PLAYER) + lang("",  " ") + cdatan(CDATAN_NAME, CHARA_PLAYER) + "\n"
 	headtemp += "\n"
 	headtemp += "" + VARIANT_NAME + "\n"
@@ -2894,7 +2894,7 @@
 *game_save
 	if ( gdata(GDATA_AREA) == AREA_SHOW_HOUSE | (gdata(GDATA_AREA) == AREA_CHAOS_CRADLE & gdata(GDATA_LEVEL) == 179) | (gdata(GDATA_AREA) == AREA_AMUR_CAGE & gdata(GDATA_LEVEL) >= 10) ) {
 		txtef COLOR_RED
-		txt lang("ここではセーブされない。", "The game is not saved in this map.")
+		txt lang("‚±‚±‚Е‚НѓZЃ[ѓu‚і‚к‚И‚ўЃB", "Игра не сохраняется на этой карте.")
 		gosub *screen_draw
 		return
 	}
@@ -2955,7 +2955,7 @@
 
 *game_title
 	if ( cfg_titledialog ) {
-		dialog lang("＜利用規約＞\n\n elonaplusはフリーウェアであり、elonaの二次創作です。\n・本ソフトウェアは現在開発中です。不具合やバランスの急激な変動があります。\n・原作および他二次創作の作者・バランス・設定等を否定する意図はありません。\n・暴力的・性的・猟奇的な表現、描写が多数存在します。\n・本ソフトの利用によっていかなる不利益が発生した場合でも作者は一切の責任を負いません。自己責任で利用してください。\n・興味を持っていない人への過度の推薦や紹介は控え、wikiへの誘導程度に留めてください。\n・βテストプレイヤーとしてデバッグ義務なく普通に遊ぶことができますが、プレイ中にバグに遭遇した場合は報告していただけると助かります(任意)。\nただし、せっかく報告していただいても内容が不足しているとバグ修正に結びつかないため、テンプレートを用いた報告や検証にご協力ください。\n\n同梱の説明書(elona,elonaplus)にも目を通し、上記項目を含めて理解・承服できる方のみ利用できます。", "Elonaplus is a freeware, This is a secondary creation of elona. \n * This software is currently in development. There are defect and abrupt change of balance. \n * There is no intention to deny the author, balance, setting, of the other secondary creations and original creation. \n * There are many violent, sexual, bizarre, depictions. \n * Even if any disadvantage was caused by use of this software, the author does not take any responsibility. Please use at your own risk. \n * If you can comply the instructions and the above-mentioned items, you can use this software.")
+		dialog lang("Ѓѓ——p‹K–сЃ„\n\n elonaplus‚НѓtѓЉЃ[ѓEѓFѓA‚Е‚ ‚иЃAelona‚М“сЋџ‘nЌм‚Е‚·ЃB\nЃE–{ѓ\ѓtѓgѓEѓFѓA‚НЊ»ЌЭЉJ”­’†‚Е‚·ЃB•s‹пЌ‡‚вѓoѓ‰ѓ“ѓX‚М‹}Њѓ‚И•П“®‚Є‚ ‚и‚Ь‚·ЃB\nЃEЊґЌм‚Ё‚ж‚С‘ј“сЋџ‘nЌм‚МЌмЋТЃEѓoѓ‰ѓ“ѓXЃEђЭ’и“™‚р”Ы’и‚·‚й€Уђ}‚Н‚ ‚и‚Ь‚№‚сЃB\nЃE–\—Н“IЃEђ«“IЃE—ВЉп“I‚И•\Њ»ЃA•`ЋК‚Є‘Ѕђ”‘¶ЌЭ‚µ‚Ь‚·ЃB\nЃE–{ѓ\ѓtѓg‚М——p‚Й‚ж‚Б‚Д‚ў‚©‚И‚й•s—‰v‚Є”­ђ¶‚µ‚ЅЏкЌ‡‚Е‚аЌмЋТ‚Н€кђШ‚МђУ”C‚р•‰‚ў‚Ь‚№‚сЃBЋ©ЊИђУ”C‚Е——p‚µ‚Д‚­‚ѕ‚і‚ўЃB\nЃE‹»–Ў‚рЋќ‚Б‚Д‚ў‚И‚ўђl‚Ц‚М‰Я“x‚Мђ„‘E‚вЏР‰о‚НЌT‚¦ЃAwiki‚Ц‚М—U“±’ц“x‚Й—Ї‚Я‚Д‚­‚ѕ‚і‚ўЃB\nЃEѓАѓeѓXѓgѓvѓЊѓCѓ„Ѓ[‚Ж‚µ‚ДѓfѓoѓbѓO‹`–±‚И‚­•Ѓ’К‚Й—V‚Ф‚±‚Ж‚Є‚Е‚«‚Ь‚·‚ЄЃAѓvѓЊѓC’†‚ЙѓoѓO‚Й‘‹ц‚µ‚ЅЏкЌ‡‚Н•сЌђ‚µ‚Д‚ў‚Ѕ‚ѕ‚Ї‚й‚ЖЏ•‚©‚и‚Ь‚·(”C€У)ЃB\n‚Ѕ‚ѕ‚µЃA‚№‚Б‚©‚­•сЌђ‚µ‚Д‚ў‚Ѕ‚ѕ‚ў‚Д‚а“а—e‚Є•s‘«‚µ‚Д‚ў‚й‚ЖѓoѓOЏCђі‚ЙЊ‹‚С‚В‚©‚И‚ў‚Ѕ‚ЯЃAѓeѓ“ѓvѓЊЃ[ѓg‚р—p‚ў‚Ѕ•сЌђ‚вЊџЏШ‚Й‚І‹¦—Н‚­‚ѕ‚і‚ўЃB\n\n“ЇЌ«‚Мђа–ѕЏ‘(elona,elonaplus)‚Й‚а–Ъ‚р’К‚µЃAЏг‹LЌЂ–Ъ‚рЉЬ‚Я‚Д—ќ‰рЃEЏі•ћ‚Е‚«‚й•ы‚М‚Э——p‚Е‚«‚Ь‚·ЃB", "Elonaplus - это бесплатное программное обеспечение, являющееся побочным творением Elona. \n * Данное программное обеспечение находится в стадии разработки. Имеются недоработки и резкие перемены в балансе. \n * Здесь нет намерения отрицать автора, баланс, сеттинг, другие побочные творением и оригинальное творение. \n * Имеется много жестоких, сексуальных, причудливых изображений. \n * Даже если в результате использования данной программы были причинены какие-либо неудобства, автор не несет никакой ответственности. Пожалуйста, используйте ее на свой страх и риск. \n * Если Вы можете следовать инструкциям и вышеупомянутым пунктам, Вы можете использовать это программное обеспечение.")
 	}
 
 	/********** ANNA CUSTOM - BEGINNING **********/
@@ -2988,20 +2988,20 @@
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 0
 	color 255, 255, 255
 	pos 20, 10
-	mes "Elona  Developed by Noa"
+	mes "Elona разработана Noa"
 	pos 20, 28
-	mes "ElonaPlus  Developed by Ano"
+	mes "ElonaPlus разработана Ano"
 	pos 20, 46
 
 	/********** ANNA CUSTOM - BEGINNING **********/
 
-	mes "ElonaPlus Custom originally created by AnnaBannana"
+	mes "ElonaPlus Custom первоначально созданная AnnaBannana"
 	pos 20, 64
-	mes "ElonaPlus Custom maintained by AnnaBannana & BloodyShade, contributions by Hebiko, Glyphy, Jehmil, et al"
+	mes "ElonaPlus Custom поддерживалась AnnaBannana & BloodyShade, вклад внесли Hebiko, Glyphy, Jehmil, и др."
 	pos 20, 82
-	mes "Elona+ Custom-G mod created by Glyphy"
+	mes "Elona+ Custom-G мод, созданный Glyphy"
 	pos 20, 100
-	mes "Elona+ Custom-GX mod created by Ruin0x11"
+	mes "Elona+ Custom-GX мод, созданный Ruin0x11, поддерживается JianmengYu"
 	pos 20, 118
 
 	/********** ANNA CUSTOM - ENDING **********/
@@ -3010,9 +3010,9 @@
 		mes "Contributor MSL / View the credits for more"
 	}
 	else {
-		mes "Contributor f1r3fly, Sunstrike, Schmidt, Elvenspirit / View the credits for more"
+		mes "Авторы f1r3fly, Sunstrike, Schmidt, Elvenspirit / Перевод на Русский Язык - Alex(GoD)"
 	}
-	s = lang("冒険の道標", "Starting Menu"), strhint1
+	s = lang("–`ЊЇ‚М“№•W", "Стартовое Меню"), strhint1
 	windowshadow = 1
 	display_window 80, winposy(308, 1), 320, 320
 	cmbg = 4
@@ -3023,10 +3023,10 @@
 	grotate 2, cmbg / 2 * 180, cmbg \ 2 * 300, 0, x, y
 	gmode 2
 	if ( jp ) {
-		s = "Restore an adventurer", "冒険を再開する", "Generate an adventurer", "新しい冒険者を作成する", "Incarnate an adventurer", "冒険者の引継ぎ", "View the homepage", "本家Elonaホームページ", "Configure", "設定の変更", "Exit", "終了"
+		s = "Restore an adventurer", "–`ЊЇ‚рЌДЉJ‚·‚й", "Generate an adventurer", "ђV‚µ‚ў–`ЊЇЋТ‚рЌмђ¬‚·‚й", "Incarnate an adventurer", "–`ЊЇЋТ‚М€шЊp‚¬", "View the homepage", "–{‰ЖElonaѓzЃ[ѓЂѓyЃ[ѓW", "Configure", "ђЭ’и‚М•ПЌX", "Exit", "ЏI—№"
 	}
 	if ( en ) {
-		s = "Restore an Adventurer", "Generate an Adventurer", "Incarnate an Adventurer", "View the Homepage", "Options", "Exit"
+		s = "Загрузить Игру ", "Новая Игра ", "Реинкарнировать Приключенца ", "Домашняя Страница ", "Настройки ", "Выход "
 	}
 	if ( water_debug == 0 ) {
 		water_getimage
@@ -3136,7 +3136,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("どの冒険を再開するんだい？", "Which save game do you want to continue?")
+	s = lang("‚З‚М–`ЊЇ‚рЌДЉJ‚·‚й‚с‚ѕ‚ўЃH", "Какое сохранение игры вы хотите загрузить?")
 	gosub *screen_drawMsg2
 	file = exedir + "save\\*"
 	dirlist buff, file, 5
@@ -3164,7 +3164,7 @@
 	windowshadow = 1
 *game_title_selectID_WHILE1
 	redraw 0
-	s = lang("冒険者の選択", "Game Selection"), lang("BackSpace [削除]  ", "BackSpace [Delete]  ") + strhint3b
+	s = lang("–`ЊЇЋТ‚М‘I‘р", "Выбор Игры "), lang("BackSpace [ЌнЏњ]  ", "BackSpace [Удалить]  ") + strhint3b
 	display_window (windoww - 440) / 2 + inf_screenx, winposy(288, 1), 440, 288
 	cs_listbk
 	repeat noteinfo(0)
@@ -3182,7 +3182,7 @@
 		font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 		color 0, 0, 0
 		pos wx + 140, wy + 120
-		mes "No save files found"
+		mes "Файлы сохранений не найдены "
 	}
 	redraw 1
 	await cfg_wait1
@@ -3209,13 +3209,13 @@
 			if ( a == 1 ) {
 				p = list(0, cs)
 				playerid = listn(0, p)
-				s = lang("本当に" + playerid + "を削除していいのかい？", "Do you really want to delete " + playerid + " ?")
+				s = lang("–{“–‚Й" + playerid + "‚рЌнЏњ‚µ‚Д‚ў‚ў‚М‚©‚ўЃH", "Вы действительно хотите удалить " + playerid + " ?")
 				gosub *screen_drawMsg2
 				promptYesNo 200
 				if ( rtval != 0 ) {
 					goto *game_title_selectID
 				}
-				s = lang("本当の本当に" + playerid + "を削除していいのかい？", "Are you sure you really want to delete " + playerid + " ?")
+				s = lang("–{“–‚М–{“–‚Й" + playerid + "‚рЌнЏњ‚µ‚Д‚ў‚ў‚М‚©‚ўЃH", "Вы уверены, что действительно хотите удалить " + playerid + " ?")
 				gosub *screen_drawMsg2
 				promptYesNo 200
 				if ( rtval == 0 ) {
@@ -3245,7 +3245,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("どの遺伝子を引き継ぐ？", "Which gene do you want to incarnate?")
+	s = lang("‚З‚М€в“`Ћq‚р€ш‚«Њp‚®ЃH", "Какой ген вы хотите инкарнировать?")
 	gosub *screen_drawMsg2
 	file = exedir + "save\\*"
 	dirlist buff, file, 5
@@ -3270,7 +3270,7 @@
 	windowshadow = 1
 *game_title_selectGen_WHILE1
 	redraw 0
-	s = lang("遺伝子の選択", "Gene Selection"), strhint3b
+	s = lang("€в“`Ћq‚М‘I‘р", "Выбор Генов"), strhint3b
 	display_window (windoww - 440) / 2 + inf_screenx, winposy(288, 1), 440, 288
 	cs_listbk
 	repeat listmax
@@ -3288,7 +3288,7 @@
 		font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 		color 0, 0, 0
 		pos wx + 140, wy + 120
-		mes "No gene files found."
+		mes "Файлы генов не найдены."
 	}
 	redraw 1
 	await cfg_wait1
@@ -3446,14 +3446,14 @@
 		gfdec 60, 60, 60
 		aplsel VARIANT_NAME
 		if ( stat == 1 ) {
-			dialog "Failed to get WINDOW ID", 1
+			dialog "Не удалось получить WINDOW ID", 1
 			clrobj 1
 			cfg_msg_box = 0
 			goto *prompt_word
 		}
 		aplobj "", 1
 		if ( stat == 1 ) {
-			dialog "Failed to get OBJECT ID", 1
+			dialog "Не удалось получить OBJECT ID", 1
 			clrobj 1
 			cfg_msg_box = 0
 			goto *prompt_word
@@ -3810,7 +3810,7 @@
 	notesel dbm
 	buff = ""
 	if ( dbm == "" ) {
-		noteadd VARIANT_NAME + " v" + VERSION_STRING + " Debug Console    Type \"?\" for help. Hit ESC to exit."
+		noteadd VARIANT_NAME + " v" + VERSION_STRING + " Отладочная Консоль    Введите \"?\" для получения справки. Нажмите ESC для выхода."
 		noteadd ""
 	}
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
@@ -3970,21 +3970,21 @@
 	}
 	if ( instr(buff, 0, "freemove") != (-1) ) {
 		dbg_freemove = 1
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "resetmap") != (-1) ) {
 		gosub *mapReset
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "exitroom") != (-1) ) {
 		if ( gdata(GDATA_AREA) == AREA_SHOW_HOUSE ) {
 			dbg_exitshowroom = 1
-			noteadd "Done."
+			noteadd "Готово."
 		}
 		else {
-			noteadd "Wrong map."
+			noteadd "Неверная карта."
 		}
 		goto *console_write
 	}
@@ -3996,7 +3996,7 @@
 				}
 			}
 		loop
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "fixmap") != (-1) ) {
@@ -4019,7 +4019,7 @@
 			}
 		loop
 		cell_refresh 0, 0
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "advreset") != (-1) ) {
@@ -4036,7 +4036,7 @@
 				cdata(cnt, rc) = 0
 			loop
 		loop
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "fixcorrupt1") != (-1) ) {
@@ -4062,7 +4062,7 @@
 				gosub *adv_generate
 			}
 		loop
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "client") != (-1) ) {
@@ -4092,14 +4092,14 @@
 				cdata(CDATA_RELATION_ORG, cnt) = -3
 			}
 		loop
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "test") != (-1) ) {
 		repeat 500
 			noteadd "" + cnt + ":" + mapname(cnt) + "/" + adata(ADATA_ID, cnt)
 		loop
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "mapinfo") != (-1) ) {
@@ -4108,7 +4108,7 @@
 		noteadd "file\t\t:" + "mdata_" + mid + ".s2"
 		noteadd "pc x/y\t\t:" + cdata(CDATA_X, CHARA_PLAYER) + "/" + cdata(CDATA_Y, CHARA_PLAYER)
 		noteadd "map max w/h\t:" + mdata(MDATA_WIDTH) + "/" + mdata(MDATA_HEIGHT)
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "quest") != (-1) ) {
@@ -4125,7 +4125,7 @@
 	if ( instr(buff, 0, "wizard") != (-1) ) {
 		gdata(GDATA_WIZARD) = 1
 		cdatan(CDATAN_AKA, CHARA_PLAYER) = "*Debug*"
-		noteadd "Wizard mode activated."
+		noteadd "Активирован режим Волшебника."
 		goto *console_write
 	}
 
@@ -4133,25 +4133,25 @@
 
 	if ( instr(buff, 0, "dump_buffers") != (-1) ) {
 		gosub *DumpBuffers
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "export_itemlist") != (-1) ) {
 		gosub *Save_Item_Highlights
 		notesel dbm
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 	if ( instr(buff, 0, "cgx207mapfix") != (-1) ) {
 		gdata(GDATA_WORLD_RENEW) = TRUE
 		notesel dbm
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 
 	if ( instr(buff, 0, "save_map_image") != (-1) ) {
 		outputmapimage
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 
@@ -4163,7 +4163,7 @@
 		gosub *fixTweakData6190
 		buff = ""
 		notesel buff
-		noteadd "Done."
+		noteadd "Готово."
 		goto *console_write
 	}
 
@@ -4175,7 +4175,7 @@
 		loop
 		buff = ""
 		notesel buff
-		noteadd "What is done cannot be undone."
+		noteadd "Сделанного не воротишь."
 		goto *console_write
 	}
 
@@ -4187,7 +4187,7 @@
 
 #ifdef CUSTOM_GX_LUA
 		if ( buff == "lua\n" ) {
-			noteadd "Lua mode activated."
+			noteadd "Lua режим активирован."
 			dbg_luaConsole = 1
 			goto *console_write
 		}
@@ -4200,11 +4200,11 @@
 		if ( instr(buff, 0, "spawn_chara") != (-1) ) {
 			if ( instr(buff, 0, " ") != (-1) ) {
 				characreate -1, int(strmid(buff, instr(buff, 0, " "), strlen(buff) - instr(buff, 0, " "))), cdata(CDATA_X, CHARA_PLAYER), cdata(CDATA_Y, CHARA_PLAYER)
-				noteadd "Done. (" + rc + ")"
+				noteadd "Готово. (" + rc + ")"
 				goto *console_write
 			}
 			else {
-				noteadd "Must add a NPC ID e.g. spawn_chara 2"
+				noteadd "Необходимо добавить NPC ID например spawn_chara 2"
 				goto *console_write
 			}
 		}
@@ -4217,11 +4217,11 @@
 			if ( instr(buff, 0, " ") != (-1) ) {
                 locvar_dbid = int(strmid(buff, instr(buff, 0, " "), strlen(buff) - instr(buff, 0, " ")))
 				itemcreate -1, locvar_dbid, cdata(CDATA_X, CHARA_PLAYER), cdata(CDATA_Y, CHARA_PLAYER), 0
-				noteadd "Done. (" + ci + ")"
+				noteadd "Готово. (" + ci + ")"
 				goto *console_write
 			}
 			else {
-				noteadd "Must add an item ID e.g. spawn_item 2"
+				noteadd "Необходимо добавить item ID например spawn_item 2"
 				goto *console_write
 			}
 		}
@@ -4234,11 +4234,11 @@
 			if ( instr(buff, 0, " ") != (-1) ) {
 				rc = int(strmid(buff, instr(buff, 0, " "), strlen(buff) - instr(buff, 0, " ")))
 				gosub *add_ally
-				noteadd "Done."
+				noteadd "Готово."
 				goto *console_write
 			}
 			else {
-				noteadd "Must add a NPC ID e.g. add_ally 2"
+				noteadd "Необходимо добавить NPC ID например add_ally 2"
 				goto *console_write
 			}
 		}
@@ -4254,11 +4254,11 @@
 					gdata(GDATA_HOUR)++
 					gosub *advance_hour
 				loop
-				noteadd "Done."
+				noteadd "Готово."
 				goto *console_write
 			}
 			else {
-				noteadd "Must add a number of hours e.g. advance_hour 2"
+				noteadd "Должно быть добавлено число часов, например advance_hour 2"
 				goto *console_write
 			}
 		}
@@ -4269,14 +4269,14 @@
 			repeat MAX_SPELL - STARTING_SKILL_SPELL, STARTING_SKILL_SPELL
 				skillgain CHARA_PLAYER, cnt, cdata(CDATA_LEVEL, r1), 100 * 100
 			loop
-			noteadd "Done."
+			noteadd "Готово."
 			goto *console_write
 		}
 		if ( instr(buff, 0, "gain_spact") != (-1) ) {
 			repeat MAX_SKILL - STARTING_SKILL_SPACT
 				spact(cnt + STARTING_SKILL_SPACT - STARTING_SKILL_SPACT) = 1
 			loop
-			noteadd "Done."
+			noteadd "Готово."
 			goto *console_write
 		}
 		if ( instr(buff, 0, "allinv") != (-1) ) {
@@ -4311,16 +4311,16 @@
 			r1 = CHARA_PLAYER
 			r2 = 0
 			gosub *calcLevelUp
-			noteadd "Done."
+			noteadd "Готово."
 			goto *console_write
 		}
 		if ( instr(buff, 0, "gain_fame") != (-1) ) {
 			cdata(CDATA_FAME, CHARA_PLAYER) += 10000
-			noteadd "Done."
+			noteadd "Готово."
 			goto *console_write
 		}
 	}
-	noteadd "Unknown command. Type \"?\" for help. Hit ESC to exit."
+	noteadd "Неизвестная команда. Введите \"?\" для получения справки. Нажмите ESC для выхода."
 	goto *console_write
 
 #ifdef CUSTOM_GX_LUA
@@ -4329,7 +4329,7 @@
         goto *dbg_ShowHelp
 	}
 	if ( buff == "lua\n" ) {
-        noteadd "Lua mode deactivated."
+        noteadd "Lua режим отключен."
         dbg_luaConsole = 0
         goto *console_write
 	}
@@ -4369,48 +4369,48 @@
 #endif
 
 *dbg_ShowHelp
-    noteadd "\t1\t\tShows charainfo."
-    noteadd "\t2\t\tShows pc equipment."
-    noteadd "\t3\t\tShows pc inventory."
+    noteadd "\t1\t\tПоказывает charainfo."
+    noteadd "\t2\t\tПоказывает pc equipment."
+    noteadd "\t3\t\tПоказывает pc inventory."
     noteadd "\t4\t\tBegin/end var-comparison."
-    noteadd "\t5\t\tShows core game data."
-    noteadd "\tdel\t\tDeletes current log."
-    noteadd "\tquest\t\tLists all the quests."
-    noteadd "\tclient\t\tLists all the clients."
+    noteadd "\t5\t\tПоказывает основные игровые данные."
+    noteadd "\tdel\t\tУдаление текущего журнала."
+    noteadd "\tquest\t\tСписок всех квестов."
+    noteadd "\tclient\t\tСписок всех клиентов."
     noteadd "\texitroom\tLeaves current show-room."
-    noteadd "\twizard\t\tEnables wizard mode."
-    noteadd "\tdump_buffers\tDump the graphics buffers to .bmp files."
-    noteadd "\texport_itemlist\tCreates a default ItemList.txt file."
-    noteadd "\tsave_map_image\tTakes a screenshot of the current map."
-    noteadd "\tdeed_of_miscarriage\tRemove unwanted Survivability-Extender consequences."
+    noteadd "\twizard\t\tВключение режима Волшебника."
+    noteadd "\tdump_buffers\tДамп графических буферов в .bmp-файлы."
+    noteadd "\texport_itemlist\tСоздает файл ItemList.txt по умолчанию."
+    noteadd "\tsave_map_image\tДелает снимок экрана текущей карты."
+    noteadd "\tdeed_of_miscarriage\tУдаление нежелательных последствий работы Survivability-Extender."
     noteadd ""
-    noteadd "\tThe commands below can be used in the Wizard mode."
-    noteadd "\tgain_spell\tPC gains all spells."
-    noteadd "\tgain_spact\tPC gains all special actions."
-    noteadd "\tgain_exp\tPC gains a billion of exp."
-    noteadd "\tgain_fame\tPC gains fame."
-    noteadd "\tallinv\t\tDisplays all the items in the map."
-    noteadd "\tspawn_chara\tSpawns a character by numeric ID."
-    noteadd "\tspawn_item\tSpawns an item by numeric ID."
-    noteadd "\tadd_ally\tAdds an ally by character index."
-    noteadd "\tadvance_hour\tAdvances time by the specified number of hours."
+    noteadd "\tПриведенные ниже команды могут быть использованы в режиме Волшебника."
+    noteadd "\tgain_spell\tПК получает все заклинания."
+    noteadd "\tgain_spact\tПК получает все специальные действия."
+    noteadd "\tgain_exp\tПК получает миллиард опыта."
+    noteadd "\tgain_fame\tПК получает известность."
+    noteadd "\tallinv\t\tОтображает все предметы на карте."
+    noteadd "\tspawn_chara\tСоздает персонажа по числовому ID."
+    noteadd "\tspawn_item\tСоздает предмет по числовому ID."
+    noteadd "\tadd_ally\tДобавляет союзника по индексу персонажа."
+    noteadd "\tadvance_hour\tПереводит время на указанное количество часов."
 #ifdef CUSTOM_GX_LUA
-    noteadd "\tlua\t\tToggles Lua console mode."
+    noteadd "\tlua\t\tВключает консольный режим Lua."
 #endif
     noteadd ""
-    noteadd "\tThe commands below should be only used to deal with certain problems."
-    noteadd "\t108fix\t\tTurns all the NPCs in the map hostile."
-    noteadd "\tadvreset\tRemoves all items from adventureres."
-    noteadd "\tfixcorrupt1\tTries to fix corrputed save files."
-    noteadd "\tfreemove\tEnables freemove."
-    noteadd "\tresetmap\tResets towns and some areas."
-    noteadd "\tfixmap\t\tFixes possible bugs for current map."
-    noteadd "\tmapinfo\t\tShows map info."
-    noteadd "\tcgx207mapfix\tFixes incorrect world map tiles (Noyel, Miral's Workshop) from CGX ver. 2.07.0.1."
+    noteadd "\tПриведенные ниже команды следует использовать только для решения определенных проблем."
+    noteadd "\t108fix\t\tПревращает всех NPC на карте во враждебных."
+    noteadd "\tadvreset\tУдаляет все предметы из авантюристов."
+    noteadd "\tfixcorrupt1\tПопытка исправить поврежденные файлы сохранения."
+    noteadd "\tfreemove\tВключает режим свободного перемещения."
+    noteadd "\tresetmap\tСбрасывает города и некоторые области."
+    noteadd "\tfixmap\t\tИсправление возможных ошибок для текущей карты."
+    noteadd "\tmapinfo\t\tПоказывает информацию о карте."
+    noteadd "\tcgx207mapfix\tИсправление некорректных тайлов карты мира (Noyel, Miral's Workshop) из CGX вер. 2.07.0.1."
     goto *console_write
 
-#define EM_LINESCROLL $B6	//任意の方向にスクロール
-#define EM_GETLINECOUNT $BA	//行数の取得
+#define EM_LINESCROLL $B6	//”C€У‚М•ыЊь‚ЙѓXѓNѓЌЃ[ѓ‹
+#define EM_GETLINECOUNT $BA	//Ќsђ”‚МЋж“ѕ
 
 *console_write
 	noteadd ""
@@ -4431,7 +4431,7 @@
 #ifndef CUSTOM_GX_MOCK
 	_GetLastError
 	if ( stat == 183 ) {
-		dialog lang("二重起動のため終了します。", "The program is already running."), 1
+		dialog lang("“сЏd‹N“®‚М‚Ѕ‚ЯЏI—№‚µ‚Ь‚·ЃB", "Программа уже запущена."), 1
 		end
 	}
 #endif
