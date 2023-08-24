@@ -559,63 +559,63 @@
 		gmode 2
 	}
 	if ( submenu == 0 ) {
-		q = lang("オプション", "Option")
-		s = lang("ゲームの設定", "Game Setting"), lang("画面と音の設定", "Screen & Sound"), lang("ネット機能の設定", "Network Setting"), lang("詳細な設定", "Detailed Setting"), lang("ゲームパッド", "Game Pad"), lang("メッセージとログ", "Message & Log"), lang("言語(Language)", "Language"), lang("拡張設定1", "EX Setting 1"), lang("拡張設定2(表示)", "EX Setting 2 (Display)"), ""
+		q = lang("ѓIѓvѓVѓ‡ѓ“", "Настройки")
+		s = lang("ѓQЃ[ѓЂ‚МђЭ’и", "Настройка Игры "), lang("‰ж–К‚Ж‰№‚МђЭ’и", "Экран и Звук "), lang("ѓlѓbѓg‹@”\‚МђЭ’и", "Настройка Сети "), lang("ЏЪЌЧ‚ИђЭ’и", "Детальная Настройка "), lang("ѓQЃ[ѓЂѓpѓbѓh", "Геймпад "), lang("ѓЃѓbѓZЃ[ѓW‚ЖѓЌѓO", "Сообщения и Журнал "), lang("ЊѕЊк(Language)", "Язык "), lang("Љg’ЈђЭ’и1", "EX Настройки 1 "), lang("Љg’ЈђЭ’и2(•\Ћ¦)", "EX Настройки 2 (Экран) "), ""
 
 		dx = 370
 		dy = 290
 	}
 	if ( submenu == 1 ) {
-		q = lang("ゲームの設定", "Game Setting")
-		s = lang("ノルンの冒険ガイド", "Extra Help"), lang("非好戦的NPCを無視", "Neutral Npcs"), lang("zキーの割当て", "Assign z key"), lang("xキーの割当て", "Assign x key"), lang("走り始める歩数", "Start Running After"), lang("歩きの速さ", "Walk Speed"), lang("攻撃の間隔", "Attack Interval"), lang("レコード表示", "Record"), lang("「攻撃する」選択肢", "Attack Select"), lang("汚物生成の阻止", "Block dust generation"), ""
+		q = lang("ѓQЃ[ѓЂ‚МђЭ’и", "Настройка Игры ")
+		s = lang("ѓmѓ‹ѓ“‚М–`ЊЇѓKѓCѓh", "Экстра Помощь "), lang("”сЌDђн“INPC‚р–іЋ‹", "Нейтральные Нпс "), lang("zѓLЃ[‚МЉ„“–‚Д", "Клавиша z "), lang("xѓLЃ[‚МЉ„“–‚Д", "Клавиша x "), lang("‘–‚иЋn‚Я‚й•ађ”", "Запуск После "), lang("•а‚«‚М‘¬‚і", "Скорость Ходьбы "), lang("ЌUЊ‚‚МЉФЉu", "Интервал Атаки "), lang("ѓЊѓRЃ[ѓh•\Ћ¦", "Запись "), lang("ЃuЌUЊ‚‚·‚йЃv‘I‘рЋ€", "Выбор Атаки "), lang("‰•Ёђ¶ђ¬‚М‘jЋ~", "Генерации пыли "), ""
 		dx = 440
 		dy = 370
 	}
 	if ( submenu == 2 ) {
-		q = lang("画面と音の設定", "Screen & Sound")
-		s = lang("サウンドの再生*", "Sound*"), lang("midiの再生*", "Music*"), lang("画面モード*", "Screen Mode*"), lang("画面の大きさ*", "Screen Resolution*"), lang("高ＤＰＩスケール*", "High DPI Scaling*"), lang("高ＤＰＩスムージング*", "High DPI Smoothing*"), lang("スクロール", "Smooth Scroll"), lang("主人公中心に描写", "Always Center"), lang("心臓の音", "Heartbeat Sound"), lang("攻撃時アニメ", "Attack Animation"), lang("天候エフェクト", "Weather Effect"), lang("光源の描写", "Lighting"), lang("アイテムの影描写", "Object Shadow"), lang("PCC表示", "PCC show"), ""
+		q = lang("‰ж–К‚Ж‰№‚МђЭ’и", "Экран и Звук ")
+		s = lang("ѓTѓEѓ“ѓh‚МЌДђ¶*", "Звук* "), lang("midi‚МЌДђ¶*", "Музыка* "), lang("‰ж–Кѓ‚Ѓ[ѓh*", "Режим Экрана* "), lang("‰ж–К‚М‘е‚«‚і*", "Разрешение Экрана* "), lang("Ќ‚‚c‚o‚hѓXѓPЃ[ѓ‹*", "Масштабирование DPI* "), lang("Ќ‚‚c‚o‚hѓXѓЂЃ[ѓWѓ“ѓO*", "DPI Сглаживание* "), lang("ѓXѓNѓЌЃ[ѓ‹", "Плавная Прокрутка "), lang("ЋеђlЊц’†ђS‚Й•`ЋК", "Всегда в Центре "), lang("ђS‘џ‚М‰№", "Звук Сердцебиения "), lang("ЌUЊ‚ЋћѓAѓjѓЃ", "Анимация Атаки "), lang("“VЊуѓGѓtѓFѓNѓg", "Погодные Эффекты "), lang("ЊхЊ№‚М•`ЋК", "Освещение "), lang("ѓAѓCѓeѓЂ‚М‰e•`ЋК", "Тень Объектов "), lang("PCC•\Ћ¦", "Показывать ГГ "), ""
 		dx = 440
 		dy = 410
 	}
 	if ( submenu == 3 ) {
-		q = lang("ネット機能の設定", "Network Setting")
-		s = lang("ネットの使用", "Use Network"), lang("定期的に接続", "Constantly Connect"), lang("チャットをフィルタ", "Filter Chat"), ""
+		q = lang("ѓlѓbѓg‹@”\‚МђЭ’и", "Настройка Сети ")
+		s = lang("ѓlѓbѓg‚МЋg—p", "Использовать Сеть "), lang("’иЉъ“I‚ЙђЪ‘±", "Постоянная Связь "), lang("ѓ`ѓѓѓbѓg‚рѓtѓBѓ‹ѓ^", "Фильтр Чата "), ""
 		dx = 440
 		dy = 300
 	}
 	if ( submenu == 4 ) {
-		q = lang("詳細な設定", "Detailed Setting")
-		s = lang("走りの速さ", "Run Speed"), lang("numlockを自動制御", "Auto Numlock"), lang("タイトルの水の波紋", "Title Water Effect"), lang("画面の更新頻度", "Screen Refresh"), lang("走り時スクロール", "Scroll When Run"), lang("オートターンの挙動", "Auto Turn Speed"), lang("イベントの短縮", "Skip Random Events"), lang("ダメージ表示", "Damage show"), lang("エフェクトの速さ", "Effect Speed"), ""
+		q = lang("ЏЪЌЧ‚ИђЭ’и", "Детальная Настройка ")
+		s = lang("‘–‚и‚М‘¬‚і", "Скорость Бега "), lang("numlock‚рЋ©“®ђ§Њд", "Авто Numlock "), lang("ѓ^ѓCѓgѓ‹‚Мђ…‚М”g–д", "Эффект Воды в Меню "), lang("‰ж–К‚МЌXђV•p“x", "Частота Экрана "), lang("‘–‚иЋћѓXѓNѓЌЃ[ѓ‹", "Прокрутка при Беге "), lang("ѓIЃ[ѓgѓ^Ѓ[ѓ“‚М‹““®", "Скорость Авто Ходов "), lang("ѓCѓxѓ“ѓg‚М’ZЏk", "Пропуск Случ. Событ. "), lang("ѓ_ѓЃЃ[ѓW•\Ћ¦", "Показывать Урон "), lang("ѓGѓtѓFѓNѓg‚М‘¬‚і", "Скорость Эффектов "), ""
 		dx = 440
 		dy = 350
 	}
 	if ( submenu == 5 ) {
-		q = lang("ゲームパッド", "Game Pad")
-		s = lang("ゲームパッド", "Game Pad"), lang("決定キー", "Enter/Ok"), lang("キャンセルキー", "Cancel"), lang("所持品", "Inventory"), lang("行動", "Action"), lang("斜め移動(L)", "diagonal Move/(L)"), lang("拾う(R)", "Pick/(R)"), lang("射撃(R)", "Shoot/(R)"), lang("目標(L)", "Target/(L)"), lang("ポーズメニュー", "Pause/Menu"), lang("ヘルプ", "Help"), lang("キャラ情報", "Chara-sheet"), lang("装填", "Reload"), ""
+		q = lang("ѓQЃ[ѓЂѓpѓbѓh", "Геймпад ")
+		s = lang("ѓQЃ[ѓЂѓpѓbѓh", "Геймпад"), lang("Њ€’иѓLЃ[", "Enter/Ok"), lang("ѓLѓѓѓ“ѓZѓ‹ѓLЃ[", "Отмена "), lang("ЏЉЋќ•i", "Инвентарь "), lang("Ќs“®", "Действие "), lang("ЋО‚Я€Ъ“®(L)", "Диагональное Движение/(L) "), lang("ЏE‚¤(R)", "Подобрать/(R) "), lang("ЋЛЊ‚(R)", "Стрелять/(R) "), lang("–Ъ•W(L)", "Цель/(L) "), lang("ѓ|Ѓ[ѓYѓЃѓjѓ…Ѓ[", "Пауза/Меню "), lang("ѓwѓ‹ѓv", "Помощь "), lang("ѓLѓѓѓ‰Џо•с", "Чаршит "), lang("‘•“U", "Перезарядка "), ""
 		dx = 440
 		dy = 430
 	}
 	if ( submenu == 6 ) {
-		q = lang("メッセージとログ", "Message&Log")
-		s = lang("ﾒｯｾｰｼﾞに分表示追加", "Add time info"), lang("過去のﾒｯｾｰｼﾞの透過", "Transparency"), lang("起動時の注意書き", "Disclaimer at startup"), ""
+		q = lang("ѓЃѓbѓZЃ[ѓW‚ЖѓЌѓO", "Сообщения и Журнал ")
+		s = lang("ТЇѕ°јЮ‚Й•Є•\Ћ¦’З‰Б", "Добавить инфу о времени "), lang("‰Я‹Ћ‚МТЇѕ°јЮ‚М“§‰Я", "Прозрачность "), lang("‹N“®Ћћ‚М’Ќ€УЏ‘‚«", "Дисклеймер при запуске "), ""
 		dx = 440
 		dy = 300
 	}
 	if ( submenu == 7 ) {
-		q = lang("言語(Language)", "Language")
-		s = lang("言語*", "Language*"), ""
+		q = lang("ЊѕЊк(Language)", "Язык ")
+		s = lang("ЊѕЊк*", "Язык* "), ""
 		dx = 440
 		dy = 300
 	}
 	if ( submenu == 8 ) {
-        q = lang("拡張設定1", "EX Setting 1")
-        s = lang("自動拾い＆自動破壊", "Auto pickup & destroy"), lang("自動拾い時の効果音", "Autopick sound"), lang("自動破壊時の効果音", "Autodestroy sound"), ""
+        q = lang("Љg’ЈђЭ’и1", "EX Настройки 1 ")
+        s = lang("Ћ©“®ЏE‚ўЃ•Ћ©“®”j‰у", "Авто подбор и разруш. "), lang("Ћ©“®ЏE‚ўЋћ‚МЊш‰К‰№", "Звук Автоподбора "), lang("Ћ©“®”j‰уЋћ‚МЊш‰К‰№", "Звук Авторазрушения "), ""
 		dx = 440
 		dy = 300
 	}
 	if ( submenu == 9 ) {
-		q = lang("拡張設定2(表示)", "EX Setting 2 (Display)")
-		s = lang("ダメージ表示", "Damage Popups"), lang("　HEX+バフ", "  Hexes/Buffs"), lang("　状態異常", "  Ailments"), lang("　回避", "  Evade"), lang("　会話", "  Chat"), lang("　フォントサイズ", "  Font Size"), lang("　表示速度", "  Display Duration"), lang("　表示NPC名前", "  Show NPC Name"), lang("　表示ダメージ測定", "  Show Damage Meter"), lang("　測定ターン", "  Meter Duration Turns"), ""
+		q = lang("Љg’ЈђЭ’и2(•\Ћ¦)", "EX Настройки 2 (Экран) ")
+		s = lang("ѓ_ѓЃЃ[ѓW•\Ћ¦", "Окна с Уроном "), lang("Ѓ@HEX+ѓoѓt", "  Проклятия/Баффы "), lang("Ѓ@Џу‘Ф€ЩЏн", "  Заболевания "), lang("Ѓ@‰с”р", "  Уклонение "), lang("Ѓ@‰пb", "  Чат "), lang("Ѓ@ѓtѓHѓ“ѓgѓTѓCѓY", "  Размер Шрифта "), lang("Ѓ@•\Ћ¦‘¬“x", "  Прод. Отображения "), lang("Ѓ@•\Ћ¦NPC–ј‘O", "  Показывать имя NPC "), lang("Ѓ@•\Ћ¦ѓ_ѓЃЃ[ѓW‘Є’и", "  Вкл Счетчик Урона "), lang("Ѓ@‘Є’иѓ^Ѓ[ѓ“", "  Прод. Ходов Счетчика "), ""
 		dx = 440
 		dy = 410
 	}
@@ -660,7 +660,7 @@
 		display_window (windoww - dx) / 2 + inf_screenx, winposy(dy) - 12, dx, dy
 	}
 	pagesize = listmax
-	display_topic lang("項目", "Menu"), wx + 34, wy + 36
+	display_topic lang("ЌЂ–Ъ", "Меню"), wx + 34, wy + 36
 	if ( mode == MODELIST_TITLE ) {
 		p = 2
 	}
@@ -730,61 +730,61 @@
 		color 0, 0, 0
 		if ( submenu == 1 ) {
 			if ( cnt == 0 ) {
-				s = lang("なし", "Don't show"), lang("あり", "Show")
+				s = lang("‚И‚µ", "Не показывать "), lang("‚ ‚и", "Показывать ")
 				mes s(cfg_extrahelp)
 			}
 			if ( cnt == 1 ) {
-				s = lang("しない", "Attack"), lang("する", "Ignore")
+				s = lang("‚µ‚И‚ў", "Атаковать "), lang("‚·‚й", "Игнорировать ")
 				mes s(cfg_ignoredislike)
 			}
 			if ( cnt == 2 ) {
-				s = lang("ｸｨｯｸﾒﾆｭｰ", "Quick menu"), lang("道具を振る", "Zap"), lang("割当なし", "Don't assign")
+				s = lang("ёЁЇёТЖ­°", "Быстрое меню "), lang("“№‹п‚рђU‚й", "Кастовать "), lang("Љ„“–‚И‚µ", "Не назначать ")
 				mes s(cfg_zkey)
 			}
 			if ( cnt == 3 ) {
-				s = lang("ｸｲｯｸｲﾝﾍﾞﾝﾄﾘ", "Quick Inv"), lang("道具を調べる", "Identify"), lang("割当なし", "Don't assign")
+				s = lang("ёІЇёІЭНЮЭДШ", "Быстрый Инв "), lang("“№‹п‚р’І‚Ч‚й", "Идентифицировать "), lang("Љ„“–‚И‚µ", "Не назначать ")
 				mes s(cfg_xkey)
 			}
 			if ( cnt == 4 ) {
 				if ( cfg_startrun >= 20 ) {
-					s = lang("走らない", "Don't run")
+					s = lang("‘–‚з‚И‚ў", "Не бежать ")
 					mes s
 				}
 				else {
-					s = lang("" + (cfg_startrun + 1) + "歩目から", "After " + (cfg_startrun + 1) + " steps")
+					s = lang("" + (cfg_startrun + 1) + "•а–Ъ‚©‚з", "После " + (cfg_startrun + 1) + " шагов ")
 					mes s
 				}
 			}
 			if ( cnt == 5 ) {
-				mes "" + cfg_walkwait + " wait"
+				mes "" + cfg_walkwait + " ждать "
 			}
 			if ( cnt == 6 ) {
-				mes "" + cfg_attackwait + " wait"
+				mes "" + cfg_attackwait + " ждать "
 			}
 			if ( cnt == 7 ) {
-				s = lang("なし", "Don't show"), lang("一部表示", "Show"), lang("全表示", "Show Max")
+				s = lang("‚И‚µ", "Не показывать "), lang("€к•”•\Ћ¦", "Показывать "), lang("‘S•\Ћ¦", "Показывать Макс ")
 				mes s(cfg_record)
 			}
 			if ( cnt == 8 ) {
-				s = lang("全表示", "Show"), lang("味方以外", "Neutral"), lang("全非表示", "Don't show")
+				s = lang("‘S•\Ћ¦", "Показывать "), lang("–Ў•ы€ИЉO", "Нейтральный "), lang("‘S”с•\Ћ¦", "Не показывать ")
 				mes s(cfg_atk_select)
 			}
 			if ( cnt == 9 ) {
-				s = lang("特になし", "No Block"), lang("阻止あり", "Block")
+				s = lang("“Б‚Й‚И‚µ", "Не Блокировать "), lang("‘jЋ~‚ ‚и", "Блокировать ")
 				mes s(cfg_dust_select)
 			}
 		}
 		if ( submenu == 2 ) {
 			if ( cnt == 0 ) {
-				s = lang("なし", "None"), lang("direct sound", "Direct sound"), "MCI"
+				s = lang("‚И‚µ", "None"), lang("direct sound", "Direct sound"), "MCI"
 				mes s(cfg_sound2)
 			}
 			if ( cnt == 1 ) {
-				s = lang("なし", "None"), lang("direct music", "Direct music"), "MCI"
+				s = lang("‚И‚µ", "None"), lang("direct music", "Direct music"), "MCI"
 				mes s(cfg_music2)
 			}
 			if ( cnt == 2 ) {
-				s = lang("ウィンドウ", "Window mode"), lang("フルスクリーン", "Full screen")
+				s = lang("ѓEѓBѓ“ѓhѓE", "В окне "), lang("ѓtѓ‹ѓXѓNѓЉЃ[ѓ“", "Полный экран ")
 				mes s(cfg_fullscreen2)
 			}
 			if ( cnt == 3 ) {
@@ -794,113 +794,113 @@
 				mes "" + strf("%.1f", cfg_highdpi_scaling) + " (" + int(double(windoww2s) / cfg_highdpi_scaling) + " * " + int(double(windowh2s) / cfg_highdpi_scaling) + ")"
 			}
 			if ( cnt == 5 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_highdpi_smoothing)
 			}
 			if ( cnt == 6 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_scroll)
 			}
 			if ( cnt == 7 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_alwayscenter)
 			}
 			if ( cnt == 8 ) {
-				s = lang("再生しない", "Don't play"), lang("再生する", "Play")
+				s = lang("ЌДђ¶‚µ‚И‚ў", "Не играть "), lang("ЌДђ¶‚·‚й", "Играть ")
 				mes s(cfg_heart)
 			}
 			if ( cnt == 9 ) {
-				s = lang("アニメなし", "No"), lang("主人公のみ", "Only PC"), lang("味方側のみ", "Only Ally"), lang("全員あり", "All")
+				s = lang("ѓAѓjѓЃ‚И‚µ", "Нет "), lang("ЋеђlЊц‚М‚Э", "Только ПК "), lang("–Ў•ы‘¤‚М‚Э", "Только Союзников "), lang("‘S€х‚ ‚и", "Все ")
 				mes s(cfg_attackanime)
 			}
 			if ( cnt == 10 ) {
-				s = lang("アニメなし", "No animation"), lang("アニメあり", "Always")
+				s = lang("ѓAѓjѓЃ‚И‚µ", "Нет анимации "), lang("ѓAѓjѓЃ‚ ‚и", "Всегда ")
 				mes s(cfg_env)
 			}
 			if ( cnt == 11 ) {
-				s = lang("高画質", "High"), lang("低画質", "Low")
+				s = lang("Ќ‚‰жЋї", "Высокое "), lang("’б‰жЋї", "Низкое ")
 				mes s(cfg_shadow)
 			}
 			if ( cnt == 12 ) {
-				s = lang("なし（高速）", "No(Fast)"), lang("あり（低速）", "Yes(Slow)")
+				s = lang("‚И‚µЃiЌ‚‘¬Ѓj", "Нет(Быстро) "), lang("‚ ‚иЃi’б‘¬Ѓj", "Да(Медленно) ")
 				mes s(cfg_objectshadow)
 			}
 			if ( cnt == 13 ) {
-				s = lang("原寸表示", "Full-size"), lang("縮小表示", "Reduced")
+				s = lang("ЊґђЎ•\Ћ¦", "Полноразмерный "), lang("ЏkЏ¬•\Ћ¦", "Сокращенный ")
 				mes s(cfg_pcc_show)
 			}
 		}
 		if ( submenu == 3 ) {
 			if ( cnt == 0 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_net)
 			}
 			if ( cnt == 1 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_netwish)
 			}
 			if ( cnt == 2 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_netchat)
 			}
 		}
 		if ( submenu == 4 ) {
 			if ( cnt == 0 ) {
-				mes "" + cfg_runwait + " wait"
+				mes "" + cfg_runwait + " ждать "
 			}
 			if ( cnt == 1 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_autonumlock)
 			}
 			if ( cnt == 2 ) {
-				s = lang("オフ", "No"), lang("オン", "Yes")
+				s = lang("ѓIѓt", "Нет "), lang("ѓIѓ“", "Да ")
 				mes s(cfg_titleeffect)
 			}
 			if ( cnt == 3 ) {
-				s = lang("オフ", "No"), lang("オン", "Yes")
-				mes "" + cfg_scrsync + " wait"
+				s = lang("ѓIѓt", "Нет "), lang("ѓIѓ“", "Да ")
+				mes "" + cfg_scrsync + " ждать "
 			}
 			if ( cnt == 4 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_runscroll)
 			}
 			if ( cnt == 5 ) {
-				s = lang("普通", "Normal"), lang("速め", "High"), lang("省略", "Highest")
+				s = lang("•Ѓ’К", "Нормальная "), lang("‘¬‚Я", "Высокая "), lang("ЏИ—Є", "Высочайшая ")
 				mes s(cfg_autoturn)
 			}
 			if ( cnt == 6 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_skiprandevents)
 			}
 			if ( cnt == 7 ) {
-				s = lang("しない", "No"), lang("する", "Yes"), lang("吊るし時のみ", "Sandbag")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да "), lang("’Э‚й‚µЋћ‚М‚Э", "Мешок с песком")
 				mes s(cfg_dhyouji)
 			}
 			if ( cnt == 8 ) {
-				mes "" + cfg_animewait + " wait"
+				mes "" + cfg_animewait + " ждать "
 			}
 		}
 		if ( submenu == 5 ) {
 			if ( cnt == 0 ) {
-				s = lang("使用しない", "Don't use"), lang("使用する", "Use")
+				s = lang("Ћg—p‚µ‚И‚ў", "Не использовать "), lang("Ћg—p‚·‚й", "Использовать ")
 				mes s(cfg_joypad)
 			}
 			else {
 				if ( list(1, cnt) == (-1) ) {
-					mes lang("未設定", "Unassigned")
+					mes lang("–ўђЭ’и", "Неназначенный ")
 				}
 				else {
-					mes lang("ボタン", "Button") + list(1, cnt)
+					mes lang("ѓ{ѓ^ѓ“", "Кнопка ") + list(1, cnt)
 				}
 			}
 		}
 		if ( submenu == 6 ) {
 			if ( cnt == 2 ) {
-				s = lang("非表示", "No"), lang("表示", "Yes")
+				s = lang("”с•\Ћ¦", "Нет "), lang("•\Ћ¦", "Да ")
 				mes s(cfg_titledialog)
 			}
 			if ( cnt == 0 ) {
-				s = lang("しない", "No"), lang("する", "Yes")
+				s = lang("‚µ‚И‚ў", "Нет "), lang("‚·‚й", "Да ")
 				mes s(cfg_msgaddtime)
 			}
 			if ( cnt == 1 ) {
@@ -909,43 +909,43 @@
 		}
 		if ( submenu == 7 ) {
 			if ( cnt == 0 ) {
-				s = "Japanese", "English"
+				s = "Японский ", "Русский "
 				mes s(cfg_language)
 			}
 		}
 		if ( submenu == 8 ) {
 			if ( cnt == 0 ) {
-				s = lang("使わない", "Disable"), lang("使う", "Enable")
+				s = lang("Ћg‚н‚И‚ў", "Выкл "), lang("Ћg‚¤", "Вкл ")
 				mes s(cfg_autopick)
 			}
 			if ( cnt == 1 ) {
-				s = lang("なし", "Off"), lang("あり", "On")
+				s = lang("‚И‚µ", "Выкл "), lang("‚ ‚и", "Вкл ")
 				mes s(cfg_autopicksound)
 			}
 			if ( cnt == 2 ) {
-				s = lang("なし", "Off"), lang("あり", "On")
+				s = lang("‚И‚µ", "Выкл "), lang("‚ ‚и", "Вкл ")
 				mes s(cfg_autodestroysound)
 			}
 		}
 		if ( submenu == 9 ) {
 			if ( cnt == 0 ) {
-				s = lang("しない", "Off"), lang("する", "On")
+				s = lang("‚µ‚И‚ў", "Выкл "), lang("‚·‚й", "Вкл ")
 				mes s(cfg_dmgpopups)
 			}
 			if ( cnt == 1 ) {
-				s = lang("なし", "Don't show"), lang("あり", "Show")
+				s = lang("‚И‚µ", "Не показывать "), lang("‚ ‚и", "Показывать ")
 				mes s(cfg_dmgpopup_buffhex)
 			}
 			if ( cnt == 2 ) {
-				s = lang("なし", "Don't show"), lang("あり", "Show")
+				s = lang("‚И‚µ", "Не показывать "), lang("‚ ‚и", "Показывать ")
 				mes s(cfg_dmgpopup_con)
 			}
 			if ( cnt == 3 ) {
-				s = lang("なし", "Don't show"), lang("あり", "Show")
+				s = lang("‚И‚µ", "Не показывать "), lang("‚ ‚и", "Показывать ")
 				mes s(cfg_dmgpopup_evade)
 			}
 			if ( cnt == 4 ) {
-				s = lang("なし", "Don't show"), lang("あり", "Show")
+				s = lang("‚И‚µ", "Не показывать "), lang("‚ ‚и", "Показывать ")
 				mes s(cfg_dmgpopup_chat)
 			}
 			if ( cnt == 5 ) {
@@ -955,18 +955,18 @@
 				mes "" + cfg_dmgspeed
 			}
 			if ( cnt == 7 ) {
-				s = lang("なし", "Don't show"), lang("あり", "Show in Town"), lang("あり", "Show All in Town"), lang("あり", "Show All")
+				s = lang("‚И‚µ", "Не показывать "), lang("‚ ‚и", "Показать в Городе "), lang("‚ ‚и", " Показать Все в Городе "), lang("‚ ‚и", "Показать Все ")
 				mes s(cfg_showNpcName)
 			}
 			if ( cnt == 8 ) {
 				if ( cfg_showDamageMeter <= 0 ) {
-					mes lang("なし", "Don't show")
+					mes lang("‚И‚µ", "Не показывать ")
 				} else {
-					mes "" + cfg_showDamageMeter + lang("行", " rows")
+					mes "" + cfg_showDamageMeter + lang("Ќs", " строки ")
 				}
 			}
 			if ( cnt == 9 ) {
-				mes "" + cfg_showDamageMeterTurns + lang("ターン", " turns")
+				mes "" + cfg_showDamageMeterTurns + lang("ѓ^Ѓ[ѓ“", " ходы ")
 			}
 		}
 	loop
@@ -975,7 +975,7 @@
 			pos wx + 40, wy + wh - 70
 			font lang(cfg_font1, cfg_font2), 12 + sizefix - en * 2, 0
 			color 0, 0, 0
-			s = lang("* 印のついた項目は、ゲームの再起動後に適用されます", "Items marked with * require a restart to apply changes.")
+			s = lang("* €у‚М‚В‚ў‚ЅЌЂ–Ъ‚НЃAѓQЃ[ѓЂ‚МЌД‹N“®Њг‚Й“K—p‚і‚к‚Ь‚·", "Элементы, отмеченные *, требуют перезапуска. ")
 			mes s
 		}
 	}
@@ -983,7 +983,7 @@
 		pos wx + 40, wy + wh - 110
 		font lang(cfg_font1, cfg_font2), 12 + sizefix - en * 2, 0
 		color 0, 0, 0
-		s = lang("ボタンを割り当てたい項目にカーソルをあわせて\nゲームパッドのボタンを押してください。(L),(R)の付いている\n項目は、メニュー画面でタブの移動に使われます。", "To assign a button, move the cursor to\nan item and press the button.")
+		s = lang("ѓ{ѓ^ѓ“‚рЉ„‚и“–‚Д‚Ѕ‚ўЌЂ–Ъ‚ЙѓJЃ[ѓ\ѓ‹‚р‚ ‚н‚№‚Д\nѓQЃ[ѓЂѓpѓbѓh‚Мѓ{ѓ^ѓ“‚р‰џ‚µ‚Д‚­‚ѕ‚і‚ўЃB(L),(R)‚М•t‚ў‚Д‚ў‚й\nЌЂ–Ъ‚НЃAѓЃѓjѓ…Ѓ[‰ж–К‚Еѓ^ѓu‚М€Ъ“®‚ЙЋg‚н‚к‚Ь‚·ЃB", "Чтобы назначить кнопку, переместите курсор на\нужный элемент и нажмите кнопку. ")
 		mes s
 	}
 	if ( keyrange != 0 ) {
