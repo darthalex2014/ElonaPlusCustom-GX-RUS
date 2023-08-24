@@ -13,7 +13,7 @@
 			spact(SKILL_SPACT_UNISON_IMPACT - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_UNISON_IMPACT) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_UNISON_IMPACT) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_UNISON_IMPACT) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_UNISON_IMPACT) + ".")
 		}
 	}
 	overp = 0
@@ -22,7 +22,7 @@
 			spact(SKILL_SPACT_BLOOD_STREAM - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_BLOOD_STREAM) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_BLOOD_STREAM) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_BLOOD_STREAM) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_BLOOD_STREAM) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_WIL, CHARA_PLAYER) > 1 ) {
@@ -30,7 +30,7 @@
 			spact(SKILL_SPACT_GAUGE_RELEASE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_GAUGE_RELEASE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_GAUGE_RELEASE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_GAUGE_RELEASE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_GAUGE_RELEASE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_SENSE_QUALITY, CHARA_PLAYER) > 29 ) {
@@ -38,7 +38,7 @@
 			spact(SKILL_SPACT_DATA_SCAN - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DATA_SCAN) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DATA_SCAN) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DATA_SCAN) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DATA_SCAN) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MAGIC_DEVICE, CHARA_PLAYER) > 19 ) {
@@ -46,13 +46,13 @@
 			spact(SKILL_SPACT_DRAW_CHARGE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DRAW_CHARGE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DRAW_CHARGE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DRAW_CHARGE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DRAW_CHARGE) + ".")
 		}
 		if ( spact(SKILL_SPACT_FILL_CHARGE - STARTING_SKILL_SPACT) == 0 ) {
 			spact(SKILL_SPACT_FILL_CHARGE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_FILL_CHARGE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_FILL_CHARGE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_FILL_CHARGE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_FILL_CHARGE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_TACTICS, CHARA_PLAYER) > 29 ) {
@@ -60,7 +60,7 @@
 			spact(SKILL_SPACT_SWARM - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SWARM) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SWARM) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SWARM) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SWARM) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_SPACT_VINDALIAN_JIUJITSU) != 0 ) {
@@ -68,7 +68,7 @@
 			spact(SKILL_SPACT_VINDALIAN_JIUJITSU - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_VINDALIAN_JIUJITSU) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_VINDALIAN_JIUJITSU) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_VINDALIAN_JIUJITSU) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_VINDALIAN_JIUJITSU) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_SPACT_UNCONTROL) != 0 ) {
@@ -76,7 +76,7 @@
 			spact(SKILL_SPACT_UNCONTROL - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_UNCONTROL) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_UNCONTROL) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_UNCONTROL) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_UNCONTROL) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_SPACT_FASCINATION_DANCE) != 0 ) {
@@ -84,7 +84,7 @@
 			spact(SKILL_SPACT_FASCINATION_DANCE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_FASCINATION_DANCE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_FASCINATION_DANCE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_FASCINATION_DANCE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_FASCINATION_DANCE) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_SPACT_GRAVITY_ACCEL) != 0 ) {
@@ -92,7 +92,7 @@
 			spact(SKILL_SPACT_GRAVITY_ACCEL - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_GRAVITY_ACCEL) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_GRAVITY_ACCEL) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_GRAVITY_ACCEL) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_GRAVITY_ACCEL) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_SPACT_BLADE_STRINGS) != 0 ) {
@@ -100,7 +100,7 @@
 			spact(SKILL_SPACT_BLADE_STRINGS - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_BLADE_STRINGS) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_BLADE_STRINGS) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_BLADE_STRINGS) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_BLADE_STRINGS) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_SKILL_NEGOTIATION) != 0 ) {
@@ -108,7 +108,7 @@
 			spact(SKILL_SPACT_PERSUASION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_PERSUASION) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_PERSUASION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_PERSUASION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_PERSUASION) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_SKILL_NEGOTIATION) != 0 ) {
@@ -116,7 +116,7 @@
 			spact(SKILL_SPACT_PECULIAR_JOKE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_PECULIAR_JOKE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_PECULIAR_JOKE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_PECULIAR_JOKE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_PECULIAR_JOKE) + ".")
 		}
 	}
 	if ( trait(TRAIT_NORMAL_STAT_PV) != 0 ) {
@@ -124,7 +124,7 @@
 			spact(SKILL_SPACT_SAND_CANNON - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SAND_CANNON) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_SAND_CANNON) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SAND_CANNON) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_SAND_CANNON) + ".")
 		}
 	}
 	if ( cdata(CDATA_LEVEL, CHARA_PLAYER) >= 50 & trait(TRAIT_NORMAL_SPACT_DIMENSIONAL_MOVE) != 0 ) {
@@ -132,7 +132,7 @@
 			spact(SKILL_SPACT_SPACE_RETENTION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SPACE_RETENTION) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_SPACE_RETENTION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SPACE_RETENTION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_SPACE_RETENTION) + ".")
 		}
 	}
 	if ( cdata(CDATA_LEVEL, CHARA_PLAYER) >= 20 ) {
@@ -140,13 +140,13 @@
 			spact(SKILL_SPACT_LIMIT_POWER - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_LIMIT_POWER) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_LIMIT_POWER) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_LIMIT_POWER) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_LIMIT_POWER) + ".")
 		}
 		if ( spact(SKILL_SPACT_LIMITER_VANISH - STARTING_SKILL_SPACT) == 0 ) {
 			spact(SKILL_SPACT_LIMITER_VANISH - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_LIMITER_VANISH) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_LIMITER_VANISH) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_LIMITER_VANISH) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_LIMITER_VANISH) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_LER, CHARA_PLAYER) > 29 & trait(TRAIT_NORMAL_SPACT_CHEER) != 0 ) {
@@ -154,7 +154,7 @@
 			spact(SKILL_SPACT_INDIVIDUAL_LEADING - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_INDIVIDUAL_LEADING) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_INDIVIDUAL_LEADING) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_INDIVIDUAL_LEADING) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_INDIVIDUAL_LEADING) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_STR, CHARA_PLAYER) > 39 & trait(TRAIT_NORMAL_STAT_PV) != 0 ) {
@@ -162,7 +162,7 @@
 			spact(SKILL_SPACT_SMASH_GROUND - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SMASH_GROUND) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_SMASH_GROUND) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SMASH_GROUND) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_SMASH_GROUND) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CON, CHARA_PLAYER) > 69 & trait(TRAIT_NORMAL_STAT_PV) != 0 ) {
@@ -170,7 +170,7 @@
 			spact(SKILL_SPACT_ROCRUSHER - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ROCRUSHER) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_ROCRUSHER) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ROCRUSHER) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_ROCRUSHER) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CON, CHARA_PLAYER) > 89 & trait(TRAIT_NORMAL_STAT_PV) != 0 ) {
@@ -178,7 +178,7 @@
 			spact(SKILL_SPACT_MOGRANIC_AURA - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_MOGRANIC_AURA) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_MOGRANIC_AURA) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MOGRANIC_AURA) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_MOGRANIC_AURA) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_NEGOTIATION, CHARA_PLAYER) > 19 & trait(TRAIT_NORMAL_SKILL_NEGOTIATION) != 0 ) {
@@ -186,7 +186,7 @@
 			spact(SKILL_SPACT_BLENDED_LIE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_BLENDED_LIE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_BLENDED_LIE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_BLENDED_LIE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_BLENDED_LIE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_NEGOTIATION, CHARA_PLAYER) > 29 & trait(TRAIT_NORMAL_SKILL_NEGOTIATION) != 0 ) {
@@ -194,7 +194,7 @@
 			spact(SKILL_SPACT_INTIMIDATION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_INTIMIDATION) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_INTIMIDATION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_INTIMIDATION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_INTIMIDATION) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_NEGOTIATION, CHARA_PLAYER) > 39 & trait(TRAIT_NORMAL_SKILL_NEGOTIATION) != 0 ) {
@@ -202,7 +202,7 @@
 			spact(SKILL_SPACT_MYSTERIOUS_SONG - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_MYSTERIOUS_SONG) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_MYSTERIOUS_SONG) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MYSTERIOUS_SONG) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_MYSTERIOUS_SONG) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_NEGOTIATION, CHARA_PLAYER) > 49 & sorg(SKILL_NORMAL_SENSE_QUALITY, CHARA_PLAYER) > 29 & trait(TRAIT_NORMAL_SKILL_NEGOTIATION) != 0 ) {
@@ -210,7 +210,7 @@
 			spact(SKILL_SPACT_HARMONIC_ASSAULT - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_HARMONIC_ASSAULT) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_HARMONIC_ASSAULT) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_HARMONIC_ASSAULT) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_HARMONIC_ASSAULT) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_PER, CHARA_PLAYER) > 39 & trait(TRAIT_NORMAL_SKILL_CASTING) != 0 ) {
@@ -218,7 +218,7 @@
 			spact(SKILL_SPACT_LINEAR_LAUNCHER - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_LINEAR_LAUNCHER) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_LINEAR_LAUNCHER) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_LINEAR_LAUNCHER) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_LINEAR_LAUNCHER) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_PER, CHARA_PLAYER) > 69 & trait(TRAIT_NORMAL_SKILL_CASTING) != 0 ) {
@@ -226,7 +226,7 @@
 			spact(SKILL_SPACT_E_MAG_CAGE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_E_MAG_CAGE) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_E_MAG_CAGE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_E_MAG_CAGE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_E_MAG_CAGE) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_PER, CHARA_PLAYER) > 99 & trait(TRAIT_NORMAL_SKILL_CASTING) != 0 ) {
@@ -234,7 +234,7 @@
 			spact(SKILL_SPACT_E_MAG_TORNADO - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_E_MAG_TORNADO) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_E_MAG_TORNADO) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_E_MAG_TORNADO) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_E_MAG_TORNADO) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_TACTICS, CHARA_PLAYER) > 39 & trait(TRAIT_NORMAL_SPACT_BLADE_STRINGS) != 0 ) {
@@ -242,7 +242,7 @@
 			spact(SKILL_SPACT_DANCING_WIRE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DANCING_WIRE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DANCING_WIRE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DANCING_WIRE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DANCING_WIRE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GENE_ENGINEER, CHARA_PLAYER) > 29 & trait(TRAIT_NORMAL_SPACT_BLADE_STRINGS) != 0 ) {
@@ -250,7 +250,7 @@
 			spact(SKILL_SPACT_THREAD_OF_INNERVATION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_THREAD_OF_INNERVATION) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_THREAD_OF_INNERVATION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_THREAD_OF_INNERVATION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_THREAD_OF_INNERVATION) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_DEX, CHARA_PLAYER) > 69 & trait(TRAIT_NORMAL_SPACT_BLADE_STRINGS) != 0 ) {
@@ -258,7 +258,7 @@
 			spact(SKILL_SPACT_WIRE_WORLD - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_WIRE_WORLD) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_WIRE_WORLD) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_WIRE_WORLD) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_WIRE_WORLD) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_EVASION, CHARA_PLAYER) > 59 & trait(TRAIT_NORMAL_SPACT_FASCINATION_DANCE) != 0 ) {
@@ -266,7 +266,7 @@
 			spact(SKILL_SPACT_KILLING_DANCE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_KILLING_DANCE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_KILLING_DANCE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_KILLING_DANCE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_KILLING_DANCE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_LITERACY, CHARA_PLAYER) > 29 ) {
@@ -274,7 +274,7 @@
 			spact(SKILL_SPACT_KIJIN_SHIBARI - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_KIJIN_SHIBARI) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_KIJIN_SHIBARI) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_KIJIN_SHIBARI) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_KIJIN_SHIBARI) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_LITERACY, CHARA_PLAYER) > 39 ) {
@@ -282,7 +282,7 @@
 			spact(SKILL_SPACT_BURN_SCROLLS - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_BURN_SCROLLS) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_BURN_SCROLLS) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_BURN_SCROLLS) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_BURN_SCROLLS) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_THROWING, CHARA_PLAYER) > 29 ) {
@@ -290,7 +290,7 @@
 			spact(SKILL_SPACT_STRUCK_OUT - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_STRUCK_OUT) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_STRUCK_OUT) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_STRUCK_OUT) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_STRUCK_OUT) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_THROWING, CHARA_PLAYER) > 39 ) {
@@ -298,7 +298,7 @@
 			spact(SKILL_SPACT_DESTINY_DICE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DESTINY_DICE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DESTINY_DICE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DESTINY_DICE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DESTINY_DICE) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_THROWING, CHARA_PLAYER) > 39 | trait(TRAIT_NORMAL_SPACT_VINDALIAN_JIUJITSU) != 0 & sorg(SKILL_ATTR_DEX, CHARA_PLAYER) > 59 ) {
@@ -306,7 +306,7 @@
 			spact(SKILL_SPACT_DISPATCH_FLYING_BEAST - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DISPATCH_FLYING_BEAST) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DISPATCH_FLYING_BEAST) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DISPATCH_FLYING_BEAST) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DISPATCH_FLYING_BEAST) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_THROWING, CHARA_PLAYER) > 49 ) {
@@ -314,7 +314,7 @@
 			spact(SKILL_SPACT_SHINING_THROW - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SHINING_THROW) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SHINING_THROW) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SHINING_THROW) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SHINING_THROW) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_THROWING, CHARA_PLAYER) > 59 & sorg(SKILL_NORMAL_MEDITATION, CHARA_PLAYER) > 29 ) {
@@ -322,7 +322,7 @@
 			spact(SKILL_SPACT_OVERLIMIT_THROW - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_OVERLIMIT_THROW) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_OVERLIMIT_THROW) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_OVERLIMIT_THROW) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_OVERLIMIT_THROW) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_CASTING, CHARA_PLAYER) > 9 & sorg(SKILL_NORMAL_MEMORIZATION, CHARA_PLAYER) > 9 ) {
@@ -330,7 +330,7 @@
 			spact(SKILL_SPACT_ADVANCED_CASTING - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ADVANCED_CASTING) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_ADVANCED_CASTING) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ADVANCED_CASTING) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_ADVANCED_CASTING) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MAGIC_DEVICE, CHARA_PLAYER) + sorg(SKILL_WEAPON_THROWING, CHARA_PLAYER) + sorg(SKILL_NORMAL_ALCHEMY, CHARA_PLAYER) + sorg(SKILL_NORMAL_LITERACY, CHARA_PLAYER) > 149 ) {
@@ -338,7 +338,7 @@
 			spact(SKILL_SPACT_QUICK_USE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_QUICK_USE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_QUICK_USE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_QUICK_USE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_QUICK_USE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_TACTICS, CHARA_PLAYER) > 59 ) {
@@ -346,7 +346,7 @@
 			spact(SKILL_SPACT_SHINING_WAVE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SHINING_WAVE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SHINING_WAVE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SHINING_WAVE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SHINING_WAVE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_TACTICS, CHARA_PLAYER) > 99 ) {
@@ -354,7 +354,7 @@
 			spact(SKILL_SPACT_SHADOW_RUSH - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SHADOW_RUSH) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SHADOW_RUSH) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SHADOW_RUSH) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SHADOW_RUSH) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MINING, CHARA_PLAYER) > 29 ) {
@@ -362,7 +362,7 @@
 			spact(SKILL_SPACT_HOUZANHA - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_HOUZANHA) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_HOUZANHA) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_HOUZANHA) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_HOUZANHA) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MARKSMAN, CHARA_PLAYER) > 29 ) {
@@ -370,7 +370,7 @@
 			spact(SKILL_SPACT_RAMPAGE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_RAMPAGE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_RAMPAGE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_RAMPAGE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_RAMPAGE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MARKSMAN, CHARA_PLAYER) > 49 ) {
@@ -378,7 +378,7 @@
 			spact(SKILL_SPACT_ZERO_SHOOT - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ZERO_SHOOT) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_ZERO_SHOOT) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ZERO_SHOOT) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_ZERO_SHOOT) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MARKSMAN, CHARA_PLAYER) > 39 ) {
@@ -386,7 +386,7 @@
 			spact(SKILL_SPACT_FIRE_A_VOLLEY - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_FIRE_A_VOLLEY) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_FIRE_A_VOLLEY) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_FIRE_A_VOLLEY) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_FIRE_A_VOLLEY) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_CASTING, CHARA_PLAYER) > 39 ) {
@@ -394,7 +394,7 @@
 			spact(SKILL_SPACT_MANA_BURST - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_MANA_BURST) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_MANA_BURST) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MANA_BURST) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_MANA_BURST) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_STEALTH, CHARA_PLAYER) > 19 ) {
@@ -402,7 +402,7 @@
 			spact(SKILL_SPACT_SHADOW_HOP - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SHADOW_HOP) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_SHADOW_HOP) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SHADOW_HOP) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_SHADOW_HOP) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_STEALTH, CHARA_PLAYER) > 29 ) {
@@ -410,7 +410,7 @@
 			spact(SKILL_SPACT_SHADOW_STEP - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SHADOW_STEP) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SHADOW_STEP) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SHADOW_STEP) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SHADOW_STEP) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_STEALTH, CHARA_PLAYER) > 39 ) {
@@ -418,7 +418,7 @@
 			spact(SKILL_SPACT_SHADOW_JUMP - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SHADOW_JUMP) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_SHADOW_JUMP) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SHADOW_JUMP) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_SHADOW_JUMP) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_STEALTH, CHARA_PLAYER) > 49 ) {
@@ -426,7 +426,7 @@
 			spact(SKILL_SPACT_CURTAIN_OF_SMOKE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_CURTAIN_OF_SMOKE) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_CURTAIN_OF_SMOKE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_CURTAIN_OF_SMOKE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_CURTAIN_OF_SMOKE) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_AXE, CHARA_PLAYER) > 9 ) {
@@ -434,7 +434,7 @@
 			spact(SKILL_SPACT_CUT_TREE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_CUT_TREE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_CUT_TREE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_CUT_TREE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_CUT_TREE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_FAITH, CHARA_PLAYER) > 9 ) {
@@ -442,7 +442,7 @@
 			spact(SKILL_SPACT_PREACHING - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_PREACHING) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_PREACHING) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_PREACHING) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_PREACHING) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MAGIC_CAPACITY, CHARA_PLAYER) > 19 ) {
@@ -450,7 +450,7 @@
 			spact(SKILL_SPACT_MAGIC_KISS - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_MAGIC_KISS) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_MAGIC_KISS) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MAGIC_KISS) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_MAGIC_KISS) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_PER, CHARA_PLAYER) > 59 ) {
@@ -458,7 +458,7 @@
 			spact(SKILL_SPACT_MIRROR - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_MIRROR) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_MIRROR) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MIRROR) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_MIRROR) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CHA, CHARA_PLAYER) > 9 ) {
@@ -466,7 +466,7 @@
 			spact(SKILL_SPACT_DIRECTIVE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DIRECTIVE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DIRECTIVE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DIRECTIVE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DIRECTIVE) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CHA, CHARA_PLAYER) > 4 ) {
@@ -474,7 +474,7 @@
 			spact(SKILL_SPACT_RUBBING - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_RUBBING) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_RUBBING) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_RUBBING) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_RUBBING) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CHA, CHARA_PLAYER) > 29 ) {
@@ -482,7 +482,7 @@
 			spact(SKILL_SPACT_CALL_FAMILIAR - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_CALL_FAMILIAR) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_CALL_FAMILIAR) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_CALL_FAMILIAR) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_CALL_FAMILIAR) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CHA, CHARA_PLAYER) > 49 ) {
@@ -490,7 +490,7 @@
 			spact(SKILL_SPACT_BEWITCH - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_BEWITCH) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_BEWITCH) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_BEWITCH) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_BEWITCH) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_STR, CHARA_PLAYER) > 29 ) {
@@ -498,7 +498,7 @@
 			spact(SKILL_SPACT_SQUEEZE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SQUEEZE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SQUEEZE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SQUEEZE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SQUEEZE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_LOCK_PICKING, CHARA_PLAYER) > 29 | sorg(SKILL_ATTR_STR, CHARA_PLAYER) > 59 ) {
@@ -506,7 +506,7 @@
 			spact(SKILL_SPACT_LOCK_BREAK - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_LOCK_BREAK) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_LOCK_BREAK) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_LOCK_BREAK) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_LOCK_BREAK) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_DEX, CHARA_PLAYER) > 29 ) {
@@ -514,7 +514,7 @@
 			spact(SKILL_SPACT_TICKLING_HELL - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_TICKLING_HELL) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_TICKLING_HELL) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_TICKLING_HELL) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_TICKLING_HELL) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_DEX, CHARA_PLAYER) > 39 ) {
@@ -522,7 +522,7 @@
 			spact(SKILL_SPACT_DISTURBANCE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DISTURBANCE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DISTURBANCE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DISTURBANCE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DISTURBANCE) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_MARTIAL_ARTS, CHARA_PLAYER) > 99 ) {
@@ -530,7 +530,7 @@
 			spact(SKILL_SPACT_CLEAR_MIND - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_CLEAR_MIND) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_CLEAR_MIND) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_CLEAR_MIND) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_CLEAR_MIND) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GARDENING, CHARA_PLAYER) >= 30 & trait(TRAIT_NORMAL_SPACT_MISTELTEIN) != 0 ) {
@@ -538,7 +538,7 @@
 			spact(SKILL_SPACT_VIOLENT_GARDEN - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_VIOLENT_GARDEN) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_VIOLENT_GARDEN) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_VIOLENT_GARDEN) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_VIOLENT_GARDEN) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GARDENING, CHARA_PLAYER) >= 60 & trait(TRAIT_NORMAL_SPACT_MISTELTEIN) != 0 ) {
@@ -546,7 +546,7 @@
 			spact(SKILL_SPACT_AROMAGEDDON - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_AROMAGEDDON) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_AROMAGEDDON) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_AROMAGEDDON) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_AROMAGEDDON) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_CONTROL_MAGIC, CHARA_PLAYER) > 19 & trait(TRAIT_NORMAL_SPACT_EYE_OF_MANA) != 0 ) {
@@ -554,7 +554,7 @@
 			spact(SKILL_SPACT_EYE_OF_ILLUSION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_EYE_OF_ILLUSION) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_EYE_OF_ILLUSION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_EYE_OF_ILLUSION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_EYE_OF_ILLUSION) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_MAG, CHARA_PLAYER) > 59 & trait(TRAIT_NORMAL_SPACT_EYE_OF_MANA) != 0 ) {
@@ -562,7 +562,7 @@
 			spact(SKILL_SPACT_ABYSS_IN_THE_EYE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ABYSS_IN_THE_EYE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_ABYSS_IN_THE_EYE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ABYSS_IN_THE_EYE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_ABYSS_IN_THE_EYE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GENE_ENGINEER, CHARA_PLAYER) > 9 & sorg(SKILL_ATTR_DEX, CHARA_PLAYER) > 29 ) {
@@ -570,7 +570,7 @@
 			spact(SKILL_SPACT_DIRECT_TRANSFUSION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DIRECT_TRANSFUSION) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_DIRECT_TRANSFUSION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DIRECT_TRANSFUSION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_DIRECT_TRANSFUSION) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GENE_ENGINEER, CHARA_PLAYER) > 24 & sorg(SKILL_ATTR_MAG, CHARA_PLAYER) > 49 ) {
@@ -578,7 +578,7 @@
 			spact(SKILL_SPACT_ELECTRIC_SHOCK - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ELECTRIC_SHOCK) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_ELECTRIC_SHOCK) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ELECTRIC_SHOCK) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_ELECTRIC_SHOCK) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GENE_ENGINEER, CHARA_PLAYER) > 44 & sorg(SKILL_NORMAL_TAILORING, CHARA_PLAYER) > 44 ) {
@@ -586,7 +586,7 @@
 			spact(SKILL_SPACT_INSTANT_SUTURE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_INSTANT_SUTURE) + "」の能力を得た。", "You have learned new ability, " + skillname(SKILL_SPACT_INSTANT_SUTURE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_INSTANT_SUTURE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned new ability, " + skillname(SKILL_SPACT_INSTANT_SUTURE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GENE_ENGINEER, CHARA_PLAYER) > 19 & trait(TRAIT_NORMAL_SPACT_TOUCH_OF_POISON) != 0 ) {
@@ -594,7 +594,7 @@
 			spact(SKILL_SPACT_HAZARD_RECIPE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_HAZARD_RECIPE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_HAZARD_RECIPE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_HAZARD_RECIPE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_HAZARD_RECIPE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GENE_ENGINEER, CHARA_PLAYER) > 39 & trait(TRAIT_NORMAL_SPACT_TOUCH_OF_POISON) != 0 ) {
@@ -602,7 +602,7 @@
 			spact(SKILL_SPACT_ANAPHYLAXIS - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ANAPHYLAXIS) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_ANAPHYLAXIS) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ANAPHYLAXIS) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_ANAPHYLAXIS) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_GENE_ENGINEER, CHARA_PLAYER) > 49 & sorg(SKILL_NORMAL_TACTICS, CHARA_PLAYER) > 19 & trait(TRAIT_NORMAL_SPACT_TOUCH_OF_POISON) != 0 ) {
@@ -610,7 +610,7 @@
 			spact(SKILL_SPACT_VENOTRATE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_VENOTRATE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_VENOTRATE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_VENOTRATE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_VENOTRATE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_CONTROL_MAGIC, CHARA_PLAYER) > 59 ) {
@@ -618,7 +618,7 @@
 			spact(SKILL_SPACT_FORMLESS_FETTER - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_FORMLESS_FETTER) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_FORMLESS_FETTER) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_FORMLESS_FETTER) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_FORMLESS_FETTER) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_CONTROL_MAGIC, CHARA_PLAYER) > 79 ) {
@@ -626,7 +626,7 @@
 			spact(SKILL_SPACT_OVERRAY - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_OVERRAY) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_OVERRAY) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_OVERRAY) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_OVERRAY) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_MARTIAL_ARTS, CHARA_PLAYER) > 19 ) {
@@ -634,7 +634,7 @@
 			spact(SKILL_SPACT_BODY_BLOW - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_BODY_BLOW) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_BODY_BLOW) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_BODY_BLOW) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_BODY_BLOW) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_MARTIAL_ARTS, CHARA_PLAYER) > 39 ) {
@@ -642,7 +642,7 @@
 			spact(SKILL_SPACT_ATTRIBUTE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ATTRIBUTE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_ATTRIBUTE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ATTRIBUTE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_ATTRIBUTE) + ".")
 		}
 	}
 	if ( sorg(SKILL_WEAPON_MARTIAL_ARTS, CHARA_PLAYER) > 29 ) {
@@ -650,7 +650,7 @@
 			spact(SKILL_SPACT_EXPLOSIVE_FIST - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_EXPLOSIVE_FIST) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_EXPLOSIVE_FIST) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_EXPLOSIVE_FIST) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_EXPLOSIVE_FIST) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_WIL, CHARA_PLAYER) > 39 ) {
@@ -658,7 +658,7 @@
 			spact(SKILL_SPACT_PRESSURE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_PRESSURE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_PRESSURE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_PRESSURE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_PRESSURE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_ALCHEMY, CHARA_PLAYER) > 29 ) {
@@ -666,7 +666,7 @@
 			spact(SKILL_SPACT_DUPLICANE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DUPLICANE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DUPLICANE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DUPLICANE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DUPLICANE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_ALCHEMY, CHARA_PLAYER) > 19 & (trait(TRAIT_NORMAL_SPACT_TOUCH_OF_SLEEP) != 0 | trait(TRAIT_NORMAL_SPACT_TOUCH_OF_POISON) != 0) ) {
@@ -674,7 +674,7 @@
 			spact(SKILL_SPACT_RESOLUTION_HAND - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_RESOLUTION_HAND) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_RESOLUTION_HAND) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_RESOLUTION_HAND) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_RESOLUTION_HAND) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_CONTROL_MAGIC, CHARA_PLAYER) > 39 & trait(TRAIT_NORMAL_SPACT_TOUCH_OF_SLEEP) != 0 ) {
@@ -682,7 +682,7 @@
 			spact(SKILL_SPACT_GROUP_HYPNOSIS - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_GROUP_HYPNOSIS) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_GROUP_HYPNOSIS) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_GROUP_HYPNOSIS) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_GROUP_HYPNOSIS) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_ALCHEMY, CHARA_PLAYER) > 39 & sorg(SKILL_NORMAL_CONTROL_MAGIC, CHARA_PLAYER) > 29 ) {
@@ -690,7 +690,7 @@
 			spact(SKILL_SPACT_LIQUID_MANIPULATION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_LIQUID_MANIPULATION) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_LIQUID_MANIPULATION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_LIQUID_MANIPULATION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_LIQUID_MANIPULATION) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_ALCHEMY, CHARA_PLAYER) > 59 ) {
@@ -698,7 +698,7 @@
 			spact(SKILL_SPACT_ALCHEMICAL_RAIN - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ALCHEMICAL_RAIN) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_ALCHEMICAL_RAIN) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ALCHEMICAL_RAIN) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_ALCHEMICAL_RAIN) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_PERFORMER, CHARA_PLAYER) > 29 ) {
@@ -706,7 +706,7 @@
 			spact(SKILL_SPACT_ENSEMBLE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_ENSEMBLE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_ENSEMBLE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_ENSEMBLE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_ENSEMBLE) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_FISHING, CHARA_PLAYER) > 29 ) {
@@ -714,7 +714,7 @@
 			spact(SKILL_SPACT_DIMENSION_FISHING - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_DIMENSION_FISHING) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_DIMENSION_FISHING) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_DIMENSION_FISHING) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_DIMENSION_FISHING) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_LER, CHARA_PLAYER) > 39 ) {
@@ -722,7 +722,7 @@
 			spact(SKILL_SPACT_READING_PARTY - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_READING_PARTY) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_READING_PARTY) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_READING_PARTY) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_READING_PARTY) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_INVESTING, CHARA_PLAYER) > 49 ) {
@@ -730,7 +730,7 @@
 			spact(SKILL_SPACT_GOLDEN_STORM - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_GOLDEN_STORM) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_GOLDEN_STORM) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_GOLDEN_STORM) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_GOLDEN_STORM) + ".")
 		}
 	}
 	if ( sorg(SKILL_ACTIVE_RIDING, CHARA_PLAYER) > 79 ) {
@@ -738,7 +738,7 @@
 			spact(SKILL_SPACT_HYPER_DASH - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_HYPER_DASH) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_HYPER_DASH) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_HYPER_DASH) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_HYPER_DASH) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_LIGHT_ARMOR, CHARA_PLAYER) > 34 & gdata(GDATA_FLAG_MAIN) >= 200 ) {
@@ -746,7 +746,7 @@
 			spact(SKILL_SPACT_EMERGENCY_EVASION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_EMERGENCY_EVASION) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_EMERGENCY_EVASION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_EMERGENCY_EVASION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_EMERGENCY_EVASION) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_MEDIUM_ARMOR, CHARA_PLAYER) > 34 & gdata(GDATA_FLAG_MAIN) >= 200 ) {
@@ -754,7 +754,7 @@
 			spact(SKILL_SPACT_MAGIC_EQUIP - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_MAGIC_EQUIP) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_MAGIC_EQUIP) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MAGIC_EQUIP) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_MAGIC_EQUIP) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_HEAVY_ARMOR, CHARA_PLAYER) > 34 & gdata(GDATA_FLAG_MAIN) >= 200 ) {
@@ -762,7 +762,7 @@
 			spact(SKILL_SPACT_SUPER_ARMOR - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SUPER_ARMOR) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SUPER_ARMOR) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SUPER_ARMOR) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SUPER_ARMOR) + ".")
 		}
 	}
 	if ( sorg(SKILL_NORMAL_SHIELD, CHARA_PLAYER) >= 34 & trait(TRAIT_NORMAL_OTHER_SHIELD_BASH) != 0 ) {
@@ -770,7 +770,7 @@
 			spact(SKILL_SPACT_SHIELD_PARRY - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SHIELD_PARRY) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SHIELD_PARRY) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SHIELD_PARRY) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SHIELD_PARRY) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_WIL, CHARA_PLAYER) >= 40 & trait(TRAIT_NORMAL_OTHER_GENTLE_FACE) != 0 ) {
@@ -778,7 +778,7 @@
 			spact(SKILL_SPACT_SMILE_FIELD - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_SMILE_FIELD) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_SMILE_FIELD) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_SMILE_FIELD) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_SMILE_FIELD) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_WIL, CHARA_PLAYER) >= 80 & trait(TRAIT_NORMAL_OTHER_GENTLE_FACE) != 0 ) {
@@ -786,7 +786,7 @@
 			spact(SKILL_SPACT_COWERING_SMILE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_COWERING_SMILE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_COWERING_SMILE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_COWERING_SMILE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_COWERING_SMILE) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CON, CHARA_PLAYER) >= 60 & trait(TRAIT_NORMAL_SPACT_GRAVITY_ACCEL) != 0 ) {
@@ -794,7 +794,7 @@
 			spact(SKILL_SPACT_GRAVITY_SPHERE - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_GRAVITY_SPHERE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_GRAVITY_SPHERE) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_GRAVITY_SPHERE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_GRAVITY_SPHERE) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CON, CHARA_PLAYER) >= 100 & trait(TRAIT_NORMAL_SPACT_GRAVITY_ACCEL) != 0 ) {
@@ -802,7 +802,7 @@
 			spact(SKILL_SPACT_GIGA_GRAVITATION - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_GIGA_GRAVITATION) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_GIGA_GRAVITATION) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_GIGA_GRAVITATION) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_GIGA_GRAVITATION) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CON, CHARA_PLAYER) >= 30 & trait(TRAIT_NORMAL_SPACT_FIRE_BREATH) != 0 ) {
@@ -810,7 +810,7 @@
 			spact(SKILL_SPACT_VARIABLE_BREATH - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_VARIABLE_BREATH) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_VARIABLE_BREATH) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_VARIABLE_BREATH) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_VARIABLE_BREATH) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CON, CHARA_PLAYER) >= 60 & sorg(SKILL_ATTR_MAG, CHARA_PLAYER) >= 60 & trait(TRAIT_NORMAL_SPACT_FIRE_BREATH) != 0 ) {
@@ -818,7 +818,7 @@
 			spact(SKILL_SPACT_MP_BREATH - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_MP_BREATH) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_MP_BREATH) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_MP_BREATH) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_MP_BREATH) + ".")
 		}
 	}
 	if ( sorg(SKILL_ATTR_CON, CHARA_PLAYER) >= 80 & sorg(SKILL_NORMAL_CONTROL_MAGIC, CHARA_PLAYER) >= 40 & trait(TRAIT_NORMAL_SPACT_FIRE_BREATH) != 0 ) {
@@ -826,7 +826,7 @@
 			spact(SKILL_SPACT_EXTERMINATION_BREATH - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_EXTERMINATION_BREATH) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_EXTERMINATION_BREATH) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_EXTERMINATION_BREATH) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "You have learned a new ability, " + skillname(SKILL_SPACT_EXTERMINATION_BREATH) + ".")
 		}
 	}
 	return
@@ -1737,47 +1737,47 @@
 		if ( strsize == 0 ) {
 			break
 		}
-		if ( s == "頭" ) {
+		if ( s == "“Є" ) {
 			cdata(p, rc) = 1 * 10000
 			p++
 			continue
 		}
-		if ( s == "首" ) {
+		if ( s == "Ћс" ) {
 			cdata(p, rc) = 2 * 10000
 			p++
 			continue
 		}
-		if ( s == "背" ) {
+		if ( s == "”w" ) {
 			cdata(p, rc) = 3 * 10000
 			p++
 			continue
 		}
-		if ( s == "体" ) {
+		if ( s == "‘М" ) {
 			cdata(p, rc) = 4 * 10000
 			p++
 			continue
 		}
-		if ( s == "手" ) {
+		if ( s == "Ћи" ) {
 			cdata(p, rc) = 5 * 10000
 			p++
 			continue
 		}
-		if ( s == "指" ) {
+		if ( s == "Ћw" ) {
 			cdata(p, rc) = 6 * 10000
 			p++
 			continue
 		}
-		if ( s == "腕" ) {
+		if ( s == "r" ) {
 			cdata(p, rc) = 7 * 10000
 			p++
 			continue
 		}
-		if ( s == "腰" ) {
+		if ( s == "Ќ" ) {
 			cdata(p, rc) = 8 * 10000
 			p++
 			continue
 		}
-		if ( s == "足" ) {
+		if ( s == "‘«" ) {
 			cdata(p, rc) = 9 * 10000
 			p++
 			continue
@@ -1943,13 +1943,13 @@
 				placefail = 0
 				if ( chipm(CHIPM_ATTRIB, map(x, y, 0)) & CHIPM_ATTRIB_CANT_PASS ) {
 					map(x, y, 0) = tile_tunnel
-					txt lang(name(rc) + "は壁を破壊した！", name(rc) + " crush" + _s(rc, 1) + " the wall!")
+					txt lang(name(rc) + "‚Н•З‚р”j‰у‚µ‚ЅЃI", name(rc) + " crush" + _s(rc, 1) + " the wall!")
 				}
 				if ( map(x, y, 6) != 0 ) {
 					cell_featread x, y
 					if ( feat(1) == CELL_FEATURE_DOOR_CLOSED ) {
 						cell_featset x, y, 0, 0, 0, 0
-						txt lang(name(rc) + "は扉を破壊した！", name(rc) + " crush" + _s(rc, 1) + " the door!")
+						txt lang(name(rc) + "‚Н”а‚р”j‰у‚µ‚ЅЃI", name(rc) + " crush" + _s(rc, 1) + " the door!")
 					}
 				}
 			}
@@ -1958,13 +1958,13 @@
 	if ( placefail == 1 ) {
 		if ( rc < MAX_CHARA_FOLLOWER ) {
 			cdata(CDATA_EXIST, rc) = CHAR_STATE_SUSPEND
-			txt lang(name(rc) + "とはぐれた。", name(rc) + " loses " + his(rc) + " way.")
+			txt lang(name(rc) + "‚Ж‚Н‚®‚к‚ЅЃB", name(rc) + " loses " + his(rc) + " way.")
 			if ( cdata(CDATA_IN_TAGTEAM, rc) != 0 ) {
 				cdata(CDATA_EXIST, cdata(CDATA_TAGTEAM_PARTNER, rc)) = CHAR_STATE_SUSPEND
 			}
 		}
 		else {
-			txt lang(name(rc) + "は何かに潰されて息絶えた。", name(rc) + " is killed.")
+			txt lang(name(rc) + "‚Н‰Ѕ‚©‚Й’Ч‚і‚к‚Д‘§ђв‚¦‚ЅЃB", name(rc) + " is killed.")
 			cdata(CDATA_EXIST, rc) = CHAR_STATE_DEAD
 		}
 		if ( cdata(CDATA_ROLE, rc) != ROLE_NONE ) {
@@ -2238,7 +2238,7 @@
 		gosub *db_creature
 	}
 	if ( cmshade ) {
-		cdatan(CDATAN_NAME, rc) = lang("シェイド", "shade")
+		cdatan(CDATAN_NAME, rc) = lang("ѓVѓFѓCѓh", "shade")
 		cdata(CDATA_PIC, rc) = xy2pic(16, 8)
 	}
 	if ( cdata(CDATA_ID, rc) != CREATURE_ID_FLOWER_CORAL ) {
@@ -2274,11 +2274,11 @@
 
 *chara_fix
 	if ( fixlv == FIX_QUALITY_MIRACLE ) {
-		cdatan(CDATAN_NAME, rc) = lang("『", "<") + cdatan(CDATAN_NAME, rc) + lang("』", ">")
+		cdatan(CDATAN_NAME, rc) = lang("Ѓw", "<") + cdatan(CDATAN_NAME, rc) + lang("Ѓx", ">")
 		cdata(CDATA_LEVEL, rc) = cdata(CDATA_LEVEL, rc) * 10 / 8
 	}
 	if ( fixlv == FIX_QUALITY_GODLY ) {
-		cdatan(CDATAN_NAME, rc) = lang("《", "{") + cdatan(CDATAN_NAME, rc) + lang("》", "}")
+		cdatan(CDATAN_NAME, rc) = lang("Ѓs", "{") + cdatan(CDATAN_NAME, rc) + lang("Ѓt", "}")
 		cdata(CDATA_LEVEL, rc) = cdata(CDATA_LEVEL, rc) * 10 / 6
 	}
 	return
@@ -2578,8 +2578,8 @@
 		cbitmod CHARA_BIT_EXCLUSIVE_SKILL_CHARGE, rc, 1
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_WEREWOLF & mdata(MDATA_TYPE) == MAP_TYPE_TOWN ) {
-		evname = lang("市民", "citizen")
-		evold = lang("人狼", "werewolf")
+		evname = lang("Ћs–Ї", "citizen")
+		evold = lang("ђlT", "werewolf")
 		if ( strmid(cdatan(CDATAN_NAME, rc), 0, strlen(evold)) == evold ) {
 			cdatan(CDATAN_NAME, rc) = evname + strmid(cdatan(CDATAN_NAME, rc), strlen(evold), strlen(cdatan(CDATAN_NAME, rc)) - strlen(evold))
 		} else {
@@ -2630,8 +2630,8 @@
 		}
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_WEREWOLF_DETECTIVE & mdata(MDATA_TYPE) == MAP_TYPE_TOWN ) {
-		evname = lang("探偵", "detective")
-		evold = lang("人狼探偵", "werewolf detective")
+		evname = lang("’T’г", "detective")
+		evold = lang("ђlT’T’г", "werewolf detective")
 		if ( strmid(cdatan(CDATAN_NAME, rc), 0, strlen(evold)) == evold ) {
 			cdatan(CDATAN_NAME, rc) = evname + strmid(cdatan(CDATAN_NAME, rc), strlen(evold), strlen(cdatan(CDATAN_NAME, rc)) - strlen(evold))
 		} else {
@@ -2645,8 +2645,8 @@
 		cdata(CDATA_PIC, rc) = xy2pic(22, 23)
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_FOX_SPIRIT & mdata(MDATA_TYPE) == MAP_TYPE_TOWN ) {
-		evname = lang("市民", "citizen")
-		evold = lang("妖狐", "fox spirit")
+		evname = lang("Ћs–Ї", "citizen")
+		evold = lang("—dЊП", "fox spirit")
 		if ( strmid(cdatan(CDATAN_NAME, rc), 0, strlen(evold)) == evold ) {
 			cdatan(CDATAN_NAME, rc) = evname + strmid(cdatan(CDATAN_NAME, rc), strlen(evold), strlen(cdatan(CDATAN_NAME, rc)) - strlen(evold))
 		} else {
@@ -2687,8 +2687,8 @@
 		}
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_SUNBARARIAN & mdata(MDATA_TYPE) == MAP_TYPE_TOWN ) {
-		evname = lang("市民", "citizen")
-		evold = lang("スンバラリア星人", "sunbararian")
+		evname = lang("Ћs–Ї", "citizen")
+		evold = lang("ѓXѓ“ѓoѓ‰ѓЉѓAђЇђl", "sunbararian")
 		if ( strmid(cdatan(CDATAN_NAME, rc), 0, strlen(evold)) == evold ) {
 			cdatan(CDATAN_NAME, rc) = evname + strmid(cdatan(CDATAN_NAME, rc), strlen(evold), strlen(cdatan(CDATAN_NAME, rc)) - strlen(evold))
 		} else {
@@ -2729,70 +2729,70 @@
 		}
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_ENTHUMESIS | cdata(CDATA_ID, rc) == CREATURE_ID_MIKRAANESIS ) {
-		cdatan(CDATAN_NEWSEX, rc) = lang("両性具有", "hermaphrodite")
+		cdatan(CDATAN_NEWSEX, rc) = lang("—јђ«‹п—L", "hermaphrodite")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_MILOS_OF_THE_FORGOTTEN_WORLD | cdata(CDATA_ID, rc) == CREATURE_ID_CARLA_OF_THE_FORGOTTEN_WORLD ) {
-		cdatan(CDATAN_CUSTOM_RACE, rc) = lang("エルシアの民", "elsia")
+		cdatan(CDATAN_CUSTOM_RACE, rc) = lang("ѓGѓ‹ѓVѓA‚М–Ї", "elsia")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_LOYTER_THE_CRIMSON_OF_DOLE | cdata(CDATA_ID, rc) == CREATURE_ID_NANCY_THE_WANDERLUST | cdata(CDATA_ID, rc) == CREATURE_ID_MANSON_THE_CAREFUL_ADVENTURER | cdata(CDATA_ID, rc) == CREATURE_ID_CRAY_THE_CURIOUS_ADVENTURER ) {
-		cdatan(CDATAN_CUSTOM_RACE, rc) = lang("ドール", "dole")
+		cdatan(CDATAN_CUSTOM_RACE, rc) = lang("ѓhЃ[ѓ‹", "dole")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_CARTER_THE_SKILLED_FOOT ) {
 		cdata(CDATA_MELEE_STYLE, rc) = 2
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_RIANNA_THE_DAYDREAMER ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("万事屋", "handyman")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("–њЋ–‰®", "handyman")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_GRASS_DANCER | cdata(CDATA_ID, rc) == CREATURE_ID_NECRO_DANCER ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("ダンサー", "dancer")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("ѓ_ѓ“ѓTЃ[", "dancer")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_KARAVIKA ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("アーティスト", "performer")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("ѓAЃ[ѓeѓBѓXѓg", "performer")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_AIKAGE_THE_SHINOBI_MASK | cdata(CDATA_ID, rc) == CREATURE_ID_RED_NINJA | cdata(CDATA_ID, rc) == CREATURE_ID_EILA_THE_FUGITIVE_KUNOICHI | cdata(CDATA_ID, rc) == CREATURE_ID_GETUEI_THE_NINJA_MASTER | cdata(CDATA_ID, rc) == CREATURE_ID_NIN_NINZIN | cdata(CDATA_ID, rc) == CREATURE_ID_FASHIONABLE_KUNOICHI ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("忍者", "ninja")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("”EЋТ", "ninja")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_ASSASSIN_LIZARD | cdata(CDATA_ID, rc) == CREATURE_ID_BUTTERSPY | cdata(CDATA_ID, rc) == CREATURE_ID_HELLSTLING | cdata(CDATA_ID, rc) == CREATURE_ID_ZANAN_ASSASSIN | cdata(CDATA_ID, rc) == CREATURE_ID_ALSAPIA_THE_MURDERER_MASK ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("暗殺者", "assassin")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("€ГЋEЋТ", "assassin")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_WANGNIN ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("風水師", "geomancer")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("•—ђ…Ћt", "geomancer")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_NEW_CITIZEN ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("元忍者", "tourist")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("Њі”EЋТ", "tourist")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_IRMA_THE_INDOMITABLE_SMITH | cdata(CDATA_ID, rc) == CREATURE_ID_THALIA_THE_STAR_VIEWER | cdata(CDATA_ID, rc) == CREATURE_ID_DAIN_THE_ELDER_OF_HILL | cdata(CDATA_ID, rc) == CREATURE_ID_ALCHEMIST_NAPLUS ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("クリエイター", "creator")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("ѓNѓЉѓGѓCѓ^Ѓ[", "creator")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_AMURDAD ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("管理者", "warden")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("ЉЗ—ќЋТ", "warden")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_TEACHER | cdata(CDATA_ID, rc) == CREATURE_ID_NAZUNA_THE_INSTRUCTOR | cdata(CDATA_ID, rc) == CREATURE_ID_MURDER_KNIGHT | cdata(CDATA_ID, rc) == CREATURE_ID_GOOSE | cdata(CDATA_ID, rc) == CREATURE_ID_BELPHAT_THE_COSMIC_SWORD ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("剣士", "fencer")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("Њ•Ћm", "fencer")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_MARY_THE_INSECT_MASTER | cdata(CDATA_ID, rc) == CREATURE_ID_ALICE_THE_BIG_ANT | cdata(CDATA_ID, rc) == CREATURE_ID_ERYSTIA_THE_SCHOLAR_OF_HISTORY ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("学者", "scholar")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("ЉwЋТ", "scholar")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_SHOPKEEPER_CROW | cdata(CDATA_ID, rc) == CREATURE_ID_YACATECT | cdata(CDATA_ID, rc) == CREATURE_ID_HYPER_YACATECT | cdata(CDATA_ID, rc) == CREATURE_ID_LEND_THE_TAKER | cdata(CDATA_ID, rc) == CREATURE_ID_BANKRUPT_GUO | cdata(CDATA_ID, rc) == CREATURE_ID_SHOPKEEPER | cdata(CDATA_ID, rc) == CREATURE_ID_SHOPKEEPER2 | cdata(CDATA_ID, rc) == CREATURE_ID_MANYTIA_THE_ADVENTURE_MERCHANT ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("商人", "merchant")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("Џ¤ђl", "merchant")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_LEAD_DEVELOPER_DR_GAVELA | cdata(CDATA_ID, rc) == CREATURE_ID_ICOLLE_THE_BIOLOGIST | cdata(CDATA_ID, rc) == CREATURE_ID_STRANGE_SCIENTIST | cdata(CDATA_ID, rc) == CREATURE_ID_MAD_SCIENTIST ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("博士", "doctor")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("”ЋЋm", "doctor")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_MINER ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("労働者", "worker")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("J“­ЋТ", "worker")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_FISHERMAN ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("漁師", "fisherman")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("‹™Ћt", "fisherman")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_LUNE_THE_MAID_CHIEF | cdata(CDATA_ID, rc) == CREATURE_ID_MAIDSANN | cdata(CDATA_ID, rc) == CREATURE_ID_MAID | (cdata(CDATA_ID, rc) >= CREATURE_ID_PERFORMAID_BLOODRESS & cdata(CDATA_ID, rc) <= CREATURE_ID_PERFORMAID_BITCHIACK) ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("使用人", "employee")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("Ћg—pђl", "employee")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_SHENA_THE_DRAW ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("給仕", "waitress")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("‹‹Ћd", "waitress")
 	}
 	if ( cdata(CDATA_ID, rc) == CREATURE_ID_STERSHA_THE_QUEEN_OF_PALMIA | cdata(CDATA_ID, rc) == CREATURE_ID_XABI_THE_KING_OF_PALMIA | cdata(CDATA_ID, rc) == CREATURE_ID_TUWEN_THE_MASTER_OF_THE_PYRAMID ) {
-		cdatan(CDATAN_FAKE_CLASS, rc) = lang("君主", "monarch")
+		cdatan(CDATAN_FAKE_CLASS, rc) = lang("ЊNЋе", "monarch")
 	}
 	cm = 0
 	return
@@ -2860,7 +2860,7 @@
 	cdata(CDATA_AREA, rc) = AREA_NONE
 	snd SOUNDLIST_PRAY1
 	txtef COLOR_YELLOW
-	txt cnven(cdatan(CDATAN_NAME, rc)) + lang("が現れた！", " " + have(rc) + " been resurrected!")
+	txt cnven(cdatan(CDATAN_NAME, rc)) + lang("‚ЄЊ»‚к‚ЅЃI", " " + have(rc) + " been resurrected!")
 	return
 
 *resurrect
@@ -2962,7 +2962,7 @@
 		cmRace	="elea"
 		cmClass	="warrior"
 		cmName	="Noa"
-		cmAka	="デベロッパー"
+		cmAka	="ѓfѓxѓЌѓbѓpЃ["
 		repeat 8
 		cmStats(cnt)=18*1000000
 		loop
@@ -3001,7 +3001,7 @@
 		pos 0, 0
 		gcopy 4, 0, 0, windoww, windowh
 		gmode 2
-		s = lang("これ以上は冒険者を保存できない。", "Save slots are full. You have to delete some of your adventurers.")
+		s = lang("‚±‚к€ИЏг‚Н–`ЊЇЋТ‚р•Ы‘¶‚Е‚«‚И‚ўЃB", "Save slots are full. You have to delete some of your adventurers.")
 		gosub *screen_drawMsg2
 		redraw 1
 *cm_init_WHILE1
@@ -3025,7 +3025,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("まずは君の通り名を教えてくれるかい。", "Choose your Alias.")
+	s = lang("‚Ь‚ё‚НЊN‚М’К‚и–ј‚р‹і‚¦‚Д‚­‚к‚й‚©‚ўЃB", "Выберите свой Псевдоним. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3042,7 +3042,7 @@
 *cm_aka_WHILE1
 	redraw 0
 	if ( cs != cs_bk ) {
-		s = lang("異名の選択", "Alias Selection"), strhint3b
+		s = lang("€Щ–ј‚М‘I‘р", "Выбор Псевдонима "), strhint3b
 		display_window (windoww - 400) / 2 + inf_screenx, winposy(458, 1) + 20, 400, 458
 		cmbg++
 		x = ww / 3 * 2
@@ -3051,7 +3051,7 @@
 		pos wx + ww / 2, wy + wh / 2
 		grotate 2, cmbg / 4 \ 4 * 180, cmbg / 4 / 4 \ 2 * 300, 0, x, y
 		gmode 2
-		display_topic lang("異名の候補", "Alias List"), wx + 28, wy + 30
+		display_topic lang("€Щ–ј‚МЊу•в", "Список Псевдонимов "), wx + 28, wy + 30
 		font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 		color 0, 0, 0
 		repeat 17
@@ -3066,7 +3066,7 @@
 				}
 			}
 			if ( cnt == 0 ) {
-				listn(0, cnt) = lang("リロール", "Reroll")
+				listn(0, cnt) = lang("ѓЉѓЌЃ[ѓ‹", "Реролл ")
 			}
 			pos wx + 38, wy + 66 + cnt * 19 - 2
 			gcopy 3, cnt * 24 + 72, 30, 24, 18
@@ -3125,7 +3125,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("君の経歴を教えてくれるかな。内緒にしてもいいけれど。", "Mind telling me your history? It's fine if you want to keep it a secret though.")
+	s = lang("ЊN‚МЊo—р‚р‹і‚¦‚Д‚­‚к‚й‚©‚ИЃB“аЏЏ‚Й‚µ‚Д‚а‚ў‚ў‚Ї‚к‚ЗЃB", "Не расскажете мне свою историю? Если Вы хотите сохранить ее в тайне, это не страшно. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3137,24 +3137,24 @@
 	}
 	listmax = 0
 	list(0, 0) = 0
-	listn(0, 0) = lang("決定する", "Proceed")
+	listn(0, 0) = lang("Њ€’и‚·‚й", "Продолжить ")
 	listmax++
 	list(0, 1) = 0
-	listn(0, 1) = lang("内緒にする", "Keep it secret")
+	listn(0, 1) = lang("“аЏЏ‚Й‚·‚й", "Хранить в тайне ")
 	listmax++
 	list(0, 2) = 0
-	listn(0, 2) = lang("全リロール", "Reroll all")
+	listn(0, 2) = lang("‘SѓЉѓЌЃ[ѓ‹", "Реролл все ")
 	listmax++
 	list(0, 3) = 0
-	listn(0, 3) = lang("前半リロール", "Reroll first half")
+	listn(0, 3) = lang("‘O”јѓЉѓЌЃ[ѓ‹", "Реролл первую половину ")
 	listmax++
 	list(0, 4) = 0
-	listn(0, 4) = lang("後半リロール", "Reroll second half")
+	listn(0, 4) = lang("Њг”јѓЉѓЌЃ[ѓ‹", "Реролл вторую половину ")
 	listmax++
 	windowshadow = 1
 *cm_past_loop
 	redraw 0
-	s = lang("経歴のロール", "Background Reroll"), strhint3b
+	s = lang("Њo—р‚МѓЌЃ[ѓ‹", "Реролл Предыстории "), strhint3b
 	display_window (windoww - 360) / 2 + inf_screenx, winposy(352, 1) - 20, 360, 352
 	x = 150
 	y = 240
@@ -3187,7 +3187,7 @@
 		pos wx + 75, wy + 200 + 4 * 15
 		mes s
 	}
-	display_topic lang("経歴", "Background"), wx + 28, wy + 30
+	display_topic lang("Њo—р", "Предыстория "), wx + 28, wy + 30
 	color 0, 0, 0
 	repeat 5
 		key_list(cnt) = key_select(cnt)
@@ -3270,7 +3270,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("種族によっては装備箇所に制限があったりするから注意だよ。", "Welcome traveler, I've been looking for you.")
+	s = lang("Ћн‘°‚Й‚ж‚Б‚Д‚Н‘•”х‰УЏЉ‚Йђ§ЊА‚Є‚ ‚Б‚Ѕ‚и‚·‚й‚©‚з’Ќ€У‚ѕ‚жЃB", "Добро пожаловать, путешественник, я искал тебя. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3304,7 +3304,7 @@
 *cm_race_loop
 	redraw 0
 	if ( cs != cs_bk ) {
-		s = lang("種族の選択", "Race Selection"), strhint3b
+		s = lang("Ћн‘°‚М‘I‘р", "Выбор Расы "), strhint3b
 		display_window (windoww - 680) / 2 + inf_screenx, winposy(500, 1) + 20, 680, 500
 		cmbg++
 		x = ww / 5 * 2
@@ -3313,8 +3313,8 @@
 		pos wx + ww / 4, wy + wh / 2
 		grotate 2, cmbg / 4 \ 4 * 180, cmbg / 4 / 4 \ 2 * 300, 0, x, y
 		gmode 2
-		display_topic lang("選択できる種族", "Race"), wx + 28, wy + 30
-		display_topic lang("種族の説明", "Detail"), wx + 188, wy + 30
+		display_topic lang("‘I‘р‚Е‚«‚йЋн‘°", "Раса "), wx + 28, wy + 30
+		display_topic lang("Ћн‘°‚Мђа–ѕ", "Детали "), wx + 188, wy + 30
 		font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 		color 0, 0, 0
 		repeat pagesize
@@ -3393,10 +3393,10 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("種族名を変更する？", "Will you change name of race?")
+	s = lang("Ћн‘°–ј‚р•ПЌX‚·‚йЃH", "Будете ли вы менять название расы? ")
 	gosub *screen_drawMsg2
-	promptAdd lang("はい", "Yes"), "a"
-	promptAdd lang("いいえ", "No"), "b"
+	promptAdd lang("‚Н‚ў", "Да "), "a"
+	promptAdd lang("‚ў‚ў‚¦", "Нет "), "b"
 	val = promptx, 240, 160, 1
 	gosub *prompt_key
 	snd SOUNDLIST_OK1
@@ -3419,7 +3419,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("新しい種族は？", "What's a new name of race?")
+	s = lang("ђV‚µ‚ўЋн‘°‚НЃH", "Каково новое имя расы? ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3447,7 +3447,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("性別による能力の違いはない。", "What's your gender?")
+	s = lang("ђ«•К‚Й‚ж‚й”\—Н‚М€б‚ў‚Н‚И‚ўЃB", "Каков ваш Гендер? ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3460,7 +3460,7 @@
 	windowshadow = 1
 *cm_sex_WHILE1
 	redraw 0
-	s = lang("性別の選択", "Gender Selection"), strhint3b
+	s = lang("ђ«•К‚М‘I‘р", "Выбор Гендера "), strhint3b
 	display_window (windoww - 370) / 2 + inf_screenx, winposy(168, 1) - 20, 370, 268
 	x = ww / 2
 	y = wh - 60
@@ -3468,13 +3468,13 @@
 	pos wx + ww / 2, wy + wh / 2
 	grotate 2, 0, 0, 0, x, y
 	gmode 2
-	display_topic lang("性別の候補", "Gender"), wx + 28, wy + 30
+	display_topic lang("ђ«•К‚МЊу•в", "Гендер "), wx + 28, wy + 30
 	listn(0, 0) = cnven(strmale)
 	listn(0, 1) = cnven(strfemale)
-	listn(0, 2) = cnven(lang("自称男性", "male?"))
-	listn(0, 3) = cnven(lang("自称女性", "female?"))
-	listn(0, 4) = cnven(lang("両性具有", "hermaphrodite"))
-	listn(0, 5) = cnven(lang("性別不明", "unknown"))
+	listn(0, 2) = cnven(lang("Ћ©ЏМ’jђ«", "Мужчина? "))
+	listn(0, 3) = cnven(lang("Ћ©ЏМЏ—ђ«", "Женщина? "))
+	listn(0, 4) = cnven(lang("—јђ«‹п—L", "Гермафродит "))
+	listn(0, 5) = cnven(lang("ђ«•К•s–ѕ", "Неизвестно "))
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 	repeat 6
 		key_list(cnt) = key_select(cnt)
@@ -3500,22 +3500,22 @@
 	}
 	if ( key == key_select(2) ) {
 		cmsex = SEX_FEMALE
-		zisyousex = lang("自称男性", "male?")
+		zisyousex = lang("Ћ©ЏМ’jђ«", "Мужчина? ")
 		goto *cm_sex_WEND1
 	}
 	if ( key == key_select(3) ) {
 		cmsex = SEX_MALE
-		zisyousex = lang("自称女性", "female?")
+		zisyousex = lang("Ћ©ЏМЏ—ђ«", "Женщина? ")
 		goto *cm_sex_WEND1
 	}
 	if ( key == key_select(4) ) {
 		cmsex = SEX_FEMALE
-		zisyousex = lang("両性具有", "hermaphrodite")
+		zisyousex = lang("—јђ«‹п—L", "Гермафродит ")
 		goto *cm_sex_WEND1
 	}
 	if ( key == key_select(5) ) {
 		cmsex = SEX_MALE
-        zisyousex = lang("性別不明", "unknown")
+        zisyousex = lang("ђ«•К•s–ѕ", "Неизвестно ")
  		goto *cm_sex_WEND1
 	}
 	if ( key == key_cancel ) {
@@ -3543,10 +3543,10 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("性別名を変更する？", "Will you change name of gender?")
+	s = lang("ђ«•К–ј‚р•ПЌX‚·‚йЃH", "Будете ли вы менять название гендера? ")
 	gosub *screen_drawMsg2
-	promptAdd lang("はい", "Yes"), "a"
-	promptAdd lang("いいえ", "No"), "b"
+	promptAdd lang("‚Н‚ў", "Да "), "a"
+	promptAdd lang("‚ў‚ў‚¦", "Нет "), "b"
 	val = promptx, 240, 160, 1
 	gosub *prompt_key
 	snd SOUNDLIST_OK1
@@ -3568,7 +3568,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("新しい性別は？", "What's a new name of gender?")
+	s = lang("ђV‚µ‚ўђ«•К‚НЃH", "Каково новое название гендера? ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3597,7 +3597,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("職業や種族は、初期の能力だけでなく、成長の方向性に影響するんだ。", "Your class and race determine growth rate of your skills and attributes.")
+	s = lang("ђE‹Ж‚вЋн‘°‚НЃAЏ‰Љъ‚М”\—Н‚ѕ‚Ї‚Е‚И‚­ЃAђ¬’·‚М•ыЊьђ«‚Й‰e‹ї‚·‚й‚с‚ѕЃB", "Ваш класс и раса определяют скорость роста ваших навыков и атрибутов. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3619,7 +3619,7 @@
 *cm_class_WHILE1
 	if ( cs != cs_bk ) {
 		redraw 0
-		s = lang("職業の選択", "Class Selection"), strhint3b
+		s = lang("ђE‹Ж‚М‘I‘р", "Выбор Класса "), strhint3b
 		display_window (windoww - 680) / 2 + inf_screenx, winposy(500, 1) + 20, 680, 500
 		cmbg++
 		x = ww / 5 * 2
@@ -3628,8 +3628,8 @@
 		pos wx + ww / 4, wy + wh / 2
 		grotate 2, cmbg / 4 \ 4 * 180, cmbg / 4 / 4 \ 2 * 300, 0, x, y
 		gmode 2
-		display_topic lang("選択できる職業", "Class"), wx + 28, wy + 30
-		display_topic lang("職業の説明", "Detail"), wx + 188, wy + 30
+		display_topic lang("‘I‘р‚Е‚«‚йђE‹Ж", "Класс "), wx + 28, wy + 30
+		display_topic lang("ђE‹Ж‚Мђа–ѕ", "Детали "), wx + 188, wy + 30
 		font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 		color 0, 0, 0
 		repeat listmax
@@ -3696,10 +3696,10 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("職業名を変更する？", "Will you change name of class?")
+	s = lang("ђE‹Ж–ј‚р•ПЌX‚·‚йЃH", "Будете ли вы менять название класса? ")
 	gosub *screen_drawMsg2
-	promptAdd lang("はい", "Yes"), "a"
-	promptAdd lang("いいえ", "No"), "b"
+	promptAdd lang("‚Н‚ў", "Да "), "a"
+	promptAdd lang("‚ў‚ў‚¦", "Нет "), "b"
 	val = promptx, 240, 160, 1
 	gosub *prompt_key
 	snd SOUNDLIST_OK1
@@ -3723,7 +3723,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("新しい職業は？", "What's a new name of class?")
+	s = lang("ђV‚µ‚ўђE‹Ж‚НЃH", "Каково новое название класса? ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3751,7 +3751,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("君の特筆すべき才能を1つ、教えてほしいな。印がついているのは種族・職業と被っているものだね。", "I want you to tell me one of your notable skills. The ones with a mark overlap with your class or race.")
+	s = lang("ЊN‚М“Б•M‚·‚Ч‚«ЌЛ”\‚р1‚ВЃA‹і‚¦‚Д‚Щ‚µ‚ў‚ИЃB€у‚Є‚В‚ў‚Д‚ў‚й‚М‚НЋн‘°ЃEђE‹Ж‚Ж”н‚Б‚Д‚ў‚й‚а‚М‚ѕ‚ЛЃB", "Я хочу, чтобы вы рассказали мне об одном из ваших выдающихся навыков. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3792,7 +3792,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("死にたくないなら、ある程度の能力は必要だね。", "You should prepare well, if you want to survive long enough in Irva.")
+	s = lang("ЋЂ‚Й‚Ѕ‚­‚И‚ў‚И‚зЃA‚ ‚й’ц“x‚М”\—Н‚Н•K—v‚ѕ‚ЛЃB", "Вы должны хорошо подготовиться, если хотите выжить в Ирве достаточно долго. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3818,10 +3818,10 @@
 	loop
 	listmax = 0
 	list(0, 0) = 0
-	listn(0, 0) = lang("決定する", "Proceed")
+	listn(0, 0) = lang("Њ€’и‚·‚й", "Продолжить ")
 	listmax++
 	list(0, 1) = 0
-	listn(0, 1) = lang("リロール", "Reroll")
+	listn(0, 1) = lang("ѓЉѓЌЃ[ѓ‹", "Реролл ")
 	listmax++
 	repeat MAX_SKILL_ATTR_BASIC, STARTING_SKILL_ATTR
 		chatList cmstats(cnt - STARTING_SKILL_ATTR), skillname(cnt)
@@ -3829,7 +3829,7 @@
 	windowshadow = 1
 *cm_stats_WHILE1
 	redraw 0
-	s = lang("能力のロール", "Attribute Reroll"), strhint3b
+	s = lang("”\—Н‚МѓЌЃ[ѓ‹", "Реролл Атрибутов "), strhint3b
 	display_window (windoww - 360) / 2 + inf_screenx, winposy(352, 1) - 20, 360, 352
 	x = 150
 	y = 240
@@ -3837,14 +3837,14 @@
 	pos wx + 85, wy + wh / 2
 	grotate 2, 0, 0, 0, x, y
 	gmode 2
-	display_topic lang("能力", "Attributes"), wx + 28, wy + 30
+	display_topic lang("”\—Н", "Атрибуты "), wx + 28, wy + 30
 	color 0, 0, 0
 	font lang(cfg_font1, cfg_font2), 12 + sizefix - en * 2, 0
 	pos wx + 175, wy + 52
-	mes lang("ロックされた能力は\n変化しません", "Locked items will\nnot change.")
+	mes lang("ѓЌѓbѓN‚і‚к‚Ѕ”\—Н‚Н\n•П‰»‚µ‚Ь‚№‚с", "Заблокированные пункты\n не изменяются. ")
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos wx + 180, wy + 84
-	mes lang("残りロック: ", "Locks left: ") + cmlock(8)
+	mes lang("Ћc‚иѓЌѓbѓN: ", "Осталось Блокировок:  ") + cmlock(8)
 	repeat 10
 		key_list(cnt) = key_select(cnt)
 		keyrange = cnt + 1
@@ -3864,7 +3864,7 @@
 				font lang(cfg_font1, cfg_font2), 12 - en * 2, 1
 				pos wx + 240, wy + 66 + cnt * 23 + 2
 				color 20, 20, 140
-				mes "Locked!"
+				mes "Заблокировано! "
 			}
 		}
 	loop
@@ -3922,7 +3922,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("フィートとは、君の持っている有益な特徴だ。3つまで選べるよ。", "Choose your feats wisely.")
+	s = lang("ѓtѓBЃ[ѓg‚Ж‚НЃAЊN‚МЋќ‚Б‚Д‚ў‚й—L‰v‚И“Б’Ґ‚ѕЃB3‚В‚Ь‚Е‘I‚Ч‚й‚жЃB", "Выбирайте свои подвиги с умом. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3948,7 +3948,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("君の見た目を知っておきたいな。まあ、後からいつでも変えられるけどね。", "What do you look like? Don't worry, you can change it later.")
+	s = lang("ЊN‚МЊ©‚Ѕ–Ъ‚р’m‚Б‚Д‚Ё‚«‚Ѕ‚ў‚ИЃB‚Ь‚ ЃAЊг‚©‚з‚ў‚В‚Е‚а•П‚¦‚з‚к‚й‚Ї‚З‚ЛЃB", "Как вы выглядите? Не волнуйтесь, вы можете изменить это позже. ")
 	gosub *screen_drawMsg2
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 1
 	pos 20, windowh - 20
@@ -3994,18 +3994,18 @@
 
 *cm_gamemode
 	redraw 0
-	s = lang("モードの選択", "Balance Selection"), strhint3b
+	s = lang("ѓ‚Ѓ[ѓh‚М‘I‘р", "Выбор Баланса"), strhint3b
 	display_window (windoww - 680) / 2 + inf_screenx, winposy(500, 1) + 20, 680, 500
-	display_topic lang("モードの候補", "Mode"), wx + 28, wy + 30
-	display_topic lang("各モードの説明", "Detail"), wx + 178, wy + 30
-	s = lang("あえて険しい道を行くのも君の自由だ。", "You can choose any way.")
+	display_topic lang("ѓ‚Ѓ[ѓh‚МЊу•в", "Режим "), wx + 28, wy + 30
+	display_topic lang("Љeѓ‚Ѓ[ѓh‚Мђа–ѕ", "Детали "), wx + 178, wy + 30
+	s = lang("‚ ‚¦‚ДЊЇ‚µ‚ў“№‚рЌs‚­‚М‚аЊN‚МЋ©—R‚ѕЃB", "Вы можете выбрать любой путь. ")
 	gosub *screen_drawMsg2
-	listn(0, 0) = lang("Essential", "Essential")
-	listn(0, 1) = lang("Loss", "Loss")
-	listn(0, 2) = lang("Overdose", "Overdose")
-	listn(0, 3) = lang("Natural", "Natural")
-	listn(0, 4) = lang("Abnormal", "Abnormal")
-	listn(0, 5) = lang("Purge", "Purge")
+	listn(0, 0) = lang("Essential", "Основной ")
+	listn(0, 1) = lang("Loss", "Проигрыш ")
+	listn(0, 2) = lang("Overdose", "Передозировка ")
+	listn(0, 3) = lang("Natural", "Природный ")
+	listn(0, 4) = lang("Abnormal", "Аномальный ")
+	listn(0, 5) = lang("Purge", "Судная Ночь ")
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 	repeat 6
 		key_list(cnt) = key_select(cnt)
@@ -4016,96 +4016,96 @@
 	loop
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 0
 	if ( listn(0, cs) == listn(0, 0) ) {
-		s = lang("★Essentialモードはこのソフトの本質的なモードで、", "Essential is the primary mode of the game, which all other modes")
+		s = lang("ЃљEssentialѓ‚Ѓ[ѓh‚Н‚±‚Мѓ\ѓtѓg‚М–{Ћї“I‚Иѓ‚Ѓ[ѓh‚ЕЃA", "Основной - это основной режим игры, на котором базируются все остальные ")
 		pos wx + 165, wy + 66
 		mes s
-		s = lang("他のゲームモードは全てこれがベースになっています。", "are based on. Balances changes are constantly made based on this mode")
+		s = lang("‘ј‚МѓQЃ[ѓЂѓ‚Ѓ[ѓh‚Н‘S‚Д‚±‚к‚ЄѓxЃ[ѓX‚Й‚И‚Б‚Д‚ў‚Ь‚·ЃB", "режимы. На основе этого режима постоянно вносятся изменения в баланс, ")
 		pos wx + 165, wy + 81
 		mes s
-		s = lang("システム面の穴を埋め同格要素の差を縮める方向で調整が常に行われており、", "in order to bring various gameplay elements in line with each other.")
+		s = lang("ѓVѓXѓeѓЂ–К‚МЊЉ‚р–„‚Я“ЇЉi—v‘f‚МЌ·‚рЏk‚Я‚й•ыЊь‚Е’Іђ®‚ЄЏн‚ЙЌs‚н‚к‚Д‚Ё‚иЃA", "чтобы привести различные элементы игрового процесса в соответствие ")
 		pos wx + 165, wy + 96
 		mes s
-		s = lang("バランス変動が多い反面、ロールプレイとある程度の実益を両立したい人、", "Despite balance changes, this mode is good for those who wish to")
+		s = lang("ѓoѓ‰ѓ“ѓX•П“®‚Є‘Ѕ‚ў”Ѕ–КЃAѓЌЃ[ѓ‹ѓvѓЊѓC‚Ж‚ ‚й’ц“x‚МЋА‰v‚р—ј—§‚µ‚Ѕ‚ўђlЃA", "друг с другом. Несмотря на изменения баланса, этот режим хорош для тех, ")
 		pos wx + 165, wy + 111
 		mes s
-		s = lang("育成に力を入れたい人におすすめです。", "roleplay while having a challenge and a sense of achievement.")
+		s = lang("€зђ¬‚Й—Н‚р“ь‚к‚Ѕ‚ўђl‚Й‚Ё‚·‚·‚Я‚Е‚·ЃB", "кто хочет играть в ролевые игры, получая при этом удовольствие. ")
 		pos wx + 165, wy + 126
 		mes s
 	}
 	if ( listn(0, cs) == listn(0, 1) ) {
-		s = lang("★Lossモードはデータ喪失の危険性が非常に高いモードです。", "Loss mode is a mode in which chance of data loss is very high.")
+		s = lang("ЃљLossѓ‚Ѓ[ѓh‚НѓfЃ[ѓ^‘rЋё‚МЉлЊЇђ«‚Є”сЏн‚ЙЌ‚‚ўѓ‚Ѓ[ѓh‚Е‚·ЃB", "Проигрыш - это режим, в котором вероятность потери данных очень высока. ")
 		pos wx + 165, wy + 66
 		mes s
-		s = lang("一度死ねば、這い上がることはできずそこで終了。", "In loss mode, player death is permanent, and the save data")
+		s = lang("€к“xЋЂ‚Л‚ОЃA”‡‚ўЏг‚Є‚й‚±‚Ж‚Н‚Е‚«‚ё‚»‚±‚ЕЏI—№ЃB", "В режиме проигрыша смерть игрока является необратимой, и сохраненные ")
 		pos wx + 165, wy + 81
 		mes s
-		s = lang("そのセーブデータを読み込めなくなるのが特徴です。", "will no longer be available. Exiting without using the save and")
+		s = lang("‚»‚МѓZЃ[ѓuѓfЃ[ѓ^‚р“З‚ЭЌћ‚Я‚И‚­‚И‚й‚М‚Є“Б’Ґ‚Е‚·ЃB", "данные больше не будут доступны. Выход без использования сохранения и ")
 		pos wx + 165, wy + 96
 		mes s
-		s = lang("さらにEscキーかSでのセーブで終了しないとロード時にペナルティがあります。", "exit option from the ESC menu will result in a penalty at load time.")
+		s = lang("‚і‚з‚ЙEscѓLЃ[‚©S‚Е‚МѓZЃ[ѓu‚ЕЏI—№‚µ‚И‚ў‚ЖѓЌЃ[ѓhЋћ‚Йѓyѓiѓ‹ѓeѓB‚Є‚ ‚и‚Ь‚·ЃB", "опция выхода из меню ESC приведет к штрафу при загрузке. Этот режим для ")
 		pos wx + 165, wy + 111
 		mes s
-		s = lang("ローグライク本格派の人以外にはおすすめできません。", "This mode is for those who want the authentic roguelike experience.")
+		s = lang("ѓЌЃ[ѓOѓ‰ѓCѓN–{Љi”h‚Мђl€ИЉO‚Й‚Н‚Ё‚·‚·‚Я‚Е‚«‚Ь‚№‚сЃB", "тех, кто хочет получить подлинные впечатления от игры в стиле roguelike. ")
 		pos wx + 165, wy + 126
 		mes s
 	}
 	if ( listn(0, cs) == listn(0, 2) ) {
-		s = lang("★Overdoseモードは基本部分はEssentialそのままに、得られる", "Overdose is almost the same as Essential, but all experience gains")
+		s = lang("ЃљOverdoseѓ‚Ѓ[ѓh‚НЉо–{•”•Є‚НEssential‚»‚М‚Ь‚Ь‚ЙЃA“ѕ‚з‚к‚й", "Overdose is almost the same as Essential, but all experience gains")
 		pos wx + 165, wy + 66
 		mes s
-		s = lang("能力経験値、スキル経験値、魔法経験値が大幅増加する超低難度モードです。", "(skill, magic, level) can be increased. The default is 3x, and")
+		s = lang("”\—НЊoЊ±’lЃAѓXѓLѓ‹ЊoЊ±’lЃA–‚–@ЊoЊ±’l‚Є‘е•ќ‘ќ‰Б‚·‚й’ґ’б“п“xѓ‚Ѓ[ѓh‚Е‚·ЃB", "(skill, magic, level) can be increased. The default is 3x, and")
 		pos wx + 165, wy + 81
 		mes s
-		s = lang("デフォルトの増加倍率は3倍ですが、とある場所で最大30倍にまで変更可能。", "it can be changed up to 30x at a certain place. In other words,")
+		s = lang("ѓfѓtѓHѓ‹ѓg‚М‘ќ‰Б”{—¦‚Н3”{‚Е‚·‚ЄЃA‚Ж‚ ‚йЏкЏЉ‚ЕЌЕ‘е30”{‚Й‚Ь‚Е•ПЌX‰В”\ЃB", "it can be changed up to 30x at a certain place. In other words,")
 		pos wx + 165, wy + 96
 		mes s
-		s = lang("じっくり楽しまずにさっさとクリアしたい、とにかく楽をしたいなど、", "it's easy mode. This mode is best for those who just want to take it easy")
+		s = lang("‚¶‚Б‚­‚иЉy‚µ‚Ь‚ё‚Й‚і‚Б‚і‚ЖѓNѓЉѓA‚µ‚Ѕ‚ўЃA‚Ж‚Й‚©‚­Љy‚р‚µ‚Ѕ‚ў‚И‚ЗЃA", "it's easy mode. This mode is best for those who just want to take it easy")
 		pos wx + 165, wy + 111
 		mes s
-		s = lang("飽きが早くなることを問題としない人にのみ、おすすめです。", "and clear the game, or those who quickly get bored. Be warned that after")
+		s = lang("–O‚«‚Є‘Ѓ‚­‚И‚й‚±‚Ж‚р–в‘и‚Ж‚µ‚И‚ўђl‚Й‚М‚ЭЃA‚Ё‚·‚·‚Я‚Е‚·ЃB", "and clear the game, or those who quickly get bored. Be warned that after")
 		pos wx + 165, wy + 126
 		mes s
-		s = lang("この成長速度に慣れると他では満足できなくなる恐れがあります。", "getting used to the experience rate in Overdose, it may be hard to go")
+		s = lang("‚±‚Мђ¬’·‘¬“x‚ЙЉµ‚к‚й‚Ж‘ј‚Е‚Н–ћ‘«‚Е‚«‚И‚­‚И‚й‹°‚к‚Є‚ ‚и‚Ь‚·ЃB", "getting used to the experience rate in Overdose, it may be hard to go")
 		pos wx + 165, wy + 141
 		mes s
-		s = lang("遺伝子を残すこと(アイテム引継ぎ2週目)ができず、スコアも0になります。", "back to another mode. Final score will be 0, and genes are disabled.")
+		s = lang("€в“`Ћq‚рЋc‚·‚±‚Ж(ѓAѓCѓeѓЂ€шЊp‚¬2ЏT–Ъ)‚Є‚Е‚«‚ёЃAѓXѓRѓA‚а0‚Й‚И‚и‚Ь‚·ЃB", "back to another mode. Final score will be 0, and genes are disabled.")
 		pos wx + 165, wy + 155
 		mes s
 	}
 	if ( listn(0, cs) == listn(0, 3) ) {
-		s = lang("★Naturalモードは基本部分はEssentialですが、", "Natural is identical to Essential mode, except that exiting without")
+		s = lang("ЃљNaturalѓ‚Ѓ[ѓh‚НЉо–{•”•Є‚НEssential‚Е‚·‚ЄЃA", "Natural is identical to Essential mode, except that exiting without")
 		pos wx + 165, wy + 66
 		mes s
-		s = lang("EscキーかSでのセーブで終了しないとロード時にペナルティがあります。", "using the save and exit option from the ESC menu will result in a")
+		s = lang("EscѓLЃ[‚©S‚Е‚МѓZЃ[ѓu‚ЕЏI—№‚µ‚И‚ў‚ЖѓЌЃ[ѓhЋћ‚Йѓyѓiѓ‹ѓeѓB‚Є‚ ‚и‚Ь‚·ЃB", "using the save and exit option from the ESC menu will result in a")
 		pos wx + 165, wy + 81
 		mes s
-		s = lang("それ以外の点ではEssentialと何も変わりません。", "penalty at load time. This is the only difference. Recommended for")
+		s = lang("‚»‚к€ИЉO‚М“_‚Е‚НEssential‚Ж‰Ѕ‚а•П‚н‚и‚Ь‚№‚сЃB", "penalty at load time. This is the only difference. Recommended for")
 		pos wx + 165, wy + 96
 		mes s
-		s = lang("悪い結果が出てもやり直しをせずそのまま受け止められる人、", "those who want a moderate difficulty and who can accept the results")
+		s = lang("€«‚ўЊ‹‰К‚ЄЏo‚Д‚а‚в‚и’ј‚µ‚р‚№‚ё‚»‚М‚Ь‚ЬЋу‚ЇЋ~‚Я‚з‚к‚йђlЃA", "those who want a moderate difficulty and who can accept the results")
 		pos wx + 165, wy + 111
 		mes s
-		s = lang("適度な難しさを求める人におすすめです。", "of less than ideal outcomes.")
+		s = lang("“K“x‚И“п‚µ‚і‚р‹Ѓ‚Я‚йђl‚Й‚Ё‚·‚·‚Я‚Е‚·ЃB", "of less than ideal outcomes.")
 		pos wx + 165, wy + 126
 		mes s
 	}
 	if ( listn(0, cs) == listn(0, 4) ) {
-		s = lang("★Abnormalモードは死亡時のペナルティの増加やセーブロードの制限、", "Abnormal mode increases the penalty for death and places a restriction")
+		s = lang("ЃљAbnormalѓ‚Ѓ[ѓh‚НЋЂ–SЋћ‚Мѓyѓiѓ‹ѓeѓB‚М‘ќ‰Б‚вѓZЃ[ѓuѓЌЃ[ѓh‚Мђ§ЊАЃA", "Abnormal mode increases the penalty for death and places a restriction")
 		pos wx + 165, wy + 66
 		mes s
-		s = lang("その他さまざまな危険要素が増えている異常なモードです。地道な積み重ねや", "on loading. There are also various other additional dangerous elements")
+		s = lang("‚»‚М‘ј‚і‚Ь‚ґ‚Ь‚ИЉлЊЇ—v‘f‚Є‘ќ‚¦‚Д‚ў‚й€ЩЏн‚Иѓ‚Ѓ[ѓh‚Е‚·ЃB’n“№‚ИђП‚ЭЏd‚Л‚в", "on loading. There are also various other additional dangerous elements")
 		pos wx + 165, wy + 81
 		mes s
-		s = lang("慎重なプレイングを楽しめる人、もしくは貴重品を失うスリルやショックすら", "added in Abnormal mode. This mode is best for those strange people who")
+		s = lang("ђTЏd‚ИѓvѓЊѓCѓ“ѓO‚рЉy‚µ‚Я‚йђlЃA‚а‚µ‚­‚Н‹MЏd•i‚рЋё‚¤ѓXѓЉѓ‹‚вѓVѓ‡ѓbѓN‚·‚з", "added in Abnormal mode. This mode is best for those strange people who")
 		pos wx + 165, wy + 96
 		mes s
-		s = lang("楽しめる変態な人におすすめです。特にメリットはありませんが、", "enjoy careful, steady progress, and who like the thrill of the chance")
+		s = lang("Љy‚µ‚Я‚й•П‘Ф‚Иђl‚Й‚Ё‚·‚·‚Я‚Е‚·ЃB“Б‚ЙѓЃѓЉѓbѓg‚Н‚ ‚и‚Ь‚№‚с‚ЄЃA", "enjoy careful, steady progress, and who like the thrill of the chance")
 		pos wx + 165, wy + 111
 		mes s
-		s = lang("クリア時のスコアが20倍になります。", "of losing their valuables. There are no special bonuses, but the final")
+		s = lang("ѓNѓЉѓAЋћ‚МѓXѓRѓA‚Є20”{‚Й‚И‚и‚Ь‚·ЃB", "of losing their valuables. There are no special bonuses, but the final")
 		pos wx + 165, wy + 126
 		mes s
-		s = lang("EscキーかSでのセーブで終了しないとロード時にペナルティあり。", "score will be multiplied by 20. Exiting without using the save and exit")
+		s = lang("EscѓLЃ[‚©S‚Е‚МѓZЃ[ѓu‚ЕЏI—№‚µ‚И‚ў‚ЖѓЌЃ[ѓhЋћ‚Йѓyѓiѓ‹ѓeѓB‚ ‚иЃB", "score will be multiplied by 20. Exiting without using the save and exit")
 		pos wx + 165, wy + 141
 		mes s
 		if ( en ) {
@@ -4115,31 +4115,31 @@
 		}
 	}
 	if ( listn(0, cs) == listn(0, 5) ) {
-		s = lang("★Purgeモードはバランス調整から切り離されたゲームモードです。", "Purge is an unbalanced game mode.")
+		s = lang("ЃљPurgeѓ‚Ѓ[ѓh‚Нѓoѓ‰ѓ“ѓX’Іђ®‚©‚зђШ‚и—Ј‚і‚к‚ЅѓQЃ[ѓЂѓ‚Ѓ[ѓh‚Е‚·ЃB", "Purge is an unbalanced game mode.")
 		pos wx + 165, wy + 66
 		mes s
-		s = lang("遺伝子を残すこと(アイテム引継ぎ2週目)ができず、スコアも0になります。", "- Can not make genes and your score is always 0.")
+		s = lang("€в“`Ћq‚рЋc‚·‚±‚Ж(ѓAѓCѓeѓЂ€шЊp‚¬2ЏT–Ъ)‚Є‚Е‚«‚ёЃAѓXѓRѓA‚а0‚Й‚И‚и‚Ь‚·ЃB", "- Can not make genes and your score is always 0.")
 		pos wx + 165, wy + 81
 		mes s
-		s = lang("「都合のいい結果が出るまでひたすらやり直す作業こそが楽しい」", "- Reloading with F2 for save-scumming. Auto-save disabled.")
+		s = lang("Ѓu“sЌ‡‚М‚ў‚ўЊ‹‰К‚ЄЏo‚й‚Ь‚Е‚Р‚Ѕ‚·‚з‚в‚и’ј‚·Ќм‹Ж‚±‚»‚ЄЉy‚µ‚ўЃv", "- Reloading with F2 for save-scumming. Auto-save disabled.")
 		pos wx + 165, wy + 96
 		mes s
-		s = lang("「ゲームとは放置で自動カンストするくらい楽なほうが没入できるもの」", "- AFK leveling as in idle games.")
+		s = lang("ЃuѓQЃ[ѓЂ‚Ж‚Н•ъ’u‚ЕЋ©“®ѓJѓ“ѓXѓg‚·‚й‚­‚з‚ўЉy‚И‚Щ‚¤‚Є–v“ь‚Е‚«‚й‚а‚МЃv", "- AFK leveling as in idle games.")
 		pos wx + 165, wy + 111
 		mes s
-		s = lang("「バランスブレイカーによって他の要素がゴミ同然になっていても、", "- Insta-kill things with purge-mode exclusive actions.")
+		s = lang("Ѓuѓoѓ‰ѓ“ѓXѓuѓЊѓCѓJЃ[‚Й‚ж‚Б‚Д‘ј‚М—v‘f‚ЄѓSѓ~“Ї‘R‚Й‚И‚Б‚Д‚ў‚Д‚аЃA", "- Insta-kill things with purge-mode exclusive actions.")
 		pos wx + 165, wy + 126
 		mes s
-		s = lang("オフラインゲームならそのままにしておくべき」", "- Extra bonus points and starting gold.")
+		s = lang("ѓIѓtѓ‰ѓCѓ“ѓQЃ[ѓЂ‚И‚з‚»‚М‚Ь‚Ь‚Й‚µ‚Д‚Ё‚­‚Ч‚«Ѓv", "- Extra bonus points and starting gold.")
 		pos wx + 165, wy + 141
 		mes s
-		s = lang("「むしろバランスブレイカーがあって使うかどうかは選ばせるのが理想」", "- Rare loot trigger always on.")
+		s = lang("Ѓu‚Ю‚µ‚лѓoѓ‰ѓ“ѓXѓuѓЊѓCѓJЃ[‚Є‚ ‚Б‚ДЋg‚¤‚©‚З‚¤‚©‚Н‘I‚О‚№‚й‚М‚Є—ќ‘zЃv", "- Rare loot trigger always on.")
 		pos wx + 165, wy + 156
 		mes s
-		s = lang("「強敵との死闘なんて楽しくない。ストレスフリーに蹴散らす戦闘が至高」", "- Potential and experience changes.")
+		s = lang("Ѓu‹­“G‚Ж‚МЋЂ“¬‚И‚с‚ДЉy‚µ‚­‚И‚ўЃBѓXѓgѓЊѓXѓtѓЉЃ[‚ЙЏRЋU‚з‚·ђн“¬‚ЄЋЉЌ‚Ѓv", "- Potential and experience changes.")
 		pos wx + 165, wy + 171
 		mes s
-		s = lang("といった価値観の人は、絶対にこのモード以外を選ばないでください。", "- NPCs take 999999 damage when vomiting with negative satiety.")
+		s = lang("‚Ж‚ў‚Б‚Ѕ‰ї’lЉП‚Мђl‚НЃAђв‘О‚Й‚±‚Мѓ‚Ѓ[ѓh€ИЉO‚р‘I‚О‚И‚ў‚Е‚­‚ѕ‚і‚ўЃB", "- NPCs take 999999 damage when vomiting with negative satiety.")
 		pos wx + 165, wy + 186
 		mes s
 	}
@@ -4193,7 +4193,7 @@
 	pos 0, 0
 	gcopy 4, 0, 0, windoww, windowh
 	gmode 2
-	s = lang("決定ｷｰを押すことで、年齢・体格をリロールできる。", "Hit the enter key to reroll your background.")
+	s = lang("Њ€’и·°‚р‰џ‚·‚±‚Ж‚ЕЃA”N—оЃE‘МЉi‚рѓЉѓЌЃ[ѓ‹‚Е‚«‚йЃB", "Hit the enter key to reroll your background.")
 	gosub *screen_drawMsg2
 	del_chara 0
 	dbidn = cmrace
@@ -4209,8 +4209,8 @@
 	if ( cmzisyou != "" ) {
 		cdatan(CDATAN_FAKE_CLASS, rc) = cmzisyou
 	}
-	if ( zisyousex == lang("性別不明", "unknown") ) {
-		cdatan(CDATAN_NEWSEX, rc) = lang("なし", "none")
+	if ( zisyousex == lang("ђ«•К•s–ѕ", "unknown") ) {
+		cdatan(CDATAN_NEWSEX, rc) = lang("‚И‚µ", "none")
 	}
     else {
 		cdatan(CDATAN_NEWSEX, rc) = zisyousex
@@ -4245,11 +4245,11 @@
 	gcopy 0, 0, 100, windoww, windowh - 100
 	gsel 0
 	gosub *cm_bg
-	s = lang("満足できたかな？", "Are you satisfied now?")
+	s = lang("–ћ‘«‚Е‚«‚Ѕ‚©‚ИЃH", "Теперь Вы довольны? ")
 	gosub *screen_drawMsg2
-	promptAdd lang("はい", "Yes"), "a"
-	promptAdd lang("いいえ", "No"), "b"
-	promptAdd lang("最初から", "Restart"), "c"
+	promptAdd lang("‚Н‚ў", "Да "), "a"
+	promptAdd lang("‚ў‚ў‚¦", "Нет "), "b"
+	promptAdd lang("ЌЕЏ‰‚©‚з", "Заново "), "c"
 	val = promptx, 240, 160, 1
 	gosub *prompt_key
 	snd SOUNDLIST_OK1
@@ -4267,7 +4267,7 @@
 	pos 0, 100
 	gcopy 2, 0, 0, windoww, windowh - 100
 	gmode 2
-	s = lang("最後の質問だ。君の名前は？", "Last question. What's your name?")
+	s = lang("ЌЕЊг‚МЋї–в‚ѕЃBЊN‚М–ј‘O‚НЃH", "Последний вопрос. Как вас зовут? ")
 	gosub *screen_drawMsg2
 *cm_name_loop
 	val = (windoww - 230) / 2 + inf_screenx, winposy(120), 10, 0, 0
@@ -4296,7 +4296,7 @@
 		gcopy 2, 0, 0, windoww, windowh - 100
 		gmode 2
 		msgconfirm = 1
-		s = lang("あいにく、その名前の冒険者はすでに存在する。", "Sorry, but the name is already taken.")
+		s = lang("‚ ‚ў‚Й‚­ЃA‚»‚М–ј‘O‚М–`ЊЇЋТ‚Н‚·‚Е‚Й‘¶ЌЭ‚·‚йЃB", "Извините, но это имя уже занято. ")
 		gosub *screen_drawMsg2
 		goto *cm_name_loop
 	}
@@ -4328,12 +4328,12 @@
 			spact(SKILL_SPACT_WIN - STARTING_SKILL_SPACT) = 1
 			txtmore
 			txtef COLOR_YELLOW
-			txt lang("あなたは「" + skillname(SKILL_SPACT_WIN) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_WIN) + ".")
+			txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_WIN) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "Вы научились новой способности, " + skillname(SKILL_SPACT_WIN) + ".")
 			if ( spact(SKILL_SPACT_PURGE - STARTING_SKILL_SPACT) == 0 ) {
 				spact(SKILL_SPACT_PURGE - STARTING_SKILL_SPACT) = 1
 				txtmore
 				txtef COLOR_YELLOW
-				txt lang("あなたは「" + skillname(SKILL_SPACT_PURGE) + "」の能力を得た。", "You have learned a new ability, " + skillname(SKILL_SPACT_PURGE) + ".")
+				txt lang("‚ ‚И‚Ѕ‚НЃu" + skillname(SKILL_SPACT_PURGE) + "Ѓv‚М”\—Н‚р“ѕ‚ЅЃB", "Вы научились новой способности, " + skillname(SKILL_SPACT_PURGE) + ".")
 			}
 		}
 	}
@@ -4375,7 +4375,7 @@
 		pos wx + 350, wy - chipc(CHIPC_HEIGHT, ref1) + 60
 		gcopy 5, 0, 960, inf_tiles, chipc(CHIPC_HEIGHT, ref1)
 		pos wx + 460, wy + 38
-		mes lang("種族: ", "Race: ") + cmrace(1)
+		mes lang("Ћн‘°: ", "Раса: ") + cmrace(1)
 	}
 	else {
 		gmode 4, chipc(CHIPC_WIDTH, ref1), chipc(CHIPC_HEIGHT, ref1), 40
@@ -4399,10 +4399,10 @@
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 	tx = wx + 200
 	ty = wy + 166
-	display_topic lang("能力ボーナス", "Attribute Bonus"), tx, ty
+	display_topic lang("”\—Нѓ{Ѓ[ѓiѓX", "Бонус к Атрибутам "), tx, ty
 	ty += 34
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
-	s = lang("皆無", "None"), lang("最高", "Best"), lang("理想的", "Great"), lang("高い", "Good"), lang("やや高い", "Not bad"), lang("普通", "Normal"), lang("少し", "Little"), lang("微々", "Slight")
+	s = lang("ЉF–і", "Нет "), lang("ЌЕЌ‚", "Лучший "), lang("—ќ‘z“I", "Отличный "), lang("Ќ‚‚ў", "Хороший "), lang("‚в‚вЌ‚‚ў", "Неплохой "), lang("•Ѓ’К", "Нормальный "), lang("Џ­‚µ", "Маленький "), lang("”чЃX", "Небольшой ")
 	locvar_cm_refer_scale_attr = 0, 3, 5, 7, 9, 11, 13
 	locvar_cm_refer_scale_spd = 0, 25, 50, 75, 100, 125, 150
 	locvar_cm_refer_scale_spdadd = 0, 3, 6, 9, 12, 15, 18
@@ -4514,19 +4514,19 @@
 	ty = wy + 250
 	if ( val == 0 ) { ; Races
 		ty += 16 ; Extra row for life/mana
-		display_topic lang("獲得部位", "Body Parts"), tx, ty
+		display_topic lang("Љl“ѕ•”€К", "Части Тела "), tx, ty
 		ty += 34
 		font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 		pos tx + 32, ty
 		mes bodyparts2string()
 		ty += 18
 	}
-	display_topic lang("獲得技能", "Trained Skill"), tx, ty
+	display_topic lang("Љl“ѕ‹Z”\", "Обученные навыки "), tx, ty
 	ty += 34
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 	color 0, 0, 0
 	r = 0
-	s = lang("武器の専門  ", "Proficient in ")
+	s = lang("•ђЉн‚Мђк–е  ", "Знаток в ")
 	repeat STARTING_SKILL_NORMAL - STARTING_SKILL_WEAPON, STARTING_SKILL_WEAPON
 		if ( sorg(cnt, CHARA_PLAYER) != 0 ) {
 			if ( r != 0 ) {
