@@ -704,7 +704,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓRѓ{ѓ‹ѓg", cnven("kobolt"))
+			racename = lang("ГRГ{ГЛГg", cnven("кобольд "))
 			cpicref = xy2pic(6, 5)
 			return
 		}
@@ -756,7 +756,7 @@
 			skillinit SKILL_ACTIVE_PICKPOCKET, rc, 3
 			skillinit SKILL_NORMAL_STEALTH, rc, 2
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 3
-			s(1) = "“Є|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -772,7 +772,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓIЃ[ѓN", cnven("orc"))
+			racename = lang("ГIБ[ГN", cnven("орк "))
 			cpicref = xy2pic(0, 5)
 			return
 		}
@@ -824,7 +824,7 @@
 			skillinit SKILL_NORMAL_HEALING, rc, 3
 			skillinit SKILL_NORMAL_HEAVY_ARMOR, rc, 3
 			skillinit SKILL_NORMAL_SHIELD, rc, 3
-			s(1) = "“Є|‘М|”w|Ћи|Ћи|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Сћ|Фw|Ои|Ои|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -840,7 +840,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‹ђЏb", cnven("largeanimal"))
+			racename = lang("ЛРПb", cnven("крупное животное "))
 			cpicref = xy2pic(10, 13)
 			return
 		}
@@ -892,7 +892,7 @@
 			skillinit SKILL_NORMAL_HEALING, rc, 30
 			skillinit SKILL_NORMAL_DISARM_TRAP, rc, 2
 			skillinit SKILL_NORMAL_SENSE_QUALITY, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|‘«|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|СЂ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -908,7 +908,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("—іђl", cnven("lizardman"))
+			racename = lang("Ч≥Рl", cnven("¤щеролюд "))
 			cpicref = xy2pic(1, 12)
 			return
 		}
@@ -960,7 +960,7 @@
 			skillinit SKILL_WEAPON_POLEARM, rc, 3
 			skillinit SKILL_NORMAL_SHIELD, rc, 3
 			skillinit SKILL_NORMAL_EVASION, rc, 2
-			s(1) = "“Є|‘М|”w|Ћи|Ћи|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Сћ|Фw|Ои|Ои|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -976,7 +976,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓ~ѓmѓ^ѓEѓЌѓX", cnven("minotaur"))
+			racename = lang("Г~ГmГ^ГEГНГX", cnven("минотавр "))
 			cpicref = xy2pic(2, 12)
 			return
 		}
@@ -1028,7 +1028,7 @@
 			skillinit SKILL_NORMAL_TACTICS, rc, 4
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 3
 			skillinit SKILL_NORMAL_MINING, rc, 2
-			s(1) = "“Є|‘М|Ћи|Ћи|Ћw|Ќ|‘«|"
+			s(1) = "У™|Сћ|Ои|Ои|Оw|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1044,12 +1044,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓCѓFѓ‹ѓX", cnven("yerles"))
+			racename = lang("ГCГFГЛГX", cnven("йерлес "))
 			cpicref = xy2pic(1, 0)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓVѓGѓ‰ЃEѓeЃ[ѓ‹ђј•ы‚Е‹}‘¬‚Й‘д“Є‚µ‚Д‚«‚ЅђV‰¤Ќ‘‚МђlЉФ‚ЄЃAѓCѓFѓ‹ѓX‚Е‚·ЃB”Ю‚з‚НЊ»ЋА“I‚ИЋvЌl‚рЌD‚ЭЃAѓGѓCѓXЃEѓeЃ[ѓ‹‚М•¶–ѕ‚рђ’”q‚·‚й€к•ы‚ЕЃA‚»‚к‚Є—б‚¦Ћ©‚з‚М—ќ‰р‚р’ґ‚¦‚Д‚ў‚Д‚аЃA—‰v‚Й‚И‚й‚а‚М‚Е‚ ‚к‚ОђП‹Й“I‚Й‚Ж‚и‚ў‚к‚ж‚¤‚Ж‚·‚йЏ_“ођ«‚рЋќ‚Б‚Д‚ў‚Ь‚·ЃB”Ю‚з‚НЌ‚‚ўЉwЏK”\—Н‚рЋќ‚їЃA‚Щ‚Ъ‘S‚Д‚МђE‹Ж‚Й“K‰ћ‚·‚й‚±‚Ж‚Є‚Е‚«‚Ь‚·ЃBѓCѓFѓ‹ѓX‚Н‹@ЉB•ђ‘•‚М€µ‚ў‚Й‚Ѕ‚ЇЃA’З‰Б‚Мђ¬’·ѓ{Ѓ[ѓiѓX‚рЋу‚ЇЋж‚и‚Ь‚·ЃB", "Молодое Королевство, поклоняющееся древней научной цивилизации под названием Eyth Terre, завоевало власть на западе. Несмотря на то, что они реалисты и материалисты, они также способны приспособиться к вещам, которые находятся за пределами их понимания, если это идет на пользу королевству. Йерлы хорошо вписываются в любой класс благодаря своим выдающимся способностям к обучению. С каждым полученным уровнем они получают дополнительные очки навыков. ")
+			buff = lang("ГVГGГЙБEГeБ[ГЛРЉХыВ≈Л}СђВ…СдУ™ВµВƒВЂВљРVЙ§НСВћРlК‘В™БAГCГFГЛГXВ≈ВЈБBФёВзВЌМїОјУIВ»ОvНlВрНDВЁБAГGГCГXБEГeБ[ГЛВћХ∂ЦЊВрРТФqВЈВйИкХыВ≈БAВїВкВ™ЧбВ¶О©ВзВћЧЭЙрВрТіВ¶ВƒВ¢ВƒВаБAЧШЙvВ…В»ВйВаВћВ≈В†ВкВќРѕЛ…УIВ…В∆ВиВ¢ВкВжВ§В∆ВЈВйП_УоРЂВрОЭВЅВƒВ¢В№ВЈБBФёВзВЌНВВ¢КwПKФ\ЧЌВрОЭВњБAВўВЏСSВƒВћРEЛ∆В…УKЙЮВЈВйВ±В∆В™В≈ВЂВ№ВЈБBГCГFГЛГXВЌЛ@КBХРСХВћИµВ¢В…ВљВѓБAТ«ЙЅВћРђТЈГ{Б[ГiГXВрОуВѓОжВиВ№ВЈБB", "ћолодое  оролевство, поклон¤ющеес¤ древней научной цивилизации под названием Eyth Terre, завоевало власть на западе. Ќесмотр¤ на то, что они реалисты и материалисты, они также способны приспособитьс¤ к вещам, которые наход¤тс¤ за пределами их понимани¤, если это идет на пользу королевству. …ерлы хорошо вписываютс¤ в любой класс благодар¤ своим выдающимс¤ способност¤м к обучению. — каждым полученным уровнем они получают дополнительные очки навыков. ")
 			ref1 = 1
 			ref2 = 1
 			ref2 = 2
@@ -1101,7 +1101,7 @@
 			skillinit SKILL_NORMAL_LITERACY, rc, 3
 			skillinit SKILL_NORMAL_NEGOTIATION, rc, 2
 			skillinit SKILL_WEAPON_THROWING, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1117,7 +1117,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓmЃ[ѓ‰ѓ“ѓh", cnven("norland"))
+			racename = lang("ГmБ[ГЙГУГh", cnven("норланд "))
 			cpicref = xy2pic(1, 0)
 			return
 		}
@@ -1174,7 +1174,7 @@
 			skillinit SKILL_NORMAL_TACTICS, rc, 3
 			skillinit SKILL_NORMAL_TWO_HAND, rc, 3
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1190,12 +1190,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓGѓEѓ_Ѓ[ѓi", cnven("eulderna"))
+			racename = lang("ГGГEГ_Б[Гi", cnven("эйлдерна "))
 			cpicref = xy2pic(5, 0)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓGѓEѓ_Ѓ[ѓi‚НЌЕ‚аЊГ‚ўЌ‘‚М€к‚В‚ЕЃAЌЎ‚а‚И‚Ё‹­—Н‚И‘еЌ‘‚Е‚·ЃB”Ю‚з‚НЃAЋ©•Є‚Ѕ‚ї‚М‚Э‚ЄђўЉE‚р“®‚©‚·‚Й’l‚·‚й‚ЖЌl‚¦‚й‘I–Ї€УЋЇ‚МЋќ‚їЋе‚ЕЃAѓGѓЉЃ[ѓg‚Е‚ ‚иЃAЉ®‚Ш‚«Ће‹`ЋТ‚Е‚·ЃBѓGѓEѓ_Ѓ[ѓi‚Н–‚–@‚в–‚–@“№‹п‚М€µ‚ў‚Й‚Ѕ‚ЇЃAѓLѓѓѓXѓ^Ѓ[‚в’†ЉФ“I‚ИђE‹Ж‚ЙЊь‚ў‚Д‚ў‚Ь‚·ЃB”Ю‚з‚НЌ‚‚ў‰rЏҐ”\—Н‚Ж–‚–@‚Ц‚М‘Пђ«‚р‚а‚Б‚Д‚ў‚Ь‚·ЃB", "Эулдерна - одна из самых древних рас на Сьерре-Терре. Эгоизм и элитарность доминируют в каждой мысли и действиях этих перфекционистов. Они подходят для кастеров и гибридных классов, так как хорошо владеют магией и используют магические устройства. Эйлдерны обладают устойчивостью к магии. ")
+			buff = lang("ГGГEГ_Б[ГiВЌН≈ВаМ√В¢НСВћИкВ¬В≈БAН°ВаВ»В®Л≠ЧЌВ»СеНСВ≈ВЈБBФёВзВЌБAО©Х™ВљВњВћВЁВ™Р¢КEВрУЃВ©ВЈВ…ТlВЈВйВ∆НlВ¶ВйСIЦѓИ”ОѓВћОЭВњОеВ≈БAГGГКБ[ГgВ≈В†ВиБAКЃВЎВЂОеЛ`О“В≈ВЈБBГGГEГ_Б[ГiВЌЦВЦ@ВвЦВЦ@УєЛпВћИµВ¢В…ВљВѓБAГLГГГXГ^Б[ВвТЖК‘УIВ»РEЛ∆В…МьВ¢ВƒВ¢В№ВЈБBФёВзВЌНВВ¢ЙrП•Ф\ЧЌВ∆ЦВЦ@В÷ВћСѕРЂВрВаВЅВƒВ¢В№ВЈБB", "Ёулдерна - одна из самых древних рас на —ьерре-“ерре. Ёгоизм и элитарность доминируют в каждой мысли и действи¤х этих перфекционистов. ќни подход¤т дл¤ кастеров и гибридных классов, так как хорошо владеют магией и используют магические устройства. Ёйлдерны обладают устойчивостью к магии. ")
 			ref1 = 5
 			ref2 = 5
 			ref2 = 6
@@ -1247,7 +1247,7 @@
 			skillinit SKILL_NORMAL_LITERACY, rc, 3
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 3
 			skillinit SKILL_NORMAL_INVESTING, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1263,12 +1263,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("—dђё", cnven("fairy"))
+			racename = lang("ЧdРЄ", cnven("фе¤ "))
 			cpicref = xy2pic(27, 11)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("—dђё‚Н‰В—ч‚Е”с—Н‚Е™R‚ўђ¶•Ё‚Е‚·ЃB”ЮЏ—’B‚НЃAђlЉФ‘°‚Ж”д‚Ч‚ДЌ‚‚ў–‚—Н‚Ж‰с”р—НЃA–Ъ‚Й‚аЋ~‚Ь‚з‚К‚·‚О‚µ‚Б‚±‚і‚рЋќ‚їЃA‚Щ‚Ъ‘S‚Д‚М‘Пђ«‚ЙЌ‚‚ў’пЌR—Н‚рЋќ‚Б‚Д‚ў‚Ь‚·ЃB”Ѕ–КЃA—dђё‚НЏd‚і1s€ИЏг‚М‘•”х‚рђg‚Й‚В‚Ї‚й‚±‚Ж‚Є‚Е‚«‚ёЃA–hЊд—Н‚р‚ ‚°‚й‚М‚НЌў“п‚Е‚·ЃB‚»‚М‘М—Н‚М’б‚і‚©‚з‚аЃA‚Ь‚Ж‚а‚И•Ё—ќЌUЊ‚‚р€к“x‚Е‚а‚­‚з‚¤‚ЖЉл‹@‚ЙЉЧ‚й‚Е‚µ‚е‚¤ЃB", "Феи - милые, загадочные и хрупкие. По сравнению с людьми они одарены более высокими навыками использования магии и уклонения. В то же время недостаток физической силы затрудняет им переноску даже самых мелких вещей и делает невозможным ношение снаряжения весом более 1s. Феи обладают выдающейся устойчивостью ко всем стихиям. ")
+			buff = lang("ЧdРЄВЌЙ¬ЧчВ≈ФсЧЌВ≈ЩRВ¢Р∂Х®В≈ВЈБBФёПЧТBВЌБAРlК‘С∞В∆ФдВ„ВƒНВВ¢ЦВЧЌВ∆ЙсФрЧЌБAЦЏВ…ВаО~В№ВзВ ВЈВќВµВЅВ±В≥ВрОЭВњБAВўВЏСSВƒВћСѕРЂВ…НВВ¢ТпНRЧЌВрОЭВЅВƒВ¢В№ВЈБBФљЦ БAЧdРЄВЌПdВ≥1sИ»ПгВћСХФхВрРgВ…В¬ВѓВйВ±В∆В™В≈ВЂВЄБAЦhМдЧЌВрВ†В∞ВйВћВЌН¢УпВ≈ВЈБBВїВћСћЧЌВћТбВ≥В©ВзВаБAВ№В∆ВаВ»Х®ЧЭНUМВВрИкУxВ≈ВаВ≠ВзВ§В∆КлЛ@В…К„ВйВ≈ВµВеВ§БB", "‘еи - милые, загадочные и хрупкие. ѕо сравнению с людьми они одарены более высокими навыками использовани¤ магии и уклонени¤. ¬ то же врем¤ недостаток физической силы затрудн¤ет им переноску даже самых мелких вещей и делает невозможным ношение снар¤жени¤ весом более 1s. ‘еи обладают выдающейс¤ устойчивостью ко всем стихи¤м. ")
 			ref1 = 390
 			ref2 = 390
 			ref2 = 390
@@ -1327,7 +1327,7 @@
 			skillinit SKILL_ACTIVE_PICKPOCKET, rc, 3
 			skillinit SKILL_NORMAL_LIGHT_ARMOR, rc, 3
 			skillinit SKILL_NORMAL_COOKING, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1343,7 +1343,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("€ўЏC—…", cnven("asura"))
+			racename = lang("И¢ПCЧЕ", cnven("асура "))
 			cpicref = xy2pic(9, 12)
 			return
 		}
@@ -1396,7 +1396,7 @@
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 6
 			skillinit SKILL_NORMAL_ANATOMY, rc, 4
 			skillinit SKILL_NORMAL_CARPENTRY, rc, 4
-			s(1) = "Ћи|Ћи|Ћи|Ћи|Ћс|"
+			s(1) = "Ои|Ои|Ои|Ои|Ос|"
 			gosub *set_figure
 		}
 		return
@@ -1412,7 +1412,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓXѓ‰ѓCѓЂ", cnven("slime"))
+			racename = lang("ГXГЙГCГА", cnven("слизь "))
 			cpicref = xy2pic(3, 5)
 			return
 		}
@@ -1464,7 +1464,7 @@
 			skillinit SKILL_NORMAL_EVASION, rc, 2
 			skillinit SKILL_NORMAL_PERFORMER, rc, 3
 			skillinit SKILL_NORMAL_HEALING, rc, 3
-			s(1) = "“Є|"
+			s(1) = "У™|"
 			gosub *set_figure
 		}
 		return
@@ -1480,7 +1480,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Њў‚Мђ_", cnven("doggod"))
+			racename = lang("М¢ВћР_", cnven("собачий бог "))
 			cpicref = xy2pic(23, 7)
 			return
 		}
@@ -1531,7 +1531,7 @@
 			skillinit SKILL_WEAPON_MARTIAL_ARTS, rc, 3
 			skillinit SKILL_NORMAL_TACTICS, rc, 4
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 2
-			s(1) = "“Є|Ћс|‘М|Ћи|Ћw|r|‘«|"
+			s(1) = "У™|Ос|Сћ|Ои|Оw|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1547,12 +1547,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‹u‚М–Ї", cnven("dwarf"))
+			racename = lang("ЛuВћЦѓ", cnven("гном "))
 			cpicref = xy2pic(1, 2)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("‹u‚М–ЇЃA•К–јѓhѓЏЃ[ѓt‚НЉж‹­‚Е–іЌњ‚И”w‚М’б‚ўЋн‘°‚Е‚·ЃB”Ю‚з‚НЌ‚‚ў‘П‹v—Н‚Ж—Н‚рЋќ‚їЃAЉф‚В‚©‚Мђ¶ЋYЊn‚М‹ZЏp‚Й‚ађё’К‚µ‚Д‚ў‚Ь‚·ЃB”Ю‚з‚Й‚Н€ГЌ•‚Ж‹­‚ў“Е‚Ц‚М‘Пђ«‚Є‚ ‚и‚Ь‚·ЃB", "Гномы - дети земли. Такие же суровые и непреклонные, как любимые ими горы, большинство гномов всю жизнь живут под землей, занимаясь добычей полезных ископаемых, плавкой и кузнечным делом. Лишь некоторые покидают глубины и становятся искателями приключений, надеясь заработать достаточно денег, чтобы основать свой собственный клан. Они хорошо владеют техникой и стойко противостоят темным и ядовитым существам. ")
+			buff = lang("ЛuВћЦѓБAХ ЦЉГhГПБ[ГtВЌКжЛ≠В≈Ц≥НЬВ»ФwВћТбВ¢ОнС∞В≈ВЈБBФёВзВЌНВВ¢СѕЛvЧЌВ∆ЧЌВрОЭВњБAКфВ¬В©ВћР∂ОYМnВћЛZПpВ…ВаРЄТ ВµВƒВ¢В№ВЈБBФёВзВ…ВЌИ√НХВ∆Л≠В¢У≈В÷ВћСѕРЂВ™В†ВиВ№ВЈБB", "√номы - дети земли. “акие же суровые и непреклонные, как любимые ими горы, большинство гномов всю жизнь живут под землей, занима¤сь добычей полезных ископаемых, плавкой и кузнечным делом. Ћишь некоторые покидают глубины и станов¤тс¤ искател¤ми приключений, наде¤сь заработать достаточно денег, чтобы основать свой собственный клан. ќни хорошо владеют техникой и стойко противосто¤т темным и ¤довитым существам. ")
 			ref1 = 67
 			ref2 = 67
 		}
@@ -1600,7 +1600,7 @@
 			skillinit SKILL_NORMAL_JEWELER, rc, 3
 			skillinit SKILL_NORMAL_MINING, rc, 4
 			skillinit SKILL_NORMAL_GARDENING, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1616,12 +1616,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓWѓ…Ѓ[ѓA", cnven("juere"))
+			racename = lang("ГWГЕБ[ГA", cnven("джуэр "))
 			cpicref = xy2pic(9, 0)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓWѓ…Ѓ[ѓA‚НЃAЊі‚Н“ђ‘Ї‚в€«ђl‚М‚ ‚В‚Ь‚и‚Е‚ ‚иЃAЌЎ‚а‚И‚з‚ёЋТЌ‘‰Ж‚Ж‚µ‚ДЊ™‚н‚к‚йЌ‘‚Е‚·ЃB”Ю‚з‚Н‘©”›‚і‚к‚й‚±‚Ж‚рЊ™‚ўЃAЋ©•Є‚М€УЋv‚р‘ёЏd‚µЃAЋ©—R‚Йђ¶‚«‚й‚±‚Ж‚рЌD‚Э‚Ь‚·ЃBѓWѓ…Ѓ[ѓA‚НЋиђж‚ЄЉн—p‚ЕЃA‰s‚ўЉґЉo‚ЖЌ‚‚ўЉwЏK”\—Н‚рЋќ‚їЃA‘ЅЌК‚И‹ZЏp‚Йђё’К‚µ‚Д‚ў‚Ь‚·ЃB”Ю‚з‚НѓpѓtѓHЃ[ѓ}ѓ“ѓX‚р‚·‚й‚±‚Ж‚Еђ¶Њv‚р‚Ѕ‚Д‚й‚±‚Ж‚Є‚Е‚«ЃAђHЋ–‚р‚д‚Б‚­‚и‚ЖЏБ‰»‚µЃAЌМЋжѓXѓ|ѓbѓg‚Е‚ж‚и’·‚ўЋћЉФЌМЋж‚Е‚«‚Ь‚·ЃB", "The Juere are a people wild and free. Scorning the \"weaker\" laws of others, they quickly learn the tricks and technologies of others before ever moving onwards. Their pride makes them great performers, and are used to being hungry for long periods of time. Nimble of hand, and Bold of character, no two Juere are ever the same.")
+			buff = lang("ГWГЕБ[ГAВЌБAМ≥ВЌУРСѓВвИЂРlВћВ†В¬В№ВиВ≈В†ВиБAН°ВаВ»ВзВЄО“НСЙ∆В∆ВµВƒМЩВнВкВйНСВ≈ВЈБBФёВзВЌС©ФЫВ≥ВкВйВ±В∆ВрМЩВ¢БAО©Х™ВћИ”ОvВрСЄПdВµБAО©ЧRВ…Р∂ВЂВйВ±В∆ВрНDВЁВ№ВЈБBГWГЕБ[ГAВЌОиРжВ™КнЧpВ≈БAЙsВ¢КіКoВ∆НВВ¢КwПKФ\ЧЌВрОЭВњБAСљН В»ЛZПpВ…РЄТ ВµВƒВ¢В№ВЈБBФёВзВЌГpГtГHБ[Г}ГУГXВрВЈВйВ±В∆В≈Р∂МvВрВљВƒВйВ±В∆В™В≈ВЂБAРHОЦВрВдВЅВ≠ВиВ∆ПЅЙїВµБAНћОжГXГ|ГbГgВ≈ВжВиТЈВ¢ОЮК‘НћОжВ≈ВЂВ№ВЈБB", "ƒжуэр - народ дикий и свободный. ѕрезира¤ чужие законы, они быстро осваивают чужие трюки и технологии, прежде чем двигатьс¤ дальше. »х гордость делает их отличными артистами, и они привыкли долгое врем¤ быть голодными. ѕроворные на руку и Cмелые по характеру, два джуэра никогда не бывают одинаковыми. ")
 			ref1 = 9
 			ref2 = 9
 			ref2 = 10
@@ -1673,7 +1673,7 @@
 			skillinit SKILL_NORMAL_LOCK_PICKING, rc, 2
 			skillinit SKILL_NORMAL_NEGOTIATION, rc, 2
 			skillinit SKILL_WEAPON_THROWING, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1689,7 +1689,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓ]ѓ“ѓr", cnven("zombie"))
+			racename = lang("Г]ГУГr", cnven("зомби "))
 			cpicref = xy2pic(2, 5)
 			return
 		}
@@ -1745,7 +1745,7 @@
 			skillinit SKILL_NORMAL_COOKING, rc, 3
 			skillinit SKILL_NORMAL_FISHING, rc, 3
 			skillinit SKILL_NORMAL_ANATOMY, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|r|Ќ|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Шr|НШ|"
 			gosub *set_figure
 		}
 		return
@@ -1761,12 +1761,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓGѓЊѓA", cnven("elea"))
+			racename = lang("ГGГМГA", cnven("элеа "))
 			cpicref = xy2pic(3, 0)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓGѓЊѓA‚НЃAЉф‚В‚а‚Мђў‘г‚рђ¶‚«”І‚ў‚ЅѓGѓ‹ѓt‚М––ЏЅ‚ЕЃA‘ј‚МЋн‘°‚©‚зЋp‚р‰B‚µЃAђГ‚©‚Йђ¶Љ€‚µ‚Д‚ў‚Ь‚·ЃB”Ю‚з‚±‚»‚ЄЃAѓЊѓЂЃEѓCѓh‚р–Е‚Ъ‚µ‚ЅЌР–п‚МЊі‹Ґ‚Е‚ ‚й‚Ж‚·‚йѓUѓiѓ“‚МЌcЋq‚МѓoѓbѓVѓ“ѓO‚Й‚ж‚иЃA”Ю‚з‚Н‘ј‚МЋн‘°‚©‚зЊ™‚н‚к‚Д‚ў‚Ь‚·ЃBѓGѓЊѓA‚НѓGЃ[ѓeѓ‹‚Ц‚М‘Пђ«‚ЖЌ‚‚ў–‚—Н‚рЋќ‚їЃA–‚—Н‚М”Ѕ“®‚Й‚ж‚йѓ_ѓЃЃ[ѓW‚рЊyЊё‚·‚й‚±‚Ж‚Є‚Е‚«‚Ь‚·ЃB", "Elea, known by the other peoples of the world as \"Elves\", live quietly in their forests, far from man. Nimble and graceful, their bows are of legend, and their wizards have forgotten more of magic than many will ever know. Still, the young ones from time to time leave and go on adventures, if only to fill their memories for their long lives.")
+			buff = lang("ГGГМГAВЌБAКфВ¬ВаВћР¢СгВрР∂ВЂФ≤В¢ВљГGГЛГtВћЦЦПљВ≈БAСЉВћОнС∞В©ВзОpВрЙBВµБAР√В©В…Р∂КИВµВƒВ¢В№ВЈБBФёВзВ±ВїВ™БAГМГАБEГCГhВрЦ≈ВЏВµВљН–ЦпВћМ≥Л•В≈В†ВйВ∆ВЈВйГUГiГУВћНcОqВћГoГbГVГУГOВ…ВжВиБAФёВзВЌСЉВћОнС∞В©ВзМЩВнВкВƒВ¢В№ВЈБBГGГМГAВЌГGБ[ГeГЛВ÷ВћСѕРЂВ∆НВВ¢ЦВЧЌВрОЭВњБAЦВЧЌВћФљУЃВ…ВжВйГ_ГББ[ГWВрМyМЄВЈВйВ±В∆В™В≈ВЂВ№ВЈБB", "Ёлеа, известные другим народам мира как \"эльфы\", тихо живут в своих лесах, вдали от людей. »х проворные и из¤щные луки вошли в легенды, а их волшебники забыли о магии больше, чем многие когда-либо узнают. “ем не менее, молодые врем¤ от времени покидают их и отправл¤ютс¤ навстречу приключени¤м, хот¤ бы дл¤ того, чтобы заполнить пам¤ть на всю свою долгую жизнь. ")
 			ref1 = 3
 			ref2 = 3
 			ref2 = 4
@@ -1818,7 +1818,7 @@
 			skillinit SKILL_NORMAL_CASTING, rc, 2
 			skillinit SKILL_NORMAL_MEMORIZATION, rc, 3
 			skillinit SKILL_NORMAL_COOKING, rc, 4
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1834,7 +1834,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓEѓTѓM", cnven("rabbit"))
+			racename = lang("ГEГTГM", cnven("кролик "))
 			cpicref = xy2pic(4, 5)
 			return
 		}
@@ -1886,7 +1886,7 @@
 			skillinit SKILL_ACTIVE_RIDING, rc, 3
 			skillinit SKILL_NORMAL_DETECTION, rc, 3
 			skillinit SKILL_NORMAL_TRAVELING, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|r|"
+			s(1) = "У™|Ос|Сћ|Фw|Шr|"
 			gosub *set_figure
 		}
 		return
@@ -1902,7 +1902,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("—r", cnven("sheep"))
+			racename = lang("Чr", cnven("овца "))
 			cpicref = xy2pic(5, 5)
 			return
 		}
@@ -1954,7 +1954,7 @@
 			skillinit SKILL_NORMAL_HEALING, rc, 3
 			skillinit SKILL_NORMAL_ANATOMY, rc, 3
 			skillinit SKILL_NORMAL_TAILORING, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|r|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -1970,7 +1970,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Љ^", cnven("frog"))
+			racename = lang("К^", cnven("л¤гушка "))
 			cpicref = xy2pic(7, 5)
 			return
 		}
@@ -2022,7 +2022,7 @@
 			skillinit SKILL_NORMAL_PERFORMER, rc, 3
 			skillinit SKILL_NORMAL_INVESTING, rc, 2
 			skillinit SKILL_NORMAL_SWIMMING, rc, 4
-			s(1) = "‘М|"
+			s(1) = "Сћ|"
 			gosub *set_figure
 		}
 		return
@@ -2038,7 +2038,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓЏЃ[ѓЂ", cnven("worm"))
+			racename = lang("ГПБ[ГА", cnven("черв¤к "))
 			cpicref = xy2pic(8, 5)
 			return
 		}
@@ -2090,7 +2090,7 @@
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 3
 			skillinit SKILL_NORMAL_MINING, rc, 3
 			skillinit SKILL_NORMAL_STEALTH, rc, 3
-			s(1) = "”w|Ћw|Ћw|"
+			s(1) = "Фw|Оw|Оw|"
 			gosub *set_figure
 		}
 		return
@@ -2106,12 +2106,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‚©‚Ѕ‚В‚Ю‚и", cnven("snail"))
+			racename = lang("В©ВљВ¬ВёВи", cnven("улитка "))
 			cpicref = xy2pic(9, 5)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓJѓ^ѓcѓЂѓЉ‚Н”сЏн‚Й“Э‚ўђ¶‚«•Ё‚Е‚·ЃB”Ю‚з‚НђЖ‚­ЃA”с—Н‚ЕЃA•sЉн—p‚ЕЃAЉwЏK”\—Н‚Є‚И‚­ЃA‰–‚Е—n‚Ї‚Ь‚·ЃB", "Despite the fears that one day the rats will inherit the World, thanks to the Etherwind it seems the snails have gotten a head start. Slow and dull, even the mightiest among them fears salt, garlic and butter. Still for those seeking a true challenge, one can hardly do worse than being a snail. Can you imagine the looks of others when you inch ever so slowly towards them?")
+			buff = lang("ГJГ^ГcГАГКВЌФсПнВ…УЁВ¢Р∂ВЂХ®В≈ВЈБBФёВзВЌР∆В≠БAФсЧЌВ≈БAХsКнЧpВ≈БAКwПKФ\ЧЌВ™В»В≠БAЙЦВ≈ЧnВѓВ№ВЈБB", "Ќесмотр¤ на опасени¤, что однажды крысы унаследуют мир, благодар¤ Ёфирному ветру улитки, похоже, получили преимущество. ћедленные и в¤лые, даже самые могучие из них бо¤тс¤ соли, чеснока и масла. “ем не менее, дл¤ тех, кто ищет насто¤щего испытани¤, вр¤д ли найдетс¤ что-то хуже, чем быть улиткой. ѕредставл¤ете, как смотр¤т на вас окружающие, когда вы так медленно приближаетесь к ним? ")
 			ref1 = 174
 			ref2 = 174
 		}
@@ -2156,7 +2156,7 @@
 			skillinit SKILL_ATTR_SPD, rc, 25
 			skillinit SKILL_WEAPON_MARTIAL_ARTS, rc, 1
 			skillinit SKILL_WEAPON_THROWING, rc, 5
-			s(1) = "”w|"
+			s(1) = "Фw|"
 			gosub *set_figure
 		}
 		return
@@ -2172,7 +2172,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓ}ѓ“ѓhѓЊѓCѓN", cnven("mandrake"))
+			racename = lang("Г}ГУГhГМГCГN", cnven("мандрагора "))
 			cpicref = xy2pic(10, 5)
 			return
 		}
@@ -2225,7 +2225,7 @@
 			skillinit SKILL_NORMAL_LITERACY, rc, 2
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 3
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 3
-			s(1) = "“Є|”w|"
+			s(1) = "У™|Фw|"
 			gosub *set_figure
 		}
 		return
@@ -2241,7 +2241,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Ќ©’Ћ", cnven("beetle"))
+			racename = lang("Н©ТО", cnven("жук "))
 			cpicref = xy2pic(11, 5)
 			return
 		}
@@ -2293,7 +2293,7 @@
 			skillinit SKILL_NORMAL_CASTING, rc, 3
 			skillinit SKILL_NORMAL_STEALTH, rc, 3
 			skillinit SKILL_NORMAL_GARDENING, rc, 2
-			s(1) = "Ћс|"
+			s(1) = "Ос|"
 			gosub *set_figure
 		}
 		return
@@ -2309,7 +2309,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‚«‚М‚±", cnven("mushroom"))
+			racename = lang("ВЂВћВ±", cnven("гриб "))
 			cpicref = xy2pic(12, 5)
 			return
 		}
@@ -2361,7 +2361,7 @@
 			skillinit SKILL_NORMAL_TAILORING, rc, 3
 			skillinit SKILL_NORMAL_ALCHEMY, rc, 2
 			skillinit SKILL_NORMAL_GARDENING, rc, 4
-			s(1) = "“Є|Ћс|"
+			s(1) = "У™|Ос|"
 			gosub *set_figure
 		}
 		return
@@ -2377,7 +2377,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓRѓEѓ‚ѓЉ", cnven("bat"))
+			racename = lang("ГRГEГВГК", cnven("летуча¤ мышь "))
 			cpicref = xy2pic(2, 6)
 			return
 		}
@@ -2430,7 +2430,7 @@
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 3
 			skillinit SKILL_NORMAL_DETECTION, rc, 3
 			skillinit SKILL_NORMAL_NEGOTIATION, rc, 2
-			s(1) = "“Є|"
+			s(1) = "У™|"
 			gosub *set_figure
 		}
 		return
@@ -2446,7 +2446,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓGѓ“ѓg", cnven("ent"))
+			racename = lang("ГGГУГg", cnven("энт "))
 			cpicref = xy2pic(3, 6)
 			return
 		}
@@ -2498,7 +2498,7 @@
 			skillinit SKILL_NORMAL_HEALING, rc, 2
 			skillinit SKILL_NORMAL_CARPENTRY, rc, 4
 			skillinit SKILL_NORMAL_GARDENING, rc, 3
-			s(1) = "Ћи|Ћw|Ћw|r|‘«|"
+			s(1) = "Ои|Оw|Оw|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -2514,12 +2514,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓЉѓbѓ`", cnven("lich"))
+			racename = lang("ГКГbГ`", cnven("лич "))
 			cpicref = xy2pic(4, 6)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓЉѓbѓ`‚НЌ‚‚ў’m”\‚Ж–‚—Н‚р”х‚¦‚Ѕ•s‹Ђ‚МѓAѓ“ѓfѓbѓh‚Е‚·ЃB”Ю‚з‚Н’КЏн‚МЋн‘°‚ж‚и‚аЌ‚‚ўѓ}ѓi‚ЖбТ‘z‚М‹ZЏp‚р“ѕ‚Ь‚·‚ЄЃA“ч’eђн‚Й‘П‚¦ђШ‚к‚й‚Щ‚З‚М‘М—Н‚Н‚ ‚и‚Ь‚№‚сЃBѓЉѓbѓ`‚Н—в‹C‚Ж“Е‚Ж‹­‚ў€ГЌ•‚Ц‚М‘Пђ«‚рЋќ‚Б‚Д‚ў‚Ь‚·ЃB", "When a powerful magus grows near death, their desire to live on makes them attempt lichdom. Of the many who try every century, barely a handful succeed. Most fail and die, but some few partially make it, though the process robs them of much of their memories and skills. Their young \"age\" is their new \"life\" beginning anew, but they are patient. After all, they have all the time in the world now.")
+			buff = lang("ГКГbГ`ВЌНВВ¢ТmФ\В∆ЦВЧЌВрФхВ¶ВљХsЛАВћГAГУГfГbГhВ≈ВЈБBФёВзВЌТ ПнВћОнС∞ВжВиВаНВВ¢Г}ГiВ∆б“СzВћЛZПpВрУЊВ№ВЈВ™БAУчТeРнВ…СѕВ¶РЎВкВйВўВ«ВћСћЧЌВЌВ†ВиВ№ВєВсБBГКГbГ`ВЌЧвЛCВ∆У≈В∆Л≠В¢И√НХВ÷ВћСѕРЂВрОЭВЅВƒВ¢В№ВЈБB", " огда могущественный маг становитс¤ близок к смерти, желание жить дальше заставл¤ет его попытатьс¤ стать личем. »з многих, кто пытаетс¤ это сделать каждый век, лишь немногим это удаетс¤. Ѕольшинство терп¤т неудачу и умирают, но некоторые частично выживают, хот¤ этот процесс лишает их большей части пам¤ти и навыков. »х юный 'возраст' - это нова¤ 'жизнь' начинающа¤с¤ заново, но они терпеливы. ¬ конце концов, у них теперь есть все врем¤ в мире. ")
 			ref1 = 202
 			ref2 = 202
 		}
@@ -2571,7 +2571,7 @@
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 3
 			skillinit SKILL_NORMAL_CASTING, rc, 3
 			skillinit SKILL_NORMAL_GENE_ENGINEER, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -2587,7 +2587,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓoѓNѓeѓЉѓA", cnven("bacteria"))
+			racename = lang("ГoГNГeГКГA", cnven("бактери¤ "))
 			cpicref = xy2pic(31, 13)
 			return
 		}
@@ -2640,7 +2640,7 @@
 			skillinit SKILL_NORMAL_CASTING, rc, 3
 			skillinit SKILL_NORMAL_HEALING, rc, 30
 			skillinit SKILL_NORMAL_GENE_ENGINEER, rc, 2
-			s(1) = "‘М|"
+			s(1) = "Сћ|"
 			gosub *set_figure
 		}
 		return
@@ -2656,7 +2656,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("—H—м", cnven("ghost"))
+			racename = lang("ЧHЧм", cnven("призрак "))
 			cpicref = xy2pic(7, 6)
 			return
 		}
@@ -2713,7 +2713,7 @@
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 2
 			skillinit SKILL_NORMAL_STEALTH, rc, 3
 			skillinit SKILL_NORMAL_DISARM_TRAP, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|Ќ|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|НШ|"
 			gosub *set_figure
 		}
 		return
@@ -2729,7 +2729,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ђё—м", cnven("spirit"))
+			racename = lang("РЄЧм", cnven("дух "))
 			cpicref = xy2pic(8, 6)
 			return
 		}
@@ -2781,7 +2781,7 @@
 			skillinit SKILL_NORMAL_CASTING, rc, 4
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 2
 			skillinit SKILL_NORMAL_INVESTING, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|"
 			gosub *set_figure
 		}
 		return
@@ -2797,7 +2797,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("–Ъ", cnven("eye"))
+			racename = lang("ЦЏ", cnven("глаз "))
 			cpicref = xy2pic(9, 6)
 			return
 		}
@@ -2849,7 +2849,7 @@
 			skillinit SKILL_NORMAL_DETECTION, rc, 3
 			skillinit SKILL_NORMAL_ANATOMY, rc, 3
 			skillinit SKILL_NORMAL_GENE_ENGINEER, rc, 3
-			s(1) = "“Є|"
+			s(1) = "У™|"
 			gosub *set_figure
 		}
 		return
@@ -2865,7 +2865,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("–‚ђl", cnven("mazin"))
+			racename = lang("ЦВРl", cnven("мазин "))
 			cpicref = xy2pic(14, 9)
 			return
 		}
@@ -2917,7 +2917,7 @@
 			skillinit SKILL_NORMAL_ANATOMY, rc, 3
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
 			skillinit SKILL_NORMAL_TACTICS, rc, 3
-			s(1) = "Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|Ќ|‘«|"
+			s(1) = "Ос|Сћ|Фw|Ои|Ои|Оw|Оw|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -2933,7 +2933,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓЏѓXѓv", cnven("wasp"))
+			racename = lang("ГПГXГv", cnven("оса "))
 			cpicref = xy2pic(12, 6)
 			return
 		}
@@ -2985,7 +2985,7 @@
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 2
 			skillinit SKILL_NORMAL_GARDENING, rc, 3
 			skillinit SKILL_ACTIVE_PICKPOCKET, rc, 2
-			s(1) = "“Є|"
+			s(1) = "У™|"
 			gosub *set_figure
 		}
 		return
@@ -3001,7 +3001,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‹ђђl", cnven("giant"))
+			racename = lang("ЛРРl", cnven("гигант "))
 			cpicref = xy2pic(1, 7)
 			return
 		}
@@ -3053,7 +3053,7 @@
 			skillinit SKILL_NORMAL_ANATOMY, rc, 3
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 2
 			skillinit SKILL_NORMAL_CARPENTRY, rc, 3
-			s(1) = "‘М|”w|Ћи|Ћи|r|‘«|"
+			s(1) = "Сћ|Фw|Ои|Ои|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -3069,7 +3069,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("€«–‚", cnven("imp"))
+			racename = lang("ИЂЦВ", cnven("имп "))
 			cpicref = xy2pic(14, 6)
 			return
 		}
@@ -3121,7 +3121,7 @@
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 4
 			skillinit SKILL_NORMAL_TACTICS, rc, 4
 			skillinit SKILL_NORMAL_NEGOTIATION, rc, 4
-			s(1) = "Ћс|‘М|Ћи|Ћи|Ћw|Ћw|Ћw|‘«|"
+			s(1) = "Ос|Сћ|Ои|Ои|Оw|Оw|Оw|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -3137,7 +3137,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Ћи", cnven("hand"))
+			racename = lang("Ои", cnven("рука "))
 			cpicref = xy2pic(15, 6)
 			return
 		}
@@ -3189,7 +3189,7 @@
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 4
 			skillinit SKILL_NORMAL_CARPENTRY, rc, 2
 			skillinit SKILL_NORMAL_COOKING, rc, 3
-			s(1) = "Ћи|Ћи|Ћw|Ћw|r|"
+			s(1) = "Ои|Ои|Оw|Оw|Шr|"
 			gosub *set_figure
 		}
 		return
@@ -3205,7 +3205,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ЋЦ", cnven("snake"))
+			racename = lang("О÷", cnven("зме¤ "))
 			cpicref = xy2pic(18, 6)
 			return
 		}
@@ -3257,7 +3257,7 @@
 			skillinit SKILL_NORMAL_STEALTH, rc, 4
 			skillinit SKILL_NORMAL_SWIMMING, rc, 2
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 2
-			s(1) = "‘М|"
+			s(1) = "Сћ|"
 			gosub *set_figure
 		}
 		return
@@ -3273,7 +3273,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("€џ—і", cnven("drake"))
+			racename = lang("ИЯЧ≥", cnven("дрейк "))
 			cpicref = xy2pic(2, 7)
 			return
 		}
@@ -3325,7 +3325,7 @@
 			skillinit SKILL_NORMAL_TRAVELING, rc, 3
 			skillinit SKILL_NORMAL_FISHING, rc, 2
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
-			s(1) = "Ћс|‘М|Ћw|Ћw|"
+			s(1) = "Ос|Сћ|Оw|Оw|"
 			gosub *set_figure
 		}
 		return
@@ -3341,12 +3341,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓSѓuѓЉѓ“", cnven("goblin"))
+			racename = lang("ГSГuГКГУ", cnven("гоблин "))
 			cpicref = xy2pic(22, 6)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓSѓuѓЉѓ“‚НЌDђн“I‚ЕаЦ–Т‚ИЋн‘°‚Е‚·ЃB”Ю‚з‚Н“Б•M‚·‚й‚Ч‚«”\—Н‚рЋќ‚Б‚Д‚Ё‚з‚ёЃA‚Ь‚Ѕ‚±‚к‚Ж‚ў‚Б‚ЅЋг“_‚а‚ ‚и‚Ь‚№‚сЃBѓSѓuѓЉѓ“‚Н‚Н‚в‚вЌ‚‚ў”\—Н‚ЖЃA€ГЌ•‚Ц‚М‘Пђ«‚ЖЃAЋ©‘RЋЎ–ь‚М‹ZЏp‚рЋќ‚Б‚Д‚ў‚Ь‚·ЃB‚Ь‚ЅЃAЌМЋжѓXѓ|ѓbѓg‚Е‚ж‚и’·‚­ЌМЋж‚·‚й‚±‚Ж‚Є‚Е‚«‚Ь‚·ЃB", "If Dwarves are the people of the earth, then the Goblins are the vermin. While clumsy and ugly, there are ever so many goblins about, and more every year. Their scrawny bodies heal quickly, and they love the taste of fish. Their beady little eyes miss little in the dark, and you never want to grapple with them, who knows what diseases you might get.")
+			buff = lang("ГSГuГКГУВЌНDРнУIВ≈а÷Ц“В»ОнС∞В≈ВЈБBФёВзВЌУЅХMВЈВйВ„ВЂФ\ЧЌВрОЭВЅВƒВ®ВзВЄБAВ№ВљВ±ВкВ∆В¢ВЅВљОгУ_ВаВ†ВиВ№ВєВсБBГSГuГКГУВЌВЌВвВвНВВ¢Ф\ЧЌВ∆БAИ√НХВ÷ВћСѕРЂВ∆БAО©СRО°ЦьВћЛZПpВрОЭВЅВƒВ¢В№ВЈБBВ№ВљБAНћОжГXГ|ГbГgВ≈ВжВиТЈВ≠НћОжВЈВйВ±В∆В™В≈ВЂВ№ВЈБB", "≈сли гномы - это люди земли, то гоблины - это паразиты. √облины неуклюжи и уродливы, но их всегда много, и с каждым годом становитс¤ все больше. »х тощие тела быстро заживают, и они люб¤т вкус рыбы. »х маленькие глазки-бусинки плохо вид¤т в темноте, и с ними никогда не хочетс¤ ссоритьс¤ - кто знает, какими болезн¤ми можно заразитьс¤. ")
 			ref1 = 220
 			ref2 = 220
 		}
@@ -3394,7 +3394,7 @@
 			skillinit SKILL_NORMAL_FISHING, rc, 2
 			skillinit SKILL_NORMAL_MINING, rc, 2
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -3410,7 +3410,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ЊF", cnven("bear"))
+			racename = lang("МF", cnven("медведь "))
 			cpicref = xy2pic(24, 6)
 			return
 		}
@@ -3462,7 +3462,7 @@
 			skillinit SKILL_NORMAL_HEALING, rc, 3
 			skillinit SKILL_NORMAL_PERFORMER, rc, 2
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 3
-			s(1) = "Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -3478,7 +3478,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ЉZ", cnven("armor"))
+			racename = lang("КZ", cnven("брон¤ "))
 			cpicref = xy2pic(25, 6)
 			return
 		}
@@ -3531,7 +3531,7 @@
 			skillinit SKILL_NORMAL_LOCK_PICKING, rc, 3
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 2
 			skillinit SKILL_NORMAL_HEAVY_ARMOR, rc, 8
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|r|Ќ|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Шr|НШ|"
 			gosub *set_figure
 		}
 		return
@@ -3547,7 +3547,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓЃѓfѓ…Ѓ[ѓT", cnven("medusa"))
+			racename = lang("ГБГfГЕБ[ГT", cnven("медуза "))
 			cpicref = xy2pic(26, 6)
 			return
 		}
@@ -3599,7 +3599,7 @@
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 3
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
 			skillinit SKILL_NORMAL_ALCHEMY, rc, 2
-			s(1) = "‘М|Ћи|Ћи|Ћw|Ћw|r|‘«|"
+			s(1) = "Сћ|Ои|Ои|Оw|Оw|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -3615,7 +3615,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("“VЋg", cnven("cupid"))
+			racename = lang("УVОg", cnven("купидон "))
 			cpicref = xy2pic(27, 6)
 			return
 		}
@@ -3668,7 +3668,7 @@
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 4
 			skillinit SKILL_NORMAL_CASTING, rc, 4
 			skillinit SKILL_NORMAL_INVESTING, rc, 3
-			s(1) = "Ћс|‘М|Ћи|Ћи|Ћw|Ћw|r|Ќ|"
+			s(1) = "Ос|Сћ|Ои|Ои|Оw|Оw|Шr|НШ|"
 			gosub *set_figure
 		}
 		return
@@ -3684,7 +3684,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓJѓ‹Ѓ[ѓ“", cnven("karune"))
+			racename = lang("ГJГЛБ[ГУ", cnven("карун "))
 			cpicref = xy2pic(21, 0)
 			return
 		}
@@ -3741,7 +3741,7 @@
 			skillinit SKILL_NORMAL_ANATOMY, rc, 3
 			skillinit SKILL_NORMAL_WEIGHT_LIFTING, rc, 2
 			skillinit SKILL_NORMAL_TRAVELING, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -3757,7 +3757,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("’№ђl", cnven("harpy"))
+			racename = lang("ТєРl", cnven("гарпи¤ "))
 			cpicref = xy2pic(29, 6)
 			return
 		}
@@ -3809,7 +3809,7 @@
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 3
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 2
 			skillinit SKILL_NORMAL_PERFORMER, rc, 2
-			s(1) = "Ћс|”w|Ћи|Ћи|Ћw|Ћw|r|‘«|"
+			s(1) = "Ос|Фw|Ои|Ои|Оw|Оw|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -3825,7 +3825,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓhѓ‰ѓSѓ“", cnven("dragon"))
+			racename = lang("ГhГЙГSГУ", cnven("дракон "))
 			cpicref = xy2pic(30, 6)
 			return
 		}
@@ -3877,7 +3877,7 @@
 			skillinit SKILL_NORMAL_TRAVELING, rc, 3
 			skillinit SKILL_NORMAL_JEWELER, rc, 3
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
-			s(1) = "Ћс|‘М|Ћw|Ћw|"
+			s(1) = "Ос|Сћ|Оw|Оw|"
 			gosub *set_figure
 		}
 		return
@@ -3893,7 +3893,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‹°—і", cnven("dinosaur"))
+			racename = lang("Л∞Ч≥", cnven("динозавр "))
 			cpicref = xy2pic(26, 11)
 			return
 		}
@@ -3945,7 +3945,7 @@
 			skillinit SKILL_NORMAL_TRAVELING, rc, 3
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 2
 			skillinit SKILL_NORMAL_HEALING, rc, 3
-			s(1) = "Ћс|‘М|Ћw|Ћw|"
+			s(1) = "Ос|Сћ|Оw|Оw|"
 			gosub *set_figure
 		}
 		return
@@ -3961,7 +3961,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Њ¶Џb", cnven("beast"))
+			racename = lang("М∂Пb", cnven("чудовище "))
 			cpicref = xy2pic(31, 6)
 			return
 		}
@@ -4013,7 +4013,7 @@
 			skillinit SKILL_NORMAL_DETECTION, rc, 3
 			skillinit SKILL_NORMAL_TAILORING, rc, 3
 			skillinit SKILL_NORMAL_CASTING, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|‘«|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|СЂ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4029,7 +4029,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("’wеЃ", cnven("spider"))
+			racename = lang("ТwеБ", cnven("паук "))
 			cpicref = xy2pic(32, 6)
 			return
 		}
@@ -4081,7 +4081,7 @@
 			skillinit SKILL_NORMAL_STEALTH, rc, 3
 			skillinit SKILL_NORMAL_ANATOMY, rc, 5
 			skillinit SKILL_NORMAL_TAILORING, rc, 3
-			s(1) = "Ћw|Ћw|"
+			s(1) = "Оw|Оw|"
 			gosub *set_figure
 		}
 		return
@@ -4097,12 +4097,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓSЃ[ѓЊѓЂ", cnven("golem"))
+			racename = lang("ГSБ[ГМГА", cnven("голем "))
 			cpicref = xy2pic(0, 7)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓSЃ[ѓЊѓЂ‚Н–‚—Н‚Й‚ж‚иђ¶–Ѕ‚р—^‚¦‚з‚к‚Ѕ•ЁЋї‚Е‚·ЃBѓSЃ[ѓЊѓЂ‚Н‘ј‚МЋн‘°‚Й”д‚Ч—y‚©‚ЙЌ‚‚ў‘М—Н‚рЋќ‚Б‚Д‚ў‚Ь‚·ЃB‚»‚М‘гЏћ‚Ж‚µ‚Д‚©ЃA”Ю‚з‚Мѓ}ѓi‚Ж‘¬“x‚НЃA’КЏн‚ж‚и‚а—т‚Б‚Д‚ў‚Ь‚·ЃBѓSЃ[ѓЊѓЂ‚Й‚Н“Е‚Ц‚М‹­‚ў‘Пђ«‚Є‚ ‚иЃA‚Ь‚ЅћNћOЏу‘Ф‚Й‚И‚з‚И‚ў‚Ж‚ў‚¤—“_‚Є‚ ‚и‚Ь‚·ЃB", "While certainly not a natural creature, the flows of the Etherwind have ingrained into them a spark of sentience. Strong as a team of oxen, and as tough as the rock they were sculpted from, those are pretty much the only strengths of a Golem. The wizards that made them wanted only laborers, not poets. Still, a Golem can slowly get better, and thankfully they lack the wit to even become bored doing so.")
+			buff = lang("ГSБ[ГМГАВЌЦВЧЌВ…ВжВиР∂ЦљВрЧ^В¶ВзВкВљХ®ОњВ≈ВЈБBГSБ[ГМГАВЌСЉВћОнС∞В…ФдВ„ЧyВ©В…НВВ¢СћЧЌВрОЭВЅВƒВ¢В№ВЈБBВїВћСгПЮВ∆ВµВƒВ©БAФёВзВћГ}ГiВ∆СђУxВЌБAТ ПнВжВиВаЧтВЅВƒВ¢В№ВЈБBГSБ[ГМГАВ…ВЌУ≈В÷ВћЛ≠В¢СѕРЂВ™В†ВиБAВ№ВљЮNЮOПуС‘В…В»ВзВ»В¢В∆В¢В§ЧШУ_В™В†ВиВ№ВЈБB", "’от¤ големы, безусловно, не ¤вл¤ютс¤ естественными существами, потоки Ёфирного ветра вложили в них искру разума. —ильные, как упр¤жка волов, и прочные, как камень, из которого они были изва¤ны, - вот практически единственные достоинства големов. ¬олшебникам, создавшим их, нужны были только рабочие, а не поэты. “ем не менее, голем может постепенно становитьс¤ лучше, и, к счастью, им не хватает ума, чтобы даже заскучать при этом. ")
 			ref1 = 231
 			ref2 = 231
 		}
@@ -4150,7 +4150,7 @@
 			skillinit SKILL_NORMAL_WEIGHT_LIFTING, rc, 5
 			skillinit SKILL_NORMAL_MINING, rc, 3
 			skillinit SKILL_NORMAL_ALCHEMY, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4166,7 +4166,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Ќz•Ё", cnven("rock"))
+			racename = lang("НzХ®", cnven("камень "))
 			cpicref = xy2pic(23, 11)
 			return
 		}
@@ -4219,7 +4219,7 @@
 			skillinit SKILL_NORMAL_WEIGHT_LIFTING, rc, 3
 			skillinit SKILL_NORMAL_MINING, rc, 3
 			skillinit SKILL_NORMAL_MARKSMAN, rc, 3
-			s(1) = "“Є|"
+			s(1) = "У™|"
 			gosub *set_figure
 		}
 		return
@@ -4235,7 +4235,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓUѓiѓ“", cnven("zanan"))
+			racename = lang("ГUГiГУ", cnven("занан "))
 			cpicref = xy2pic(11, 0)
 			return
 		}
@@ -4292,7 +4292,7 @@
 			skillinit SKILL_NORMAL_HEALING, rc, 3
 			skillinit SKILL_NORMAL_TACTICS, rc, 3
 			skillinit SKILL_NORMAL_GENE_ENGINEER, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4308,7 +4308,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Љ[Ќњ", cnven("skeleton"))
+			racename = lang("К[НЬ", cnven("скелет "))
 			cpicref = xy2pic(10, 7)
 			return
 		}
@@ -4365,7 +4365,7 @@
 			skillinit SKILL_WEAPON_LONGSWORD, rc, 3
 			skillinit SKILL_NORMAL_SHIELD, rc, 2
 			skillinit SKILL_NORMAL_LOCK_PICKING, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4381,7 +4381,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‹о", cnven("piece"))
+			racename = lang("Ло", cnven("кусок "))
 			cpicref = xy2pic(13, 7)
 			return
 		}
@@ -4434,7 +4434,7 @@
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 2
 			skillinit SKILL_NORMAL_LITERACY, rc, 3
 			skillinit SKILL_NORMAL_TACTICS, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|"
 			gosub *set_figure
 		}
 		return
@@ -4450,7 +4450,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("”L", cnven("cat"))
+			racename = lang("ФL", cnven("кошка "))
 			cpicref = xy2pic(22, 7)
 			return
 		}
@@ -4502,7 +4502,7 @@
 			skillinit SKILL_NORMAL_PERFORMER, rc, 2
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 3
 			skillinit SKILL_NORMAL_EVASION, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|‘«|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|СЂ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4518,7 +4518,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Њў", cnven("dog"))
+			racename = lang("М¢", cnven("собака "))
 			cpicref = xy2pic(23, 7)
 			return
 		}
@@ -4570,7 +4570,7 @@
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 2
 			skillinit SKILL_NORMAL_SWIMMING, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|‘«|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|СЂ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4586,7 +4586,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓЌЃ[ѓ‰ѓ“", cnven("roran"))
+			racename = lang("ГНБ[ГЙГУ", cnven("роран "))
 			cpicref = xy2pic(4, 0)
 			return
 		}
@@ -4643,7 +4643,7 @@
 			skillinit SKILL_NORMAL_LITERACY, rc, 4
 			skillinit SKILL_NORMAL_INVESTING, rc, 2
 			skillinit SKILL_NORMAL_PERFORMER, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4659,7 +4659,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‚Л‚ё‚Э", cnven("rat"))
+			racename = lang("ВЋВЄВЁ", cnven("крыса "))
 			cpicref = xy2pic(24, 7)
 			return
 		}
@@ -4711,7 +4711,7 @@
 			skillinit SKILL_NORMAL_STEALTH, rc, 3
 			skillinit SKILL_NORMAL_ANATOMY, rc, 2
 			skillinit SKILL_ACTIVE_RIDING, rc, 2
-			s(1) = "”w|Ћи|r|Ќ|‘«|"
+			s(1) = "Фw|Ои|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4727,7 +4727,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ЌbЉk", cnven("shell"))
+			racename = lang("НbКk", cnven("раковина "))
 			cpicref = xy2pic(25, 7)
 			return
 		}
@@ -4781,7 +4781,7 @@
 			skillinit SKILL_NORMAL_DISARM_TRAP, rc, 2
 			skillinit SKILL_NORMAL_SHIELD, rc, 3
 			skillinit SKILL_NORMAL_SWIMMING, rc, 2
-			s(1) = "”w|Ћи|Ћи|Ћw|Ћw|‘«|"
+			s(1) = "Фw|Ои|Ои|Оw|Оw|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4797,7 +4797,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("”L‚Мђ_", cnven("catgod"))
+			racename = lang("ФLВћР_", cnven("кошачий бог "))
 			cpicref = xy2pic(1, 6)
 			return
 		}
@@ -4849,7 +4849,7 @@
 			skillinit SKILL_NORMAL_EVASION, rc, 3
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 3
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 2
-			s(1) = "“Є|Ћс|‘М|Ћи|Ћw|r|‘«|"
+			s(1) = "У™|Ос|Сћ|Ои|Оw|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4865,7 +4865,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‹@ЉB‚Мђ_", cnven("machinegod"))
+			racename = lang("Л@КBВћР_", cnven("бог-машина "))
 			cpicref = xy2pic(19, 10)
 			return
 		}
@@ -4917,7 +4917,7 @@
 			skillinit SKILL_WEAPON_MARTIAL_ARTS, rc, 5
 			skillinit SKILL_WEAPON_FIREARM, rc, 30
 			skillinit SKILL_NORMAL_MARKSMAN, rc, 3
-			s(1) = "“Є|‘М|”w|Ћи|Ћи|r|Ќ|‘«|"
+			s(1) = "У™|Сћ|Фw|Ои|Ои|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -4933,7 +4933,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ЋЂ—м‚Мђ_", cnven("undeadgod"))
+			racename = lang("ОАЧмВћР_", cnven("бог смерти "))
 			cpicref = xy2pic(20, 10)
 			return
 		}
@@ -4984,7 +4984,7 @@
 			skillinit SKILL_WEAPON_MARTIAL_ARTS, rc, 4
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 5
-			s(1) = "Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|"
+			s(1) = "Ос|Сћ|Фw|Ои|Ои|Оw|Оw|"
 			gosub *set_figure
 		}
 		return
@@ -5000,7 +5000,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("‹@ЉB", cnven("machine"))
+			racename = lang("Л@КB", cnven("машина "))
 			cpicref = xy2pic(6, 8)
 			return
 		}
@@ -5054,7 +5054,7 @@
 			skillinit SKILL_NORMAL_LOCK_PICKING, rc, 3
 			skillinit SKILL_NORMAL_DISARM_TRAP, rc, 3
 			skillinit SKILL_NORMAL_CARPENTRY, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -5070,7 +5070,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓEѓBѓXѓv", cnven("wisp"))
+			racename = lang("ГEГBГXГv", cnven("висп "))
 			cpicref = xy2pic(8, 8)
 			return
 		}
@@ -5122,7 +5122,7 @@
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 3
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 5
 			skillinit SKILL_NORMAL_MEDITATION, rc, 4
-			s(1) = "“Є|"
+			s(1) = "У™|"
 			gosub *set_figure
 		}
 		return
@@ -5138,7 +5138,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("’№", cnven("bird"))
+			racename = lang("Тє", cnven("птица "))
 			cpicref = xy2pic(10, 8)
 			return
 		}
@@ -5190,7 +5190,7 @@
 			skillinit SKILL_NORMAL_ANATOMY, rc, 3
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 3
 			skillinit SKILL_NORMAL_EYE_OF_MIND, rc, 2
-			s(1) = "“Є|‘М|‘«|"
+			s(1) = "У™|Сћ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -5206,7 +5206,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ЉC–‚", cnven("seamonster"))
+			racename = lang("КCЦВ", cnven("морской монстр "))
 			cpicref = xy2pic(32, 2)
 			return
 		}
@@ -5258,7 +5258,7 @@
 			skillinit SKILL_NORMAL_FAITH, rc, 4
 			skillinit SKILL_NORMAL_STEALTH, rc, 2
 			skillinit SKILL_NORMAL_SWIMMING, rc, 30
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|r|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Шr|"
 			gosub *set_figure
 		}
 		return
@@ -5274,7 +5274,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓPѓ‚ѓrѓg", cnven("catsister"))
+			racename = lang("ГPГВГrГg", cnven("сестра-кошка "))
 			cpicref = xy2pic(24, 10)
 			return
 		}
@@ -5326,7 +5326,7 @@
 			skillinit SKILL_NORMAL_TWO_HAND, rc, 6
 			skillinit SKILL_NORMAL_TACTICS, rc, 4
 			skillinit SKILL_NORMAL_JEWELER, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -5342,12 +5342,12 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓJѓIѓXѓVѓFѓCѓv", cnven("mutant"))
+			racename = lang("ГJГIГXГVГFГCГv", cnven("мутант "))
 			cpicref = xy2pic(3, 0)
 			return
 		}
 		if ( dbmode == DBMODE_REF_CM ) {
-			buff = lang("ѓJѓIѓXѓVѓFѓCѓv‚Й‚В‚ў‚Д•Є‚©‚Б‚Д‚ў‚й‚±‚Ж‚НЃA‚Щ‚Ж‚с‚З‚ ‚и‚Ь‚№‚сЃB€ЩЊ`‚Мђl‚Ж‚аЊД‚О‚к‚й”Ю‚з‚НЃA‚©‚л‚¤‚¶‚Дђl‚МЊ`‚р•Ы‚Б‚Д‚ў‚Ь‚·ЃBѓJѓIѓXѓVѓFѓCѓv‚Нђ¬’·‚Ж‚Ж‚а‚ЙђV‚µ‚ўђg‘М‚М•”€К‚рЉl“ѕ‚µ‚Ь‚·‚ЄЃA‰Ѕ‚Єђ¶‚¦‚Д‚­‚й‚©‚Н—\‘Є•s‰В”\‚Е‚·ЃB", "A living warning of the perils of Gene-Engineering, Chaos, and why pregnant women should not be caught in the Etherwind, most mutants live short and pain-filled lives. Still, one in every thousand not only lives but thrives due to the changes wrought on them. Healing quickly due to their quickened blood, and at least starting out mostly human-like, Mutants are the proof that a third hand is always helpful.")
+			buff = lang("ГJГIГXГVГFГCГvВ…В¬В¢ВƒХ™В©ВЅВƒВ¢ВйВ±В∆ВЌБAВўВ∆ВсВ«В†ВиВ№ВєВсБBИўМ`ВћРlВ∆ВаМƒВќВкВйФёВзВЌБAВ©ВлВ§В∂ВƒРlВћМ`ВрХџВЅВƒВ¢В№ВЈБBГJГIГXГVГFГCГvВЌРђТЈВ∆В∆ВаВ…РVВµВ¢РgСћВћХФИ ВрКlУЊВµВ№ВЈВ™БAЙљВ™Р∂В¶ВƒВ≠ВйВ©ВЌЧ\С™ХsЙ¬Ф\В≈ВЈБB", "∆ивое предупреждение об опасност¤х генной инженерии, ’аоса и о том, почему беременным женщинам нельз¤ попадатьс¤ на глаза Ёфирному ветру, большинство мутантов проживают короткую и полную боли жизнь. ќднако один из тыс¤чи не только живет, но и процветает благодар¤ изменени¤м, произошедшим с ним. Ѕыстро исцел¤¤сь благодар¤ своей ускоренной крови и, по крайней мере, начина¤ по большей части походить на человека, мутанты ¤вл¤ютс¤ доказательством того, что треть¤ рука всегда полезна. ")
 			ref1 = 3
 			ref2 = 3
 			ref2 = 4
@@ -5398,7 +5398,7 @@
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 3
 			skillinit SKILL_NORMAL_HEALING, rc, 4
 			skillinit SKILL_NORMAL_GENE_ENGINEER, rc, 4
-			s(1) = "‘М|Ћи|"
+			s(1) = "Сћ|Ои|"
 			gosub *set_figure
 		}
 		return
@@ -5414,7 +5414,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓCЃ[ѓN", cnven("yeek"))
+			racename = lang("ГCБ[ГN", cnven("йик "))
 			cpicref = xy2pic(15, 11)
 			return
 		}
@@ -5466,7 +5466,7 @@
 			skillinit SKILL_NORMAL_MEDITATION, rc, 3
 			skillinit SKILL_NORMAL_NEGOTIATION, rc, 4
 			skillinit SKILL_NORMAL_FISHING, rc, 2
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -5482,7 +5482,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("€ЩђЇЋе", cnven("yith"))
+			racename = lang("ИўРѓОе", cnven("йит "))
 			cpicref = xy2pic(0, 13)
 			return
 		}
@@ -5534,7 +5534,7 @@
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 4
 			skillinit SKILL_NORMAL_CASTING, rc, 4
 			skillinit SKILL_NORMAL_MAGIC_DEVICE, rc, 3
-			s(1) = "Ћи|Ћи|Ћи|Ћи|Ћw|Ћw|Ћw|Ћw|"
+			s(1) = "Ои|Ои|Ои|Ои|Оw|Оw|Оw|Оw|"
 			gosub *set_figure
 		}
 		return
@@ -5550,7 +5550,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ђ_‚М‰»ђg", cnven("servant"))
+			racename = lang("Р_ВћЙїРg", cnven("слуга "))
 			cpicref = xy2pic(1, 0)
 			return
 		}
@@ -5610,7 +5610,7 @@
 			skillinit SKILL_NORMAL_DUAL_WIELD, rc, 4
 			skillinit SKILL_WEAPON_FIREARM, rc, 4
 			skillinit SKILL_NORMAL_TWO_HAND, rc, 3
-			s(1) = "“Є|Ћс|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|Ќ|‘«|"
+			s(1) = "У™|Ос|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|НШ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -5626,7 +5626,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("”n", cnven("horse"))
+			racename = lang("Фn", cnven("лошадь "))
 			cpicref = xy2pic(31, 7)
 			return
 		}
@@ -5678,7 +5678,7 @@
 			skillinit SKILL_NORMAL_HEALING, rc, 4
 			skillinit SKILL_NORMAL_WEIGHT_LIFTING, rc, 3
 			skillinit SKILL_ACTIVE_RIDING, rc, 2
-			s(1) = "‘М|‘«|‘«|"
+			s(1) = "Сћ|СЂ|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -5694,7 +5694,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ђ_", cnven("god"))
+			racename = lang("Р_", cnven("бог "))
 			cpicref = xy2pic(30, 11)
 			return
 		}
@@ -5764,7 +5764,7 @@
 			skillinit SKILL_NORMAL_CONTROL_MAGIC, rc, 6
 			skillinit SKILL_NORMAL_MARKSMAN, rc, 6
 			skillinit SKILL_NORMAL_PERFORMER, rc, 3
-			s(1) = "Ћи|Ћи|"
+			s(1) = "Ои|Ои|"
 			gosub *set_figure
 		}
 		return
@@ -5780,7 +5780,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓNѓCѓbѓNѓЉѓ“ѓO", cnven("quickling"))
+			racename = lang("ГNГCГbГNГКГУГO", cnven("квиклинг "))
 			cpicref = xy2pic(17, 8)
 			return
 		}
@@ -5833,7 +5833,7 @@
 			skillinit SKILL_NORMAL_STEALTH, rc, 3
 			skillinit SKILL_NORMAL_EVASION, rc, 7
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 6
-			s(1) = "“Є|‘М|”w|Ћи|Ћи|Ћw|Ћw|r|‘«|"
+			s(1) = "У™|Сћ|Фw|Ои|Ои|Оw|Оw|Шr|СЂ|"
 			gosub *set_figure
 		}
 		return
@@ -5849,7 +5849,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("ѓЃѓ^ѓ‹", cnven("metal"))
+			racename = lang("ГБГ^ГЛ", cnven("металл "))
 			cpicref = xy2pic(21, 7)
 			return
 		}
@@ -5902,7 +5902,7 @@
 			skillinit SKILL_NORMAL_MAGIC_CAPACITY, rc, 4
 			skillinit SKILL_NORMAL_GREATER_EVASION, rc, 6
 			skillinit SKILL_NORMAL_JEWELER, rc, 2
-			s(1) = "“Є|‘М|”w|"
+			s(1) = "У™|Сћ|Фw|"
 			gosub *set_figure
 		}
 		return
@@ -5918,7 +5918,7 @@
 			return
 		}
 		if ( dbmode == DBMODE_REF ) {
-			racename = lang("Џж—p‹@ЉB", cnven("vehicle"))
+			racename = lang("ПжЧpЛ@КB", cnven("транспорт "))
 			cpicref = xy2pic(9, 14)
 			return
 		}
@@ -5971,7 +5971,7 @@
 			skillinit SKILL_NORMAL_EVASION, rc, 11
 			skillinit SKILL_NORMAL_LOCK_PICKING, rc, 3
 			skillinit SKILL_NORMAL_DISARM_TRAP, rc, 3
-			s(1) = "“Є|‘М|”w|Ћи|Ћи|Ќ|‘«|‘«|"
+			s(1) = "У™|Сћ|Фw|Ои|Ои|НШ|СЂ|СЂ|"
 			gosub *set_figure
 		}
 		return
