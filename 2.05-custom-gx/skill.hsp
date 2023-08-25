@@ -6,1872 +6,1872 @@
 
 	// Attributes
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_LIFE) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_LIFE) = lang("生命力", "Life")
+	skillname(SKILL_ATTR_LIFE) = lang("ђ¶–Ѕ—Н", "Жизнь ")
 	skilldesc(SKILL_ATTR_LIFE) = ""
 	skillencdesc(SKILL_ATTR_LIFE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_MANA) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_MANA) = lang("マナ", "Mana")
+	skillname(SKILL_ATTR_MANA) = lang("ѓ}ѓi", "Мана ")
 	skilldesc(SKILL_ATTR_MANA) = ""
 	skillencdesc(SKILL_ATTR_MANA) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_STR) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_STR) = lang("筋力", "Strength")
+	skillname(SKILL_ATTR_STR) = lang("‹Ш—Н", "Сила ")
 	skilldesc(SKILL_ATTR_STR) = ""
 	skillencdesc(SKILL_ATTR_STR) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_CON) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_CON) = lang("耐久", "Constitution")
+	skillname(SKILL_ATTR_CON) = lang("‘П‹v", "Телосложение ")
 	skilldesc(SKILL_ATTR_CON) = ""
 	skillencdesc(SKILL_ATTR_CON) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_DEX) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_DEX) = lang("器用", "Dexterity")
+	skillname(SKILL_ATTR_DEX) = lang("Љн—p", "Ловкость ")
 	skilldesc(SKILL_ATTR_DEX) = ""
 	skillencdesc(SKILL_ATTR_DEX) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_PER) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_PER) = lang("感覚", "Perception")
+	skillname(SKILL_ATTR_PER) = lang("ЉґЉo", "Восприятие ")
 	skilldesc(SKILL_ATTR_PER) = ""
 	skillencdesc(SKILL_ATTR_PER) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_LER) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_LER) = lang("習得", "Learning")
+	skillname(SKILL_ATTR_LER) = lang("ЏK“ѕ", "Обучение ")
 	skilldesc(SKILL_ATTR_LER) = ""
 	skillencdesc(SKILL_ATTR_LER) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_WIL) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_WIL) = lang("意志", "Will")
+	skillname(SKILL_ATTR_WIL) = lang("€УЋu", "Воля ")
 	skilldesc(SKILL_ATTR_WIL) = ""
 	skillencdesc(SKILL_ATTR_WIL) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_MAG) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_MAG) = lang("魔力", "Magic")
+	skillname(SKILL_ATTR_MAG) = lang("–‚—Н", "Магия ")
 	skilldesc(SKILL_ATTR_MAG) = ""
 	skillencdesc(SKILL_ATTR_MAG) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_CHA) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_CHA) = lang("魅力", "Charisma")
+	skillname(SKILL_ATTR_CHA) = lang("–Ј—Н", "Харизма ")
 	skilldesc(SKILL_ATTR_CHA) = ""
 	skillencdesc(SKILL_ATTR_CHA) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_SPD) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_SPD) = lang("速度", "Speed")
+	skillname(SKILL_ATTR_SPD) = lang("‘¬“x", "Скорость ")
 	skilldesc(SKILL_ATTR_SPD) = ""
 	skillencdesc(SKILL_ATTR_SPD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ATTR_LUC) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_ATTR_LUC) = lang("運勢", "Luck")
+	skillname(SKILL_ATTR_LUC) = lang("‰^ђЁ", "Удача ")
 	skilldesc(SKILL_ATTR_LUC) = ""
 	skillencdesc(SKILL_ATTR_LUC) = ""
 
 	// Resistances
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_FIRE) = SKILL_NONE, SKILL_TYPE_SP, 0, 1, 0
-	skillname(SKILL_RES_FIRE) = lang("火炎", "fire")
-	skilldesc(SKILL_RES_FIRE) = lang("熱や炎への耐性", "Resistance to fire.")
+	skillname(SKILL_RES_FIRE) = lang("‰О‰Љ", "огонь ")
+	skilldesc(SKILL_RES_FIRE) = lang("”M‚в‰Љ‚Ц‚М‘Пђ«", "Сопротивление огню. ")
 	skillencdesc(SKILL_RES_FIRE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_COLD) = SKILL_NONE, SKILL_TYPE_SP, 0, 1, 0
-	skillname(SKILL_RES_COLD) = lang("冷気", "cold")
-	skilldesc(SKILL_RES_COLD) = lang("冷気や氷への耐性", "Resistance to cold.")
+	skillname(SKILL_RES_COLD) = lang("—в‹C", "холод ")
+	skilldesc(SKILL_RES_COLD) = lang("—в‹C‚в•X‚Ц‚М‘Пђ«", "Сопротивление холоду. ")
 	skillencdesc(SKILL_RES_COLD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_LIGHTNING) = SKILL_NONE, SKILL_TYPE_SP, 0, 1, 0
-	skillname(SKILL_RES_LIGHTNING) = lang("電撃", "lightning")
-	skilldesc(SKILL_RES_LIGHTNING) = lang("雷や電気への耐性", "Resistance to lightning.")
+	skillname(SKILL_RES_LIGHTNING) = lang("“dЊ‚", "молния ")
+	skilldesc(SKILL_RES_LIGHTNING) = lang("—‹‚в“d‹C‚Ц‚М‘Пђ«", "Сопротивление молнии. ")
 	skillencdesc(SKILL_RES_LIGHTNING) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_DARKNESS) = SKILL_NONE, SKILL_TYPE_SP, 0, 2, 0
-	skillname(SKILL_RES_DARKNESS) = lang("暗黒", "darkness")
-	skilldesc(SKILL_RES_DARKNESS) = lang("暗黒や盲目への耐性", "Resistance to darkness.")
+	skillname(SKILL_RES_DARKNESS) = lang("€ГЌ•", "тьма ")
+	skilldesc(SKILL_RES_DARKNESS) = lang("€ГЌ•‚в–У–Ъ‚Ц‚М‘Пђ«", "Сопротивление тьме. ")
 	skillencdesc(SKILL_RES_DARKNESS) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_MIND) = SKILL_NONE, SKILL_TYPE_SP, 0, 2, 0
-	skillname(SKILL_RES_MIND) = lang("幻惑", "mind")
-	skilldesc(SKILL_RES_MIND) = lang("精神攻撃への抵抗力", "Resistance to mind.")
+	skillname(SKILL_RES_MIND) = lang("Њ¶f", "разум ")
+	skilldesc(SKILL_RES_MIND) = lang("ђёђ_ЌUЊ‚‚Ц‚М’пЌR—Н", "Сопротивление разуму. ")
 	skillencdesc(SKILL_RES_MIND) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_POISON) = SKILL_NONE, SKILL_TYPE_SP, 0, 3, 0
-	skillname(SKILL_RES_POISON) = lang("毒", "poison")
-	skilldesc(SKILL_RES_POISON) = lang("毒への耐性", "Resistance to poison.")
+	skillname(SKILL_RES_POISON) = lang("“Е", "яд ")
+	skilldesc(SKILL_RES_POISON) = lang("“Е‚Ц‚М‘Пђ«", "Сопротивление яду. ")
 	skillencdesc(SKILL_RES_POISON) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_NETHER) = SKILL_NONE, SKILL_TYPE_SP, 0, 4, 0
-	skillname(SKILL_RES_NETHER) = lang("地獄", "nether")
-	skilldesc(SKILL_RES_NETHER) = lang("生命吸収への抵抗力", "Resistance to nether.")
+	skillname(SKILL_RES_NETHER) = lang("’nЌ–", "пустота ")
+	skilldesc(SKILL_RES_NETHER) = lang("ђ¶–Ѕ‹zЋы‚Ц‚М’пЌR—Н", "Сопротивление пустоте. ")
 	skillencdesc(SKILL_RES_NETHER) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_SOUND) = SKILL_NONE, SKILL_TYPE_SP, 0, 3, 0
-	skillname(SKILL_RES_SOUND) = lang("音", "sound")
-	skilldesc(SKILL_RES_SOUND) = lang("音波や轟音への耐性", "Resistance to sound.")
+	skillname(SKILL_RES_SOUND) = lang("‰№", "звук ")
+	skilldesc(SKILL_RES_SOUND) = lang("‰№”g‚вЌЊ‰№‚Ц‚М‘Пђ«", "Сопротивление звуку. ")
 	skillencdesc(SKILL_RES_SOUND) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_NERVE) = SKILL_NONE, SKILL_TYPE_SP, 0, 3, 0
-	skillname(SKILL_RES_NERVE) = lang("神経", "nerve")
-	skilldesc(SKILL_RES_NERVE) = lang("睡眠や麻痺への耐性", "Resistance to nerve.")
+	skillname(SKILL_RES_NERVE) = lang("ђ_Њo", "нерв ")
+	skilldesc(SKILL_RES_NERVE) = lang("ђ‡–°‚в–ѓбѓ‚Ц‚М‘Пђ«", "Сопротивление нерву. ")
 	skillencdesc(SKILL_RES_NERVE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_CHAOS) = SKILL_NONE, SKILL_TYPE_SP, 0, 4, 0
-	skillname(SKILL_RES_CHAOS) = lang("混沌", "chaos")
-	skilldesc(SKILL_RES_CHAOS) = lang("混沌の効果への耐性", "Resistance to chaos.")
+	skillname(SKILL_RES_CHAOS) = lang("Ќ¬“Ч", "хаос ")
+	skilldesc(SKILL_RES_CHAOS) = lang("Ќ¬“Ч‚МЊш‰К‚Ц‚М‘Пђ«", "Сопротивление хаосу. ")
 	skillencdesc(SKILL_RES_CHAOS) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RES_MAGIC) = SKILL_NONE, SKILL_TYPE_SP, 0, 5, 0
-	skillname(SKILL_RES_MAGIC) = lang("魔法", "magic")
-	skilldesc(SKILL_RES_MAGIC) = lang("魔法攻撃への耐性", "Resistance to magic.")
+	skillname(SKILL_RES_MAGIC) = lang("–‚–@", "магия ")
+	skilldesc(SKILL_RES_MAGIC) = lang("–‚–@ЌUЊ‚‚Ц‚М‘Пђ«", "Сопротивление к магии. ")
 	skillencdesc(SKILL_RES_MAGIC) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_RESDMG_CUT) = SKILL_NONE, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_RESDMG_CUT) = lang("出血", "cut")
-	skilldesc(SKILL_RESDMG_CUT) = lang("切り傷への耐性", "Resistance to cut.")
+	skillname(SKILL_RESDMG_CUT) = lang("ЏoЊЊ", "порез ")
+	skilldesc(SKILL_RESDMG_CUT) = lang("ђШ‚иЏќ‚Ц‚М‘Пђ«", "Сопротивление к порезам. ")
 	skillencdesc(SKILL_RESDMG_CUT) = ""
 
 	// Weapon skills
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_LONGSWORD) = SKILL_ATTR_STR, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_LONGSWORD) = lang("長剣", "Long Sword")
-	skilldesc(SKILL_WEAPON_LONGSWORD) = lang("刃渡りの長い剣を扱う技術", "Indicates your skill with long swords.")
+	skillname(SKILL_WEAPON_LONGSWORD) = lang("’·Њ•", "Длинный меч ")
+	skilldesc(SKILL_WEAPON_LONGSWORD) = lang("ђn“n‚и‚М’·‚ўЊ•‚р€µ‚¤‹ZЏp", "Отображает ваше умение обращаться с длинными мечами. ")
 	skillencdesc(SKILL_WEAPON_LONGSWORD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_SHORTSWORD) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_SHORTSWORD) = lang("短剣", "Short Sword")
-	skilldesc(SKILL_WEAPON_SHORTSWORD) = lang("刃渡りの短い剣を扱う技術", "Indicates your skill with short swords.")
+	skillname(SKILL_WEAPON_SHORTSWORD) = lang("’ZЊ•", "Короткий меч ")
+	skilldesc(SKILL_WEAPON_SHORTSWORD) = lang("ђn“n‚и‚М’Z‚ўЊ•‚р€µ‚¤‹ZЏp", "Отображает умение владеть коротким мечом. ")
 	skillencdesc(SKILL_WEAPON_SHORTSWORD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_AXE) = SKILL_ATTR_STR, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_AXE) = lang("斧", "Axe")
-	skilldesc(SKILL_WEAPON_AXE) = lang("斧を扱う技術", "Indicates your skill with axes.")
+	skillname(SKILL_WEAPON_AXE) = lang("•Ђ", "Топор ")
+	skilldesc(SKILL_WEAPON_AXE) = lang("•Ђ‚р€µ‚¤‹ZЏp", "Отображает ваше умение обращаться с топорами. ")
 	skillencdesc(SKILL_WEAPON_AXE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_BLUNT) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_BLUNT) = lang("鈍器", "Blunt")
-	skilldesc(SKILL_WEAPON_BLUNT) = lang("鈍器を扱う技術", "Indicates your skill with blunt weapons.")
+	skillname(SKILL_WEAPON_BLUNT) = lang("“ЭЉн", "Дробящее ")
+	skilldesc(SKILL_WEAPON_BLUNT) = lang("“ЭЉн‚р€µ‚¤‹ZЏp", "Отображает ваше умение обращаться с дробящим оружием. ")
 	skillencdesc(SKILL_WEAPON_BLUNT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_POLEARM) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_POLEARM) = lang("槍", "Polearm")
-	skilldesc(SKILL_WEAPON_POLEARM) = lang("槍を扱う技術", "Indicates your skill with polearms.")
+	skillname(SKILL_WEAPON_POLEARM) = lang("‘„", "Древковое ")
+	skilldesc(SKILL_WEAPON_POLEARM) = lang("‘„‚р€µ‚¤‹ZЏp", "Отображает ваше умение обращаться с древковым оружием. ")
 	skillencdesc(SKILL_WEAPON_POLEARM) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_STAVE) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_STAVE) = lang("杖", "Stave")
-	skilldesc(SKILL_WEAPON_STAVE) = lang("杖を扱う技術", "Indicates your skill with staves.")
+	skillname(SKILL_WEAPON_STAVE) = lang("Џс", "Посох ")
+	skilldesc(SKILL_WEAPON_STAVE) = lang("Џс‚р€µ‚¤‹ZЏp", "Отображает умение обращаться с посохом. ")
 	skillencdesc(SKILL_WEAPON_STAVE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_MARTIAL_ARTS) = SKILL_ATTR_STR, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_MARTIAL_ARTS) = lang("格闘", "Martial Arts")
-	skilldesc(SKILL_WEAPON_MARTIAL_ARTS) = lang("格闘の技術", "Indicates your skill fighting unarmed.")
+	skillname(SKILL_WEAPON_MARTIAL_ARTS) = lang("Љi“¬", "Боевые искусства ")
+	skilldesc(SKILL_WEAPON_MARTIAL_ARTS) = lang("Љi“¬‚М‹ZЏp", "Отображает умение сражаться без оружия. ")
 	skillencdesc(SKILL_WEAPON_MARTIAL_ARTS) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_SCYTHE) = SKILL_ATTR_STR, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_SCYTHE) = lang("鎌", "Scythe")
-	skilldesc(SKILL_WEAPON_SCYTHE) = lang("鎌を扱う技術", "Indicates your skill with scythes.")
+	skillname(SKILL_WEAPON_SCYTHE) = lang("Љ™", "Коса ")
+	skilldesc(SKILL_WEAPON_SCYTHE) = lang("Љ™‚р€µ‚¤‹ZЏp", "Отображает умение обращаться с косой. ")
 	skillencdesc(SKILL_WEAPON_SCYTHE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_BOW) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_BOW) = lang("弓", "Bow")
-	skilldesc(SKILL_WEAPON_BOW) = lang("弓を扱う技術", "Indicates your skill with bows.")
+	skillname(SKILL_WEAPON_BOW) = lang("‹|", "Bow")
+	skilldesc(SKILL_WEAPON_BOW) = lang("‹|‚р€µ‚¤‹ZЏp", "Indicates your skill with bows.")
 	skillencdesc(SKILL_WEAPON_BOW) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_CROSSBOW) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_CROSSBOW) = lang("クロスボウ", "Crossbow")
-	skilldesc(SKILL_WEAPON_CROSSBOW) = lang("クロスボウを扱う技術", "Indicates your skill with crossbows.")
+	skillname(SKILL_WEAPON_CROSSBOW) = lang("ѓNѓЌѓXѓ{ѓE", "Crossbow")
+	skilldesc(SKILL_WEAPON_CROSSBOW) = lang("ѓNѓЌѓXѓ{ѓE‚р€µ‚¤‹ZЏp", "Indicates your skill with crossbows.")
 	skillencdesc(SKILL_WEAPON_CROSSBOW) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_FIREARM) = SKILL_ATTR_PER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_FIREARM) = lang("銃器", "Firearm")
-	skilldesc(SKILL_WEAPON_FIREARM) = lang("遠隔機装を扱う技術", "Indicates your skill with firearms.")
+	skillname(SKILL_WEAPON_FIREARM) = lang("ЏeЉн", "Firearm")
+	skilldesc(SKILL_WEAPON_FIREARM) = lang("‰“Љu‹@‘•‚р€µ‚¤‹ZЏp", "Indicates your skill with firearms.")
 	skillencdesc(SKILL_WEAPON_FIREARM) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_WEAPON_THROWING) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_WEAPON_THROWING) = lang("投擲", "Throwing")
-	skilldesc(SKILL_WEAPON_THROWING) = lang("投擲道具を扱う技術", "Indicates your skill with throwing objects.")
+	skillname(SKILL_WEAPON_THROWING) = lang("“Љќ±", "Throwing")
+	skilldesc(SKILL_WEAPON_THROWING) = lang("“Љќ±“№‹п‚р€µ‚¤‹ZЏp", "Indicates your skill with throwing objects.")
 	skillencdesc(SKILL_WEAPON_THROWING) = ""
 
 	// Normal skills
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_LITERACY) = SKILL_ATTR_LER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_LITERACY) = lang("読書", "Literacy")
-	skilldesc(SKILL_NORMAL_LITERACY) = lang("難解な本の解読を可能にする", "Allows you to read difficult books.")
-	skillencdesc(SKILL_NORMAL_LITERACY) = lang("本の理解を深める", "makes you literate.")
+	skillname(SKILL_NORMAL_LITERACY) = lang("“ЗЏ‘", "Literacy")
+	skilldesc(SKILL_NORMAL_LITERACY) = lang("“п‰р‚И–{‚М‰р“З‚р‰В”\‚Й‚·‚й", "Allows you to read difficult books.")
+	skillencdesc(SKILL_NORMAL_LITERACY) = lang("–{‚М—ќ‰р‚рђ[‚Я‚й", "makes you literate.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_GENE_ENGINEER) = SKILL_ATTR_LER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_GENE_ENGINEER) = lang("生化学", "Gene Engineer")
-	skilldesc(SKILL_NORMAL_GENE_ENGINEER) = lang("能力複合の知識を高める", "Allows you to control genes.")
-	skillencdesc(SKILL_NORMAL_GENE_ENGINEER) = lang("生化学の知識を深める", "makes you a better gene engineer.")
+	skillname(SKILL_NORMAL_GENE_ENGINEER) = lang("ђ¶‰»Љw", "Gene Engineer")
+	skilldesc(SKILL_NORMAL_GENE_ENGINEER) = lang("”\—Н•ЎЌ‡‚М’mЋЇ‚рЌ‚‚Я‚й", "Allows you to control genes.")
+	skillencdesc(SKILL_NORMAL_GENE_ENGINEER) = lang("ђ¶‰»Љw‚М’mЋЇ‚рђ[‚Я‚й", "makes you a better gene engineer.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_TACTICS) = SKILL_ATTR_STR, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_TACTICS) = lang("戦術", "Tactics")
-	skilldesc(SKILL_NORMAL_TACTICS) = lang("近接攻撃の威力をあげる", "Increases melee damage.")
-	skillencdesc(SKILL_NORMAL_TACTICS) = lang("戦術の理解を深める", "makes you a better tactician.")
+	skillname(SKILL_NORMAL_TACTICS) = lang("ђнЏp", "Tactics")
+	skilldesc(SKILL_NORMAL_TACTICS) = lang("‹ЯђЪЌUЊ‚‚М€Р—Н‚р‚ ‚°‚й", "Increases melee damage.")
+	skillencdesc(SKILL_NORMAL_TACTICS) = lang("ђнЏp‚М—ќ‰р‚рђ[‚Я‚й", "makes you a better tactician.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_WEIGHT_LIFTING) = SKILL_ATTR_STR, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_WEIGHT_LIFTING) = lang("重量挙げ", "Weight Lifting")
-	skilldesc(SKILL_NORMAL_WEIGHT_LIFTING) = lang("重い荷物を持ち運ぶことを可能にする", "Allows you to carry more stuff.")
-	skillencdesc(SKILL_NORMAL_WEIGHT_LIFTING) = lang("より重い物の運搬を可能にする", "makes you better at weight lifting.")
+	skillname(SKILL_NORMAL_WEIGHT_LIFTING) = lang("Џd—К‹“‚°", "Weight Lifting")
+	skilldesc(SKILL_NORMAL_WEIGHT_LIFTING) = lang("Џd‚ў‰Ч•Ё‚рЋќ‚ї‰^‚Ф‚±‚Ж‚р‰В”\‚Й‚·‚й", "Allows you to carry more stuff.")
+	skillencdesc(SKILL_NORMAL_WEIGHT_LIFTING) = lang("‚ж‚иЏd‚ў•Ё‚М‰^”А‚р‰В”\‚Й‚·‚й", "makes you better at weight lifting.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_HEALING) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_HEALING) = lang("治癒", "Healing")
-	skilldesc(SKILL_NORMAL_HEALING) = lang("怪我を自然に治癒する", "Gradually heals your wounds.")
-	skillencdesc(SKILL_NORMAL_HEALING) = lang("体力回復を強化する", "enhances your body metabolism.")
+	skillname(SKILL_NORMAL_HEALING) = lang("ЋЎ–ь", "Healing")
+	skilldesc(SKILL_NORMAL_HEALING) = lang("‰ц‰д‚рЋ©‘R‚ЙЋЎ–ь‚·‚й", "Gradually heals your wounds.")
+	skillencdesc(SKILL_NORMAL_HEALING) = lang("‘М—Н‰с•њ‚р‹­‰»‚·‚й", "enhances your body metabolism.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_MEDITATION) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_MEDITATION) = lang("瞑想", "Meditation")
-	skilldesc(SKILL_NORMAL_MEDITATION) = lang("消耗したマナを回復させる", "Gradually restores your magic points.")
-	skillencdesc(SKILL_NORMAL_MEDITATION) = lang("マナ回復を強化する", "enhances your meditation.")
+	skillname(SKILL_NORMAL_MEDITATION) = lang("бТ‘z", "Meditation")
+	skilldesc(SKILL_NORMAL_MEDITATION) = lang("ЏБ–Х‚µ‚Ѕѓ}ѓi‚р‰с•њ‚і‚№‚й", "Gradually restores your magic points.")
+	skillencdesc(SKILL_NORMAL_MEDITATION) = lang("ѓ}ѓi‰с•њ‚р‹­‰»‚·‚й", "enhances your meditation.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_NEGOTIATION) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_NEGOTIATION) = lang("交渉", "Negotiation")
-	skilldesc(SKILL_NORMAL_NEGOTIATION) = lang("交渉や商談を有利に進める", "Convinces someone to give you better deals.")
-	skillencdesc(SKILL_NORMAL_NEGOTIATION) = lang("交渉を有利に進めさせる", "grants you knowledge of negotiation.")
+	skillname(SKILL_NORMAL_NEGOTIATION) = lang("ЊрЏВ", "Negotiation")
+	skilldesc(SKILL_NORMAL_NEGOTIATION) = lang("ЊрЏВ‚вЏ¤’k‚р—L—‚Йђi‚Я‚й", "Convinces someone to give you better deals.")
+	skillencdesc(SKILL_NORMAL_NEGOTIATION) = lang("ЊрЏВ‚р—L—‚Йђi‚Я‚і‚№‚й", "grants you knowledge of negotiation.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_STEALTH) = SKILL_ATTR_PER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_STEALTH) = lang("隠密", "Stealth")
-	skilldesc(SKILL_NORMAL_STEALTH) = lang("周囲に気づかれず行動する", "Allows you to move quietly.")
-	skillencdesc(SKILL_NORMAL_STEALTH) = lang("隠密能力を強化する", "enhances your ability to hide.")
+	skillname(SKILL_NORMAL_STEALTH) = lang("‰B–§", "Stealth")
+	skilldesc(SKILL_NORMAL_STEALTH) = lang("Ћь€Н‚Й‹C‚Г‚©‚к‚ёЌs“®‚·‚й", "Allows you to move quietly.")
+	skillencdesc(SKILL_NORMAL_STEALTH) = lang("‰B–§”\—Н‚р‹­‰»‚·‚й", "enhances your ability to hide.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_LOCK_PICKING) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_LOCK_PICKING) = lang("鍵開け", "Lock Picking")
-	skilldesc(SKILL_NORMAL_LOCK_PICKING) = lang("鍵を開ける", "Allows you to pick more difficult locks.")
-	skillencdesc(SKILL_NORMAL_LOCK_PICKING) = lang("鍵開けの能力を強化する", "grants you the trick of lock picking.")
+	skillname(SKILL_NORMAL_LOCK_PICKING) = lang("Њ®ЉJ‚Ї", "Lock Picking")
+	skilldesc(SKILL_NORMAL_LOCK_PICKING) = lang("Њ®‚рЉJ‚Ї‚й", "Allows you to pick more difficult locks.")
+	skillencdesc(SKILL_NORMAL_LOCK_PICKING) = lang("Њ®ЉJ‚Ї‚М”\—Н‚р‹­‰»‚·‚й", "grants you the trick of lock picking.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_DETECTION) = SKILL_ATTR_PER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_DETECTION) = lang("探知", "Detection")
-	skilldesc(SKILL_NORMAL_DETECTION) = lang("隠された場所や罠を見つける", "It is used to search hidden locations and traps.")
-	skillencdesc(SKILL_NORMAL_DETECTION) = lang("探知能力を強化する", "enhances your ability to detect objects.")
+	skillname(SKILL_NORMAL_DETECTION) = lang("’T’m", "Detection")
+	skilldesc(SKILL_NORMAL_DETECTION) = lang("‰B‚і‚к‚ЅЏкЏЉ‚вг©‚рЊ©‚В‚Ї‚й", "It is used to search hidden locations and traps.")
+	skillencdesc(SKILL_NORMAL_DETECTION) = lang("’T’m”\—Н‚р‹­‰»‚·‚й", "enhances your ability to detect objects.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_INVESTING) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_INVESTING) = lang("投資", "Investing")
-	skilldesc(SKILL_NORMAL_INVESTING) = lang("効果的に投資を行う", "Lowers the money needed to invest in shops.")
-	skillencdesc(SKILL_NORMAL_INVESTING) = lang("より安い価格での投資を可能にする", "grants you knowledge of investing.")
+	skillname(SKILL_NORMAL_INVESTING) = lang("“ЉЋ‘", "Investing")
+	skilldesc(SKILL_NORMAL_INVESTING) = lang("Њш‰К“I‚Й“ЉЋ‘‚рЌs‚¤", "Lowers the money needed to invest in shops.")
+	skillencdesc(SKILL_NORMAL_INVESTING) = lang("‚ж‚и€А‚ў‰їЉi‚Е‚М“ЉЋ‘‚р‰В”\‚Й‚·‚й", "grants you knowledge of investing.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_ANATOMY) = SKILL_ATTR_LER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_ANATOMY) = lang("解剖学", "Anatomy")
-	skilldesc(SKILL_NORMAL_ANATOMY) = lang("死体などを残しやすくする", "Gives you a better chance of finding body parts.")
-	skillencdesc(SKILL_NORMAL_ANATOMY) = lang("死体などを残しやすくする", "grants you knowledge of anatomy.")
+	skillname(SKILL_NORMAL_ANATOMY) = lang("‰р–UЉw", "Anatomy")
+	skilldesc(SKILL_NORMAL_ANATOMY) = lang("ЋЂ‘М‚И‚З‚рЋc‚µ‚в‚·‚­‚·‚й", "Gives you a better chance of finding body parts.")
+	skillencdesc(SKILL_NORMAL_ANATOMY) = lang("ЋЂ‘М‚И‚З‚рЋc‚µ‚в‚·‚­‚·‚й", "grants you knowledge of anatomy.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_SENSE_QUALITY) = SKILL_ATTR_PER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_SENSE_QUALITY) = lang("分析", "Analysis")
-	skilldesc(SKILL_NORMAL_SENSE_QUALITY) = lang("物の種類や敵の攻撃パターンを感じ取る", "Allows you to feel the object-types and attack-patterns.")
-    skillencdesc(SKILL_NORMAL_SENSE_QUALITY) = lang("分析能力を高める", "improves your analytical ability.")
+	skillname(SKILL_NORMAL_SENSE_QUALITY) = lang("•ЄђН", "Analysis")
+	skilldesc(SKILL_NORMAL_SENSE_QUALITY) = lang("•Ё‚МЋн—Ю‚в“G‚МЌUЊ‚ѓpѓ^Ѓ[ѓ“‚рЉґ‚¶Ћж‚й", "Allows you to feel the object-types and attack-patterns.")
+    skillencdesc(SKILL_NORMAL_SENSE_QUALITY) = lang("•ЄђН”\—Н‚рЌ‚‚Я‚й", "improves your analytical ability.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_MINING) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_MINING) = lang("採掘", "Mining")
-	skilldesc(SKILL_NORMAL_MINING) = lang("壁を掘る効率をあげる", "Shows how good of a miner you are.")
-	skillencdesc(SKILL_NORMAL_MINING) = lang("採掘能力を強化する", "enhances your mining skill.")
+	skillname(SKILL_NORMAL_MINING) = lang("ЌМЊ@", "Mining")
+	skilldesc(SKILL_NORMAL_MINING) = lang("•З‚рЊ@‚йЊш—¦‚р‚ ‚°‚й", "Shows how good of a miner you are.")
+	skillencdesc(SKILL_NORMAL_MINING) = lang("ЌМЊ@”\—Н‚р‹­‰»‚·‚й", "enhances your mining skill.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_MAGIC_CAPACITY) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_MAGIC_CAPACITY) = lang("魔力の限界", "Magic Capacity")
-	skilldesc(SKILL_NORMAL_MAGIC_CAPACITY) = lang("自分や杖から多くの魔力を引き出す", "Brings out a lot of power from yourself and rods.")
-	skillencdesc(SKILL_NORMAL_MAGIC_CAPACITY) = lang("魔力の限界の理解を深める", "strengthens various magic capacities.")
+	skillname(SKILL_NORMAL_MAGIC_CAPACITY) = lang("–‚—Н‚МЊАЉE", "Magic Capacity")
+	skilldesc(SKILL_NORMAL_MAGIC_CAPACITY) = lang("Ћ©•Є‚вЏс‚©‚з‘Ѕ‚­‚М–‚—Н‚р€ш‚«Џo‚·", "Brings out a lot of power from yourself and rods.")
+	skillencdesc(SKILL_NORMAL_MAGIC_CAPACITY) = lang("–‚—Н‚МЊАЉE‚М—ќ‰р‚рђ[‚Я‚й", "strengthens various magic capacities.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_MEMORIZATION) = SKILL_ATTR_LER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_MEMORIZATION) = lang("暗記", "Memorization")
-	skilldesc(SKILL_NORMAL_MEMORIZATION) = lang("書物や攻撃の分析結果を記憶/巻物強化", "Memorize spells. Enhance scrolls. Analyse enemies.")
-	skillencdesc(SKILL_NORMAL_MEMORIZATION) = lang("知識の忘却を防ぐ", "enhances your memory.")
+	skillname(SKILL_NORMAL_MEMORIZATION) = lang("€Г‹L", "Memorization")
+	skilldesc(SKILL_NORMAL_MEMORIZATION) = lang("Џ‘•Ё‚вЌUЊ‚‚М•ЄђНЊ‹‰К‚р‹L‰Ї/ЉЄ•Ё‹­‰»", "Memorize spells. Enhance scrolls. Analyse enemies.")
+	skillencdesc(SKILL_NORMAL_MEMORIZATION) = lang("’mЋЇ‚М–Y‹p‚р–h‚®", "enhances your memory.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_DUAL_WIELD) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_DUAL_WIELD) = lang("二刀流", "Dual Wield")
-	skilldesc(SKILL_NORMAL_DUAL_WIELD) = lang("複数の武器を扱う技術", "Used when wielding two weapons at the same time.")
+	skillname(SKILL_NORMAL_DUAL_WIELD) = lang("“с“Ѓ—¬", "Dual Wield")
+	skilldesc(SKILL_NORMAL_DUAL_WIELD) = lang("•Ўђ”‚М•ђЉн‚р€µ‚¤‹ZЏp", "Used when wielding two weapons at the same time.")
 	skillencdesc(SKILL_NORMAL_DUAL_WIELD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_TWO_HAND) = SKILL_ATTR_STR, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_TWO_HAND) = lang("両手持ち", "Two Hand")
-	skilldesc(SKILL_NORMAL_TWO_HAND) = lang("両手で武器を扱う技術", "Used when wielding a weapon with both hands.")
+	skillname(SKILL_NORMAL_TWO_HAND) = lang("—јЋиЋќ‚ї", "Two Hand")
+	skilldesc(SKILL_NORMAL_TWO_HAND) = lang("—јЋи‚Е•ђЉн‚р€µ‚¤‹ZЏp", "Used when wielding a weapon with both hands.")
 	skillencdesc(SKILL_NORMAL_TWO_HAND) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_SHIELD) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_SHIELD) = lang("盾", "Shield")
-	skilldesc(SKILL_NORMAL_SHIELD) = lang("盾を扱う技術", "Increases the effectiveness of using shields.")
+	skillname(SKILL_NORMAL_SHIELD) = lang("Џ‚", "Shield")
+	skilldesc(SKILL_NORMAL_SHIELD) = lang("Џ‚‚р€µ‚¤‹ZЏp", "Increases the effectiveness of using shields.")
 	skillencdesc(SKILL_NORMAL_SHIELD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_HEAVY_ARMOR) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_HEAVY_ARMOR) = lang("重装備", "Heavy Armor")
-	skilldesc(SKILL_NORMAL_HEAVY_ARMOR) = lang("重い装備を扱う技術", "Skill to effectively act while wearing heavy armor.")
-	skillencdesc(SKILL_NORMAL_HEAVY_ARMOR) = lang("重装備の技術を上昇させる", "")
+	skillname(SKILL_NORMAL_HEAVY_ARMOR) = lang("Џd‘•”х", "Heavy Armor")
+	skilldesc(SKILL_NORMAL_HEAVY_ARMOR) = lang("Џd‚ў‘•”х‚р€µ‚¤‹ZЏp", "Skill to effectively act while wearing heavy armor.")
+	skillencdesc(SKILL_NORMAL_HEAVY_ARMOR) = lang("Џd‘•”х‚М‹ZЏp‚рЏгЏё‚і‚№‚й", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_MEDIUM_ARMOR) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_MEDIUM_ARMOR) = lang("中装備", "Medium Armor")
-	skilldesc(SKILL_NORMAL_MEDIUM_ARMOR) = lang("普通の装備を扱う技術", "Skill to effectively act while wearing medium armor.")
-	skillencdesc(SKILL_NORMAL_MEDIUM_ARMOR) = lang("中装備の技術を上昇させる", "")
+	skillname(SKILL_NORMAL_MEDIUM_ARMOR) = lang("’†‘•”х", "Medium Armor")
+	skilldesc(SKILL_NORMAL_MEDIUM_ARMOR) = lang("•Ѓ’К‚М‘•”х‚р€µ‚¤‹ZЏp", "Skill to effectively act while wearing medium armor.")
+	skillencdesc(SKILL_NORMAL_MEDIUM_ARMOR) = lang("’†‘•”х‚М‹ZЏp‚рЏгЏё‚і‚№‚й", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_LIGHT_ARMOR) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_LIGHT_ARMOR) = lang("軽装備", "Light Armor")
-	skilldesc(SKILL_NORMAL_LIGHT_ARMOR) = lang("軽い装備を扱う技術", "Skill to effectively act while wearing light armor.")
-	skillencdesc(SKILL_NORMAL_LIGHT_ARMOR) = lang("軽装備の技術を上昇させる", "")
+	skillname(SKILL_NORMAL_LIGHT_ARMOR) = lang("Њy‘•”х", "Light Armor")
+	skilldesc(SKILL_NORMAL_LIGHT_ARMOR) = lang("Њy‚ў‘•”х‚р€µ‚¤‹ZЏp", "Skill to effectively act while wearing light armor.")
+	skillencdesc(SKILL_NORMAL_LIGHT_ARMOR) = lang("Њy‘•”х‚М‹ZЏp‚рЏгЏё‚і‚№‚й", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_CASTING) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_CASTING) = lang("詠唱", "Casting")
-	skilldesc(SKILL_NORMAL_CASTING) = lang("魔法詠唱の成功率をあげる", "Reduces the chance of casting failure.")
-	skillencdesc(SKILL_NORMAL_CASTING) = lang("より高度な詠唱を可能にさせる", "enhances your casting ability.")
+	skillname(SKILL_NORMAL_CASTING) = lang("‰rЏҐ", "Casting")
+	skilldesc(SKILL_NORMAL_CASTING) = lang("–‚–@‰rЏҐ‚Мђ¬Њч—¦‚р‚ ‚°‚й", "Reduces the chance of casting failure.")
+	skillencdesc(SKILL_NORMAL_CASTING) = lang("‚ж‚иЌ‚“x‚И‰rЏҐ‚р‰В”\‚Й‚і‚№‚й", "enhances your casting ability.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_EVASION) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_EVASION) = lang("回避", "Evasion")
-	skilldesc(SKILL_NORMAL_EVASION) = lang("攻撃を回避する", "Increases your chance of evading enemy attacks.")
+	skillname(SKILL_NORMAL_EVASION) = lang("‰с”р", "Evasion")
+	skilldesc(SKILL_NORMAL_EVASION) = lang("ЌUЊ‚‚р‰с”р‚·‚й", "Increases your chance of evading enemy attacks.")
 	skillencdesc(SKILL_NORMAL_EVASION) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_MAGIC_DEVICE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_MAGIC_DEVICE) = lang("魔道具", "Magic Device")
-	skilldesc(SKILL_NORMAL_MAGIC_DEVICE) = lang("魔道具を効果的に扱う/魔杖強化", "Improves effectiveness of magic devices. Enhance Rods.")
-	skillencdesc(SKILL_NORMAL_MAGIC_DEVICE) = lang("魔道具の効果をあげる", "enhances the power of magical devices.")
+	skillname(SKILL_NORMAL_MAGIC_DEVICE) = lang("–‚“№‹п", "Magic Device")
+	skilldesc(SKILL_NORMAL_MAGIC_DEVICE) = lang("–‚“№‹п‚рЊш‰К“I‚Й€µ‚¤/–‚Џс‹­‰»", "Improves effectiveness of magic devices. Enhance Rods.")
+	skillencdesc(SKILL_NORMAL_MAGIC_DEVICE) = lang("–‚“№‹п‚МЊш‰К‚р‚ ‚°‚й", "enhances the power of magical devices.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_DISARM_TRAP) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_DISARM_TRAP) = lang("罠の知識", "Disarm Trap")
-	skilldesc(SKILL_NORMAL_DISARM_TRAP) = lang("罠の設置・解体能力を強化する", "Allows you to disarm harder traps.")
-	skillencdesc(SKILL_NORMAL_DISARM_TRAP) = lang("罠の知識を深める", "grants you the trick of disarming traps.")
+	skillname(SKILL_NORMAL_DISARM_TRAP) = lang("г©‚М’mЋЇ", "Disarm Trap")
+	skilldesc(SKILL_NORMAL_DISARM_TRAP) = lang("г©‚МђЭ’uЃE‰р‘М”\—Н‚р‹­‰»‚·‚й", "Allows you to disarm harder traps.")
+	skillencdesc(SKILL_NORMAL_DISARM_TRAP) = lang("г©‚М’mЋЇ‚рђ[‚Я‚й", "grants you the trick of disarming traps.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_CARPENTRY) = SKILL_ATTR_CON, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_CARPENTRY) = lang("工作", "Carpentry")
-	skilldesc(SKILL_NORMAL_CARPENTRY) = lang("物を加工し、アイテムを作り出す", "Skill to cut trees and manufacture products.")
-	skillencdesc(SKILL_NORMAL_CARPENTRY) = lang("工作の腕をあげる", "makes you a better carpenter.")
+	skillname(SKILL_NORMAL_CARPENTRY) = lang("ЌHЌм", "Carpentry")
+	skilldesc(SKILL_NORMAL_CARPENTRY) = lang("•Ё‚р‰БЌH‚µЃAѓAѓCѓeѓЂ‚рЌм‚иЏo‚·", "Skill to cut trees and manufacture products.")
+	skillencdesc(SKILL_NORMAL_CARPENTRY) = lang("ЌHЌм‚Мr‚р‚ ‚°‚й", "makes you a better carpenter.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_TAILORING) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_TAILORING) = lang("裁縫", "Tailoring")
-	skilldesc(SKILL_NORMAL_TAILORING) = lang("革や蔓を用い、アイテムを作り出す", "Skill to sew materials and manufacture products.")
-	skillencdesc(SKILL_NORMAL_TAILORING) = lang("裁縫の腕をあげる", "makes you a better tailor.")
+	skillname(SKILL_NORMAL_TAILORING) = lang("ЌЩ–D", "Tailoring")
+	skilldesc(SKILL_NORMAL_TAILORING) = lang("Љv‚в– ‚р—p‚ўЃAѓAѓCѓeѓЂ‚рЌм‚иЏo‚·", "Skill to sew materials and manufacture products.")
+	skillencdesc(SKILL_NORMAL_TAILORING) = lang("ЌЩ–D‚Мr‚р‚ ‚°‚й", "makes you a better tailor.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_ALCHEMY) = SKILL_ATTR_LER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_ALCHEMY) = lang("錬金術", "Alchemy")
-	skilldesc(SKILL_NORMAL_ALCHEMY) = lang("様々な材料を調合/ポーション強化", "Enables you to perform alchemy. Enhance Potions.")
-	skillencdesc(SKILL_NORMAL_ALCHEMY) = lang("錬金の腕をあげる", "grants you knowledge of alchemy.")
+	skillname(SKILL_NORMAL_ALCHEMY) = lang("B‹аЏp", "Alchemy")
+	skilldesc(SKILL_NORMAL_ALCHEMY) = lang("—lЃX‚ИЌЮ—ї‚р’ІЌ‡/ѓ|Ѓ[ѓVѓ‡ѓ“‹­‰»", "Enables you to perform alchemy. Enhance Potions.")
+	skillencdesc(SKILL_NORMAL_ALCHEMY) = lang("B‹а‚Мr‚р‚ ‚°‚й", "grants you knowledge of alchemy.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_JEWELER) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_JEWELER) = lang("宝石細工", "Jeweler")
-	skilldesc(SKILL_NORMAL_JEWELER) = lang("宝石を加工し、アイテムを作り出す", "Skill to process jewels and manufacture products.")
-	skillencdesc(SKILL_NORMAL_JEWELER) = lang("宝石細工の腕をあげる", "makes you a better jeweler.")
+	skillname(SKILL_NORMAL_JEWELER) = lang("•уђОЌЧЌH", "Jeweler")
+	skilldesc(SKILL_NORMAL_JEWELER) = lang("•уђО‚р‰БЌH‚µЃAѓAѓCѓeѓЂ‚рЌм‚иЏo‚·", "Skill to process jewels and manufacture products.")
+	skillencdesc(SKILL_NORMAL_JEWELER) = lang("•уђОЌЧЌH‚Мr‚р‚ ‚°‚й", "makes you a better jeweler.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_GARDENING) = SKILL_ATTR_LER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_GARDENING) = lang("栽培", "Gardening")
-	skilldesc(SKILL_NORMAL_GARDENING) = lang("植物を育て、採取する", "Skill to plant seeds and harvest crops.")
-	skillencdesc(SKILL_NORMAL_GARDENING) = lang("栽培の腕をあげる", "grants you knowledge of gardening.")
+	skillname(SKILL_NORMAL_GARDENING) = lang("ЌН”|", "Gardening")
+	skilldesc(SKILL_NORMAL_GARDENING) = lang("ђA•Ё‚р€з‚ДЃAЌМЋж‚·‚й", "Skill to plant seeds and harvest crops.")
+	skillencdesc(SKILL_NORMAL_GARDENING) = lang("ЌН”|‚Мr‚р‚ ‚°‚й", "grants you knowledge of gardening.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_FAITH) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_FAITH) = lang("信仰", "Faith")
-	skilldesc(SKILL_NORMAL_FAITH) = lang("神との距離を近める/呪いへの抵抗", "Gets you closer to god/resist to curses")
-	skillencdesc(SKILL_NORMAL_FAITH) = lang("信仰を深める", "makes you pious.")
+	skillname(SKILL_NORMAL_FAITH) = lang("ђM‹В", "Faith")
+	skilldesc(SKILL_NORMAL_FAITH) = lang("ђ_‚Ж‚М‹——Ј‚р‹Я‚Я‚й/Ћф‚ў‚Ц‚М’пЌR", "Gets you closer to god/resist to curses")
+	skillencdesc(SKILL_NORMAL_FAITH) = lang("ђM‹В‚рђ[‚Я‚й", "makes you pious.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_TRAVELING) = SKILL_ATTR_SPD, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_TRAVELING) = lang("旅歩き", "Traveling")
-	skilldesc(SKILL_NORMAL_TRAVELING) = lang("旅の進行を早め経験を深める", "Allows you to receive more EXP from traveling.")
-	skillencdesc(SKILL_NORMAL_TRAVELING) = lang("旅の熟練をあげる", "makes you a better traveler.")
+	skillname(SKILL_NORMAL_TRAVELING) = lang("—·•а‚«", "Traveling")
+	skilldesc(SKILL_NORMAL_TRAVELING) = lang("—·‚МђiЌs‚р‘Ѓ‚ЯЊoЊ±‚рђ[‚Я‚й", "Allows you to receive more EXP from traveling.")
+	skillencdesc(SKILL_NORMAL_TRAVELING) = lang("—·‚МЏn—ы‚р‚ ‚°‚й", "makes you a better traveler.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_PERFORMER) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 25, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_NORMAL_PERFORMER) = lang("演奏", "Performer")
-	skilldesc(SKILL_NORMAL_PERFORMER) = lang("質の高い演奏を可能にする", "Shows how good of a performer you are.")
-	skillencdesc(SKILL_NORMAL_PERFORMER) = lang("演奏の質をあげる", "makes your performance better.")
+	skillname(SKILL_NORMAL_PERFORMER) = lang("‰‰‘t", "Performer")
+	skilldesc(SKILL_NORMAL_PERFORMER) = lang("Ћї‚МЌ‚‚ў‰‰‘t‚р‰В”\‚Й‚·‚й", "Shows how good of a performer you are.")
+	skillencdesc(SKILL_NORMAL_PERFORMER) = lang("‰‰‘t‚МЋї‚р‚ ‚°‚й", "makes your performance better.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_COOKING) = SKILL_ATTR_LER, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_NORMAL_COOKING) = lang("料理", "Cooking")
-	skilldesc(SKILL_NORMAL_COOKING) = lang("料理の腕を上げる", "Improves your cooking skill.")
-	skillencdesc(SKILL_NORMAL_COOKING) = lang("料理の腕を上げる", "enhances your cooking skill.")
+	skillname(SKILL_NORMAL_COOKING) = lang("—ї—ќ", "Cooking")
+	skilldesc(SKILL_NORMAL_COOKING) = lang("—ї—ќ‚Мr‚рЏг‚°‚й", "Improves your cooking skill.")
+	skillencdesc(SKILL_NORMAL_COOKING) = lang("—ї—ќ‚Мr‚рЏг‚°‚й", "enhances your cooking skill.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_FISHING) = SKILL_ATTR_PER, SKILL_TYPE_SP, 5, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_NORMAL_FISHING) = lang("釣り", "Fishing")
-	skilldesc(SKILL_NORMAL_FISHING) = lang("釣りを可能にする", "Displays your fishing skill.")
-	skillencdesc(SKILL_NORMAL_FISHING) = lang("釣りの腕をあげる", "makes you a better fisherman.")
+	skillname(SKILL_NORMAL_FISHING) = lang("’Ю‚и", "Fishing")
+	skilldesc(SKILL_NORMAL_FISHING) = lang("’Ю‚и‚р‰В”\‚Й‚·‚й", "Displays your fishing skill.")
+	skillencdesc(SKILL_NORMAL_FISHING) = lang("’Ю‚и‚Мr‚р‚ ‚°‚й", "makes you a better fisherman.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_EYE_OF_MIND) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_EYE_OF_MIND) = lang("心眼", "Eye of Mind")
-	skilldesc(SKILL_NORMAL_EYE_OF_MIND) = lang("クリティカル時の威力を高める", "Increases the power of critical hits.")
-	skillencdesc(SKILL_NORMAL_EYE_OF_MIND) = lang("心眼の技術を上昇させる", "")
+	skillname(SKILL_NORMAL_EYE_OF_MIND) = lang("ђSЉб", "Eye of Mind")
+	skilldesc(SKILL_NORMAL_EYE_OF_MIND) = lang("ѓNѓЉѓeѓBѓJѓ‹Ћћ‚М€Р—Н‚рЌ‚‚Я‚й", "Increases the power of critical hits.")
+	skillencdesc(SKILL_NORMAL_EYE_OF_MIND) = lang("ђSЉб‚М‹ZЏp‚рЏгЏё‚і‚№‚й", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_GREATER_EVASION) = SKILL_ATTR_PER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_GREATER_EVASION) = lang("見切り", "Greater Evasion")
-	skilldesc(SKILL_NORMAL_GREATER_EVASION) = lang("不正確な攻撃を確実に避ける", "Makes you able to evade inaccurate attacks.")
-	skillencdesc(SKILL_NORMAL_GREATER_EVASION) = lang("見切りの腕をあげる", "")
+	skillname(SKILL_NORMAL_GREATER_EVASION) = lang("Њ©ђШ‚и", "Greater Evasion")
+	skilldesc(SKILL_NORMAL_GREATER_EVASION) = lang("•sђіЉm‚ИЌUЊ‚‚рЉmЋА‚Й”р‚Ї‚й", "Makes you able to evade inaccurate attacks.")
+	skillencdesc(SKILL_NORMAL_GREATER_EVASION) = lang("Њ©ђШ‚и‚Мr‚р‚ ‚°‚й", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_CONTROL_MAGIC) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_CONTROL_MAGIC) = lang("魔力制御", "Control Magic")
-	skilldesc(SKILL_NORMAL_CONTROL_MAGIC) = lang("魔法による味方のまきこみを軽減する", "Prevents your allies from getting hit by your spells.")
-	skillencdesc(SKILL_NORMAL_CONTROL_MAGIC) = lang("より高度な魔力制御を可能にさせる", "enhances your ability to control magic.")
+	skillname(SKILL_NORMAL_CONTROL_MAGIC) = lang("–‚—Нђ§Њд", "Control Magic")
+	skilldesc(SKILL_NORMAL_CONTROL_MAGIC) = lang("–‚–@‚Й‚ж‚й–Ў•ы‚М‚Ь‚«‚±‚Э‚рЊyЊё‚·‚й", "Prevents your allies from getting hit by your spells.")
+	skillencdesc(SKILL_NORMAL_CONTROL_MAGIC) = lang("‚ж‚иЌ‚“x‚И–‚—Нђ§Њд‚р‰В”\‚Й‚і‚№‚й", "enhances your ability to control magic.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_MARKSMAN) = SKILL_ATTR_PER, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_MARKSMAN) = lang("射撃", "Marksman")
-	skilldesc(SKILL_NORMAL_MARKSMAN) = lang("射撃の威力をあげる", "Increases shooting damage.")
-	skillencdesc(SKILL_NORMAL_MARKSMAN) = lang("射撃の理解を深める", "makes you a better marksman.")
+	skillname(SKILL_NORMAL_MARKSMAN) = lang("ЋЛЊ‚", "Marksman")
+	skilldesc(SKILL_NORMAL_MARKSMAN) = lang("ЋЛЊ‚‚М€Р—Н‚р‚ ‚°‚й", "Increases shooting damage.")
+	skillencdesc(SKILL_NORMAL_MARKSMAN) = lang("ЋЛЊ‚‚М—ќ‰р‚рђ[‚Я‚й", "makes you a better marksman.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_NORMAL_SWIMMING) = SKILL_ATTR_SPD, SKILL_TYPE_SP, 0, TARGET_TYPE_NONE, 0
-	skillname(SKILL_NORMAL_SWIMMING) = lang("着衣水泳", "Swimming")
-	skilldesc(SKILL_NORMAL_SWIMMING) = lang("濡れた状態で素早く行動する/水中適応", "Allows you to move fast when wet/in water.")
-	skillencdesc(SKILL_NORMAL_SWIMMING) = lang("泳ぎの技術をあげる", "makes you a better swimmer.")
+	skillname(SKILL_NORMAL_SWIMMING) = lang("’…€Яђ…‰j", "Swimming")
+	skilldesc(SKILL_NORMAL_SWIMMING) = lang("”G‚к‚ЅЏу‘Ф‚Е‘f‘Ѓ‚­Ќs“®‚·‚й/ђ…’†“K‰ћ", "Allows you to move fast when wet/in water.")
+	skillencdesc(SKILL_NORMAL_SWIMMING) = lang("‰j‚¬‚М‹ZЏp‚р‚ ‚°‚й", "makes you a better swimmer.")
 
 	// Active skills
 	sdataref(SKILL_DATAREF_USE, SKILL_ACTIVE_PICKPOCKET) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 20, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_ACTIVE_PICKPOCKET) = lang("窃盗", "Pickpocket")
-	skilldesc(SKILL_ACTIVE_PICKPOCKET) = lang("貴重な物品を盗む", "Shows how good of a thief you are.")
-	skillencdesc(SKILL_ACTIVE_PICKPOCKET) = lang("窃盗の腕をあげる", "grants you the trick of pickpocketing.")
+	skillname(SKILL_ACTIVE_PICKPOCKET) = lang("ђЮ“ђ", "Pickpocket")
+	skilldesc(SKILL_ACTIVE_PICKPOCKET) = lang("‹MЏd‚И•Ё•i‚р“ђ‚Ю", "Shows how good of a thief you are.")
+	skillencdesc(SKILL_ACTIVE_PICKPOCKET) = lang("ђЮ“ђ‚Мr‚р‚ ‚°‚й", "grants you the trick of pickpocketing.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_ACTIVE_RIDING) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 20, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_ACTIVE_RIDING) = lang("乗馬", "Riding")
-	skilldesc(SKILL_ACTIVE_RIDING) = lang("上手に乗りこなす", "Allows you to ride creatures.")
-	skillencdesc(SKILL_ACTIVE_RIDING) = lang("乗馬の腕をあげる", "enhances your ability to ride.")
+	skillname(SKILL_ACTIVE_RIDING) = lang("Џж”n", "Riding")
+	skilldesc(SKILL_ACTIVE_RIDING) = lang("ЏгЋи‚ЙЏж‚и‚±‚И‚·", "Allows you to ride creatures.")
+	skillencdesc(SKILL_ACTIVE_RIDING) = lang("Џж”n‚Мr‚р‚ ‚°‚й", "enhances your ability to ride.")
 
 	// Spells
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HEAL_LIGHT) = SKILL_ATTR_WIL, SKILL_TYPE_HEAL, 6, TARGET_TYPE_SELF, 80
-	skillname(SKILL_SPELL_HEAL_LIGHT) = lang("軽傷治癒", "Heal Light")
-	skilldesc(SKILL_SPELL_HEAL_LIGHT) = lang("体力回復", "Heal self")
+	skillname(SKILL_SPELL_HEAL_LIGHT) = lang("ЊyЏќЋЎ–ь", "Heal Light")
+	skilldesc(SKILL_SPELL_HEAL_LIGHT) = lang("‘М—Н‰с•њ", "Heal self")
 	skillencdesc(SKILL_SPELL_HEAL_LIGHT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HEAL_CRITICAL) = SKILL_ATTR_WIL, SKILL_TYPE_HEAL, 15, TARGET_TYPE_SELF, 350
-	skillname(SKILL_SPELL_HEAL_CRITICAL) = lang("致命傷治癒", "Heal Critical")
-	skilldesc(SKILL_SPELL_HEAL_CRITICAL) = lang("体力回復", "Heal self")
+	skillname(SKILL_SPELL_HEAL_CRITICAL) = lang("’v–ЅЏќЋЎ–ь", "Heal Critical")
+	skilldesc(SKILL_SPELL_HEAL_CRITICAL) = lang("‘М—Н‰с•њ", "Heal self")
 	skillencdesc(SKILL_SPELL_HEAL_CRITICAL) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CURE_OF_ERIS) = SKILL_ATTR_WIL, SKILL_TYPE_HEAL, 35, TARGET_TYPE_SELF, 800
-	skillname(SKILL_SPELL_CURE_OF_ERIS) = lang("エリスの癒し", "Cure of Eris")
-	skilldesc(SKILL_SPELL_CURE_OF_ERIS) = lang("体力回復", "Heal self")
+	skillname(SKILL_SPELL_CURE_OF_ERIS) = lang("ѓGѓЉѓX‚М–ь‚µ", "Cure of Eris")
+	skilldesc(SKILL_SPELL_CURE_OF_ERIS) = lang("‘М—Н‰с•њ", "Heal self")
 	skillencdesc(SKILL_SPELL_CURE_OF_ERIS) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CURE_OF_JURE) = SKILL_ATTR_WIL, SKILL_TYPE_HEAL, 80, TARGET_TYPE_SELF, 1300
-	skillname(SKILL_SPELL_CURE_OF_JURE) = lang("ジュアの癒し", "Cure of Jure")
-	skilldesc(SKILL_SPELL_CURE_OF_JURE) = lang("体力回復", "Heal self")
+	skillname(SKILL_SPELL_CURE_OF_JURE) = lang("ѓWѓ…ѓA‚М–ь‚µ", "Cure of Jure")
+	skilldesc(SKILL_SPELL_CURE_OF_JURE) = lang("‘М—Н‰с•њ", "Heal self")
 	skillencdesc(SKILL_SPELL_CURE_OF_JURE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HEALING_RAIN) = SKILL_ATTR_WIL, SKILL_TYPE_BALL, 38, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 500
-	skillname(SKILL_SPELL_HEALING_RAIN) = lang("治癒の雨", "Healing Rain")
-	skilldesc(SKILL_SPELL_HEALING_RAIN) = lang("体力回復の球", "Heal area")
+	skillname(SKILL_SPELL_HEALING_RAIN) = lang("ЋЎ–ь‚М‰J", "Healing Rain")
+	skilldesc(SKILL_SPELL_HEALING_RAIN) = lang("‘М—Н‰с•њ‚М‹…", "Heal area")
 	skillencdesc(SKILL_SPELL_HEALING_RAIN) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HEALING_TOUCH) = SKILL_ATTR_WIL, SKILL_TYPE_HEAL, 20, TARGET_TYPE_DIRECTION, 400
-	skillname(SKILL_SPELL_HEALING_TOUCH) = lang("癒しの手", "Healing Touch")
-	skilldesc(SKILL_SPELL_HEALING_TOUCH) = lang("体力回復", "Heal target")
+	skillname(SKILL_SPELL_HEALING_TOUCH) = lang("–ь‚µ‚МЋи", "Healing Touch")
+	skilldesc(SKILL_SPELL_HEALING_TOUCH) = lang("‘М—Н‰с•њ", "Heal target")
 	skillencdesc(SKILL_SPELL_HEALING_TOUCH) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HOLY_LIGHT) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF, 400
-	skillname(SKILL_SPELL_HOLY_LIGHT) = lang("清浄なる光", "Holy Light")
-	skilldesc(SKILL_SPELL_HOLY_LIGHT) = lang("1つの呪い(hex)除去", "Remove one hex")
+	skillname(SKILL_SPELL_HOLY_LIGHT) = lang("ђґЏт‚И‚йЊх", "Holy Light")
+	skilldesc(SKILL_SPELL_HOLY_LIGHT) = lang("1‚В‚МЋф‚ў(hex)Џњ‹Ћ", "Remove one hex")
 	skillencdesc(SKILL_SPELL_HOLY_LIGHT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_VANQUISH_HEX) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 35, TARGET_TYPE_DIRECTION, 850
-	skillname(SKILL_SPELL_VANQUISH_HEX) = lang("全浄化", "Vanquish Hex")
-	skilldesc(SKILL_SPELL_VANQUISH_HEX) = lang("全ての呪い(hex)除去", "Remove all hexes")
+	skillname(SKILL_SPELL_VANQUISH_HEX) = lang("‘SЏт‰»", "Vanquish Hex")
+	skilldesc(SKILL_SPELL_VANQUISH_HEX) = lang("‘S‚Д‚МЋф‚ў(hex)Џњ‹Ћ", "Remove all hexes")
 	skillencdesc(SKILL_SPELL_VANQUISH_HEX) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_TELEPORT) = SKILL_ATTR_MAG, SKILL_TYPE_TELEPORT, 10, TARGET_TYPE_SELF_ONLY, 400
-	skillname(SKILL_SPELL_TELEPORT) = lang("テレポート", "Teleport")
-	skilldesc(SKILL_SPELL_TELEPORT) = lang("瞬間移動", "Teleport self")
+	skillname(SKILL_SPELL_TELEPORT) = lang("ѓeѓЊѓ|Ѓ[ѓg", "Teleport")
+	skilldesc(SKILL_SPELL_TELEPORT) = lang("ЏuЉФ€Ъ“®", "Teleport self")
 	skillencdesc(SKILL_SPELL_TELEPORT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_TELEPORT_OTHER) = SKILL_ATTR_MAG, SKILL_TYPE_TELEPORT, 10, TARGET_TYPE_DIRECTION, 200
-	skillname(SKILL_SPELL_TELEPORT_OTHER) = lang("テレポートアザー", "Teleport Other")
-	skilldesc(SKILL_SPELL_TELEPORT_OTHER) = lang("対象を瞬間移動させる", "Teleport target")
+	skillname(SKILL_SPELL_TELEPORT_OTHER) = lang("ѓeѓЊѓ|Ѓ[ѓgѓAѓUЃ[", "Teleport Other")
+	skilldesc(SKILL_SPELL_TELEPORT_OTHER) = lang("‘ОЏЫ‚рЏuЉФ€Ъ“®‚і‚№‚й", "Teleport target")
 	skillencdesc(SKILL_SPELL_TELEPORT_OTHER) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SHORT_TELEPORT) = SKILL_ATTR_MAG, SKILL_TYPE_TELEPORT, 8, TARGET_TYPE_SELF_ONLY, 120
-	skillname(SKILL_SPELL_SHORT_TELEPORT) = lang("ショートテレポート", "Short Teleport")
-	skilldesc(SKILL_SPELL_SHORT_TELEPORT) = lang("近くへの瞬間移動", "Teleport self")
+	skillname(SKILL_SPELL_SHORT_TELEPORT) = lang("ѓVѓ‡Ѓ[ѓgѓeѓЊѓ|Ѓ[ѓg", "Short Teleport")
+	skilldesc(SKILL_SPELL_SHORT_TELEPORT) = lang("‹Я‚­‚Ц‚МЏuЉФ€Ъ“®", "Teleport self")
 	skillencdesc(SKILL_SPELL_SHORT_TELEPORT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_IDENTIFY) = SKILL_ATTR_PER, SKILL_TYPE_SP, 28, TARGET_TYPE_SELF_ONLY, 800
-	skillname(SKILL_SPELL_IDENTIFY) = lang("鑑定", "Identify")
-	skilldesc(SKILL_SPELL_IDENTIFY) = lang("アイテム鑑定", "Identify one item")
+	skillname(SKILL_SPELL_IDENTIFY) = lang("ЉУ’и", "Identify")
+	skilldesc(SKILL_SPELL_IDENTIFY) = lang("ѓAѓCѓeѓЂЉУ’и", "Identify one item")
 	skillencdesc(SKILL_SPELL_IDENTIFY) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_UNCURSE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 35, TARGET_TYPE_SELF, 700
-	skillname(SKILL_SPELL_UNCURSE) = lang("解呪", "Uncurse")
-	skilldesc(SKILL_SPELL_UNCURSE) = lang("装備品の解呪", "Uncurse equipments")
+	skillname(SKILL_SPELL_UNCURSE) = lang("‰рЋф", "Uncurse")
+	skilldesc(SKILL_SPELL_UNCURSE) = lang("‘•”х•i‚М‰рЋф", "Uncurse equipments")
 	skillencdesc(SKILL_SPELL_UNCURSE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ORACLE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 150, TARGET_TYPE_SELF, 1500
-	skillname(SKILL_SPELL_ORACLE) = lang("神託", "Oracle")
-	skilldesc(SKILL_SPELL_ORACLE) = lang("アーティファクト感知", "Reveal artifacts")
+	skillname(SKILL_SPELL_ORACLE) = lang("ђ_‘х", "Oracle")
+	skilldesc(SKILL_SPELL_ORACLE) = lang("ѓAЃ[ѓeѓBѓtѓ@ѓNѓgЉґ’m", "Reveal artifacts")
 	skillencdesc(SKILL_SPELL_ORACLE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MAGIC_DART) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 5, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 100
-	skillname(SKILL_SPELL_MAGIC_DART) = lang("魔法の矢", "Magic Dart")
-	skilldesc(SKILL_SPELL_MAGIC_DART) = lang("魔法属性の矢", "Target(Magic)")
+	skillname(SKILL_SPELL_MAGIC_DART) = lang("–‚–@‚М–о", "Magic Dart")
+	skilldesc(SKILL_SPELL_MAGIC_DART) = lang("–‚–@‘®ђ«‚М–о", "Target(Magic)")
 	skillencdesc(SKILL_SPELL_MAGIC_DART) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_NETHER_ARROW) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 300
-	skillname(SKILL_SPELL_NETHER_ARROW) = lang("地獄の吐息", "Nether Sigh")
-	skilldesc(SKILL_SPELL_NETHER_ARROW) = lang("地獄属性の矢", "Target(Nether)")
+	skillname(SKILL_SPELL_NETHER_ARROW) = lang("’nЌ–‚М“f‘§", "Nether Sigh")
+	skilldesc(SKILL_SPELL_NETHER_ARROW) = lang("’nЌ–‘®ђ«‚М–о", "Target(Nether)")
 	skillencdesc(SKILL_SPELL_NETHER_ARROW) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_NERVE_ARROW) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 300
-	skillname(SKILL_SPELL_NERVE_ARROW) = lang("神経の針", "Nerve Needle")
-	skilldesc(SKILL_SPELL_NERVE_ARROW) = lang("神経属性の矢", "Target(Nerve)")
+	skillname(SKILL_SPELL_NERVE_ARROW) = lang("ђ_Њo‚Мђj", "Nerve Needle")
+	skilldesc(SKILL_SPELL_NERVE_ARROW) = lang("ђ_Њo‘®ђ«‚М–о", "Target(Nerve)")
 	skillencdesc(SKILL_SPELL_NERVE_ARROW) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CHAOS_EYE) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 300
-	skillname(SKILL_SPELL_CHAOS_EYE) = lang("混沌の瞳", "Chaos Eye")
-	skilldesc(SKILL_SPELL_CHAOS_EYE) = lang("混沌属性の矢", "Target(Chaos)")
+	skillname(SKILL_SPELL_CHAOS_EYE) = lang("Ќ¬“Ч‚М“µ", "Chaos Eye")
+	skilldesc(SKILL_SPELL_CHAOS_EYE) = lang("Ќ¬“Ч‘®ђ«‚М–о", "Target(Chaos)")
 	skillencdesc(SKILL_SPELL_CHAOS_EYE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_DARK_EYE) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 300
-	skillname(SKILL_SPELL_DARK_EYE) = lang("暗黒の楔", "Darkness Wedge")
-	skilldesc(SKILL_SPELL_DARK_EYE) = lang("暗黒属性の矢", "Target(Darkness)")
+	skillname(SKILL_SPELL_DARK_EYE) = lang("€ГЌ•‚Мћ¶", "Darkness Wedge")
+	skilldesc(SKILL_SPELL_DARK_EYE) = lang("€ГЌ•‘®ђ«‚М–о", "Target(Darkness)")
 	skillencdesc(SKILL_SPELL_DARK_EYE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ICE_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 400
-	skillname(SKILL_SPELL_ICE_BOLT) = lang("アイスボルト", "Ice Bolt")
-	skilldesc(SKILL_SPELL_ICE_BOLT) = lang("冷気属性のボルト", "Line(Cold)")
+	skillname(SKILL_SPELL_ICE_BOLT) = lang("ѓAѓCѓXѓ{ѓ‹ѓg", "Ice Bolt")
+	skilldesc(SKILL_SPELL_ICE_BOLT) = lang("—в‹C‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Cold)")
 	skillencdesc(SKILL_SPELL_ICE_BOLT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_FIRE_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 400
-	skillname(SKILL_SPELL_FIRE_BOLT) = lang("ファイアボルト", "Fire Bolt")
-	skilldesc(SKILL_SPELL_FIRE_BOLT) = lang("火炎属性のボルト", "Line(Fire)")
+	skillname(SKILL_SPELL_FIRE_BOLT) = lang("ѓtѓ@ѓCѓAѓ{ѓ‹ѓg", "Fire Bolt")
+	skilldesc(SKILL_SPELL_FIRE_BOLT) = lang("‰О‰Љ‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Fire)")
 	skillencdesc(SKILL_SPELL_FIRE_BOLT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_LIGHTNING_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 400
-	skillname(SKILL_SPELL_LIGHTNING_BOLT) = lang("ライトニングボルト", "Lightning Bolt")
-	skilldesc(SKILL_SPELL_LIGHTNING_BOLT) = lang("雷属性のボルト", "Line(Lightning)")
+	skillname(SKILL_SPELL_LIGHTNING_BOLT) = lang("ѓ‰ѓCѓgѓjѓ“ѓOѓ{ѓ‹ѓg", "Lightning Bolt")
+	skilldesc(SKILL_SPELL_LIGHTNING_BOLT) = lang("—‹‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Lightning)")
 	skillencdesc(SKILL_SPELL_LIGHTNING_BOLT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_DARKNESS_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPELL_DARKNESS_BOLT) = lang("ダークネスボルト", "Darkness Bolt")
-	skilldesc(SKILL_SPELL_DARKNESS_BOLT) = lang("暗黒属性のボルト", "Line(Darkness)")
+	skillname(SKILL_SPELL_DARKNESS_BOLT) = lang("ѓ_Ѓ[ѓNѓlѓXѓ{ѓ‹ѓg", "Darkness Bolt")
+	skilldesc(SKILL_SPELL_DARKNESS_BOLT) = lang("€ГЌ•‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Darkness)")
 	skillencdesc(SKILL_SPELL_DARKNESS_BOLT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MIND_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPELL_MIND_BOLT) = lang("マインドボルト", "Mind Bolt")
-	skilldesc(SKILL_SPELL_MIND_BOLT) = lang("幻惑属性のボルト", "Line(Mind)")
+	skillname(SKILL_SPELL_MIND_BOLT) = lang("ѓ}ѓCѓ“ѓhѓ{ѓ‹ѓg", "Mind Bolt")
+	skilldesc(SKILL_SPELL_MIND_BOLT) = lang("Њ¶f‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Mind)")
 	skillencdesc(SKILL_SPELL_MIND_BOLT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_NETHER_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, 9000 + 6, 500
-	skillname(SKILL_SPELL_NETHER_BOLT) = lang("ネザーボルト", "Nether Bolt")
-	skilldesc(SKILL_SPELL_NETHER_BOLT) = lang("地獄属性のボルト", "Line(Nether)")
+	skillname(SKILL_SPELL_NETHER_BOLT) = lang("ѓlѓUЃ[ѓ{ѓ‹ѓg", "Nether Bolt")
+	skilldesc(SKILL_SPELL_NETHER_BOLT) = lang("’nЌ–‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Nether)")
 	skillencdesc(SKILL_SPELL_NETHER_BOLT) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_POISON_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, 9000 + 6, 500
-	skillname(SKILL_SPELL_POISON_BOLT) = lang("ポイズンボルト", "Poison Bolt")
-	skilldesc(SKILL_SPELL_POISON_BOLT) = lang("毒属性のボルト", "Line(Poison)")
+	skillname(SKILL_SPELL_POISON_BOLT) = lang("ѓ|ѓCѓYѓ“ѓ{ѓ‹ѓg", "Poison Bolt")
+	skilldesc(SKILL_SPELL_POISON_BOLT) = lang("“Е‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Poison)")
 	skillencdesc(SKILL_SPELL_POISON_BOLT) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SOUND_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, 9000 + 6, 500
-	skillname(SKILL_SPELL_SOUND_BOLT) = lang("サウンドボルト", "Sound Bolt")
-	skilldesc(SKILL_SPELL_SOUND_BOLT) = lang("音属性のボルト", "Line(Sound)")
+	skillname(SKILL_SPELL_SOUND_BOLT) = lang("ѓTѓEѓ“ѓhѓ{ѓ‹ѓg", "Sound Bolt")
+	skilldesc(SKILL_SPELL_SOUND_BOLT) = lang("‰№‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Sound)")
 	skillencdesc(SKILL_SPELL_SOUND_BOLT) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CHAOS_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, 9000 + 6, 500
-	skillname(SKILL_SPELL_CHAOS_BOLT) = lang("カオスボルト", "Chaos Bolt")
-	skilldesc(SKILL_SPELL_CHAOS_BOLT) = lang("混沌属性のボルト", "Line(Chaos)")
+	skillname(SKILL_SPELL_CHAOS_BOLT) = lang("ѓJѓIѓXѓ{ѓ‹ѓg", "Chaos Bolt")
+	skilldesc(SKILL_SPELL_CHAOS_BOLT) = lang("Ќ¬“Ч‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Chaos)")
 	skillencdesc(SKILL_SPELL_CHAOS_BOLT) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_NERVE_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 28, 9000 + 6, 500
-	skillname(SKILL_SPELL_NERVE_BOLT) = lang("ナーブボルト", "Nerve Bolt")
-	skilldesc(SKILL_SPELL_NERVE_BOLT) = lang("神経属性のボルト", "Line(Nerve)")
+	skillname(SKILL_SPELL_NERVE_BOLT) = lang("ѓiЃ[ѓuѓ{ѓ‹ѓg", "Nerve Bolt")
+	skilldesc(SKILL_SPELL_NERVE_BOLT) = lang("ђ_Њo‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Nerve)")
 	skillencdesc(SKILL_SPELL_NERVE_BOLT) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SUMMON_MONSTERS) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPELL_SUMMON_MONSTERS) = lang("モンスター召喚", "Summon Monsters")
-	skilldesc(SKILL_SPELL_SUMMON_MONSTERS) = lang("モンスターを召喚する", "Summon hostile creatures")
+	skillname(SKILL_SPELL_SUMMON_MONSTERS) = lang("ѓ‚ѓ“ѓXѓ^Ѓ[ЏўЉ«", "Summon Monsters")
+	skilldesc(SKILL_SPELL_SUMMON_MONSTERS) = lang("ѓ‚ѓ“ѓXѓ^Ѓ[‚рЏўЉ«‚·‚й", "Summon hostile creatures")
 	skillencdesc(SKILL_SPELL_SUMMON_MONSTERS) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SUMMON_WILD) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPELL_SUMMON_WILD) = lang("野生召喚", "Summon Wild")
-	skilldesc(SKILL_SPELL_SUMMON_WILD) = lang("野生の生き物を召喚する", "Summon wild creatures")
+	skillname(SKILL_SPELL_SUMMON_WILD) = lang("–мђ¶ЏўЉ«", "Summon Wild")
+	skilldesc(SKILL_SPELL_SUMMON_WILD) = lang("–мђ¶‚Мђ¶‚«•Ё‚рЏўЉ«‚·‚й", "Summon wild creatures")
 	skillencdesc(SKILL_SPELL_SUMMON_WILD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_RETURN) = SKILL_ATTR_PER, SKILL_TYPE_SP, 28, TARGET_TYPE_SELF_ONLY, 550
-	skillname(SKILL_SPELL_RETURN) = lang("帰還", "Return")
-	skilldesc(SKILL_SPELL_RETURN) = lang("特定の場所への帰還", "Return")
+	skillname(SKILL_SPELL_RETURN) = lang("‹AЉТ", "Return")
+	skilldesc(SKILL_SPELL_RETURN) = lang("“Б’и‚МЏкЏЉ‚Ц‚М‹AЉТ", "Return")
 	skillencdesc(SKILL_SPELL_RETURN) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MAGIC_MAP) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF_ONLY, 450
-	skillname(SKILL_SPELL_MAGIC_MAP) = lang("魔法の地図", "Magic Map")
-	skilldesc(SKILL_SPELL_MAGIC_MAP) = lang("周囲の地形感知", "Reveal surround map")
+	skillname(SKILL_SPELL_MAGIC_MAP) = lang("–‚–@‚М’nђ}", "Magic Map")
+	skilldesc(SKILL_SPELL_MAGIC_MAP) = lang("Ћь€Н‚М’nЊ`Љґ’m", "Reveal surround map")
 	skillencdesc(SKILL_SPELL_MAGIC_MAP) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SENSE_OBJECT) = SKILL_ATTR_PER, SKILL_TYPE_SP, 22, TARGET_TYPE_SELF_ONLY, 250
-	skillname(SKILL_SPELL_SENSE_OBJECT) = lang("物質感知", "Sense Object")
-	skilldesc(SKILL_SPELL_SENSE_OBJECT) = lang("周囲の物質感知", "Reveal nearby objects")
+	skillname(SKILL_SPELL_SENSE_OBJECT) = lang("•ЁЋїЉґ’m", "Sense Object")
+	skilldesc(SKILL_SPELL_SENSE_OBJECT) = lang("Ћь€Н‚М•ЁЋїЉґ’m", "Reveal nearby objects")
 	skillencdesc(SKILL_SPELL_SENSE_OBJECT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ICE_BALL) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 600
-	skillname(SKILL_SPELL_ICE_BALL) = lang("氷結の波動", "Freezing Wave")
-	skilldesc(SKILL_SPELL_ICE_BALL) = lang("冷気属性の範囲攻撃", "Surround(Cold)")
+	skillname(SKILL_SPELL_ICE_BALL) = lang("•XЊ‹‚М”g“®", "Freezing Wave")
+	skilldesc(SKILL_SPELL_ICE_BALL) = lang("—в‹C‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Cold)")
 	skillencdesc(SKILL_SPELL_ICE_BALL) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_FIRE_BALL) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 600
-	skillname(SKILL_SPELL_FIRE_BALL) = lang("灼熱の嵐", "Burning Storm")
-	skilldesc(SKILL_SPELL_FIRE_BALL) = lang("火炎属性の範囲攻撃", "Surround(Fire)")
+	skillname(SKILL_SPELL_FIRE_BALL) = lang("ЋЬ”M‚М—’", "Burning Storm")
+	skilldesc(SKILL_SPELL_FIRE_BALL) = lang("‰О‰Љ‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Fire)")
 	skillencdesc(SKILL_SPELL_FIRE_BALL) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CHAOS_BALL) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 700
-	skillname(SKILL_SPELL_CHAOS_BALL) = lang("混沌の渦", "Chaos Vortex")
-	skilldesc(SKILL_SPELL_CHAOS_BALL) = lang("混沌属性の範囲攻撃", "Surround(Chaos)")
+	skillname(SKILL_SPELL_CHAOS_BALL) = lang("Ќ¬“Ч‚М‰Q", "Chaos Vortex")
+	skilldesc(SKILL_SPELL_CHAOS_BALL) = lang("Ќ¬“Ч‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Chaos)")
 	skillencdesc(SKILL_SPELL_CHAOS_BALL) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_RAGING_ROAR) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 700
-	skillname(SKILL_SPELL_RAGING_ROAR) = lang("轟音の波動", "Howling Wave")
-	skilldesc(SKILL_SPELL_RAGING_ROAR) = lang("轟音属性の範囲攻撃", "Surround(Sound)")
+	skillname(SKILL_SPELL_RAGING_ROAR) = lang("ЌЊ‰№‚М”g“®", "Howling Wave")
+	skilldesc(SKILL_SPELL_RAGING_ROAR) = lang("ЌЊ‰№‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Sound)")
 	skillencdesc(SKILL_SPELL_RAGING_ROAR) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_DOMINATE) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 125, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 2000
-	skillname(SKILL_SPELL_DOMINATE) = lang("支配", "Dominate")
-	skilldesc(SKILL_SPELL_DOMINATE) = lang("対象を支配/仲間にできない対象には麻痺", "Dominate target/paralyze indomitable targets")
+	skillname(SKILL_SPELL_DOMINATE) = lang("Ћx”z", "Dominate")
+	skilldesc(SKILL_SPELL_DOMINATE) = lang("‘ОЏЫ‚рЋx”z/’‡ЉФ‚Й‚Е‚«‚И‚ў‘ОЏЫ‚Й‚Н–ѓбѓ", "Dominate target/paralyze indomitable targets")
 	skillencdesc(SKILL_SPELL_DOMINATE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_WEB) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 10, TARGET_TYPE_LOCATION, 150
-	skillname(SKILL_SPELL_WEB) = lang("蜘蛛の巣", "Web")
-	skilldesc(SKILL_SPELL_WEB) = lang("蜘蛛の巣発生", "Create webs")
+	skillname(SKILL_SPELL_WEB) = lang("’wеЃ‚М‘ѓ", "Web")
+	skilldesc(SKILL_SPELL_WEB) = lang("’wеЃ‚М‘ѓ”­ђ¶", "Create webs")
 	skillencdesc(SKILL_SPELL_WEB) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MIST_OF_DARKNESS) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 12, TARGET_TYPE_SELF, 320
-	skillname(SKILL_SPELL_MIST_OF_DARKNESS) = lang("闇の霧", "Mist of Darkness")
-	skilldesc(SKILL_SPELL_MIST_OF_DARKNESS) = lang("濃い霧の発生", "Create mist")
+	skillname(SKILL_SPELL_MIST_OF_DARKNESS) = lang("€Е‚М–¶", "Mist of Darkness")
+	skilldesc(SKILL_SPELL_MIST_OF_DARKNESS) = lang("”Z‚ў–¶‚М”­ђ¶", "Create mist")
 	skillencdesc(SKILL_SPELL_MIST_OF_DARKNESS) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_WALL_CREATION) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 20, TARGET_TYPE_LOCATION, 250
-	skillname(SKILL_SPELL_WALL_CREATION) = lang("壁生成", "Wall Creation")
-	skilldesc(SKILL_SPELL_WALL_CREATION) = lang("壁の生成", "Create walls")
+	skillname(SKILL_SPELL_WALL_CREATION) = lang("•Зђ¶ђ¬", "Wall Creation")
+	skilldesc(SKILL_SPELL_WALL_CREATION) = lang("•З‚Мђ¶ђ¬", "Create walls")
 	skillencdesc(SKILL_SPELL_WALL_CREATION) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_RESTORE_BODY) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 18, TARGET_TYPE_SELF, 250
-	skillname(SKILL_SPELL_RESTORE_BODY) = lang("肉体復活", "Restore Body")
-	skilldesc(SKILL_SPELL_RESTORE_BODY) = lang("肉体の弱体化を治療/スタミナ微回復", "Restore physical attributes, Stamina recovery")
+	skillname(SKILL_SPELL_RESTORE_BODY) = lang("“ч‘М•њЉ€", "Restore Body")
+	skilldesc(SKILL_SPELL_RESTORE_BODY) = lang("“ч‘М‚МЋг‘М‰»‚рЋЎ—Г/ѓXѓ^ѓ~ѓi”ч‰с•њ", "Restore physical attributes, Stamina recovery")
 	skillencdesc(SKILL_SPELL_RESTORE_BODY) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_RESTORE_SPIRIT) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 18, TARGET_TYPE_SELF, 250
-	skillname(SKILL_SPELL_RESTORE_SPIRIT) = lang("精神復活", "Restore Spirit")
-	skilldesc(SKILL_SPELL_RESTORE_SPIRIT) = lang("精神の弱体化を治療/パワーゲージ微増", "Restore mental attributes, Increases gauge")
+	skillname(SKILL_SPELL_RESTORE_SPIRIT) = lang("ђёђ_•њЉ€", "Restore Spirit")
+	skilldesc(SKILL_SPELL_RESTORE_SPIRIT) = lang("ђёђ_‚МЋг‘М‰»‚рЋЎ—Г/ѓpѓЏЃ[ѓQЃ[ѓW”ч‘ќ", "Restore mental attributes, Increases gauge")
 	skillencdesc(SKILL_SPELL_RESTORE_SPIRIT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_WISH) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 580, TARGET_TYPE_SELF_ONLY, 5250
-	skillname(SKILL_SPELL_WISH) = lang("願い", "Wish")
-	skilldesc(SKILL_SPELL_WISH) = lang("願いの効果/LV高いほど難易度増加", "Wish/The higher LV, the higher difficulty")
+	skillname(SKILL_SPELL_WISH) = lang("Љи‚ў", "Wish")
+	skilldesc(SKILL_SPELL_WISH) = lang("Љи‚ў‚МЊш‰К/LVЌ‚‚ў‚Щ‚З“п€Х“x‘ќ‰Б", "Wish/The higher LV, the higher difficulty")
 	skillencdesc(SKILL_SPELL_WISH) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HOLY_SHIELD) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_HOLY_SHIELD, 8, TARGET_TYPE_SELF, 150
-	skillname(SKILL_SPELL_HOLY_SHIELD) = lang("聖なる盾", "Holy Shield")
-	skilldesc(SKILL_SPELL_HOLY_SHIELD) = lang("防御力強化", "Improves defense")
+	skillname(SKILL_SPELL_HOLY_SHIELD) = lang("ђ№‚И‚йЏ‚", "Holy Shield")
+	skilldesc(SKILL_SPELL_HOLY_SHIELD) = lang("–hЊд—Н‹­‰»", "Improves defense")
 	skillencdesc(SKILL_SPELL_HOLY_SHIELD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MIST_OF_SILENCE) = SKILL_ATTR_PER, STARTING_SKILL_TYPE_BUFF + BUFF_MIST_OF_SILENCE, 24, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 620
-	skillname(SKILL_SPELL_MIST_OF_SILENCE) = lang("沈黙の霧", "Mist of Silence")
-	skilldesc(SKILL_SPELL_MIST_OF_SILENCE) = lang("魔法使用不可", "Target can not use magic")
+	skillname(SKILL_SPELL_MIST_OF_SILENCE) = lang("’ѕ–Щ‚М–¶", "Mist of Silence")
+	skilldesc(SKILL_SPELL_MIST_OF_SILENCE) = lang("–‚–@Ћg—p•s‰В", "Target can not use magic")
 	skillencdesc(SKILL_SPELL_MIST_OF_SILENCE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_REGENERATION) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_REGENERATION, 16, TARGET_TYPE_SELF, 400
-	skillname(SKILL_SPELL_REGENERATION) = lang("リジェネレーション", "Regeneration")
+	skillname(SKILL_SPELL_REGENERATION) = lang("ѓЉѓWѓFѓlѓЊЃ[ѓVѓ‡ѓ“", "Regeneration")
 	skilldesc(SKILL_SPELL_REGENERATION) = ""
 	skillencdesc(SKILL_SPELL_REGENERATION) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ATTRIBUTE_SHIELD) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_ATTRIBUTE_SHIELD, 14, TARGET_TYPE_SELF, 350
-	skillname(SKILL_SPELL_ATTRIBUTE_SHIELD) = lang("属性保護", "Attribute Shield")
+	skillname(SKILL_SPELL_ATTRIBUTE_SHIELD) = lang("‘®ђ«•ЫЊм", "Attribute Shield")
 	skilldesc(SKILL_SPELL_ATTRIBUTE_SHIELD) = ""
 	skillencdesc(SKILL_SPELL_ATTRIBUTE_SHIELD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SPEED) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_SPEED, 28, TARGET_TYPE_SELF, 1050
-	skillname(SKILL_SPELL_SPEED) = lang("加速", "Speed")
+	skillname(SKILL_SPELL_SPEED) = lang("‰Б‘¬", "Speed")
 	skilldesc(SKILL_SPELL_SPEED) = ""
 	skillencdesc(SKILL_SPELL_SPEED) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SLOW) = SKILL_ATTR_MAG, STARTING_SKILL_TYPE_BUFF + BUFF_SLOW, 10, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 450
-	skillname(SKILL_SPELL_SLOW) = lang("鈍足", "Slow")
+	skillname(SKILL_SPELL_SLOW) = lang("“Э‘«", "Slow")
 	skilldesc(SKILL_SPELL_SLOW) = ""
 	skillencdesc(SKILL_SPELL_SLOW) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HERO) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_HERO, 12, TARGET_TYPE_SELF, 80
-	skillname(SKILL_SPELL_HERO) = lang("英雄", "Hero")
+	skillname(SKILL_SPELL_HERO) = lang("‰p—Y", "Hero")
 	skilldesc(SKILL_SPELL_HERO) = ""
 	skillencdesc(SKILL_SPELL_HERO) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MIST_OF_FRAILNESS) = SKILL_ATTR_MAG, STARTING_SKILL_TYPE_BUFF + BUFF_MIST_OF_FRAILNESS, 8, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 300
-	skillname(SKILL_SPELL_MIST_OF_FRAILNESS) = lang("脆弱の霧", "Mist of Frailness")
+	skillname(SKILL_SPELL_MIST_OF_FRAILNESS) = lang("ђЖЋг‚М–¶", "Mist of Frailness")
 	skilldesc(SKILL_SPELL_MIST_OF_FRAILNESS) = ""
 	skillencdesc(SKILL_SPELL_MIST_OF_FRAILNESS) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ELEMENT_SCAR) = SKILL_ATTR_MAG, STARTING_SKILL_TYPE_BUFF + BUFF_ELEMENT_SCAR, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 600
-	skillname(SKILL_SPELL_ELEMENT_SCAR) = lang("元素の傷跡", "Element Scar")
+	skillname(SKILL_SPELL_ELEMENT_SCAR) = lang("Њі‘f‚МЏќђХ", "Element Scar")
 	skilldesc(SKILL_SPELL_ELEMENT_SCAR) = ""
 	skillencdesc(SKILL_SPELL_ELEMENT_SCAR) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HOLY_VEIL) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_HOLY_VEIL, 20, TARGET_TYPE_SELF_ONLY, 900
-	skillname(SKILL_SPELL_HOLY_VEIL) = lang("ホーリーヴェイル", "Holy Veil")
+	skillname(SKILL_SPELL_HOLY_VEIL) = lang("ѓzЃ[ѓЉЃ[ѓ”ѓFѓCѓ‹", "Holy Veil")
 	skilldesc(SKILL_SPELL_HOLY_VEIL) = ""
 	skillencdesc(SKILL_SPELL_HOLY_VEIL) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_NIGHTMARE) = SKILL_ATTR_PER, STARTING_SKILL_TYPE_BUFF + BUFF_NIGHTMARE, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPELL_NIGHTMARE) = lang("ナイトメア", "Nightmare")
+	skillname(SKILL_SPELL_NIGHTMARE) = lang("ѓiѓCѓgѓЃѓA", "Nightmare")
 	skilldesc(SKILL_SPELL_NIGHTMARE) = ""
 	skillencdesc(SKILL_SPELL_NIGHTMARE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_DIVINE_WISDOM) = SKILL_ATTR_LER, STARTING_SKILL_TYPE_BUFF + BUFF_DIVINE_WISDOM, 22, TARGET_TYPE_SELF_ONLY, 350
-	skillname(SKILL_SPELL_DIVINE_WISDOM) = lang("知者の加護", "Divine Wisdom")
+	skillname(SKILL_SPELL_DIVINE_WISDOM) = lang("’mЋТ‚М‰БЊм", "Divine Wisdom")
 	skilldesc(SKILL_SPELL_DIVINE_WISDOM) = ""
 	skillencdesc(SKILL_SPELL_DIVINE_WISDOM) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MUTATION) = SKILL_ATTR_PER, SKILL_TYPE_SP, 21, TARGET_TYPE_SELF, 2250
-	skillname(SKILL_SPELL_MUTATION) = lang("自己の変容", "Mutation")
-	skilldesc(SKILL_SPELL_MUTATION) = lang("違う自分になる", "Mutate self")
+	skillname(SKILL_SPELL_MUTATION) = lang("Ћ©ЊИ‚М•П—e", "Mutation")
+	skilldesc(SKILL_SPELL_MUTATION) = lang("€б‚¤Ћ©•Є‚Й‚И‚й", "Mutate self")
 	skillencdesc(SKILL_SPELL_MUTATION) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ACID_GROUND) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 18, TARGET_TYPE_LOCATION, 480
-	skillname(SKILL_SPELL_ACID_GROUND) = lang("酸の海", "Acid Ground")
-	skilldesc(SKILL_SPELL_ACID_GROUND) = lang("酸の発生", "Create acid grounds")
+	skillname(SKILL_SPELL_ACID_GROUND) = lang("Ћ_‚МЉC", "Acid Ground")
+	skilldesc(SKILL_SPELL_ACID_GROUND) = lang("Ћ_‚М”­ђ¶", "Create acid grounds")
 	skillencdesc(SKILL_SPELL_ACID_GROUND) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_FIRE_WALL) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 24, TARGET_TYPE_LOCATION, 640
-	skillname(SKILL_SPELL_FIRE_WALL) = lang("炎の壁", "Fire Wall")
-	skilldesc(SKILL_SPELL_FIRE_WALL) = lang("火柱の発生", "Create fire grounds")
+	skillname(SKILL_SPELL_FIRE_WALL) = lang("‰Љ‚М•З", "Fire Wall")
+	skilldesc(SKILL_SPELL_FIRE_WALL) = lang("‰О’Њ‚М”­ђ¶", "Create fire grounds")
 	skillencdesc(SKILL_SPELL_FIRE_WALL) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_DOOR_CREATION) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 15, TARGET_TYPE_LOCATION, 200
-	skillname(SKILL_SPELL_DOOR_CREATION) = lang("ドア生成", "Door Creation")
-	skilldesc(SKILL_SPELL_DOOR_CREATION) = lang("ドアの生成", "Create doors")
+	skillname(SKILL_SPELL_DOOR_CREATION) = lang("ѓhѓAђ¶ђ¬", "Door Creation")
+	skilldesc(SKILL_SPELL_DOOR_CREATION) = lang("ѓhѓA‚Мђ¶ђ¬", "Create doors")
 	skillencdesc(SKILL_SPELL_DOOR_CREATION) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_INCOGNITO) = SKILL_ATTR_PER, STARTING_SKILL_TYPE_BUFF + BUFF_INCOGNITO, 38, TARGET_TYPE_SELF_ONLY, 250
-	skillname(SKILL_SPELL_INCOGNITO) = lang("インコグニート", "Incognito")
+	skillname(SKILL_SPELL_INCOGNITO) = lang("ѓCѓ“ѓRѓOѓjЃ[ѓg", "Incognito")
 	skilldesc(SKILL_SPELL_INCOGNITO) = ""
 	skillencdesc(SKILL_SPELL_INCOGNITO) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_FIRE_CLAW) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, 2000 + 6, 200
-	skillname(SKILL_SPELL_FIRE_CLAW) = lang("火炎の爪", "Fire Claw")
-	skilldesc(SKILL_SPELL_FIRE_CLAW) = lang("火炎属性の矢", "Target(Fire)")
+	skillname(SKILL_SPELL_FIRE_CLAW) = lang("‰О‰Љ‚М’Ь", "Fire Claw")
+	skilldesc(SKILL_SPELL_FIRE_CLAW) = lang("‰О‰Љ‘®ђ«‚М–о", "Target(Fire)")
 	skillencdesc(SKILL_SPELL_FIRE_CLAW) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_COLD_BLADE) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, 2000 + 6, 200
-	skillname(SKILL_SPELL_COLD_BLADE) = lang("冷気の刃", "Cold Blade")
-	skilldesc(SKILL_SPELL_COLD_BLADE) = lang("冷気属性の矢", "Target(Cold)")
+	skillname(SKILL_SPELL_COLD_BLADE) = lang("—в‹C‚Мђn", "Cold Blade")
+	skilldesc(SKILL_SPELL_COLD_BLADE) = lang("—в‹C‘®ђ«‚М–о", "Target(Cold)")
 	skillencdesc(SKILL_SPELL_COLD_BLADE) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_LIGHTNING_SPEAR) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, 2000 + 6, 200
-	skillname(SKILL_SPELL_LIGHTNING_SPEAR) = lang("電撃の槍", "Lightning Spear")
-	skilldesc(SKILL_SPELL_LIGHTNING_SPEAR) = lang("電撃属性の矢", "Target(Lightning)")
+	skillname(SKILL_SPELL_LIGHTNING_SPEAR) = lang("“dЊ‚‚М‘„", "Lightning Spear")
+	skilldesc(SKILL_SPELL_LIGHTNING_SPEAR) = lang("“dЊ‚‘®ђ«‚М–о", "Target(Lightning)")
 	skillencdesc(SKILL_SPELL_LIGHTNING_SPEAR) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MIND_THORN) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, 2000 + 6, 300
-	skillname(SKILL_SPELL_MIND_THORN) = lang("幻惑の棘", "Mind Thorn")
-	skilldesc(SKILL_SPELL_MIND_THORN) = lang("幻惑属性の矢", "Target(Mind)")
+	skillname(SKILL_SPELL_MIND_THORN) = lang("Њ¶f‚Мћ™", "Mind Thorn")
+	skilldesc(SKILL_SPELL_MIND_THORN) = lang("Њ¶f‘®ђ«‚М–о", "Target(Mind)")
 	skillencdesc(SKILL_SPELL_MIND_THORN) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_POISON_MUCUS) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, 2000 + 6, 300
-	skillname(SKILL_SPELL_POISON_MUCUS) = lang("毒の粘液", "Poison Mucus")
-	skilldesc(SKILL_SPELL_POISON_MUCUS) = lang("毒属性の矢", "Target(Poison)")
+	skillname(SKILL_SPELL_POISON_MUCUS) = lang("“Е‚М”S‰t", "Poison Mucus")
+	skilldesc(SKILL_SPELL_POISON_MUCUS) = lang("“Е‘®ђ«‚М–о", "Target(Poison)")
 	skillencdesc(SKILL_SPELL_POISON_MUCUS) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SOUND_CANNONBALL) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 7, 2000 + 6, 300
-	skillname(SKILL_SPELL_SOUND_CANNONBALL) = lang("音の砲弾", "Sound Cannonball")
-	skilldesc(SKILL_SPELL_SOUND_CANNONBALL) = lang("音属性の矢", "Target(Sound)")
+	skillname(SKILL_SPELL_SOUND_CANNONBALL) = lang("‰№‚М–C’e", "Sound Cannonball")
+	skilldesc(SKILL_SPELL_SOUND_CANNONBALL) = lang("‰№‘®ђ«‚М–о", "Target(Sound)")
 	skillencdesc(SKILL_SPELL_SOUND_CANNONBALL) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_HYDRO_FANG) = SKILL_ATTR_MAG, SKILL_TYPE_ARROW, 5, 2000 + 6, 400
-	skillname(SKILL_SPELL_HYDRO_FANG) = lang("水の牙", "Hydro Fang")
-	skilldesc(SKILL_SPELL_HYDRO_FANG) = lang("PVDV属性の矢", "Target(PVDV)")
+	skillname(SKILL_SPELL_HYDRO_FANG) = lang("ђ…‚М‰е", "Hydro Fang")
+	skilldesc(SKILL_SPELL_HYDRO_FANG) = lang("PVDV‘®ђ«‚М–о", "Target(PVDV)")
 	skillencdesc(SKILL_SPELL_HYDRO_FANG) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CRYSTAL_SPEAR) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 20, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 300
-	skillname(SKILL_SPELL_CRYSTAL_SPEAR) = lang("マジックボルト", "Magic Bolt")
-	skilldesc(SKILL_SPELL_CRYSTAL_SPEAR) = lang("魔法属性のボルト", "Line(Magic)")
+	skillname(SKILL_SPELL_CRYSTAL_SPEAR) = lang("ѓ}ѓWѓbѓNѓ{ѓ‹ѓg", "Magic Bolt")
+	skilldesc(SKILL_SPELL_CRYSTAL_SPEAR) = lang("–‚–@‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(Magic)")
 	skillencdesc(SKILL_SPELL_CRYSTAL_SPEAR) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MAGIC_STORM) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 40, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 500
-	skillname(SKILL_SPELL_MAGIC_STORM) = lang("魔力の嵐", "Magic Storm")
-	skilldesc(SKILL_SPELL_MAGIC_STORM) = lang("範囲攻撃・魔法", "Surround(Magic)")
+	skillname(SKILL_SPELL_MAGIC_STORM) = lang("–‚—Н‚М—’", "Magic Storm")
+	skilldesc(SKILL_SPELL_MAGIC_STORM) = lang("”Н€НЌUЊ‚ЃE–‚–@", "Surround(Magic)")
 	skillencdesc(SKILL_SPELL_MAGIC_STORM) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_RESURRECTION) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 60, TARGET_TYPE_SELF_ONLY, 1650
-	skillname(SKILL_SPELL_RESURRECTION) = lang("復活", "Resurrection")
-	skilldesc(SKILL_SPELL_RESURRECTION) = lang("死者の蘇生", "Resurrect dead")
+	skillname(SKILL_SPELL_RESURRECTION) = lang("•њЉ€", "Resurrection")
+	skilldesc(SKILL_SPELL_RESURRECTION) = lang("ЋЂЋТ‚М‘hђ¶", "Resurrect dead")
 	skillencdesc(SKILL_SPELL_RESURRECTION) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CONTINGENCY) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_CONTINGENCY, 25, TARGET_TYPE_SELF, 1250
-	skillname(SKILL_SPELL_CONTINGENCY) = lang("契約", "Contingency")
+	skillname(SKILL_SPELL_CONTINGENCY) = lang("Њ_–с", "Contingency")
 	skilldesc(SKILL_SPELL_CONTINGENCY) = ""
 	skillencdesc(SKILL_SPELL_CONTINGENCY) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_4DIM_POCKET) = SKILL_ATTR_PER, SKILL_TYPE_SP, 60, TARGET_TYPE_SELF_ONLY, 750
-	skillname(SKILL_SPELL_4DIM_POCKET) = lang("四次元ポケット", "4-Dimensional Pocket")
-	skilldesc(SKILL_SPELL_4DIM_POCKET) = lang("四次元のポケットを召喚", "Summon 4-Dimensional Pocket")
+	skillname(SKILL_SPELL_4DIM_POCKET) = lang("ЋlЋџЊіѓ|ѓPѓbѓg", "4-Dimensional Pocket")
+	skilldesc(SKILL_SPELL_4DIM_POCKET) = lang("ЋlЋџЊі‚Мѓ|ѓPѓbѓg‚рЏўЉ«", "Summon 4-Dimensional Pocket")
 	skillencdesc(SKILL_SPELL_4DIM_POCKET) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_WIZARDS_HARVEST) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 45, TARGET_TYPE_SELF_ONLY, 350
-	skillname(SKILL_SPELL_WIZARDS_HARVEST) = lang("魔術士の収穫", "Wizard's Harvest")
-	skilldesc(SKILL_SPELL_WIZARDS_HARVEST) = lang("ランダムな収穫", "Random harvest")
+	skillname(SKILL_SPELL_WIZARDS_HARVEST) = lang("–‚ЏpЋm‚МЋыЉn", "Wizard's Harvest")
+	skilldesc(SKILL_SPELL_WIZARDS_HARVEST) = lang("ѓ‰ѓ“ѓ_ѓЂ‚ИЋыЉn", "Random harvest")
 	skillencdesc(SKILL_SPELL_WIZARDS_HARVEST) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_METEOR) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 220, TARGET_TYPE_SELF_ONLY, 1450
-	skillname(SKILL_SPELL_METEOR) = lang("メテオ", "Meteor")
-	skilldesc(SKILL_SPELL_METEOR) = lang("全域無差別火炎属性攻撃", "Indiscriminate(Fire)")
+	skillname(SKILL_SPELL_METEOR) = lang("ѓЃѓeѓI", "Meteor")
+	skilldesc(SKILL_SPELL_METEOR) = lang("‘S€ж–іЌ·•К‰О‰Љ‘®ђ«ЌUЊ‚", "Indiscriminate(Fire)")
 	skillencdesc(SKILL_SPELL_METEOR) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_GRAVITY) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 24, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 750
-	skillname(SKILL_SPELL_GRAVITY) = lang("グラビティ", "Gravity")
-	skilldesc(SKILL_SPELL_GRAVITY) = lang("重力の発生", "Create gravity")
+	skillname(SKILL_SPELL_GRAVITY) = lang("ѓOѓ‰ѓrѓeѓB", "Gravity")
+	skilldesc(SKILL_SPELL_GRAVITY) = lang("Џd—Н‚М”­ђ¶", "Create gravity")
 	skillencdesc(SKILL_SPELL_GRAVITY) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_SUMMON_SPIRIT) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 30, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPELL_SUMMON_SPIRIT) = lang("精霊召喚", "Summon Spirit")
-	skilldesc(SKILL_SPELL_SUMMON_SPIRIT) = lang("精霊を召喚する", "Summon spirit")
+	skillname(SKILL_SPELL_SUMMON_SPIRIT) = lang("ђё—мЏўЉ«", "Summon Spirit")
+	skilldesc(SKILL_SPELL_SUMMON_SPIRIT) = lang("ђё—м‚рЏўЉ«‚·‚й", "Summon spirit")
 	skillencdesc(SKILL_SPELL_SUMMON_SPIRIT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_FEATHER) = SKILL_ATTR_DEX, STARTING_SKILL_TYPE_BUFF + BUFF_FEATHER, 8, TARGET_TYPE_SELF, 150
-	skillname(SKILL_SPELL_FEATHER) = lang("フェザー", "Feather")
-	skilldesc(SKILL_SPELL_FEATHER) = lang("回避力強化・浮遊", "Enhanced Evasion/Floating")
+	skillname(SKILL_SPELL_FEATHER) = lang("ѓtѓFѓUЃ[", "Feather")
+	skilldesc(SKILL_SPELL_FEATHER) = lang("‰с”р—Н‹­‰»ЃE•‚—V", "Enhanced Evasion/Floating")
 	skillencdesc(SKILL_SPELL_FEATHER) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ECLIPSE) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 700
-	skillname(SKILL_SPELL_ECLIPSE) = lang("月蝕の檻", "Eclipse Jail")
-	skilldesc(SKILL_SPELL_ECLIPSE) = lang("暗黒属性の範囲攻撃", "Surround(Darkness)")
+	skillname(SKILL_SPELL_ECLIPSE) = lang("ЊЋђI‚МџB", "Eclipse Jail")
+	skilldesc(SKILL_SPELL_ECLIPSE) = lang("€ГЌ•‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Darkness)")
 	skillencdesc(SKILL_SPELL_ECLIPSE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_THUNDER_VORTEX) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 600
-	skillname(SKILL_SPELL_THUNDER_VORTEX) = lang("雷霆の渦", "Thunder Vortex")
-	skilldesc(SKILL_SPELL_THUNDER_VORTEX) = lang("電撃属性の範囲攻撃", "Surround(Lightning)")
+	skillname(SKILL_SPELL_THUNDER_VORTEX) = lang("—‹и»‚М‰Q", "Thunder Vortex")
+	skilldesc(SKILL_SPELL_THUNDER_VORTEX) = lang("“dЊ‚‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Lightning)")
 	skillencdesc(SKILL_SPELL_THUNDER_VORTEX) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_NETHER_WAVE) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 700
-	skillname(SKILL_SPELL_NETHER_WAVE) = lang("冥王の咆哮", "Nether Roar")
-	skilldesc(SKILL_SPELL_NETHER_WAVE) = lang("地獄属性の範囲攻撃", "Surround(Nether)")
+	skillname(SKILL_SPELL_NETHER_WAVE) = lang("–»‰¤‚М™фљK", "Nether Roar")
+	skilldesc(SKILL_SPELL_NETHER_WAVE) = lang("’nЌ–‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Nether)")
 	skillencdesc(SKILL_SPELL_NETHER_WAVE) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_MIST_OF_DAZZLING) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 12, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 320
-	skillname(SKILL_SPELL_MIST_OF_DAZZLING) = lang("光の霧", "Mist of Dazzling")
-	skilldesc(SKILL_SPELL_MIST_OF_DAZZLING) = lang("眩い霧の発生", "Create mist")
+	skillname(SKILL_SPELL_MIST_OF_DAZZLING) = lang("Њх‚М–¶", "Mist of Dazzling")
+	skilldesc(SKILL_SPELL_MIST_OF_DAZZLING) = lang("бї‚ў–¶‚М”­ђ¶", "Create mist")
 	skillencdesc(SKILL_SPELL_MIST_OF_DAZZLING) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_POISON_STORM) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 700
-	skillname(SKILL_SPELL_POISON_STORM) = lang("猛毒の嵐", "Poison Storm")
-	skilldesc(SKILL_SPELL_POISON_STORM) = lang("毒属性の範囲攻撃", "Surround(Poison)")
+	skillname(SKILL_SPELL_POISON_STORM) = lang("–Т“Е‚М—’", "Poison Storm")
+	skilldesc(SKILL_SPELL_POISON_STORM) = lang("“Е‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Poison)")
 	skillencdesc(SKILL_SPELL_POISON_STORM) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ILLUSION_ROAR) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, 3000 + 2, 700
-	skillname(SKILL_SPELL_ILLUSION_ROAR) = lang("夢幻の咆哮", "Illusion Roar")
-	skilldesc(SKILL_SPELL_ILLUSION_ROAR) = lang("幻惑属性の範囲攻撃", "Surround(Mind)")
+	skillname(SKILL_SPELL_ILLUSION_ROAR) = lang("–ІЊ¶‚М™фљK", "Illusion Roar")
+	skilldesc(SKILL_SPELL_ILLUSION_ROAR) = lang("Њ¶f‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Mind)")
 	skillencdesc(SKILL_SPELL_ILLUSION_ROAR) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_ANGUISH_JAIL) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 56, 3000 + 2, 700
-	skillname(SKILL_SPELL_ANGUISH_JAIL) = lang("苦悶の檻", "Anguish Jail")
-	skilldesc(SKILL_SPELL_ANGUISH_JAIL) = lang("神経属性の範囲攻撃", "Surround(Nerve)")
+	skillname(SKILL_SPELL_ANGUISH_JAIL) = lang("‹к–г‚МџB", "Anguish Jail")
+	skilldesc(SKILL_SPELL_ANGUISH_JAIL) = lang("ђ_Њo‘®ђ«‚М”Н€НЌUЊ‚", "Surround(Nerve)")
 	skillencdesc(SKILL_SPELL_ANGUISH_JAIL) = lang("", "")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_CONCENTRATION) = SKILL_ATTR_PER, STARTING_SKILL_TYPE_BUFF + BUFF_CONCENTRATION, 12, TARGET_TYPE_SELF, 100
-	skillname(SKILL_SPELL_CONCENTRATION) = lang("集中", "Concentration")
+	skillname(SKILL_SPELL_CONCENTRATION) = lang("ЏW’†", "Concentration")
 	skilldesc(SKILL_SPELL_CONCENTRATION) = ""
 	skillencdesc(SKILL_SPELL_CONCENTRATION) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_WATER_BOLT) = SKILL_ATTR_MAG, SKILL_TYPE_BOLT, 20, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 600
-	skillname(SKILL_SPELL_WATER_BOLT) = lang("ハイドロボルト", "Hydro Bolt")
-	skilldesc(SKILL_SPELL_WATER_BOLT) = lang("PVDV属性のボルト", "Line(PVDV)")
+	skillname(SKILL_SPELL_WATER_BOLT) = lang("ѓnѓCѓhѓЌѓ{ѓ‹ѓg", "Hydro Bolt")
+	skilldesc(SKILL_SPELL_WATER_BOLT) = lang("PVDV‘®ђ«‚Мѓ{ѓ‹ѓg", "Line(PVDV)")
 	skillencdesc(SKILL_SPELL_WATER_BOLT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_BUBBLE_STORM) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 40, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 800
-	skillname(SKILL_SPELL_BUBBLE_STORM) = lang("泡沫の嵐", "Bubble Storm")
-	skilldesc(SKILL_SPELL_BUBBLE_STORM) = lang("PVDV属性の範囲攻撃", "Surround(PVDV)")
+	skillname(SKILL_SPELL_BUBBLE_STORM) = lang("–A–—‚М—’", "Bubble Storm")
+	skilldesc(SKILL_SPELL_BUBBLE_STORM) = lang("PVDV‘®ђ«‚М”Н€НЌUЊ‚", "Surround(PVDV)")
 	skillencdesc(SKILL_SPELL_BUBBLE_STORM) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPELL_GEM_POWER) = SKILL_ATTR_CON, STARTING_SKILL_TYPE_BUFF + BUFF_GEM_POWER, 12, TARGET_TYPE_SELF, 120
-	skillname(SKILL_SPELL_GEM_POWER) = lang("守護石", "Gem Power")
+	skillname(SKILL_SPELL_GEM_POWER) = lang("ЋзЊмђО", "Gem Power")
 	skilldesc(SKILL_SPELL_GEM_POWER) = ""
 	skillencdesc(SKILL_SPELL_GEM_POWER) = ""
 
 	// Special actions
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DRAIN_BLOOD) = SKILL_ATTR_DEX, SKILL_TYPE_HAND, 7, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_DRAIN_BLOOD) = lang("吸血の牙", "Drain Blood")
-	skilldesc(SKILL_SPACT_DRAIN_BLOOD) = lang("体力・sp吸収", "Drain HP")
+	skillname(SKILL_SPACT_DRAIN_BLOOD) = lang("‹zЊЊ‚М‰е", "Drain Blood")
+	skilldesc(SKILL_SPACT_DRAIN_BLOOD) = lang("‘М—НЃEsp‹zЋы", "Drain HP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FIRE_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_FIRE_BREATH) = lang("火炎放射", "Fire Breath")
-	skilldesc(SKILL_SPACT_FIRE_BREATH) = lang("炎属性の放射攻撃", "Breath(Fire)")
+	skillname(SKILL_SPACT_FIRE_BREATH) = lang("‰О‰Љ•ъЋЛ", "Fire Breath")
+	skilldesc(SKILL_SPACT_FIRE_BREATH) = lang("‰Љ‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Fire)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_COLD_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_COLD_BREATH) = lang("冷気放射", "Cold Breath")
-	skilldesc(SKILL_SPACT_COLD_BREATH) = lang("冷気属性の放射攻撃", "Breath(Cold)")
+	skillname(SKILL_SPACT_COLD_BREATH) = lang("—в‹C•ъЋЛ", "Cold Breath")
+	skilldesc(SKILL_SPACT_COLD_BREATH) = lang("—в‹C‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Cold)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LIGHTNING_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_LIGHTNING_BREATH) = lang("電撃放射", "Lightning Breath")
-	skilldesc(SKILL_SPACT_LIGHTNING_BREATH) = lang("電撃属性の放射攻撃", "Breath(Lightning)")
+	skillname(SKILL_SPACT_LIGHTNING_BREATH) = lang("“dЊ‚•ъЋЛ", "Lightning Breath")
+	skilldesc(SKILL_SPACT_LIGHTNING_BREATH) = lang("“dЊ‚‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Lightning)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DARKNESS_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_DARKNESS_BREATH) = lang("暗黒放射", "Darkness Breath")
-	skilldesc(SKILL_SPACT_DARKNESS_BREATH) = lang("暗黒属性の放射攻撃", "Breath(Darkness)")
+	skillname(SKILL_SPACT_DARKNESS_BREATH) = lang("€ГЌ••ъЋЛ", "Darkness Breath")
+	skilldesc(SKILL_SPACT_DARKNESS_BREATH) = lang("€ГЌ•‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Darkness)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CHAOS_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_CHAOS_BREATH) = lang("混沌放射", "Chaos Breath")
-	skilldesc(SKILL_SPACT_CHAOS_BREATH) = lang("混沌属性の放射攻撃", "Breath(Chaos)")
+	skillname(SKILL_SPACT_CHAOS_BREATH) = lang("Ќ¬“Ч•ъЋЛ", "Chaos Breath")
+	skilldesc(SKILL_SPACT_CHAOS_BREATH) = lang("Ќ¬“Ч‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Chaos)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SOUND_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_SOUND_BREATH) = lang("轟音放射", "Sound Breath")
-	skilldesc(SKILL_SPACT_SOUND_BREATH) = lang("音属性の放射攻撃", "Breath(Sound)")
+	skillname(SKILL_SPACT_SOUND_BREATH) = lang("ЌЊ‰№•ъЋЛ", "Sound Breath")
+	skilldesc(SKILL_SPACT_SOUND_BREATH) = lang("‰№‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Sound)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_NETHER_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_NETHER_BREATH) = lang("冥気放射", "Nether Breath")
-	skilldesc(SKILL_SPACT_NETHER_BREATH) = lang("地獄属性の放射攻撃", "Breath(Nether)")
+	skillname(SKILL_SPACT_NETHER_BREATH) = lang("–»‹C•ъЋЛ", "Nether Breath")
+	skilldesc(SKILL_SPACT_NETHER_BREATH) = lang("’nЌ–‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Nether)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_NERVE_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_NERVE_BREATH) = lang("神経波放射", "Nerve Breath")
-	skilldesc(SKILL_SPACT_NERVE_BREATH) = lang("神経属性の放射攻撃", "Breath(Nerve)")
+	skillname(SKILL_SPACT_NERVE_BREATH) = lang("ђ_Њo”g•ъЋЛ", "Nerve Breath")
+	skilldesc(SKILL_SPACT_NERVE_BREATH) = lang("ђ_Њo‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Nerve)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_POISON_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_POISON_BREATH) = lang("猛毒放射", "Poison Breath")
-	skilldesc(SKILL_SPACT_POISON_BREATH) = lang("毒属性の放射攻撃", "Breath(Poison)")
+	skillname(SKILL_SPACT_POISON_BREATH) = lang("–Т“Е•ъЋЛ", "Poison Breath")
+	skilldesc(SKILL_SPACT_POISON_BREATH) = lang("“Е‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Poison)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MIND_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_MIND_BREATH) = lang("幻影放射", "Mind Breath")
-	skilldesc(SKILL_SPACT_MIND_BREATH) = lang("幻惑属性の放射攻撃", "Breath(Mind)")
+	skillname(SKILL_SPACT_MIND_BREATH) = lang("Њ¶‰e•ъЋЛ", "Mind Breath")
+	skilldesc(SKILL_SPACT_MIND_BREATH) = lang("Њ¶f‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath(Mind)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_POWER_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_BREATH, 5, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_POWER_BREATH) = lang("エネルギー放射", "Power Breath")
-	skilldesc(SKILL_SPACT_POWER_BREATH) = lang("魔法属性の放射攻撃", "Breath")
+	skillname(SKILL_SPACT_POWER_BREATH) = lang("ѓGѓlѓ‹ѓMЃ[•ъЋЛ", "Power Breath")
+	skilldesc(SKILL_SPACT_POWER_BREATH) = lang("–‚–@‘®ђ«‚М•ъЋЛЌUЊ‚", "Breath")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TOUCH_OF_WEAKNESS) = SKILL_ATTR_MAG, SKILL_TYPE_HAND, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_TOUCH_OF_WEAKNESS) = lang("弱体化の手", "Touch of Weakness")
-	skilldesc(SKILL_SPACT_TOUCH_OF_WEAKNESS) = lang("弱体化", "Weaken target")
+	skillname(SKILL_SPACT_TOUCH_OF_WEAKNESS) = lang("Ћг‘М‰»‚МЋи", "Touch of Weakness")
+	skilldesc(SKILL_SPACT_TOUCH_OF_WEAKNESS) = lang("Ћг‘М‰»", "Weaken target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TOUCH_OF_HUNGER) = SKILL_ATTR_MAG, SKILL_TYPE_HAND, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_TOUCH_OF_HUNGER) = lang("飢餓の手", "Touch of Hunger")
-	skilldesc(SKILL_SPACT_TOUCH_OF_HUNGER) = lang("飢餓攻撃", "Starve target")
+	skillname(SKILL_SPACT_TOUCH_OF_HUNGER) = lang("‹Q‰м‚МЋи", "Touch of Hunger")
+	skilldesc(SKILL_SPACT_TOUCH_OF_HUNGER) = lang("‹Q‰мЌUЊ‚", "Starve target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TOUCH_OF_POISON) = SKILL_ATTR_DEX, SKILL_TYPE_HAND, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_TOUCH_OF_POISON) = lang("毒の手", "Touch of Poison")
-	skilldesc(SKILL_SPACT_TOUCH_OF_POISON) = lang("毒攻撃", "Poison target")
+	skillname(SKILL_SPACT_TOUCH_OF_POISON) = lang("“Е‚МЋи", "Touch of Poison")
+	skilldesc(SKILL_SPACT_TOUCH_OF_POISON) = lang("“ЕЌUЊ‚", "Poison target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TOUCH_OF_NERVE) = SKILL_ATTR_DEX, SKILL_TYPE_HAND, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_TOUCH_OF_NERVE) = lang("麻痺の手", "Touch of Nerve")
-	skilldesc(SKILL_SPACT_TOUCH_OF_NERVE) = lang("神経攻撃", "Paralyze target")
+	skillname(SKILL_SPACT_TOUCH_OF_NERVE) = lang("–ѓбѓ‚МЋи", "Touch of Nerve")
+	skilldesc(SKILL_SPACT_TOUCH_OF_NERVE) = lang("ђ_ЊoЌUЊ‚", "Paralyze target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TOUCH_OF_FEAR) = SKILL_ATTR_WIL, SKILL_TYPE_HAND, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_TOUCH_OF_FEAR) = lang("恐怖の手", "Touch of Fear")
-	skilldesc(SKILL_SPACT_TOUCH_OF_FEAR) = lang("無属性攻撃", "Fear target")
+	skillname(SKILL_SPACT_TOUCH_OF_FEAR) = lang("‹°•|‚МЋи", "Touch of Fear")
+	skilldesc(SKILL_SPACT_TOUCH_OF_FEAR) = lang("–і‘®ђ«ЌUЊ‚", "Fear target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TOUCH_OF_SLEEP) = SKILL_ATTR_WIL, SKILL_TYPE_HAND, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_TOUCH_OF_SLEEP) = lang("眠りの手", "Touch of Sleep")
-	skilldesc(SKILL_SPACT_TOUCH_OF_SLEEP) = lang("精神攻撃", "Sleep target")
+	skillname(SKILL_SPACT_TOUCH_OF_SLEEP) = lang("–°‚и‚МЋи", "Touch of Sleep")
+	skilldesc(SKILL_SPACT_TOUCH_OF_SLEEP) = lang("ђёђ_ЌUЊ‚", "Sleep target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHADOW_STEP) = SKILL_ATTR_WIL, SKILL_TYPE_TELEPORT, 27, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_SHADOW_STEP) = lang("シャドウステップ", "Shadow Step")
-	skilldesc(SKILL_SPACT_SHADOW_STEP) = lang("対象へ突撃＋通常近接攻撃", "Teleport to target + Melee attack")
+	skillname(SKILL_SPACT_SHADOW_STEP) = lang("ѓVѓѓѓhѓEѓXѓeѓbѓv", "Shadow Step")
+	skilldesc(SKILL_SPACT_SHADOW_STEP) = lang("‘ОЏЫ‚Ц“ЛЊ‚Ѓ{’КЏн‹ЯђЪЌUЊ‚", "Teleport to target + Melee attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DRAW_SHADOW) = SKILL_ATTR_WIL, SKILL_TYPE_TELEPORT, 10, TARGET_TYPE_OTHER + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_DRAW_SHADOW) = lang("異次元の手", "Draw Shadow")
-	skilldesc(SKILL_SPACT_DRAW_SHADOW) = lang("対象を引き寄せ", "Draw target")
+	skillname(SKILL_SPACT_DRAW_SHADOW) = lang("€ЩЋџЊі‚МЋи", "Draw Shadow")
+	skilldesc(SKILL_SPACT_DRAW_SHADOW) = lang("‘ОЏЫ‚р€ш‚«Љс‚№", "Draw target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HARVEST_MANA) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF_ONLY, 700
-	skillname(SKILL_SPACT_HARVEST_MANA) = lang("マナ回復", "Harvest Mana")
-	skilldesc(SKILL_SPACT_HARVEST_MANA) = lang("マナ回復", "Restore MP")
+	skillname(SKILL_SPACT_HARVEST_MANA) = lang("ѓ}ѓi‰с•њ", "Harvest Mana")
+	skilldesc(SKILL_SPACT_HARVEST_MANA) = lang("ѓ}ѓi‰с•њ", "Restore MP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PUNISHMENT) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_PUNISHMENT, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PUNISHMENT) = lang("神罰", "Punishment")
+	skillname(SKILL_SPACT_PUNISHMENT) = lang("ђ_”±", "Punishment")
 	skilldesc(SKILL_SPACT_PUNISHMENT) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PRAYER_OF_JURE) = SKILL_ATTR_WIL, SKILL_TYPE_HEAL, 30, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_PRAYER_OF_JURE) = lang("ジュアの祈り", "Prayer of Jure")
-	skilldesc(SKILL_SPACT_PRAYER_OF_JURE) = lang("体力回復", "Heal HP self")
+	skillname(SKILL_SPACT_PRAYER_OF_JURE) = lang("ѓWѓ…ѓA‚М‹F‚и", "Prayer of Jure")
+	skilldesc(SKILL_SPACT_PRAYER_OF_JURE) = lang("‘М—Н‰с•њ", "Heal HP self")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ABSORB_MAGIC) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 25, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_ABSORB_MAGIC) = lang("魔力の吸収", "Absorb Magic")
-	skilldesc(SKILL_SPACT_ABSORB_MAGIC) = lang("マナ回復", "Heal MP")
+	skillname(SKILL_SPACT_ABSORB_MAGIC) = lang("–‚—Н‚М‹zЋы", "Absorb Magic")
+	skilldesc(SKILL_SPACT_ABSORB_MAGIC) = lang("ѓ}ѓi‰с•њ", "Heal MP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_POSING) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 5, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_POSING) = lang("ポージング", "Posing")
-	skilldesc(SKILL_SPACT_POSING) = lang("ｹﾞｰｼﾞ15％増加/ｶﾞｰﾄﾞﾌﾞﾚｲｸ15％減少", "Gauge +15%/Guard Break -15%")
+	skillname(SKILL_SPACT_POSING) = lang("ѓ|Ѓ[ѓWѓ“ѓO", "Posing")
+	skilldesc(SKILL_SPACT_POSING) = lang("№Ю°јЮ15Ѓ“‘ќ‰Б/¶Ю°ДЮМЮЪІё15Ѓ“ЊёЏ­", "Gauge +15%/Guard Break -15%")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LULWYS_TRICK) = SKILL_ATTR_DEX, STARTING_SKILL_TYPE_BUFF + BUFF_LULWYS_TRICK, 20, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_LULWYS_TRICK) = lang("ルルウィの憑依", "Lulwy's Trick")
+	skillname(SKILL_SPACT_LULWYS_TRICK) = lang("ѓ‹ѓ‹ѓEѓB‚МњЯ€Л", "Lulwy's Trick")
 	skilldesc(SKILL_SPACT_LULWYS_TRICK) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PSYCHOANALYSIS) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_PSYCHOANALYSIS) = lang("精神分析", "Psychoanalysis")
-	skilldesc(SKILL_SPACT_PSYCHOANALYSIS) = lang("対象の精神状態の感知", "Know mind")
+	skillname(SKILL_SPACT_PSYCHOANALYSIS) = lang("ђёђ_•ЄђН", "Psychoanalysis")
+	skilldesc(SKILL_SPACT_PSYCHOANALYSIS) = lang("‘ОЏЫ‚Мђёђ_Џу‘Ф‚МЉґ’m", "Know mind")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DIMENSIONAL_MOVE) = SKILL_ATTR_WIL, SKILL_TYPE_TELEPORT, 15, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_DIMENSIONAL_MOVE) = lang("空間歪曲", "Dimensional Move")
-	skilldesc(SKILL_SPACT_DIMENSIONAL_MOVE) = lang("近くへの瞬間移動", "Teleport self")
+	skillname(SKILL_SPACT_DIMENSIONAL_MOVE) = lang("‹уЉФc‹И", "Dimensional Move")
+	skilldesc(SKILL_SPACT_DIMENSIONAL_MOVE) = lang("‹Я‚­‚Ц‚МЏuЉФ€Ъ“®", "Teleport self")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CHANGE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_CHANGE) = lang("他者変容", "Change")
-	skilldesc(SKILL_SPACT_CHANGE) = lang("対象変容", "Change target")
+	skillname(SKILL_SPACT_CHANGE) = lang("‘јЋТ•П—e", "Change")
+	skilldesc(SKILL_SPACT_CHANGE) = lang("‘ОЏЫ•П—e", "Change target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DRAW_CHARGE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_DRAW_CHARGE) = lang("魔力の抽出", "Draw Charge")
-	skilldesc(SKILL_SPACT_DRAW_CHARGE) = lang("杖の使用回数を充填用魔力に変換", "Destroy a rod and gain recharge powers")
+	skillname(SKILL_SPACT_DRAW_CHARGE) = lang("–‚—Н‚М’ЉЏo", "Draw Charge")
+	skilldesc(SKILL_SPACT_DRAW_CHARGE) = lang("Џс‚МЋg—p‰сђ”‚рЏ[“U—p–‚—Н‚Й•ПЉ·", "Destroy a rod and gain recharge powers")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FILL_CHARGE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_FILL_CHARGE) = lang("魔力の充填", "Fill Charge")
-	skilldesc(SKILL_SPACT_FILL_CHARGE) = lang("充填用魔力をアイテムの使用回数に変換", "Item charge by recharge powers")
+	skillname(SKILL_SPACT_FILL_CHARGE) = lang("–‚—Н‚МЏ[“U", "Fill Charge")
+	skilldesc(SKILL_SPACT_FILL_CHARGE) = lang("Џ[“U—p–‚—Н‚рѓAѓCѓeѓЂ‚МЋg—p‰сђ”‚Й•ПЉ·", "Item charge by recharge powers")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SWARM) = SKILL_ATTR_STR, SKILL_TYPE_SP, 27, TARGET_TYPE_SELF_ONLY, 220
-	skillname(SKILL_SPACT_SWARM) = lang("スウォーム", "Swarm")
-	skilldesc(SKILL_SPACT_SWARM) = lang("隣接対象通常近接攻撃", "Attack circle")
+	skillname(SKILL_SPACT_SWARM) = lang("ѓXѓEѓHЃ[ѓЂ", "Swarm")
+	skilldesc(SKILL_SPACT_SWARM) = lang("—ЧђЪ‘ОЏЫ’КЏн‹ЯђЪЌUЊ‚", "Attack circle")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_MUTATION) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 5, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_MUTATION) = lang("変容の眼差し", "Eye of Mutation")
-	skilldesc(SKILL_SPACT_EYE_OF_MUTATION) = lang("対象変容", "Mutate target")
+	skillname(SKILL_SPACT_EYE_OF_MUTATION) = lang("•П—e‚МЉбЌ·‚µ", "Eye of Mutation")
+	skilldesc(SKILL_SPACT_EYE_OF_MUTATION) = lang("‘ОЏЫ•П—e", "Mutate target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_ETHER) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 5, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_ETHER) = lang("エーテルの眼差し", "Eye of Ether")
-	skilldesc(SKILL_SPACT_EYE_OF_ETHER) = lang("対象エーテル侵食", "Corrupt target")
+	skillname(SKILL_SPACT_EYE_OF_ETHER) = lang("ѓGЃ[ѓeѓ‹‚МЉбЌ·‚µ", "Eye of Ether")
+	skilldesc(SKILL_SPACT_EYE_OF_ETHER) = lang("‘ОЏЫѓGЃ[ѓeѓ‹ђNђH", "Corrupt target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ETHER_GROUND) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 18, TARGET_TYPE_LOCATION, 480
-	skillname(SKILL_SPACT_ETHER_GROUND) = lang("エーテルの海", "Ether Ground")
-	skilldesc(SKILL_SPACT_ETHER_GROUND) = lang("エーテルの発生", "Create ether grounds")
+	skillname(SKILL_SPACT_ETHER_GROUND) = lang("ѓGЃ[ѓeѓ‹‚МЉC", "Ether Ground")
+	skilldesc(SKILL_SPACT_ETHER_GROUND) = lang("ѓGЃ[ѓeѓ‹‚М”­ђ¶", "Create ether grounds")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUSPICIOUS_HAND) = SKILL_ATTR_DEX, SKILL_TYPE_TELEPORT, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_SUSPICIOUS_HAND) = lang("スリの指", "Suspicious Hand")
-	skilldesc(SKILL_SPACT_SUSPICIOUS_HAND) = lang("盗み", "Steal from target")
+	skillname(SKILL_SPACT_SUSPICIOUS_HAND) = lang("ѓXѓЉ‚МЋw", "Suspicious Hand")
+	skilldesc(SKILL_SPACT_SUSPICIOUS_HAND) = lang("“ђ‚Э", "Steal from target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_INSANITY) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 5, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_INSANITY) = lang("狂気の眼差し", "Eye of Insanity")
-	skilldesc(SKILL_SPACT_EYE_OF_INSANITY) = lang("対象狂気", "Craze target")
+	skillname(SKILL_SPACT_EYE_OF_INSANITY) = lang("‹¶‹C‚МЉбЌ·‚µ", "Eye of Insanity")
+	skilldesc(SKILL_SPACT_EYE_OF_INSANITY) = lang("‘ОЏЫ‹¶‹C", "Craze target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_RAIN_OF_SANITY) = SKILL_ATTR_WIL, SKILL_TYPE_BALL, 50, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 500
-	skillname(SKILL_SPACT_RAIN_OF_SANITY) = lang("狂気治癒の雨", "Rain of Sanity")
-	skilldesc(SKILL_SPACT_RAIN_OF_SANITY) = lang("狂気回復の球", "Cure insane area")
+	skillname(SKILL_SPACT_RAIN_OF_SANITY) = lang("‹¶‹CЋЎ–ь‚М‰J", "Rain of Sanity")
+	skilldesc(SKILL_SPACT_RAIN_OF_SANITY) = lang("‹¶‹C‰с•њ‚М‹…", "Cure insane area")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_DIMNESS) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 5, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_DIMNESS) = lang("朦朧の眼差し", "Eye of Dimness")
-	skilldesc(SKILL_SPACT_EYE_OF_DIMNESS) = lang("対象を朦朧とさせパワーゲージも微低下", "Makes the target dim and the power gauge drops slightly.")
+	skillname(SKILL_SPACT_EYE_OF_DIMNESS) = lang("ћNћO‚МЉбЌ·‚µ", "Eye of Dimness")
+	skilldesc(SKILL_SPACT_EYE_OF_DIMNESS) = lang("‘ОЏЫ‚рћNћO‚Ж‚і‚№ѓpѓЏЃ[ѓQЃ[ѓW‚а”ч’б‰є", "Makes the target dim and the power gauge drops slightly.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUMMON_CATS) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPACT_SUMMON_CATS) = lang("猫召喚", "Summon Cats")
-	skilldesc(SKILL_SPACT_SUMMON_CATS) = lang("猫を召喚する", "Summon cats")
+	skillname(SKILL_SPACT_SUMMON_CATS) = lang("”LЏўЉ«", "Summon Cats")
+	skilldesc(SKILL_SPACT_SUMMON_CATS) = lang("”L‚рЏўЉ«‚·‚й", "Summon cats")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUMMON_YEEK) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPACT_SUMMON_YEEK) = lang("イーク召喚", "Summon Yeek")
-	skilldesc(SKILL_SPACT_SUMMON_YEEK) = lang("イークを召喚する", "Summon Yeeks")
+	skillname(SKILL_SPACT_SUMMON_YEEK) = lang("ѓCЃ[ѓNЏўЉ«", "Summon Yeek")
+	skilldesc(SKILL_SPACT_SUMMON_YEEK) = lang("ѓCЃ[ѓN‚рЏўЉ«‚·‚й", "Summon Yeeks")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUMMON_PAWN) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPACT_SUMMON_PAWN) = lang("駒召喚", "Summon Pawn")
-	skilldesc(SKILL_SPACT_SUMMON_PAWN) = lang("駒を召喚する", "Summon pieces")
+	skillname(SKILL_SPACT_SUMMON_PAWN) = lang("‹оЏўЉ«", "Summon Pawn")
+	skilldesc(SKILL_SPACT_SUMMON_PAWN) = lang("‹о‚рЏўЉ«‚·‚й", "Summon pieces")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUMMON_FIRE) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPACT_SUMMON_FIRE) = lang("炎召喚", "Summon Fire")
-	skilldesc(SKILL_SPACT_SUMMON_FIRE) = lang("炎の生き物を召喚する", "Summon fire creatures")
+	skillname(SKILL_SPACT_SUMMON_FIRE) = lang("‰ЉЏўЉ«", "Summon Fire")
+	skilldesc(SKILL_SPACT_SUMMON_FIRE) = lang("‰Љ‚Мђ¶‚«•Ё‚рЏўЉ«‚·‚й", "Summon fire creatures")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUMMON_SISTER) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPACT_SUMMON_SISTER) = lang("妹召喚", "Summon Sister")
-	skilldesc(SKILL_SPACT_SUMMON_SISTER) = lang("妹を召喚する", "Summon Sister")
+	skillname(SKILL_SPACT_SUMMON_SISTER) = lang("–…ЏўЉ«", "Summon Sister")
+	skilldesc(SKILL_SPACT_SUMMON_SISTER) = lang("–…‚рЏўЉ«‚·‚й", "Summon Sister")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUICIDE_ATTACK) = SKILL_ATTR_CON, SKILL_TYPE_BALL, 16, TARGET_TYPE_DIRECTION, 450
-	skillname(SKILL_SPACT_SUICIDE_ATTACK) = lang("自爆", "Suicide Attack")
-	skilldesc(SKILL_SPACT_SUICIDE_ATTACK) = lang("PVDV属性の範囲攻撃", "Suicide(PVDV)")
+	skillname(SKILL_SPACT_SUICIDE_ATTACK) = lang("Ћ©”љ", "Suicide Attack")
+	skilldesc(SKILL_SPACT_SUICIDE_ATTACK) = lang("PVDV‘®ђ«‚М”Н€НЌUЊ‚", "Suicide(PVDV)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CURSE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 4, 100
-	skillname(SKILL_SPACT_CURSE) = lang("呪いの言葉", "Curse")
-	skilldesc(SKILL_SPACT_CURSE) = lang("呪いをかける", "Curse target")
+	skillname(SKILL_SPACT_CURSE) = lang("Ћф‚ў‚МЊѕ—t", "Curse")
+	skilldesc(SKILL_SPACT_CURSE) = lang("Ћф‚ў‚р‚©‚Ї‚й", "Curse target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DEATH_WORD) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_DEATH_WORD, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_DEATH_WORD) = lang("死の宣告", "Death Word")
+	skillname(SKILL_SPACT_DEATH_WORD) = lang("ЋЂ‚МђйЌђ", "Death Word")
 	skilldesc(SKILL_SPACT_DEATH_WORD) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BOOST) = SKILL_ATTR_WIL, STARTING_SKILL_TYPE_BUFF + BUFF_BOOST, 50, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_BOOST) = lang("ブースト", "Boost")
+	skillname(SKILL_SPACT_BOOST) = lang("ѓuЃ[ѓXѓg", "Boost")
 	skilldesc(SKILL_SPACT_BOOST) = ""
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_INSULT) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 4, 0
-	skillname(SKILL_SPACT_INSULT) = lang("罵倒", "Insult")
-	skilldesc(SKILL_SPACT_INSULT) = lang("対象を朦朧とさせパワーゲージも微低下", "Makes the target dim and the power gauge drops slightly.")
+	skillname(SKILL_SPACT_INSULT) = lang("”l“|", "Insult")
+	skilldesc(SKILL_SPACT_INSULT) = lang("‘ОЏЫ‚рћNћO‚Ж‚і‚№ѓpѓЏЃ[ѓQЃ[ѓW‚а”ч’б‰є", "Makes the target dim and the power gauge drops slightly.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHINING_WAVE) = SKILL_ATTR_STR, SKILL_TYPE_SP, 27, TARGET_TYPE_ENEMY + 4, 0
-	skillname(SKILL_SPACT_SHINING_WAVE) = lang("衝撃波動", "Shining Wave")
-	skilldesc(SKILL_SPACT_SHINING_WAVE) = lang("一直線攻撃", "Line attack")
+	skillname(SKILL_SPACT_SHINING_WAVE) = lang("ЏХЊ‚”g“®", "Shining Wave")
+	skilldesc(SKILL_SPACT_SHINING_WAVE) = lang("€к’јђьЌUЊ‚", "Line attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DISTANT_ATTACK7) = SKILL_ATTR_STR, SKILL_TYPE_ATTACK, 2, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_DISTANT_ATTACK7) = lang("遠距離打撃７", "Distant Attack 7")
-	skilldesc(SKILL_SPACT_DISTANT_ATTACK7) = lang("有射程/通常近接攻撃", "Distant Attack")
+	skillname(SKILL_SPACT_DISTANT_ATTACK7) = lang("‰“‹——Ј‘ЕЊ‚‚V", "Distant Attack 7")
+	skilldesc(SKILL_SPACT_DISTANT_ATTACK7) = lang("—LЋЛ’ц/’КЏн‹ЯђЪЌUЊ‚", "Distant Attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SCAVENGE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_SCAVENGE) = lang("食い漁り", "Scavenge")
-	skilldesc(SKILL_SPACT_SCAVENGE) = lang("盗んで食べる", "Steal food")
+	skillname(SKILL_SPACT_SCAVENGE) = lang("ђH‚ў‹™‚и", "Scavenge")
+	skilldesc(SKILL_SPACT_SCAVENGE) = lang("“ђ‚с‚ЕђH‚Ч‚й", "Steal food")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_MANA) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 5, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_MANA) = lang("マナの眼差し", "Eye of Mana")
-	skilldesc(SKILL_SPACT_EYE_OF_MANA) = lang("マナダメージ", "Damage MP target")
+	skillname(SKILL_SPACT_EYE_OF_MANA) = lang("ѓ}ѓi‚МЉбЌ·‚µ", "Eye of Mana")
+	skilldesc(SKILL_SPACT_EYE_OF_MANA) = lang("ѓ}ѓiѓ_ѓЃЃ[ѓW", "Damage MP target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_VANISH) = SKILL_ATTR_PER, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_VANISH) = lang("退却", "Vanish")
-	skilldesc(SKILL_SPACT_VANISH) = lang("退却する", "Retreat")
+	skillname(SKILL_SPACT_VANISH) = lang("‘Ю‹p", "Vanish")
+	skilldesc(SKILL_SPACT_VANISH) = lang("‘Ю‹p‚·‚й", "Retreat")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PREGNANT) = SKILL_ATTR_PER, SKILL_TYPE_SP, 15, TARGET_TYPE_ENEMY + 1, 0
-	skillname(SKILL_SPACT_PREGNANT) = lang("妊娠", "Pregnant")
-	skilldesc(SKILL_SPACT_PREGNANT) = lang("対象妊娠", "Pregnant target")
+	skillname(SKILL_SPACT_PREGNANT) = lang("”DђP", "Pregnant")
+	skilldesc(SKILL_SPACT_PREGNANT) = lang("‘ОЏЫ”DђP", "Pregnant target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GRENADE) = SKILL_ATTR_MAG, SKILL_TYPE_BALL, 18, TARGET_TYPE_SELF_ONLY, 700
-	skillname(SKILL_SPACT_GRENADE) = lang("グレネード", "Grenade")
-	skilldesc(SKILL_SPACT_GRENADE) = lang("轟音の球", "Surround(Sound)")
+	skillname(SKILL_SPACT_GRENADE) = lang("ѓOѓЊѓlЃ[ѓh", "Grenade")
+	skilldesc(SKILL_SPACT_GRENADE) = lang("ЌЊ‰№‚М‹…", "Surround(Sound)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CHEER) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 32, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_CHEER) = lang("鼓舞", "Cheer")
-	skilldesc(SKILL_SPACT_CHEER) = lang("視界内仲間強化", "Strengthen allies")
+	skillname(SKILL_SPACT_CHEER) = lang("ЊЫ•‘", "Cheer")
+	skilldesc(SKILL_SPACT_CHEER) = lang("Ћ‹ЉE“а’‡ЉФ‹­‰»", "Strengthen allies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MEWMEWMEW) = SKILL_ATTR_LUC, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF, 500
-	skillname(SKILL_SPACT_MEWMEWMEW) = lang("うみみゃぁ！", "Mewmewmew!")
-	skilldesc(SKILL_SPACT_MEWMEWMEW) = lang("全体高ダメージ", "Map-wide high damage")
+	skillname(SKILL_SPACT_MEWMEWMEW) = lang("‚¤‚Э‚Э‚б‚џЃI", "Mewmewmew!")
+	skilldesc(SKILL_SPACT_MEWMEWMEW) = lang("‘S‘МЌ‚ѓ_ѓЃЃ[ѓW", "Map-wide high damage")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DECAPITATION) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 1, 0
-	skillname(SKILL_SPACT_DECAPITATION) = lang("首狩り", "Decapitation")
-	skilldesc(SKILL_SPACT_DECAPITATION) = lang("器用依存攻撃/対象が瀕死なら即死", "Attack and kill low-health target")
+	skillname(SKILL_SPACT_DECAPITATION) = lang("ЋсЋл‚и", "Decapitation")
+	skilldesc(SKILL_SPACT_DECAPITATION) = lang("Љн—p€Л‘¶ЌUЊ‚/‘ОЏЫ‚Є•mЋЂ‚И‚з‘¦ЋЂ", "Attack and kill low-health target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DROP_MINE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_DROP_MINE) = lang("地雷投下", "Drop Mine")
-	skilldesc(SKILL_SPACT_DROP_MINE) = lang("足元に地雷設置", "Set Mine")
+	skillname(SKILL_SPACT_DROP_MINE) = lang("’n—‹“Љ‰є", "Drop Mine")
+	skilldesc(SKILL_SPACT_DROP_MINE) = lang("‘«Њі‚Й’n—‹ђЭ’u", "Set Mine")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MANIS_DISASSEMBLY) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_MANIS_DISASSEMBLY) = lang("マニの分解術", "Mani's Disassembly")
-	skilldesc(SKILL_SPACT_MANIS_DISASSEMBLY) = lang("敵瀕死", "Almost kill target")
+	skillname(SKILL_SPACT_MANIS_DISASSEMBLY) = lang("ѓ}ѓj‚М•Є‰рЏp", "Mani's Disassembly")
+	skilldesc(SKILL_SPACT_MANIS_DISASSEMBLY) = lang("“G•mЋЂ", "Almost kill target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_INSANE_WAVE) = SKILL_ATTR_LER, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF, 500
-	skillname(SKILL_SPACT_INSANE_WAVE) = lang("病愛波動", "Insane Wave")
-	skilldesc(SKILL_SPACT_INSANE_WAVE) = lang("全体発狂", "Map-wide insanity")
+	skillname(SKILL_SPACT_INSANE_WAVE) = lang("•a€¤”g“®", "Insane Wave")
+	skilldesc(SKILL_SPACT_INSANE_WAVE) = lang("‘S‘М”­‹¶", "Map-wide insanity")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUPER_VIBRATING_FIST) = SKILL_ATTR_STR, SKILL_TYPE_SP, 1, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 500
-	skillname(SKILL_SPACT_SUPER_VIBRATING_FIST) = lang("超振動拳", "Super Vibrating Fist")
-	skilldesc(SKILL_SPACT_SUPER_VIBRATING_FIST) = lang("超威力単体攻撃", "Hyper strong individual attack")
+	skillname(SKILL_SPACT_SUPER_VIBRATING_FIST) = lang("’ґђU“®Њќ", "Super Vibrating Fist")
+	skilldesc(SKILL_SPACT_SUPER_VIBRATING_FIST) = lang("’ґ€Р—Н’P‘МЌUЊ‚", "Hyper strong individual attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TEMPEST_ARROW) = SKILL_ATTR_DEX, SKILL_TYPE_SUMMON, 1, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPACT_TEMPEST_ARROW) = lang("嵐の流法", "Tempest Arrow")
-	skilldesc(SKILL_SPACT_TEMPEST_ARROW) = lang("竜巻召喚", "Summon tornado")
+	skillname(SKILL_SPACT_TEMPEST_ARROW) = lang("—’‚М—¬–@", "Tempest Arrow")
+	skilldesc(SKILL_SPACT_TEMPEST_ARROW) = lang("—іЉЄЏўЉ«", "Summon tornado")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EXCESSIVE_HEAL) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 1, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 500
-	skillname(SKILL_SPACT_EXCESSIVE_HEAL) = lang("閃華裂光", "Excessive Heal")
-	skilldesc(SKILL_SPACT_EXCESSIVE_HEAL) = lang("大量出血させる", "Mass bleeding")
+	skillname(SKILL_SPACT_EXCESSIVE_HEAL) = lang("‘M‰Ш—фЊх", "Excessive Heal")
+	skilldesc(SKILL_SPACT_EXCESSIVE_HEAL) = lang("‘е—КЏoЊЊ‚і‚№‚й", "Mass bleeding")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHINE_SNAIL) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 100, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 500
-	skillname(SKILL_SPACT_SHINE_SNAIL) = lang("シャインスネイル", "Shine Snail")
-	skilldesc(SKILL_SPACT_SHINE_SNAIL) = lang("単体攻撃", "Individual attack")
+	skillname(SKILL_SPACT_SHINE_SNAIL) = lang("ѓVѓѓѓCѓ“ѓXѓlѓCѓ‹", "Shine Snail")
+	skilldesc(SKILL_SPACT_SHINE_SNAIL) = lang("’P‘МЌUЊ‚", "Individual attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HOUZANHA) = SKILL_ATTR_CON, SKILL_TYPE_SP, 32, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_HOUZANHA) = lang("土竜乱舞", "Houzanha")
-	skilldesc(SKILL_SPACT_HOUZANHA) = lang("広域地形破壊", "Wide terrain destruction")
+	skillname(SKILL_SPACT_HOUZANHA) = lang("“y—і—ђ•‘", "Houzanha")
+	skilldesc(SKILL_SPACT_HOUZANHA) = lang("ЌL€ж’nЊ`”j‰у", "Wide terrain destruction")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MANA_BURST) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 50, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_MANA_BURST) = lang("マナの解放", "Mana Burst")
-	skilldesc(SKILL_SPACT_MANA_BURST) = lang("MP消費範囲攻撃", "Burn MP")
+	skillname(SKILL_SPACT_MANA_BURST) = lang("ѓ}ѓi‚М‰р•ъ", "Mana Burst")
+	skilldesc(SKILL_SPACT_MANA_BURST) = lang("MPЏБ”п”Н€НЌUЊ‚", "Burn MP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ELEMENTIA) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 1, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 500
-	skillname(SKILL_SPACT_ELEMENTIA) = lang("エレメンティア", "Elementia")
-	skilldesc(SKILL_SPACT_ELEMENTIA) = lang("単体超マナダメージ", "Mana drain attack")
+	skillname(SKILL_SPACT_ELEMENTIA) = lang("ѓGѓЊѓЃѓ“ѓeѓBѓA", "Elementia")
+	skilldesc(SKILL_SPACT_ELEMENTIA) = lang("’P‘М’ґѓ}ѓiѓ_ѓЃЃ[ѓW", "Mana drain attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_RAMPAGE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 28, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_RAMPAGE) = lang("ランページ", "Rampage")
-	skilldesc(SKILL_SPACT_RAMPAGE) = lang("視界内の仲間狂暴化", "Increase damage")
+	skillname(SKILL_SPACT_RAMPAGE) = lang("ѓ‰ѓ“ѓyЃ[ѓW", "Rampage")
+	skilldesc(SKILL_SPACT_RAMPAGE) = lang("Ћ‹ЉE“а‚М’‡ЉФ‹¶–\‰»", "Increase damage")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GOLD_RUSH) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_GOLD_RUSH) = lang("ゴールドラッシュ", "Gold Rush")
-	skilldesc(SKILL_SPACT_GOLD_RUSH) = lang("超強化", "Super strength")
+	skillname(SKILL_SPACT_GOLD_RUSH) = lang("ѓSЃ[ѓ‹ѓhѓ‰ѓbѓVѓ…", "Gold Rush")
+	skilldesc(SKILL_SPACT_GOLD_RUSH) = lang("’ґ‹­‰»", "Super strength")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SYNCHRO_HEARTS) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 100, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_SYNCHRO_HEARTS) = lang("魂のシンクロ", "Synchro Hearts")
-	skilldesc(SKILL_SPACT_SYNCHRO_HEARTS) = lang("好感度依存仲間強化", "Strengthen allies")
+	skillname(SKILL_SPACT_SYNCHRO_HEARTS) = lang("Ќ°‚МѓVѓ“ѓNѓЌ", "Synchro Hearts")
+	skilldesc(SKILL_SPACT_SYNCHRO_HEARTS) = lang("ЌDЉґ“x€Л‘¶’‡ЉФ‹­‰»", "Strengthen allies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MAGIC_KISS) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 2, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_MAGIC_KISS) = lang("魔法の口づけ", "Magic Kiss")
-	skilldesc(SKILL_SPACT_MAGIC_KISS) = lang("マナ吸収あるいはマナ分譲", "Heal mana")
+	skillname(SKILL_SPACT_MAGIC_KISS) = lang("–‚–@‚МЊы‚Г‚Ї", "Magic Kiss")
+	skilldesc(SKILL_SPACT_MAGIC_KISS) = lang("ѓ}ѓi‹zЋы‚ ‚й‚ў‚Нѓ}ѓi•ЄЏч", "Heal mana")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CLEAR_MIND) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 22, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_CLEAR_MIND) = lang("明鏡止水", "Clear Mind")
-	skilldesc(SKILL_SPACT_CLEAR_MIND) = lang("主能力と回避力が上昇", "Strengthens WIL and PER")
+	skillname(SKILL_SPACT_CLEAR_MIND) = lang("–ѕ‹ѕЋ~ђ…", "Clear Mind")
+	skilldesc(SKILL_SPACT_CLEAR_MIND) = lang("Ће”\—Н‚Ж‰с”р—Н‚ЄЏгЏё", "Strengthens WIL and PER")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PRESSURE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PRESSURE) = lang("プレッシャー", "Pressure")
-	skilldesc(SKILL_SPACT_PRESSURE) = lang("MP消費し周囲の敵のゲージ-50％", "Reduce power gauge of surrounding enemies.")
+	skillname(SKILL_SPACT_PRESSURE) = lang("ѓvѓЊѓbѓVѓѓЃ[", "Pressure")
+	skilldesc(SKILL_SPACT_PRESSURE) = lang("MPЏБ”п‚µЋь€Н‚М“G‚МѓQЃ[ѓW-50Ѓ“", "Reduce power gauge of surrounding enemies.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUMMON_CHAOS) = SKILL_ATTR_MAG, SKILL_TYPE_SUMMON, 30, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 200
-	skillname(SKILL_SPACT_SUMMON_CHAOS) = lang("眷属召喚", "Summon Chaos")
-	skilldesc(SKILL_SPACT_SUMMON_CHAOS) = lang("眷属を召喚する", "Summon chaos")
+	skillname(SKILL_SPACT_SUMMON_CHAOS) = lang("бЕ‘®ЏўЉ«", "Summon Chaos")
+	skilldesc(SKILL_SPACT_SUMMON_CHAOS) = lang("бЕ‘®‚рЏўЉ«‚·‚й", "Summon chaos")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ENSEMBLE) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 45, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_ENSEMBLE) = lang("アンサンブル", "Ensemble")
-	skilldesc(SKILL_SPACT_ENSEMBLE) = lang("仲間と合奏・合唱する/時間かかる", "Ensemble")
+	skillname(SKILL_SPACT_ENSEMBLE) = lang("ѓAѓ“ѓTѓ“ѓuѓ‹", "Ensemble")
+	skilldesc(SKILL_SPACT_ENSEMBLE) = lang("’‡ЉФ‚ЖЌ‡‘tЃEЌ‡ЏҐ‚·‚й/ЋћЉФ‚©‚©‚й", "Ensemble")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUPER_REGEN) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 50, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_SUPER_REGEN) = lang("超再生", "Super Regen")
-	skilldesc(SKILL_SPACT_SUPER_REGEN) = lang("治癒力超上昇", "?")
+	skillname(SKILL_SPACT_SUPER_REGEN) = lang("’ґЌДђ¶", "Super Regen")
+	skilldesc(SKILL_SPACT_SUPER_REGEN) = lang("ЋЎ–ь—Н’ґЏгЏё", "?")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DIRECTIVE) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_DIRECTIVE) = lang("戦術指示", "Directive")
-	skilldesc(SKILL_SPACT_DIRECTIVE) = lang("仲間に態勢と特殊弾指示", "Switch battle mode")
+	skillname(SKILL_SPACT_DIRECTIVE) = lang("ђнЏpЋwЋ¦", "Directive")
+	skilldesc(SKILL_SPACT_DIRECTIVE) = lang("’‡ЉФ‚Й‘ФђЁ‚Ж“БЋк’eЋwЋ¦", "Switch battle mode")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PLATINUM_SONG) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 34, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PLATINUM_SONG) = lang("プラチナソング", "Platinum Song")
-	skilldesc(SKILL_SPACT_PLATINUM_SONG) = lang("視界内仲間強化", "Strengthen allies")
+	skillname(SKILL_SPACT_PLATINUM_SONG) = lang("ѓvѓ‰ѓ`ѓiѓ\ѓ“ѓO", "Platinum Song")
+	skilldesc(SKILL_SPACT_PLATINUM_SONG) = lang("Ћ‹ЉE“а’‡ЉФ‹­‰»", "Strengthen allies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PROVOKE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PROVOKE) = lang("挑発", "Provoke")
-	skilldesc(SKILL_SPACT_PROVOKE) = lang("自分をターゲットにさせる", "attract attack")
+	skillname(SKILL_SPACT_PROVOKE) = lang("’§”­", "Provoke")
+	skilldesc(SKILL_SPACT_PROVOKE) = lang("Ћ©•Є‚рѓ^Ѓ[ѓQѓbѓg‚Й‚і‚№‚й", "attract attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BIND) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 20, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_BIND) = lang("束縛", "Bind")
-	skilldesc(SKILL_SPACT_BIND) = lang("対象移動不能", "Targets becomes immobile")
+	skillname(SKILL_SPACT_BIND) = lang("‘©”›", "Bind")
+	skilldesc(SKILL_SPACT_BIND) = lang("‘ОЏЫ€Ъ“®•s”\", "Targets becomes immobile")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BROWBEAT) = SKILL_ATTR_PER, SKILL_TYPE_SP, 20, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_BROWBEAT) = lang("威嚇", "Browbeat")
-	skilldesc(SKILL_SPACT_BROWBEAT) = lang("対象の攻撃力を下げる", "Decreases target attack power")
+	skillname(SKILL_SPACT_BROWBEAT) = lang("€РЉd", "Browbeat")
+	skilldesc(SKILL_SPACT_BROWBEAT) = lang("‘ОЏЫ‚МЌUЊ‚—Н‚р‰є‚°‚й", "Decreases target attack power")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_BRAINWASHING) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_BRAINWASHING) = lang("洗脳の眼差し", "Eye of Brainwashing")
-	skilldesc(SKILL_SPACT_EYE_OF_BRAINWASHING) = lang("PCを襲わせる", "control ally")
+	skillname(SKILL_SPACT_EYE_OF_BRAINWASHING) = lang("ђф”]‚МЉбЌ·‚µ", "Eye of Brainwashing")
+	skilldesc(SKILL_SPACT_EYE_OF_BRAINWASHING) = lang("PC‚рЏP‚н‚№‚й", "control ally")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CALL_FAMILIAR) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 2, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_CALL_FAMILIAR) = lang("コールファミリア", "Call Familiar")
-	skilldesc(SKILL_SPACT_CALL_FAMILIAR) = lang("指定した仲間を呼ぶ/待機させる", "Call Ally")
+	skillname(SKILL_SPACT_CALL_FAMILIAR) = lang("ѓRЃ[ѓ‹ѓtѓ@ѓ~ѓЉѓA", "Call Familiar")
+	skilldesc(SKILL_SPACT_CALL_FAMILIAR) = lang("Ћw’и‚µ‚Ѕ’‡ЉФ‚рЊД‚Ф/‘Т‹@‚і‚№‚й", "Call Ally")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EXPLOSIVE_FIST) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 15, TARGET_TYPE_DIRECTION, 500
-	skillname(SKILL_SPACT_EXPLOSIVE_FIST) = lang("爆裂拳", "Explosive Fist")
-	skilldesc(SKILL_SPACT_EXPLOSIVE_FIST) = lang("通常格闘攻撃＋グレネード発動", "Grenade martial")
+	skillname(SKILL_SPACT_EXPLOSIVE_FIST) = lang("”љ—фЊќ", "Explosive Fist")
+	skilldesc(SKILL_SPACT_EXPLOSIVE_FIST) = lang("’КЏнЉi“¬ЌUЊ‚Ѓ{ѓOѓЊѓlЃ[ѓh”­“®", "Grenade martial")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CHARGE) = SKILL_ATTR_CON, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_CHARGE) = lang("チャージ", "Charge")
-	skilldesc(SKILL_SPACT_CHARGE) = lang("溜めて通常攻撃/魔法/放射を一度強化", "Strengthens Physical/Magical/Breath damage for one attack")
+	skillname(SKILL_SPACT_CHARGE) = lang("ѓ`ѓѓЃ[ѓW", "Charge")
+	skilldesc(SKILL_SPACT_CHARGE) = lang("—­‚Я‚Д’КЏнЌUЊ‚/–‚–@/•ъЋЛ‚р€к“x‹­‰»", "Strengthens Physical/Magical/Breath damage for one attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EMERGENCY_EVASION) = SKILL_ATTR_CON, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_EMERGENCY_EVASION) = lang("緊急回避", "Emergency Evasion")
-	skilldesc(SKILL_SPACT_EMERGENCY_EVASION) = lang("軽装備ならクリティカル無効", "Prevent criticals if wearing light armor")
+	skillname(SKILL_SPACT_EMERGENCY_EVASION) = lang("‹Щ‹}‰с”р", "Emergency Evasion")
+	skilldesc(SKILL_SPACT_EMERGENCY_EVASION) = lang("Њy‘•”х‚И‚зѓNѓЉѓeѓBѓJѓ‹–іЊш", "Prevent criticals if wearing light armor")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MAGIC_EQUIP) = SKILL_ATTR_CON, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_MAGIC_EQUIP) = lang("魔装", "Magic Equip")
-	skilldesc(SKILL_SPACT_MAGIC_EQUIP) = lang("中装備なら魔法威力上昇", "Enhance magical power if wearing medium armor")
+	skillname(SKILL_SPACT_MAGIC_EQUIP) = lang("–‚‘•", "Magic Equip")
+	skilldesc(SKILL_SPACT_MAGIC_EQUIP) = lang("’†‘•”х‚И‚з–‚–@€Р—НЏгЏё", "Enhance magical power if wearing medium armor")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SUPER_ARMOR) = SKILL_ATTR_CON, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_SUPER_ARMOR) = lang("超重装", "Super Armor")
-	skilldesc(SKILL_SPACT_SUPER_ARMOR) = lang("重装備なら大ダメージを軽減", "Enhance protection if wearing heavy armor")
+	skillname(SKILL_SPACT_SUPER_ARMOR) = lang("’ґЏd‘•", "Super Armor")
+	skilldesc(SKILL_SPACT_SUPER_ARMOR) = lang("Џd‘•”х‚И‚з‘еѓ_ѓЃЃ[ѓW‚рЊyЊё", "Enhance protection if wearing heavy armor")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DO_NOTHING) = SKILL_ATTR_CON, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_DO_NOTHING) = lang("何もしない", "Do Nothing")
-	skilldesc(SKILL_SPACT_DO_NOTHING) = lang("ターン終了", "Turn End")
+	skillname(SKILL_SPACT_DO_NOTHING) = lang("‰Ѕ‚а‚µ‚И‚ў", "Do Nothing")
+	skilldesc(SKILL_SPACT_DO_NOTHING) = lang("ѓ^Ѓ[ѓ“ЏI—№", "Turn End")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GRAVITY_SPHERE) = SKILL_ATTR_CON, SKILL_TYPE_SP, 8, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_GRAVITY_SPHERE) = lang("重力球", "Gravity Sphere")
-	skilldesc(SKILL_SPACT_GRAVITY_SPHERE) = lang("階層重力依存耐久属性攻撃/鈍足判定", "Gravity and CON attack")
+	skillname(SKILL_SPACT_GRAVITY_SPHERE) = lang("Џd—Н‹…", "Gravity Sphere")
+	skilldesc(SKILL_SPACT_GRAVITY_SPHERE) = lang("ЉK‘wЏd—Н€Л‘¶‘П‹v‘®ђ«ЌUЊ‚/“Э‘«”»’и", "Gravity and CON attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ATTRIBUTE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 24, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_ATTRIBUTE) = lang("アトリビウト", "Attribute")
-	skilldesc(SKILL_SPACT_ATTRIBUTE) = lang("耐性が最も高い属性を格闘に付加する", "Add attribute to martial")
+	skillname(SKILL_SPACT_ATTRIBUTE) = lang("ѓAѓgѓЉѓrѓEѓg", "Attribute")
+	skilldesc(SKILL_SPACT_ATTRIBUTE) = lang("‘Пђ«‚ЄЌЕ‚аЌ‚‚ў‘®ђ«‚рЉi“¬‚Й•t‰Б‚·‚й", "Add attribute to martial")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_OVERLIMIT_THROW) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 5, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_OVERLIMIT_THROW) = lang("一投入魂", "OverLimit-Throw")
-	skilldesc(SKILL_SPACT_OVERLIMIT_THROW) = lang("瞑想依存で通常投擲強化/MP消費", "Throwing reinforced with meditation/Uses MP")
+	skillname(SKILL_SPACT_OVERLIMIT_THROW) = lang("€к“Љ“ьЌ°", "OverLimit-Throw")
+	skilldesc(SKILL_SPACT_OVERLIMIT_THROW) = lang("бТ‘z€Л‘¶‚Е’КЏн“Љќ±‹­‰»/MPЏБ”п", "Throwing reinforced with meditation/Uses MP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MOGRANIC_AURA) = SKILL_ATTR_CON, SKILL_TYPE_SP, 50, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_MOGRANIC_AURA) = lang("土竜闘気", "Mogranic Aura")
-	skilldesc(SKILL_SPACT_MOGRANIC_AURA) = lang("魔法耐性増加/発動時放出状態", "Magic Resist/Self-Emission")
+	skillname(SKILL_SPACT_MOGRANIC_AURA) = lang("“y—і“¬‹C", "Mogranic Aura")
+	skilldesc(SKILL_SPACT_MOGRANIC_AURA) = lang("–‚–@‘Пђ«‘ќ‰Б/”­“®Ћћ•ъЏoЏу‘Ф", "Magic Resist/Self-Emission")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FIRE_A_VOLLEY) = SKILL_ATTR_PER, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_FIRE_A_VOLLEY) = lang("一斉射撃", "Fire a Volley")
-	skilldesc(SKILL_SPACT_FIRE_A_VOLLEY) = lang("仲間と一斉に通常遠隔攻撃/ゲージ50％消費", "Party Shooting/Consumes 50% gauge")
+	skillname(SKILL_SPACT_FIRE_A_VOLLEY) = lang("€кђДЋЛЊ‚", "Fire a Volley")
+	skilldesc(SKILL_SPACT_FIRE_A_VOLLEY) = lang("’‡ЉФ‚Ж€кђД‚Й’КЏн‰“ЉuЌUЊ‚/ѓQЃ[ѓW50Ѓ“ЏБ”п", "Party Shooting/Consumes 50% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ABSOLUTE_PROTECT) = SKILL_ATTR_CON, SKILL_TYPE_SP, 80, TARGET_TYPE_SELF, 500
-	skillname(SKILL_SPACT_ABSOLUTE_PROTECT) = lang("絶対防衛", "Absolute protect")
-	skilldesc(SKILL_SPACT_ABSOLUTE_PROTECT) = lang("仲間のダメージを肩代わり", "Take over the damage of ally")
+	skillname(SKILL_SPACT_ABSOLUTE_PROTECT) = lang("ђв‘О–h‰q", "Absolute protect")
+	skilldesc(SKILL_SPACT_ABSOLUTE_PROTECT) = lang("’‡ЉФ‚Мѓ_ѓЃЃ[ѓW‚рЊЁ‘г‚н‚и", "Take over the damage of ally")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MEGID_FLAME) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 100, TARGET_TYPE_SELF, 700
-	skillname(SKILL_SPACT_MEGID_FLAME) = lang("焼けつく波動", "Megid Flame")
-	skilldesc(SKILL_SPACT_MEGID_FLAME) = lang("祝福を焼き尽くす", "Buff Bunish")
+	skillname(SKILL_SPACT_MEGID_FLAME) = lang("ЏД‚Ї‚В‚­”g“®", "Megid Flame")
+	skilldesc(SKILL_SPACT_MEGID_FLAME) = lang("Џj•џ‚рЏД‚«ђs‚­‚·", "Buff Bunish")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FORCED_DRAFT) = SKILL_ATTR_STR, SKILL_TYPE_SP, 20, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_FORCED_DRAFT) = lang("強制連行", "Forced Draft")
-	skilldesc(SKILL_SPACT_FORCED_DRAFT) = lang("牢獄に入れる", "Put in prison.")
+	skillname(SKILL_SPACT_FORCED_DRAFT) = lang("‹­ђ§AЌs", "Forced Draft")
+	skilldesc(SKILL_SPACT_FORCED_DRAFT) = lang("SЌ–‚Й“ь‚к‚й", "Put in prison.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CONTINUOUS_ATTACKS) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 5, TARGET_TYPE_ENEMY + 3, 0
-	skillname(SKILL_SPACT_CONTINUOUS_ATTACKS) = lang("高速ラッシュ", "Continuous Attacks")
-	skilldesc(SKILL_SPACT_CONTINUOUS_ATTACKS) = lang("連続通常近接攻撃/追加効果無効", "Continuous attacks/added effects not applied")
+	skillname(SKILL_SPACT_CONTINUOUS_ATTACKS) = lang("Ќ‚‘¬ѓ‰ѓbѓVѓ…", "Continuous Attacks")
+	skilldesc(SKILL_SPACT_CONTINUOUS_ATTACKS) = lang("A‘±’КЏн‹ЯђЪЌUЊ‚/’З‰БЊш‰К–іЊш", "Continuous attacks/added effects not applied")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_VARIABLE_BREATH) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 10, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_VARIABLE_BREATH) = lang("可変放射", "Variable Breath")
-	skilldesc(SKILL_SPACT_VARIABLE_BREATH) = lang("耐性に応じた属性を放射", "Breath(variable)")
+	skillname(SKILL_SPACT_VARIABLE_BREATH) = lang("‰В•П•ъЋЛ", "Variable Breath")
+	skilldesc(SKILL_SPACT_VARIABLE_BREATH) = lang("‘Пђ«‚Й‰ћ‚¶‚Ѕ‘®ђ«‚р•ъЋЛ", "Breath(variable)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DIVINE_STREAM) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 100, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_DIVINE_STREAM) = lang("神気発勝", "Divine Stream")
-	skilldesc(SKILL_SPACT_DIVINE_STREAM) = lang("神力の解放", "Release God Power")
+	skillname(SKILL_SPACT_DIVINE_STREAM) = lang("ђ_‹C”­Џџ", "Divine Stream")
+	skilldesc(SKILL_SPACT_DIVINE_STREAM) = lang("ђ_—Н‚М‰р•ъ", "Release God Power")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ZERO_SHOOT) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 15, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_ZERO_SHOOT) = lang("零の間撃", "Zero Shoot")
-	skilldesc(SKILL_SPACT_ZERO_SHOOT) = lang("無射程/距離補正命中率上昇通常射撃", "Close proximity shot with increased hit rate")
+	skillname(SKILL_SPACT_ZERO_SHOOT) = lang("—л‚МЉФЊ‚", "Zero Shoot")
+	skilldesc(SKILL_SPACT_ZERO_SHOOT) = lang("–іЋЛ’ц/‹——Ј•вђі–Ѕ’†—¦ЏгЏё’КЏнЋЛЊ‚", "Close proximity shot with increased hit rate")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_RUBBING) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 2, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_RUBBING) = lang("愛撫の手", "Rubbing")
-	skilldesc(SKILL_SPACT_RUBBING) = lang("撫でまわす", "Rub npc")
+	skillname(SKILL_SPACT_RUBBING) = lang("€¤•Џ‚МЋи", "Rubbing")
+	skilldesc(SKILL_SPACT_RUBBING) = lang("•Џ‚Е‚Ь‚н‚·", "Rub npc")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DIRECT_TRANSFUSION) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_DIRECT_TRANSFUSION) = lang("直輸血", "Direct Transfusion")
-	skilldesc(SKILL_SPACT_DIRECT_TRANSFUSION) = lang("近くのキャラ間で血と遺伝子受け渡し", "Transfer blood and genes between nearby characters")
+	skillname(SKILL_SPACT_DIRECT_TRANSFUSION) = lang("’ј—AЊЊ", "Direct Transfusion")
+	skilldesc(SKILL_SPACT_DIRECT_TRANSFUSION) = lang("‹Я‚­‚МѓLѓѓѓ‰ЉФ‚ЕЊЊ‚Ж€в“`ЋqЋу‚Ї“n‚µ", "Transfer blood and genes between nearby characters")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ELECTRIC_SHOCK) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 20, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_ELECTRIC_SHOCK) = lang("電気衝駆", "Electric Shock")
-	skilldesc(SKILL_SPACT_ELECTRIC_SHOCK) = lang("生化学依存電撃/味方は呼吸困難半減", "Lightning attack/SP and Dyspnea recovery")
+	skillname(SKILL_SPACT_ELECTRIC_SHOCK) = lang("“d‹CЏХ‹м", "Electric Shock")
+	skilldesc(SKILL_SPACT_ELECTRIC_SHOCK) = lang("ђ¶‰»Љw€Л‘¶“dЊ‚/–Ў•ы‚НЊД‹zЌў“п”јЊё", "Lightning attack/SP and Dyspnea recovery")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_INSTANT_SUTURE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 15, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_INSTANT_SUTURE) = lang("神速縫合", "Instant Suture")
-	skilldesc(SKILL_SPACT_INSTANT_SUTURE) = lang("敵を束縛/味方は出血半減", "Bind enemy/Halved bleeding")
+	skillname(SKILL_SPACT_INSTANT_SUTURE) = lang("ђ_‘¬–DЌ‡", "Instant Suture")
+	skilldesc(SKILL_SPACT_INSTANT_SUTURE) = lang("“G‚р‘©”›/–Ў•ы‚НЏoЊЊ”јЊё", "Bind enemy/Halved bleeding")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LIMIT_POWER) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_LIMIT_POWER) = lang("<能力の制限>", "<Limit Power>")
-	skilldesc(SKILL_SPACT_LIMIT_POWER) = lang("主能力を一時的に制限", "Limiter on main attributes")
+	skillname(SKILL_SPACT_LIMIT_POWER) = lang("<”\—Н‚Мђ§ЊА>", "<Limit Power>")
+	skilldesc(SKILL_SPACT_LIMIT_POWER) = lang("Ће”\—Н‚р€кЋћ“I‚Йђ§ЊА", "Limiter on main attributes")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LIMITER_VANISH) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_LIMITER_VANISH) = lang("<リミッター解除>", "<Limiter Vanish>")
-	skilldesc(SKILL_SPACT_LIMITER_VANISH) = lang("ゲージ50％以上時に制限解除と衝撃波", "Limiter off/shockwave/gauge50")
+	skillname(SKILL_SPACT_LIMITER_VANISH) = lang("<ѓЉѓ~ѓbѓ^Ѓ[‰рЏњ>", "<Limiter Vanish>")
+	skilldesc(SKILL_SPACT_LIMITER_VANISH) = lang("ѓQЃ[ѓW50Ѓ“€ИЏгЋћ‚Йђ§ЊА‰рЏњ‚ЖЏХЊ‚”g", "Limiter off/shockwave/gauge50")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FLASH_OF_SWIFTNESS) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_FLASH_OF_SWIFTNESS) = lang("神速の一閃", "Flash of Swiftness")
-	skilldesc(SKILL_SPACT_FLASH_OF_SWIFTNESS) = lang("敵ゲージ半減/ゲージ100％消費", "Rapid Slash")
+	skillname(SKILL_SPACT_FLASH_OF_SWIFTNESS) = lang("ђ_‘¬‚М€к‘M", "Flash of Swiftness")
+	skilldesc(SKILL_SPACT_FLASH_OF_SWIFTNESS) = lang("“GѓQЃ[ѓW”јЊё/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Rapid Slash")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_UNDERHAND_DROP) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_UNDERHAND_DROP) = lang("逆手落とし", "Underhand Drop")
-	skilldesc(SKILL_SPACT_UNDERHAND_DROP) = lang("恐怖させる刺突/ゲージ100％消費", "Piercing fear")
+	skillname(SKILL_SPACT_UNDERHAND_DROP) = lang("‹tЋи—Ћ‚Ж‚µ", "Underhand Drop")
+	skilldesc(SKILL_SPACT_UNDERHAND_DROP) = lang("‹°•|‚і‚№‚йЋh“Л/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Piercing fear")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BISECTION) = SKILL_ATTR_STR, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_BISECTION) = lang("大烈断", "Bisection")
-	skilldesc(SKILL_SPACT_BISECTION) = lang("出血させる切断/ゲージ100％消費", "Brute force")
+	skillname(SKILL_SPACT_BISECTION) = lang("‘е—у’f", "Bisection")
+	skilldesc(SKILL_SPACT_BISECTION) = lang("ЏoЊЊ‚і‚№‚йђШ’f/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Brute force")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PULVERIZATION) = SKILL_ATTR_STR, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_PULVERIZATION) = lang("砦崩し", "Pulverization")
-	skilldesc(SKILL_SPACT_PULVERIZATION) = lang("防御一時的に下げる/ゲージ100％消費", "Defense break")
+	skillname(SKILL_SPACT_PULVERIZATION) = lang("ЌФ•ц‚µ", "Pulverization")
+	skilldesc(SKILL_SPACT_PULVERIZATION) = lang("–hЊд€кЋћ“I‚Й‰є‚°‚й/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Defense break")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PENETRATION) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_PENETRATION) = lang("朧突き", "Penetration")
-	skilldesc(SKILL_SPACT_PENETRATION) = lang("朦朧とさせる刺突/ゲージ100％消費", "Thrust dim")
+	skillname(SKILL_SPACT_PENETRATION) = lang("ћO“Л‚«", "Penetration")
+	skilldesc(SKILL_SPACT_PENETRATION) = lang("ћNћO‚Ж‚і‚№‚йЋh“Л/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Thrust dim")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DANCE_OF_BLOW) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_DANCE_OF_BLOW) = lang("怒涛の連撃", "Dance of Blow")
-	skilldesc(SKILL_SPACT_DANCE_OF_BLOW) = lang("回避一時的に下げる/ゲージ100％消費", "Continuous attacks")
+	skillname(SKILL_SPACT_DANCE_OF_BLOW) = lang("“{““‚МAЊ‚", "Dance of Blow")
+	skilldesc(SKILL_SPACT_DANCE_OF_BLOW) = lang("‰с”р€кЋћ“I‚Й‰є‚°‚й/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Continuous attacks")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EXPLOSION) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_EXPLOSION) = lang("魂の一撃", "Explosion")
-	skilldesc(SKILL_SPACT_EXPLOSION) = lang("消費後15％回復/ゲージ100％消費", "Blaze Fighting spirit")
+	skillname(SKILL_SPACT_EXPLOSION) = lang("Ќ°‚М€кЊ‚", "Explosion")
+	skilldesc(SKILL_SPACT_EXPLOSION) = lang("ЏБ”пЊг15Ѓ“‰с•њ/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Blaze Fighting spirit")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_QUICK_USE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_QUICK_USE) = lang("パワーアイテム", "Power Item")
-	skilldesc(SKILL_SPACT_QUICK_USE) = lang("一部アイテム使用強化", "Enhances use items")
+	skillname(SKILL_SPACT_QUICK_USE) = lang("ѓpѓЏЃ[ѓAѓCѓeѓЂ", "Power Item")
+	skilldesc(SKILL_SPACT_QUICK_USE) = lang("€к•”ѓAѓCѓeѓЂЋg—p‹­‰»", "Enhances use items")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SQUEEZE) = SKILL_ATTR_STR, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_SQUEEZE) = lang("スクイーズ", "Squeeze")
-	skilldesc(SKILL_SPACT_SQUEEZE) = lang("不仲耐久属性攻撃/友好抱擁/家畜搾乳", "CON attack enemy/Hug friend/milking livestock")
+	skillname(SKILL_SPACT_SQUEEZE) = lang("ѓXѓNѓCЃ[ѓY", "Squeeze")
+	skilldesc(SKILL_SPACT_SQUEEZE) = lang("•s’‡‘П‹v‘®ђ«ЌUЊ‚/—FЌD•ш—i/‰Ж’{Ќп“ы", "CON attack enemy/Hug friend/milking livestock")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DISTURBANCE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_DISTURBANCE) = lang("撹乱", "Disturbance")
-	skilldesc(SKILL_SPACT_DISTURBANCE) = lang("互いのパワーゲージを減らす", "Decrease power gauge")
+	skillname(SKILL_SPACT_DISTURBANCE) = lang("Љh—ђ", "Disturbance")
+	skilldesc(SKILL_SPACT_DISTURBANCE) = lang("ЊЭ‚ў‚МѓpѓЏЃ[ѓQЃ[ѓW‚рЊё‚з‚·", "Decrease power gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CUT_TREE) = SKILL_ATTR_STR, SKILL_TYPE_SP, 12, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_CUT_TREE) = lang("樹木の伐採", "Cut Tree")
-	skilldesc(SKILL_SPACT_CUT_TREE) = lang("伐採して材木にする", "make tree material")
+	skillname(SKILL_SPACT_CUT_TREE) = lang("Ћч–Ш‚М”°ЌМ", "Cut Tree")
+	skilldesc(SKILL_SPACT_CUT_TREE) = lang("”°ЌМ‚µ‚ДЌЮ–Ш‚Й‚·‚й", "make tree material")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PREACHING) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PREACHING) = lang("説法", "Preaching")
-	skilldesc(SKILL_SPACT_PREACHING) = lang("信仰のあり方について考えを広める", "encourage conversion")
+	skillname(SKILL_SPACT_PREACHING) = lang("ђа–@", "Preaching")
+	skilldesc(SKILL_SPACT_PREACHING) = lang("ђM‹В‚М‚ ‚и•ы‚Й‚В‚ў‚ДЌl‚¦‚рЌL‚Я‚й", "encourage conversion")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SERIOUS_BEGGING) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF + 6, 500
-	skillname(SKILL_SPACT_SERIOUS_BEGGING) = lang("本気物乞い", "Serious Begging")
-	skilldesc(SKILL_SPACT_SERIOUS_BEGGING) = lang("金貨や食べる物をめぐんでもらう", "Ask for gold coins and foods")
+	skillname(SKILL_SPACT_SERIOUS_BEGGING) = lang("–{‹C•ЁЊо‚ў", "Serious Begging")
+	skilldesc(SKILL_SPACT_SERIOUS_BEGGING) = lang("‹а‰Э‚вђH‚Ч‚й•Ё‚р‚Я‚®‚с‚Е‚а‚з‚¤", "Ask for gold coins and foods")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_UNCONTROL) = SKILL_ATTR_STR, SKILL_TYPE_SP, 26, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_UNCONTROL) = lang("暴走", "Uncontrol")
-	skilldesc(SKILL_SPACT_UNCONTROL) = lang("能力の変動・暴れ回る", "?")
+	skillname(SKILL_SPACT_UNCONTROL) = lang("–\‘–", "Uncontrol")
+	skilldesc(SKILL_SPACT_UNCONTROL) = lang("”\—Н‚М•П“®ЃE–\‚к‰с‚й", "?")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CONVERGE_BREATH) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_CONVERGE_BREATH) = lang("収束放射", "Converge Breath")
-	skilldesc(SKILL_SPACT_CONVERGE_BREATH) = lang("強力な一列放射/ゲージ100％消費", "Breath(converge)")
+	skillname(SKILL_SPACT_CONVERGE_BREATH) = lang("Ћы‘©•ъЋЛ", "Converge Breath")
+	skilldesc(SKILL_SPACT_CONVERGE_BREATH) = lang("‹­—Н‚И€к—с•ъЋЛ/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Breath(converge)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TIME_STOP) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 200, TARGET_TYPE_SELF, 500
-	skillname(SKILL_SPACT_TIME_STOP) = lang("刻の涙", "Time Stop")
-	skilldesc(SKILL_SPACT_TIME_STOP) = lang("時間を止める/ゲージ100％消費", "?")
+	skillname(SKILL_SPACT_TIME_STOP) = lang("ЌЏ‚М—Ь", "Time Stop")
+	skilldesc(SKILL_SPACT_TIME_STOP) = lang("ЋћЉФ‚рЋ~‚Я‚й/ѓQЃ[ѓW100Ѓ“ЏБ”п", "?")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PIERCING_ZERO_SHOOT) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_PIERCING_ZERO_SHOOT) = lang("零の間撃・突型", "Piercing Zero Shoot")
-	skilldesc(SKILL_SPACT_PIERCING_ZERO_SHOOT) = lang("近いほど貫通率上昇/ゲージ100％消費", "Incresed Penetration rate at close range/100% gauge used")
+	skillname(SKILL_SPACT_PIERCING_ZERO_SHOOT) = lang("—л‚МЉФЊ‚ЃE“ЛЊ^", "Piercing Zero Shoot")
+	skilldesc(SKILL_SPACT_PIERCING_ZERO_SHOOT) = lang("‹Я‚ў‚Щ‚ЗЉС’К—¦ЏгЏё/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Incresed Penetration rate at close range/100% gauge used")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HYPER_PLUG_BURST) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, 2000 + 10, 0
-	skillname(SKILL_SPACT_HYPER_PLUG_BURST) = lang("爆栓連発", "Hyper Plug Burst")
-	skilldesc(SKILL_SPACT_HYPER_PLUG_BURST) = lang("ﾎﾟｰｼｮﾏﾝ充填/ゲージ100％消費", "charge the potioman")
+	skillname(SKILL_SPACT_HYPER_PLUG_BURST) = lang("”љђрA”­", "Hyper Plug Burst")
+	skilldesc(SKILL_SPACT_HYPER_PLUG_BURST) = lang("ОЯ°ј®ПЭЏ[“U/ѓQЃ[ѓW100Ѓ“ЏБ”п", "charge the potioman")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DIFFUSION_WAVE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 15, 0
-	skillname(SKILL_SPACT_DIFFUSION_WAVE) = lang("魔儀迦", "Diffusion Wave")
-	skilldesc(SKILL_SPACT_DIFFUSION_WAVE) = lang("HPMP回復長射程攻撃/ゲージ100％消費", "Attack Multiple enemies")
+	skillname(SKILL_SPACT_DIFFUSION_WAVE) = lang("–‚‹V‰Ю", "Diffusion Wave")
+	skilldesc(SKILL_SPACT_DIFFUSION_WAVE) = lang("HPMP‰с•њ’·ЋЛ’цЌUЊ‚/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Attack Multiple enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ASSIMILATE) = SKILL_ATTR_STR, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_ASSIMILATE) = lang("同化吸収", "Assimilate")
-	skilldesc(SKILL_SPACT_ASSIMILATE) = lang("睡眠＋吸収", "Assimilate")
+	skillname(SKILL_SPACT_ASSIMILATE) = lang("“Ї‰»‹zЋы", "Assimilate")
+	skilldesc(SKILL_SPACT_ASSIMILATE) = lang("ђ‡–°Ѓ{‹zЋы", "Assimilate")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_OVER_BOOST) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_OVER_BOOST) = lang("オーバーブースト", "Over Boost")
-	skilldesc(SKILL_SPACT_OVER_BOOST) = lang("能力強化", "Over Boost")
+	skillname(SKILL_SPACT_OVER_BOOST) = lang("ѓIЃ[ѓoЃ[ѓuЃ[ѓXѓg", "Over Boost")
+	skilldesc(SKILL_SPACT_OVER_BOOST) = lang("”\—Н‹­‰»", "Over Boost")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HARMONIC_ASSAULT) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 24, TARGET_TYPE_SELF + 6, 0
-	skillname(SKILL_SPACT_HARMONIC_ASSAULT) = lang("ハーモニックアサルト", "Harmonic Assault")
-	skilldesc(SKILL_SPACT_HARMONIC_ASSAULT) = lang("交渉系技能強化", "Enhances negotiate abilities")
+	skillname(SKILL_SPACT_HARMONIC_ASSAULT) = lang("ѓnЃ[ѓ‚ѓjѓbѓNѓAѓTѓ‹ѓg", "Harmonic Assault")
+	skilldesc(SKILL_SPACT_HARMONIC_ASSAULT) = lang("ЊрЏВЊn‹Z”\‹­‰»", "Enhances negotiate abilities")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_RESONANT_VOICE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_RESONANT_VOICE) = lang("レゾナントボイス", "Resonant Voice")
-	skilldesc(SKILL_SPACT_RESONANT_VOICE) = lang("視界内敵戦意喪失/ゲージ100％消費", "Fatigue enemies, halve power gauges")
+	skillname(SKILL_SPACT_RESONANT_VOICE) = lang("ѓЊѓ]ѓiѓ“ѓgѓ{ѓCѓX", "Resonant Voice")
+	skilldesc(SKILL_SPACT_RESONANT_VOICE) = lang("Ћ‹ЉE“а“Gђн€У‘rЋё/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Fatigue enemies, halve power gauges")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_KIJIN_SHIBARI) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF + 6, 0
-	skillname(SKILL_SPACT_KIJIN_SHIBARI) = lang("鬼神縛り", "Kijin Shibari")
-	skilldesc(SKILL_SPACT_KIJIN_SHIBARI) = lang("巻物を10枚消費/全体束縛器用弱体化", "Consume 10 scrolls,enemies bind and weaken DEX")
+	skillname(SKILL_SPACT_KIJIN_SHIBARI) = lang("‹Sђ_”›‚и", "Kijin Shibari")
+	skilldesc(SKILL_SPACT_KIJIN_SHIBARI) = lang("ЉЄ•Ё‚р10–‡ЏБ”п/‘S‘М‘©”›Љн—pЋг‘М‰»", "Consume 10 scrolls,enemies bind and weaken DEX")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BURN_SCROLLS) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_BURN_SCROLLS) = lang("灼熱絵巻", "Burn Scrolls")
-	skilldesc(SKILL_SPACT_BURN_SCROLLS) = lang("巻物を20枚消費/火炎属性攻撃", "Consume 20 scrolls, fire attack")
+	skillname(SKILL_SPACT_BURN_SCROLLS) = lang("ЋЬ”MЉGЉЄ", "Burn Scrolls")
+	skilldesc(SKILL_SPACT_BURN_SCROLLS) = lang("ЉЄ•Ё‚р20–‡ЏБ”п/‰О‰Љ‘®ђ«ЌUЊ‚", "Consume 20 scrolls, fire attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_JYUSOU_GOUSHIN) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_JYUSOU_GOUSHIN) = lang("呪装豪身", "Jyusou Goushin")
-	skilldesc(SKILL_SPACT_JYUSOU_GOUSHIN) = lang("自分の装備に呪い/自己強化", "Self-curse and self-reinforcement")
+	skillname(SKILL_SPACT_JYUSOU_GOUSHIN) = lang("Ћф‘•Ќ‹ђg", "Jyusou Goushin")
+	skilldesc(SKILL_SPACT_JYUSOU_GOUSHIN) = lang("Ћ©•Є‚М‘•”х‚ЙЋф‚ў/Ћ©ЊИ‹­‰»", "Self-curse and self-reinforcement")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DEATH_BIND) = SKILL_ATTR_STR, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_DEATH_BIND) = lang("デスバインド", "Death Bind")
-	skilldesc(SKILL_SPACT_DEATH_BIND) = lang("束縛＋貫通攻撃", "Penetrating attack")
+	skillname(SKILL_SPACT_DEATH_BIND) = lang("ѓfѓXѓoѓCѓ“ѓh", "Death Bind")
+	skilldesc(SKILL_SPACT_DEATH_BIND) = lang("‘©”›Ѓ{ЉС’КЌUЊ‚", "Penetrating attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DOWNPOUR_SPORE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 28, TARGET_TYPE_SELF + 6, 500
-	skillname(SKILL_SPACT_DOWNPOUR_SPORE) = lang("降り注ぐ胞子", "Downpour Spore")
-	skilldesc(SKILL_SPACT_DOWNPOUR_SPORE) = lang("周囲の敵に睡眠と鈍足効果", "Sleep and speeddown surrounding enemies.")
+	skillname(SKILL_SPACT_DOWNPOUR_SPORE) = lang("Ќ~‚и’Ќ‚®–EЋq", "Downpour Spore")
+	skilldesc(SKILL_SPACT_DOWNPOUR_SPORE) = lang("Ћь€Н‚М“G‚Йђ‡–°‚Ж“Э‘«Њш‰К", "Sleep and speeddown surrounding enemies.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MIND_BREAK) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 3, 0
-	skillname(SKILL_SPACT_MIND_BREAK) = lang("精神破壊光", "Mind Break")
-	skilldesc(SKILL_SPACT_MIND_BREAK) = lang("精神攻撃/ゲージ100％消費", "Mental Pollution")
+	skillname(SKILL_SPACT_MIND_BREAK) = lang("ђёђ_”j‰уЊх", "Mind Break")
+	skilldesc(SKILL_SPACT_MIND_BREAK) = lang("ђёђ_ЌUЊ‚/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Mental Pollution")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HAND_OF_SPLENDOR) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 20, 0
-	skillname(SKILL_SPACT_HAND_OF_SPLENDOR) = lang("光輝の手", "Hand of Splendor")
-	skilldesc(SKILL_SPACT_HAND_OF_SPLENDOR) = lang("光を叩きつける/ゲージ100％消費", "magic attack")
+	skillname(SKILL_SPACT_HAND_OF_SPLENDOR) = lang("Њх‹P‚МЋи", "Hand of Splendor")
+	skilldesc(SKILL_SPACT_HAND_OF_SPLENDOR) = lang("Њх‚р’@‚«‚В‚Ї‚й/ѓQЃ[ѓW100Ѓ“ЏБ”п", "magic attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GRAVITON_BUSTER) = SKILL_ATTR_CON, SKILL_TYPE_SP, 20, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_GRAVITON_BUSTER) = lang("グラビトンバスター", "Graviton Buster")
-	skilldesc(SKILL_SPACT_GRAVITON_BUSTER) = lang("階層依存放射/ゲージ100％消費", "Gravity Blast/Consumes 100% gauge")
+	skillname(SKILL_SPACT_GRAVITON_BUSTER) = lang("ѓOѓ‰ѓrѓgѓ“ѓoѓXѓ^Ѓ[", "Graviton Buster")
+	skilldesc(SKILL_SPACT_GRAVITON_BUSTER) = lang("ЉK‘w€Л‘¶•ъЋЛ/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Gravity Blast/Consumes 100% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MANA_SLASH) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_MANA_SLASH) = lang("魔刃狩り", "Mana Slash")
-	skilldesc(SKILL_SPACT_MANA_SLASH) = lang("敵のMPにもダメージ/ゲージ100％消費", "Damages enemy MP/100% gauge used")
+	skillname(SKILL_SPACT_MANA_SLASH) = lang("–‚ђnЋл‚и", "Mana Slash")
+	skilldesc(SKILL_SPACT_MANA_SLASH) = lang("“G‚МMP‚Й‚аѓ_ѓЃЃ[ѓW/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Damages enemy MP/100% gauge used")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_INTENSIVE_POWER) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_INTENSIVE_POWER) = lang("力の集約", "Intensive Power")
-	skilldesc(SKILL_SPACT_INTENSIVE_POWER) = lang("HPMP回復・ゲージ上昇", "HP/MP Recovery, Increase gauge")
+	skillname(SKILL_SPACT_INTENSIVE_POWER) = lang("—Н‚МЏW–с", "Intensive Power")
+	skilldesc(SKILL_SPACT_INTENSIVE_POWER) = lang("HPMP‰с•њЃEѓQЃ[ѓWЏгЏё", "HP/MP Recovery, Increase gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SPACE_RETENTION) = SKILL_ATTR_CON, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_SPACE_RETENTION) = lang("空間掌握", "Space Retention")
-	skilldesc(SKILL_SPACT_SPACE_RETENTION) = lang("テレポート防止/フィールド変化解除", "Prevent teleport/Field change reset")
+	skillname(SKILL_SPACT_SPACE_RETENTION) = lang("‹уЉФЏ¶€¬", "Space Retention")
+	skilldesc(SKILL_SPACT_SPACE_RETENTION) = lang("ѓeѓЊѓ|Ѓ[ѓg–hЋ~/ѓtѓBЃ[ѓ‹ѓh•П‰»‰рЏњ", "Prevent teleport/Field change reset")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DISTANT_ATTACK) = SKILL_ATTR_DEX, SKILL_TYPE_ATTACK, 2, TARGET_TYPE_ENEMY + 3, 0
-	skillname(SKILL_SPACT_DISTANT_ATTACK) = lang("遠距離打撃", "Distant Attack")
-	skilldesc(SKILL_SPACT_DISTANT_ATTACK) = lang("有射程/通常近接攻撃", "Distant Attack")
+	skillname(SKILL_SPACT_DISTANT_ATTACK) = lang("‰“‹——Ј‘ЕЊ‚", "Distant Attack")
+	skilldesc(SKILL_SPACT_DISTANT_ATTACK) = lang("—LЋЛ’ц/’КЏн‹ЯђЪЌUЊ‚", "Distant Attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SPINNING_THROW) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_SPINNING_THROW) = lang("超輪転", "Spinning Throw")
-	skilldesc(SKILL_SPACT_SPINNING_THROW) = lang("貫通率上昇必中会心/ゲージ100％消費", "Revolve enough to penetrate")
+	skillname(SKILL_SPACT_SPINNING_THROW) = lang("’ґ—Ц“]", "Spinning Throw")
+	skilldesc(SKILL_SPACT_SPINNING_THROW) = lang("ЉС’К—¦ЏгЏё•K’†‰пђS/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Revolve enough to penetrate")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_METAL_GUARD) = SKILL_ATTR_CON, SKILL_TYPE_SP, 70, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_METAL_GUARD) = lang("メタルコート", "Metal Guard")
-	skilldesc(SKILL_SPACT_METAL_GUARD) = lang("一度だけ受けるダメージを1/10にする", "To 1/10 damage once.")
+	skillname(SKILL_SPACT_METAL_GUARD) = lang("ѓЃѓ^ѓ‹ѓRЃ[ѓg", "Metal Guard")
+	skilldesc(SKILL_SPACT_METAL_GUARD) = lang("€к“x‚ѕ‚ЇЋу‚Ї‚йѓ_ѓЃЃ[ѓW‚р1/10‚Й‚·‚й", "To 1/10 damage once.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_THUNDERCLAP_KICK) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 35, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_THUNDERCLAP_KICK) = lang("迅雷脚", "Thunderclap Kick")
-	skilldesc(SKILL_SPACT_THUNDERCLAP_KICK) = lang("突撃＋通常電撃格闘/ゲージ25％消費", "Teleport+Martial lightning attack/Consumes 25% gauge")
+	skillname(SKILL_SPACT_THUNDERCLAP_KICK) = lang("ђv—‹‹r", "Thunderclap Kick")
+	skilldesc(SKILL_SPACT_THUNDERCLAP_KICK) = lang("“ЛЊ‚Ѓ{’КЏн“dЊ‚Љi“¬/ѓQЃ[ѓW25Ѓ“ЏБ”п", "Teleport+Martial lightning attack/Consumes 25% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_STRUCK_OUT) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 15, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_STRUCK_OUT) = lang("ストラックアウト", "Struck Out")
-	skilldesc(SKILL_SPACT_STRUCK_OUT) = lang("3×3マスへの通常投擲攻撃", "Throwing attack circle")
+	skillname(SKILL_SPACT_STRUCK_OUT) = lang("ѓXѓgѓ‰ѓbѓNѓAѓEѓg", "Struck Out")
+	skilldesc(SKILL_SPACT_STRUCK_OUT) = lang("3Ѓ~3ѓ}ѓX‚Ц‚М’КЏн“Љќ±ЌUЊ‚", "Throwing attack circle")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BEWITCH) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_BEWITCH) = lang("悩殺攻撃", "Bewitch")
-	skilldesc(SKILL_SPACT_BEWITCH) = lang("成功すると金を巻き上げ動きを止める", "Stop movement of opponent")
+	skillname(SKILL_SPACT_BEWITCH) = lang("”YЋEЌUЊ‚", "Bewitch")
+	skilldesc(SKILL_SPACT_BEWITCH) = lang("ђ¬Њч‚·‚й‚Ж‹а‚рЉЄ‚«Џг‚°“®‚«‚рЋ~‚Я‚й", "Stop movement of opponent")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHADOW_RUSH) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_SHADOW_RUSH) = lang("全軍突撃", "Shadow Rush")
-	skilldesc(SKILL_SPACT_SHADOW_RUSH) = lang("全員で突撃＋通常近接攻撃/ゲージ75％消費", "Party Teleport+Attack/Consumes 75% gauge")
+	skillname(SKILL_SPACT_SHADOW_RUSH) = lang("‘SЊR“ЛЊ‚", "Shadow Rush")
+	skilldesc(SKILL_SPACT_SHADOW_RUSH) = lang("‘S€х‚Е“ЛЊ‚Ѓ{’КЏн‹ЯђЪЌUЊ‚/ѓQЃ[ѓW75Ѓ“ЏБ”п", "Party Teleport+Attack/Consumes 75% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TAG_FORCE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 24, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_TAG_FORCE) = lang("タッグフォース", "Tag Force")
-	skilldesc(SKILL_SPACT_TAG_FORCE) = lang("タッグ強化回復/ゲージ50％消費", "Strengthen tag teams/Consumes 50% gauge")
+	skillname(SKILL_SPACT_TAG_FORCE) = lang("ѓ^ѓbѓOѓtѓHЃ[ѓX", "Tag Force")
+	skilldesc(SKILL_SPACT_TAG_FORCE) = lang("ѓ^ѓbѓO‹­‰»‰с•њ/ѓQЃ[ѓW50Ѓ“ЏБ”п", "Strengthen tag teams/Consumes 50% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BODY_BLOW) = SKILL_ATTR_STR, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_BODY_BLOW) = lang("ボディブロー", "Body Blow")
-	skilldesc(SKILL_SPACT_BODY_BLOW) = lang("通常格闘攻撃にボディブロー追加", "Add body blow to martial")
+	skillname(SKILL_SPACT_BODY_BLOW) = lang("ѓ{ѓfѓBѓuѓЌЃ[", "Body Blow")
+	skilldesc(SKILL_SPACT_BODY_BLOW) = lang("’КЏнЉi“¬ЌUЊ‚‚Йѓ{ѓfѓBѓuѓЌЃ[’З‰Б", "Add body blow to martial")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_NECRO_FORCE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 0, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_NECRO_FORCE) = lang("ネクロフォース", "Necro Force")
-	skilldesc(SKILL_SPACT_NECRO_FORCE) = lang("使役アンデッド制御", "Control coffin undead")
+	skillname(SKILL_SPACT_NECRO_FORCE) = lang("ѓlѓNѓЌѓtѓHЃ[ѓX", "Necro Force")
+	skilldesc(SKILL_SPACT_NECRO_FORCE) = lang("Ћg–рѓAѓ“ѓfѓbѓhђ§Њд", "Control coffin undead")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ACCEL_NECRO) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 0, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_ACCEL_NECRO) = lang("アクセルネクロ", "Accel Necro")
-	skilldesc(SKILL_SPACT_ACCEL_NECRO) = lang("使役アンデッド加速/1体毎にSP5%消費", "Accelerate coffin undead/Consumes 5% SP per undead")
+	skillname(SKILL_SPACT_ACCEL_NECRO) = lang("ѓAѓNѓZѓ‹ѓlѓNѓЌ", "Accel Necro")
+	skilldesc(SKILL_SPACT_ACCEL_NECRO) = lang("Ћg–рѓAѓ“ѓfѓbѓh‰Б‘¬/1‘М–€‚ЙSP5%ЏБ”п", "Accelerate coffin undead/Consumes 5% SP per undead")
 	
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CLOSE_SUICIDE) = SKILL_ATTR_CON, SKILL_TYPE_SP, 18, TARGET_TYPE_ENEMY, 700
-	skillname(SKILL_SPACT_CLOSE_SUICIDE) = lang("道連れ", "Close Suicide")
-	skilldesc(SKILL_SPACT_CLOSE_SUICIDE) = lang("自爆", "Suicide")
+	skillname(SKILL_SPACT_CLOSE_SUICIDE) = lang("“№A‚к", "Close Suicide")
+	skilldesc(SKILL_SPACT_CLOSE_SUICIDE) = lang("Ћ©”љ", "Suicide")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_KNOCKOUT) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_KNOCKOUT) = lang("ノックアウト攻撃", "Knockout")
-	skilldesc(SKILL_SPACT_KNOCKOUT) = lang("命中減通常近接攻撃で気絶を狙う", "Attack to stun")
+	skillname(SKILL_SPACT_KNOCKOUT) = lang("ѓmѓbѓNѓAѓEѓgЌUЊ‚", "Knockout")
+	skilldesc(SKILL_SPACT_KNOCKOUT) = lang("–Ѕ’†Њё’КЏн‹ЯђЪЌUЊ‚‚Е‹Cђв‚р‘_‚¤", "Attack to stun")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_OVERRAY) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_OVERRAY) = lang("多重詠唱魔法", "Over-Ray")
-	skilldesc(SKILL_SPACT_OVERRAY) = lang("仲間の魔力を集積/ゲージ50％消費", "Attack by integrating the magic of ally.")
+	skillname(SKILL_SPACT_OVERRAY) = lang("‘ЅЏd‰rЏҐ–‚–@", "Over-Ray")
+	skilldesc(SKILL_SPACT_OVERRAY) = lang("’‡ЉФ‚М–‚—Н‚рЏWђП/ѓQЃ[ѓW50Ѓ“ЏБ”п", "Attack by integrating the magic of ally.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SMASH_GROUND) = SKILL_ATTR_STR, SKILL_TYPE_SP, 12, TARGET_TYPE_SELF_ONLY, 220
-	skillname(SKILL_SPACT_SMASH_GROUND) = lang("地砕き", "Smash Ground")
-	skilldesc(SKILL_SPACT_SMASH_GROUND) = lang("隣接対象攻撃/怯み付与", "Attack circle")
+	skillname(SKILL_SPACT_SMASH_GROUND) = lang("’nЌУ‚«", "Smash Ground")
+	skilldesc(SKILL_SPACT_SMASH_GROUND) = lang("—ЧђЪ‘ОЏЫЌUЊ‚/‹Ї‚Э•t—^", "Attack circle")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_VORACITY_FANG) = SKILL_ATTR_STR, SKILL_TYPE_HAND, 12, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_VORACITY_FANG) = lang("貪食の牙", "Voracity Fang")
-	skilldesc(SKILL_SPACT_VORACITY_FANG) = lang("体力吸収・満腹時無効", "Drain HP")
+	skillname(SKILL_SPACT_VORACITY_FANG) = lang("жГђH‚М‰е", "Voracity Fang")
+	skilldesc(SKILL_SPACT_VORACITY_FANG) = lang("‘М—Н‹zЋыЃE–ћ• Ћћ–іЊш", "Drain HP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHARK_TRADE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 8, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_SHARK_TRADE) = lang("シャークトレード", "Shark Trade")
-	skilldesc(SKILL_SPACT_SHARK_TRADE) = lang("アイテムを押し付けゲージ20％奪う", "Drain Gauge 20%")
+	skillname(SKILL_SPACT_SHARK_TRADE) = lang("ѓVѓѓЃ[ѓNѓgѓЊЃ[ѓh", "Shark Trade")
+	skilldesc(SKILL_SPACT_SHARK_TRADE) = lang("ѓAѓCѓeѓЂ‚р‰џ‚µ•t‚ЇѓQЃ[ѓW20Ѓ“’D‚¤", "Drain Gauge 20%")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHIELD_STRIKE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_SHIELD_STRIKE) = lang("盾殴り", "Shield Strike")
-	skilldesc(SKILL_SPACT_SHIELD_STRIKE) = lang("衝撃で敵を朦朧麻痺/ゲージ100％消費", "Impact that dims and paralyzes enemies/100% gauge used")
+	skillname(SKILL_SPACT_SHIELD_STRIKE) = lang("Џ‚‰Ј‚и", "Shield Strike")
+	skilldesc(SKILL_SPACT_SHIELD_STRIKE) = lang("ЏХЊ‚‚Е“G‚рћNћO–ѓбѓ/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Impact that dims and paralyzes enemies/100% gauge used")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GAUGE_RELEASE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 1, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_GAUGE_RELEASE) = lang("【力の解放】", "<Gauge Release>")
-	skilldesc(SKILL_SPACT_GAUGE_RELEASE) = lang("次の攻撃時にゲージ技で追加攻撃", "Add gauge skill to the next attack")
+	skillname(SKILL_SPACT_GAUGE_RELEASE) = lang("Ѓy—Н‚М‰р•ъЃz", "<Gauge Release>")
+	skilldesc(SKILL_SPACT_GAUGE_RELEASE) = lang("Ћџ‚МЌUЊ‚Ћћ‚ЙѓQЃ[ѓW‹Z‚Е’З‰БЌUЊ‚", "Add gauge skill to the next attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ALCHEMICAL_RAIN) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 35, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_ALCHEMICAL_RAIN) = lang("錬成雨", "Alchemical Rain")
-	skilldesc(SKILL_SPACT_ALCHEMICAL_RAIN) = lang("視界内の味方にポーション効果", "Apply potion effect to allies in sight")
+	skillname(SKILL_SPACT_ALCHEMICAL_RAIN) = lang("Bђ¬‰J", "Alchemical Rain")
+	skilldesc(SKILL_SPACT_ALCHEMICAL_RAIN) = lang("Ћ‹ЉE“а‚М–Ў•ы‚Йѓ|Ѓ[ѓVѓ‡ѓ“Њш‰К", "Apply potion effect to allies in sight")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LIQUID_MANIPULATION) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 28, TARGET_TYPE_SELF + 6, 0
-	skillname(SKILL_SPACT_LIQUID_MANIPULATION) = lang("液体操作弾", "Liquid Manipulation")
-	skilldesc(SKILL_SPACT_LIQUID_MANIPULATION) = lang("視界内の敵にポーション効果", "Apply potion effect to enemies in sight")
+	skillname(SKILL_SPACT_LIQUID_MANIPULATION) = lang("‰t‘М‘ЂЌм’e", "Liquid Manipulation")
+	skilldesc(SKILL_SPACT_LIQUID_MANIPULATION) = lang("Ћ‹ЉE“а‚М“G‚Йѓ|Ѓ[ѓVѓ‡ѓ“Њш‰К", "Apply potion effect to enemies in sight")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MULTIPLE_GATHER) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_MULTIPLE_GATHER) = lang("強制集合", "Multiple Gather")
-	skilldesc(SKILL_SPACT_MULTIPLE_GATHER) = lang("複数の対象を引き寄せ", "Draw targets")
+	skillname(SKILL_SPACT_MULTIPLE_GATHER) = lang("‹­ђ§ЏWЌ‡", "Multiple Gather")
+	skilldesc(SKILL_SPACT_MULTIPLE_GATHER) = lang("•Ўђ”‚М‘ОЏЫ‚р€ш‚«Љс‚№", "Draw targets")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PSYCHIC_WAVE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PSYCHIC_WAVE) = lang("サイキックウェーブ", "Psychic Wave")
-	skilldesc(SKILL_SPACT_PSYCHIC_WAVE) = lang("束縛＋LV依存の変動固定ダメージ", "Bind and level dependent fixed damage")
+	skillname(SKILL_SPACT_PSYCHIC_WAVE) = lang("ѓTѓCѓLѓbѓNѓEѓFЃ[ѓu", "Psychic Wave")
+	skilldesc(SKILL_SPACT_PSYCHIC_WAVE) = lang("‘©”›Ѓ{LV€Л‘¶‚М•П“®ЊЕ’иѓ_ѓЃЃ[ѓW", "Bind and level dependent fixed damage")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_READING_PARTY) = SKILL_ATTR_LER, SKILL_TYPE_SP, 25, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_READING_PARTY) = lang("読書会", "Reading Party")
-	skilldesc(SKILL_SPACT_READING_PARTY) = lang("仲間と一緒に書物の解読を行う", "Reading Party")
+	skillname(SKILL_SPACT_READING_PARTY) = lang("“ЗЏ‘‰п", "Reading Party")
+	skilldesc(SKILL_SPACT_READING_PARTY) = lang("’‡ЉФ‚Ж€кЏЏ‚ЙЏ‘•Ё‚М‰р“З‚рЌs‚¤", "Reading Party")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LOVE_CRAFTING) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF + 6, 500
-	skillname(SKILL_SPACT_LOVE_CRAFTING) = lang("漏出する狂気", "Love Crafting")
-	skilldesc(SKILL_SPACT_LOVE_CRAFTING) = lang("視界内敵狂気", "Craze enemies in sight")
+	skillname(SKILL_SPACT_LOVE_CRAFTING) = lang("RЏo‚·‚й‹¶‹C", "Love Crafting")
+	skilldesc(SKILL_SPACT_LOVE_CRAFTING) = lang("Ћ‹ЉE“а“G‹¶‹C", "Craze enemies in sight")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DUPLICANE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_DUPLICANE) = lang("デュプリケイン", "Dupli-Cane")
-	skilldesc(SKILL_SPACT_DUPLICANE) = lang("攻撃杖の回数減無効/威力減/Sp3消費", "Use rods without consuming charges/Reduced Power/Consumes 3 SP")
+	skillname(SKILL_SPACT_DUPLICANE) = lang("ѓfѓ…ѓvѓЉѓPѓCѓ“", "Dupli-Cane")
+	skilldesc(SKILL_SPACT_DUPLICANE) = lang("ЌUЊ‚Џс‚М‰сђ”Њё–іЊш/€Р—НЊё/Sp3ЏБ”п", "Use rods without consuming charges/Reduced Power/Consumes 3 SP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LOCK_BREAK) = SKILL_ATTR_STR, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_LOCK_BREAK) = lang("破錠攻撃", "Lock Break")
-	skilldesc(SKILL_SPACT_LOCK_BREAK) = lang("力を結集し鍵破壊/中身微破損", "Join forces to break the lock")
+	skillname(SKILL_SPACT_LOCK_BREAK) = lang("”jЏщЌUЊ‚", "Lock Break")
+	skilldesc(SKILL_SPACT_LOCK_BREAK) = lang("—Н‚рЊ‹ЏW‚µЊ®”j‰у/’†ђg”ч”j‘№", "Join forces to break the lock")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MEMORY_POISON) = SKILL_ATTR_CON, SKILL_TYPE_HAND, 150, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_MEMORY_POISON) = lang("侵食の毒牙", "Memory Poison")
-	skilldesc(SKILL_SPACT_MEMORY_POISON) = lang("毒属性/能力一時減少", "Decrease ability temporarily")
+	skillname(SKILL_SPACT_MEMORY_POISON) = lang("ђNђH‚М“Е‰е", "Memory Poison")
+	skilldesc(SKILL_SPACT_MEMORY_POISON) = lang("“Е‘®ђ«/”\—Н€кЋћЊёЏ­", "Decrease ability temporarily")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BLADE_TURBULENCE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_BLADE_TURBULENCE) = lang("乱れ切風", "Blade Turbulence")
-	skilldesc(SKILL_SPACT_BLADE_TURBULENCE) = lang("周囲の敵に切り傷ダメージ", "Bleeding attack to surrounding enemies.")
+	skillname(SKILL_SPACT_BLADE_TURBULENCE) = lang("—ђ‚кђШ•—", "Blade Turbulence")
+	skilldesc(SKILL_SPACT_BLADE_TURBULENCE) = lang("Ћь€Н‚М“G‚ЙђШ‚иЏќѓ_ѓЃЃ[ѓW", "Bleeding attack to surrounding enemies.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CLASH_RUSH) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 25, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_CLASH_RUSH) = lang("捨て身", "Clash Rush")
-	skilldesc(SKILL_SPACT_CLASH_RUSH) = lang("接近攻撃/反動あり/ゲージ25％消費", "Attack at the risk of life")
+	skillname(SKILL_SPACT_CLASH_RUSH) = lang("ЋМ‚Дђg", "Clash Rush")
+	skilldesc(SKILL_SPACT_CLASH_RUSH) = lang("ђЪ‹ЯЌUЊ‚/”Ѕ“®‚ ‚и/ѓQЃ[ѓW25Ѓ“ЏБ”п", "Attack at the risk of life")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DEATH_SONG) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_DEATH_SONG) = lang("破滅の歌", "Death Song")
-	skilldesc(SKILL_SPACT_DEATH_SONG) = lang("周囲全員に音属性対抗死の宣告", "Death for surrounding.")
+	skillname(SKILL_SPACT_DEATH_SONG) = lang("”j–Е‚М‰М", "Death Song")
+	skilldesc(SKILL_SPACT_DEATH_SONG) = lang("Ћь€Н‘S€х‚Й‰№‘®ђ«‘ОЌRЋЂ‚МђйЌђ", "Death for surrounding.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HOMING_LASER) = SKILL_ATTR_PER, SKILL_TYPE_SP, 12, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_HOMING_LASER) = lang("マルチロック射撃", "Homing Laser")
-	skilldesc(SKILL_SPACT_HOMING_LASER) = lang("敵の数に応じて分散する射撃", "The entire distributed attack")
+	skillname(SKILL_SPACT_HOMING_LASER) = lang("ѓ}ѓ‹ѓ`ѓЌѓbѓNЋЛЊ‚", "Homing Laser")
+	skilldesc(SKILL_SPACT_HOMING_LASER) = lang("“G‚Мђ”‚Й‰ћ‚¶‚Д•ЄЋU‚·‚йЋЛЊ‚", "The entire distributed attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MP_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_SP, 25, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_MP_BREATH) = lang("破壊の奔流", "MP Breath")
-	skilldesc(SKILL_SPACT_MP_BREATH) = lang("MP25％消費/放射攻撃", "MP Breath")
+	skillname(SKILL_SPACT_MP_BREATH) = lang("”j‰у‚М–z—¬", "MP Breath")
+	skilldesc(SKILL_SPACT_MP_BREATH) = lang("MP25Ѓ“ЏБ”п/•ъЋЛЌUЊ‚", "MP Breath")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BOUND_IN_BLOOD) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 28, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_BOUND_IN_BLOOD) = lang("血の結束", "Bound in Blood")
-	skilldesc(SKILL_SPACT_BOUND_IN_BLOOD) = lang("元々の種族が同じ仲間を強化", "Strengthen same race allies")
+	skillname(SKILL_SPACT_BOUND_IN_BLOOD) = lang("ЊЊ‚МЊ‹‘©", "Bound in Blood")
+	skilldesc(SKILL_SPACT_BOUND_IN_BLOOD) = lang("ЊіЃX‚МЋн‘°‚Є“Ї‚¶’‡ЉФ‚р‹­‰»", "Strengthen same race allies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SILENT_OCEAN) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 28, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_SILENT_OCEAN) = lang("沈黙の海", "Silent Ocean")
-	skilldesc(SKILL_SPACT_SILENT_OCEAN) = lang("視界内水化/範囲内沈黙", "Flooded and silence")
+	skillname(SKILL_SPACT_SILENT_OCEAN) = lang("’ѕ–Щ‚МЉC", "Silent Ocean")
+	skilldesc(SKILL_SPACT_SILENT_OCEAN) = lang("Ћ‹ЉE“ађ…‰»/”Н€Н“а’ѕ–Щ", "Flooded and silence")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DIMENSION_FISHING) = SKILL_ATTR_PER, SKILL_TYPE_SP, 16, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_DIMENSION_FISHING) = lang("亜空釣り", "Dimension Fishing")
-	skilldesc(SKILL_SPACT_DIMENSION_FISHING) = lang("敵1体を引き寄せ", "Draw enemy")
+	skillname(SKILL_SPACT_DIMENSION_FISHING) = lang("€џ‹у’Ю‚и", "Dimension Fishing")
+	skilldesc(SKILL_SPACT_DIMENSION_FISHING) = lang("“G1‘М‚р€ш‚«Љс‚№", "Draw enemy")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FASCINATION_DANCE) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 21, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_FASCINATION_DANCE) = lang("魅了の舞", "Fascination Dance")
-	skilldesc(SKILL_SPACT_FASCINATION_DANCE) = lang("確率で視界内の敵を麻痺・疲労", "Stop movement of enemies")
+	skillname(SKILL_SPACT_FASCINATION_DANCE) = lang("–Ј—№‚М•‘", "Fascination Dance")
+	skilldesc(SKILL_SPACT_FASCINATION_DANCE) = lang("Љm—¦‚ЕЋ‹ЉE“а‚М“G‚р–ѓбѓЃE”жJ", "Stop movement of enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_VINDALIAN_JIUJITSU) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_VINDALIAN_JIUJITSU) = lang("ヴィンデリアン柔術", "Vindalian Jiu-jitsu")
-	skilldesc(SKILL_SPACT_VINDALIAN_JIUJITSU) = lang("格闘スタイルの切替", "Change martial style.")
+	skillname(SKILL_SPACT_VINDALIAN_JIUJITSU) = lang("ѓ”ѓBѓ“ѓfѓЉѓAѓ“Џ_Џp", "Vindalian Jiu-jitsu")
+	skilldesc(SKILL_SPACT_VINDALIAN_JIUJITSU) = lang("Љi“¬ѓXѓ^ѓCѓ‹‚МђШ‘Ц", "Change martial style.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DATA_SCAN) = SKILL_ATTR_PER, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_DATA_SCAN) = lang("データスキャン", "Data scan")
-	skilldesc(SKILL_SPACT_DATA_SCAN) = lang("分析力強化/毎ターン微疲労", "Increase analysis power/Uses SP each turn")
+	skillname(SKILL_SPACT_DATA_SCAN) = lang("ѓfЃ[ѓ^ѓXѓLѓѓѓ“", "Data scan")
+	skilldesc(SKILL_SPACT_DATA_SCAN) = lang("•ЄђН—Н‹­‰»/–€ѓ^Ѓ[ѓ“”ч”жJ", "Increase analysis power/Uses SP each turn")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ADVANCED_CASTING) = SKILL_ATTR_LER, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_ADVANCED_CASTING) = lang("高度詠唱", "Advanced Casting")
-	skilldesc(SKILL_SPACT_ADVANCED_CASTING) = lang("魔法の詠唱難度・経験値が増加", "Increase casting difficulty and experience")
+	skillname(SKILL_SPACT_ADVANCED_CASTING) = lang("Ќ‚“x‰rЏҐ", "Advanced Casting")
+	skilldesc(SKILL_SPACT_ADVANCED_CASTING) = lang("–‚–@‚М‰rЏҐ“п“xЃEЊoЊ±’l‚Є‘ќ‰Б", "Increase casting difficulty and experience")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BLADE_STRINGS) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_BLADE_STRINGS) = lang("ブレードストリングス", "Blade Strings")
-	skilldesc(SKILL_SPACT_BLADE_STRINGS) = lang("戦術器用依存攻撃/トラップ設置", "Cutting attack/Trap installation")
+	skillname(SKILL_SPACT_BLADE_STRINGS) = lang("ѓuѓЊЃ[ѓhѓXѓgѓЉѓ“ѓOѓX", "Blade Strings")
+	skilldesc(SKILL_SPACT_BLADE_STRINGS) = lang("ђнЏpЉн—p€Л‘¶ЌUЊ‚/ѓgѓ‰ѓbѓvђЭ’u", "Cutting attack/Trap installation")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DANCING_WIRE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 18, TARGET_TYPE_OTHER + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_DANCING_WIRE) = lang("踊る鋼線", "Dancing Wire")
-	skilldesc(SKILL_SPACT_DANCING_WIRE) = lang("対象を束縛し引き寄せ", "Draw target/Binding target")
+	skillname(SKILL_SPACT_DANCING_WIRE) = lang("—x‚йЌ|ђь", "Dancing Wire")
+	skilldesc(SKILL_SPACT_DANCING_WIRE) = lang("‘ОЏЫ‚р‘©”›‚µ€ш‚«Љс‚№", "Draw target/Binding target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_ANE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 50, 2000 + 2, 0
-	skillname(SKILL_SPACT_EYE_OF_ANE) = lang("姉の眼差し", "Eye of Ane")
-	skilldesc(SKILL_SPACT_EYE_OF_ANE) = lang("対象の姉になって精神的上位に立つ", "Become the target's older sister")
+	skillname(SKILL_SPACT_EYE_OF_ANE) = lang("Ћo‚МЉбЌ·‚µ", "Eye of Ane")
+	skilldesc(SKILL_SPACT_EYE_OF_ANE) = lang("‘ОЏЫ‚МЋo‚Й‚И‚Б‚Дђёђ_“IЏг€К‚Й—§‚В", "Become the target's older sister")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_STIFFEN) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 8, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_STIFFEN) = lang("硬直の眼差し", "Eye of Stiffen")
-	skilldesc(SKILL_SPACT_EYE_OF_STIFFEN) = lang("神経ダメージ/対象の防御力一時上昇", "Damage nerve/Increases protect target")
+	skillname(SKILL_SPACT_EYE_OF_STIFFEN) = lang("Ќd’ј‚МЉбЌ·‚µ", "Eye of Stiffen")
+	skilldesc(SKILL_SPACT_EYE_OF_STIFFEN) = lang("ђ_Њoѓ_ѓЃЃ[ѓW/‘ОЏЫ‚М–hЊд—Н€кЋћЏгЏё", "Damage nerve/Increases protect target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EYE_OF_ILLUSION) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 8, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_EYE_OF_ILLUSION) = lang("幻惑の眼差し", "Eye of Illusion")
-	skilldesc(SKILL_SPACT_EYE_OF_ILLUSION) = lang("幻惑ダメージ", "Damage mind")
+	skillname(SKILL_SPACT_EYE_OF_ILLUSION) = lang("Њ¶f‚МЉбЌ·‚µ", "Eye of Illusion")
+	skilldesc(SKILL_SPACT_EYE_OF_ILLUSION) = lang("Њ¶fѓ_ѓЃЃ[ѓW", "Damage mind")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_EXTERMINATION_BREATH) = SKILL_ATTR_CON, SKILL_TYPE_SP, 10, TARGET_TYPE_BOTH + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_EXTERMINATION_BREATH) = lang("殲滅可変放射", "Extermination Breath")
-	skilldesc(SKILL_SPACT_EXTERMINATION_BREATH) = lang("耐性属性視界内放射/ゲージ25％消費", "All Breath(variable)")
+	skillname(SKILL_SPACT_EXTERMINATION_BREATH) = lang("џr–Е‰В•П•ъЋЛ", "Extermination Breath")
+	skilldesc(SKILL_SPACT_EXTERMINATION_BREATH) = lang("‘Пђ«‘®ђ«Ћ‹ЉE“а•ъЋЛ/ѓQЃ[ѓW25Ѓ“ЏБ”п", "All Breath(variable)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_RESOLUTION_HAND) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_RESOLUTION_HAND) = lang("錬成掌", "Resolution Hand")
-	skilldesc(SKILL_SPACT_RESOLUTION_HAND) = lang("手系技能に追加ダメージ", "Touch and damage")
+	skillname(SKILL_SPACT_RESOLUTION_HAND) = lang("Bђ¬Џ¶", "Resolution Hand")
+	skilldesc(SKILL_SPACT_RESOLUTION_HAND) = lang("ЋиЊn‹Z”\‚Й’З‰Бѓ_ѓЃЃ[ѓW", "Touch and damage")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MATERIALIZE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 40, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_MATERIALIZE) = lang("マテリアライズ", "Materialize")
-	skilldesc(SKILL_SPACT_MATERIALIZE) = lang("対象が瀕死ならマテリアル化", "Kill target")
+	skillname(SKILL_SPACT_MATERIALIZE) = lang("ѓ}ѓeѓЉѓAѓ‰ѓCѓY", "Materialize")
+	skilldesc(SKILL_SPACT_MATERIALIZE) = lang("‘ОЏЫ‚Є•mЋЂ‚И‚зѓ}ѓeѓЉѓAѓ‹‰»", "Kill target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_COWERING_SMILE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 32, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_COWERING_SMILE) = lang("戦慄の笑顔", "Cowering Smile")
-	skilldesc(SKILL_SPACT_COWERING_SMILE) = lang("視界内に萎縮と震えをまき散らす", "Spread atrophy and chills around.")
+	skillname(SKILL_SPACT_COWERING_SMILE) = lang("ђнњЙ‚МЏОЉз", "Cowering Smile")
+	skilldesc(SKILL_SPACT_COWERING_SMILE) = lang("Ћ‹ЉE“а‚Й€ЮЏk‚Жђk‚¦‚р‚Ь‚«ЋU‚з‚·", "Spread atrophy and chills around.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SMILE_FIELD) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_SMILE_FIELD) = lang("スマイルフィールド", "Smile Field")
-	skilldesc(SKILL_SPACT_SMILE_FIELD) = lang("視界内全員強化", "Strengthen everyone around.")
+	skillname(SKILL_SPACT_SMILE_FIELD) = lang("ѓXѓ}ѓCѓ‹ѓtѓBЃ[ѓ‹ѓh", "Smile Field")
+	skilldesc(SKILL_SPACT_SMILE_FIELD) = lang("Ћ‹ЉE“а‘S€х‹­‰»", "Strengthen everyone around.")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ABYSS_IN_THE_EYE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 21, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_ABYSS_IN_THE_EYE) = lang("瞳の奥の深淵", "Abyss in the eye")
-	skilldesc(SKILL_SPACT_ABYSS_IN_THE_EYE) = lang("心眼強化/眼差し系の技能に効果追加", "Enhance Eye of Mind/Adds absorption to Eye-skills")
+	skillname(SKILL_SPACT_ABYSS_IN_THE_EYE) = lang("“µ‚М‰њ‚Мђ[•Ј", "Abyss in the eye")
+	skilldesc(SKILL_SPACT_ABYSS_IN_THE_EYE) = lang("ђSЉб‹­‰»/ЉбЌ·‚µЊn‚М‹Z”\‚ЙЊш‰К’З‰Б", "Enhance Eye of Mind/Adds absorption to Eye-skills")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHIELD_PARRY) = SKILL_ATTR_CON, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_SHIELD_PARRY) = lang("シールドパリィ", "Shield Parry")
-	skilldesc(SKILL_SPACT_SHIELD_PARRY) = lang("近接攻撃を盾で弾く", "Parry")
+	skillname(SKILL_SPACT_SHIELD_PARRY) = lang("ѓVЃ[ѓ‹ѓhѓpѓЉѓB", "Shield Parry")
+	skilldesc(SKILL_SPACT_SHIELD_PARRY) = lang("‹ЯђЪЌUЊ‚‚рЏ‚‚Е’e‚­", "Parry")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ROCKET_FIRE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 20, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_ROCKET_FIRE) = lang("砲弾発射", "Rocket Fire")
-	skilldesc(SKILL_SPACT_ROCKET_FIRE) = lang("防御を下げる/ゲージ25％消費", "Attack and reduce defense/Consumes 25% gauge")
+	skillname(SKILL_SPACT_ROCKET_FIRE) = lang("–C’e”­ЋЛ", "Rocket Fire")
+	skilldesc(SKILL_SPACT_ROCKET_FIRE) = lang("–hЊд‚р‰є‚°‚й/ѓQЃ[ѓW25Ѓ“ЏБ”п", "Attack and reduce defense/Consumes 25% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_NUCLEAR_FIRE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 50, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_NUCLEAR_FIRE) = lang("核発射", "Nuclear Fire")
-	skilldesc(SKILL_SPACT_NUCLEAR_FIRE) = lang("広範囲爆破/ゲージ25％消費", "Extensive Explosion/Consumes 25% gauge")
+	skillname(SKILL_SPACT_NUCLEAR_FIRE) = lang("Љj”­ЋЛ", "Nuclear Fire")
+	skilldesc(SKILL_SPACT_NUCLEAR_FIRE) = lang("ЌL”Н€Н”љ”j/ѓQЃ[ѓW25Ѓ“ЏБ”п", "Extensive Explosion/Consumes 25% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GOLDEN_STORM) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 18, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_GOLDEN_STORM) = lang("デフレストーム", "Golden Storm")
-	skilldesc(SKILL_SPACT_GOLDEN_STORM) = lang("所持金貨２千枚を投げ散らす", "Consume 2000gold attack")
+	skillname(SKILL_SPACT_GOLDEN_STORM) = lang("ѓfѓtѓЊѓXѓgЃ[ѓЂ", "Golden Storm")
+	skilldesc(SKILL_SPACT_GOLDEN_STORM) = lang("ЏЉЋќ‹а‰Э‚Qђз–‡‚р“Љ‚°ЋU‚з‚·", "Consume 2000gold attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GRAVITY_ACCEL) = SKILL_ATTR_CON, SKILL_TYPE_SP, 21, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_GRAVITY_ACCEL) = lang("重力偏向", "Gravity Accel")
-	skilldesc(SKILL_SPACT_GRAVITY_ACCEL) = lang("重力の向きを変えて戦闘に応用", "Gravity buff")
+	skillname(SKILL_SPACT_GRAVITY_ACCEL) = lang("Џd—Н•ОЊь", "Gravity Accel")
+	skilldesc(SKILL_SPACT_GRAVITY_ACCEL) = lang("Џd—Н‚МЊь‚«‚р•П‚¦‚Дђн“¬‚Й‰ћ—p", "Gravity buff")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GIGA_GRAVITATION) = SKILL_ATTR_CON, SKILL_TYPE_SP, 18, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 0
-	skillname(SKILL_SPACT_GIGA_GRAVITATION) = lang("超重圧殺", "Giga Gravitation")
-	skilldesc(SKILL_SPACT_GIGA_GRAVITATION) = lang("周辺の敵に重力依存ダメージ/MP10％消費", "Gravity Damage Surround/Consumes 10% MP")
-	skilldesc(SKILL_SPACT_GIGA_GRAVITATION) = lang("重力依存耐久属性攻撃/MP10％消費", "Gravity and CON attack Surround/Consumes 10% MP")
+	skillname(SKILL_SPACT_GIGA_GRAVITATION) = lang("’ґЏd€іЋE", "Giga Gravitation")
+	skilldesc(SKILL_SPACT_GIGA_GRAVITATION) = lang("Ћь•У‚М“G‚ЙЏd—Н€Л‘¶ѓ_ѓЃЃ[ѓW/MP10Ѓ“ЏБ”п", "Gravity Damage Surround/Consumes 10% MP")
+	skilldesc(SKILL_SPACT_GIGA_GRAVITATION) = lang("Џd—Н€Л‘¶‘П‹v‘®ђ«ЌUЊ‚/MP10Ѓ“ЏБ”п", "Gravity and CON attack Surround/Consumes 10% MP")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HYPER_DASH) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 21, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_HYPER_DASH) = lang("烈走破", "Hyper Dash")
-	skilldesc(SKILL_SPACT_HYPER_DASH) = lang("押しのけ移動しつつダメージ", "Run through and damage enemies")
+	skillname(SKILL_SPACT_HYPER_DASH) = lang("—у‘–”j", "Hyper Dash")
+	skilldesc(SKILL_SPACT_HYPER_DASH) = lang("‰џ‚µ‚М‚Ї€Ъ“®‚µ‚В‚Вѓ_ѓЃЃ[ѓW", "Run through and damage enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_VIOLENT_GARDEN) = SKILL_ATTR_LER, SKILL_TYPE_SP, 18, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_VIOLENT_GARDEN) = lang("暴虐の庭園", "Violent Garden")
-	skilldesc(SKILL_SPACT_VIOLENT_GARDEN) = lang("視界内束縛毒ダメージ", "Bind and poison")
+	skillname(SKILL_SPACT_VIOLENT_GARDEN) = lang("–\‹s‚М’л‰Ђ", "Violent Garden")
+	skilldesc(SKILL_SPACT_VIOLENT_GARDEN) = lang("Ћ‹ЉE“а‘©”›“Еѓ_ѓЃЃ[ѓW", "Bind and poison")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_POLLEN_CANNON) = SKILL_ATTR_LER, SKILL_TYPE_SP, 8, 2000 + 6, 500
-	skillname(SKILL_SPACT_POLLEN_CANNON) = lang("強烈花粉砲", "Pollen Cannon")
-	skilldesc(SKILL_SPACT_POLLEN_CANNON) = lang("対象弱体・状態異常", "Status ailment and weaken")
+	skillname(SKILL_SPACT_POLLEN_CANNON) = lang("‹­—у‰Ф•І–C", "Pollen Cannon")
+	skilldesc(SKILL_SPACT_POLLEN_CANNON) = lang("‘ОЏЫЋг‘МЃEЏу‘Ф€ЩЏн", "Status ailment and weaken")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MISTELTEIN) = SKILL_ATTR_LER, SKILL_TYPE_SP, 8, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_MISTELTEIN) = lang("ミストルティン", "Misteltein")
-	skilldesc(SKILL_SPACT_MISTELTEIN) = lang("対象弱体・マナダメージ・神特効", "Damage MP and weaken")
+	skillname(SKILL_SPACT_MISTELTEIN) = lang("ѓ~ѓXѓgѓ‹ѓeѓBѓ“", "Misteltein")
+	skilldesc(SKILL_SPACT_MISTELTEIN) = lang("‘ОЏЫЋг‘МЃEѓ}ѓiѓ_ѓЃЃ[ѓWЃEђ_“БЊш", "Damage MP and weaken")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_AROMAGEDDON) = SKILL_ATTR_LER, SKILL_TYPE_SP, 24, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_AROMAGEDDON) = lang("アロマゲドン", "Aromageddon")
-	skilldesc(SKILL_SPACT_AROMAGEDDON) = lang("味方MP回復敵弱体/精油消費", "Expend essential oil")
+	skillname(SKILL_SPACT_AROMAGEDDON) = lang("ѓAѓЌѓ}ѓQѓhѓ“", "Aromageddon")
+	skilldesc(SKILL_SPACT_AROMAGEDDON) = lang("–Ў•ыMP‰с•њ“GЋг‘М/ђё–ыЏБ”п", "Expend essential oil")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CURTAIN_OF_SMOKE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 31, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_CURTAIN_OF_SMOKE) = lang("黒煙のトバリ", "Curtain of Smoke")
-	skilldesc(SKILL_SPACT_CURTAIN_OF_SMOKE) = lang("視界を狭める煙の発生", "Create smoke")
+	skillname(SKILL_SPACT_CURTAIN_OF_SMOKE) = lang("Ќ•‰Њ‚МѓgѓoѓЉ", "Curtain of Smoke")
+	skilldesc(SKILL_SPACT_CURTAIN_OF_SMOKE) = lang("Ћ‹ЉE‚р‹·‚Я‚й‰Њ‚М”­ђ¶", "Create smoke")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SMOKE_MIRROR) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF, 500
-	skillname(SKILL_SPACT_SMOKE_MIRROR) = lang("煙吐く鏡", "Smoke Mirror")
-	skilldesc(SKILL_SPACT_SMOKE_MIRROR) = lang("煙幕＆能力転写", "?")
+	skillname(SKILL_SPACT_SMOKE_MIRROR) = lang("‰Њ“f‚­‹ѕ", "Smoke Mirror")
+	skilldesc(SKILL_SPACT_SMOKE_MIRROR) = lang("‰Њ–‹Ѓ•”\—Н“]ЋК", "?")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MIRROR) = SKILL_ATTR_PER, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 500
-	skillname(SKILL_SPACT_MIRROR) = lang("超認識", "Mirror")
-	skilldesc(SKILL_SPACT_MIRROR) = lang("対象の状態の感知", "Know bonus")
+	skillname(SKILL_SPACT_MIRROR) = lang("’ґ”FЋЇ", "Mirror")
+	skilldesc(SKILL_SPACT_MIRROR) = lang("‘ОЏЫ‚МЏу‘Ф‚МЉґ’m", "Know bonus")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MELT_CLINCH) = SKILL_ATTR_STR, SKILL_TYPE_SP, 25, TARGET_TYPE_ENEMY, 0
-	skillname(SKILL_SPACT_MELT_CLINCH) = lang("溶解クリンチ", "Melt Clinch")
-	skilldesc(SKILL_SPACT_MELT_CLINCH) = lang("酸攻撃と萎縮/両者束縛", "Acid attack/daunted/bind")
+	skillname(SKILL_SPACT_MELT_CLINCH) = lang("—n‰рѓNѓЉѓ“ѓ`", "Melt Clinch")
+	skilldesc(SKILL_SPACT_MELT_CLINCH) = lang("Ћ_ЌUЊ‚‚Ж€ЮЏk/—јЋТ‘©”›", "Acid attack/daunted/bind")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FORMLESS_FETTER) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 27, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_FORMLESS_FETTER) = lang("無形の枷", "Formless Fetter")
-	skilldesc(SKILL_SPACT_FORMLESS_FETTER) = lang("ﾏｯﾌﾟｴﾌｪｸﾄ上の敵に耐久属性攻撃束縛", "Bind and CON attack on map effects")
+	skillname(SKILL_SPACT_FORMLESS_FETTER) = lang("–іЊ`‚Мћg", "Formless Fetter")
+	skilldesc(SKILL_SPACT_FORMLESS_FETTER) = lang("ПЇМЯґМЄёДЏг‚М“G‚Й‘П‹v‘®ђ«ЌUЊ‚‘©”›", "Bind and CON attack on map effects")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BLOOD_STREAM) = SKILL_ATTR_CON, SKILL_TYPE_SP, 18, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_BLOOD_STREAM) = lang("鮮血の撃刃", "Blood Stream")
-	skilldesc(SKILL_SPACT_BLOOD_STREAM) = lang("出血量依存攻撃/出血悪化", "Line attack")
+	skillname(SKILL_SPACT_BLOOD_STREAM) = lang("‘NЊЊ‚МЊ‚ђn", "Blood Stream")
+	skilldesc(SKILL_SPACT_BLOOD_STREAM) = lang("ЏoЊЊ—К€Л‘¶ЌUЊ‚/ЏoЊЊ€«‰»", "Line attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_FLAME_OF_RAGE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 22, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_FLAME_OF_RAGE) = lang("怒りの爆炎", "Flame of Rage")
-	skilldesc(SKILL_SPACT_FLAME_OF_RAGE) = lang("激怒時のみ視界内火炎ダメージ", "Fire damage only when fury")
+	skillname(SKILL_SPACT_FLAME_OF_RAGE) = lang("“{‚и‚М”љ‰Љ", "Flame of Rage")
+	skilldesc(SKILL_SPACT_FLAME_OF_RAGE) = lang("Њѓ“{Ћћ‚М‚ЭЋ‹ЉE“а‰О‰Љѓ_ѓЃЃ[ѓW", "Fire damage only when fury")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_IMPACT_GUNFIRE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_IMPACT_GUNFIRE) = lang("重衝撃断動弾", "Impact Gunfire")
-	skilldesc(SKILL_SPACT_IMPACT_GUNFIRE) = lang("衝撃で敵転倒/ゲージ100％消費", "Knockdown target")
+	skillname(SKILL_SPACT_IMPACT_GUNFIRE) = lang("ЏdЏХЊ‚’f“®’e", "Impact Gunfire")
+	skilldesc(SKILL_SPACT_IMPACT_GUNFIRE) = lang("ЏХЊ‚‚Е“G“]“|/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Knockdown target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ONE_POINT_SHOOT) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_ONE_POINT_SHOOT) = lang("壱点連弾銃", "One Point Shoot")
-	skilldesc(SKILL_SPACT_ONE_POINT_SHOOT) = lang("防御一時的に下げる/ゲージ100％消費", "Defense break")
+	skillname(SKILL_SPACT_ONE_POINT_SHOOT) = lang("€л“_A’eЏe", "One Point Shoot")
+	skilldesc(SKILL_SPACT_ONE_POINT_SHOOT) = lang("–hЊд€кЋћ“I‚Й‰є‚°‚й/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Defense break")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CRITICAL_PARTICLE_CANNON) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_CRITICAL_PARTICLE_CANNON) = lang("臨界粒子砲", "Critical Particle Cannon")
-	skilldesc(SKILL_SPACT_CRITICAL_PARTICLE_CANNON) = lang("閃光で敵盲目/ゲージ100％消費", "hitting the target")
+	skillname(SKILL_SPACT_CRITICAL_PARTICLE_CANNON) = lang("—ХЉE—±Ћq–C", "Critical Particle Cannon")
+	skilldesc(SKILL_SPACT_CRITICAL_PARTICLE_CANNON) = lang("‘MЊх‚Е“G–У–Ъ/ѓQЃ[ѓW100Ѓ“ЏБ”п", "hitting the target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HELM_SMASHER) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_HELM_SMASHER) = lang("兜裂き", "Helm Smasher")
-	skilldesc(SKILL_SPACT_HELM_SMASHER) = lang("衝撃で敵麻痺/ゲージ100％消費", "Paralyze target")
+	skillname(SKILL_SPACT_HELM_SMASHER) = lang("Љ•—ф‚«", "Helm Smasher")
+	skilldesc(SKILL_SPACT_HELM_SMASHER) = lang("ЏХЊ‚‚Е“G–ѓбѓ/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Paralyze target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ARROW_RAIN) = SKILL_ATTR_PER, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_ARROW_RAIN) = lang("浴びせ滝矢射", "Arrow Rain")
-	skilldesc(SKILL_SPACT_ARROW_RAIN) = lang("回避一時的に下げる/ゲージ100％消費", "Reduce avoidance")
+	skillname(SKILL_SPACT_ARROW_RAIN) = lang("—Ѓ‚С‚№‘к–оЋЛ", "Arrow Rain")
+	skilldesc(SKILL_SPACT_ARROW_RAIN) = lang("‰с”р€кЋћ“I‚Й‰є‚°‚й/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Reduce avoidance")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ACID_HURRICANE) = SKILL_ATTR_CON, SKILL_TYPE_SP, 5, TARGET_TYPE_ENEMY + 10, 0
-	skillname(SKILL_SPACT_ACID_HURRICANE) = lang("腐食の烈風", "Acid Hurricane")
-	skilldesc(SKILL_SPACT_ACID_HURRICANE) = lang("酸攻撃/鎧やメタルに毒", "Line(Acid)")
+	skillname(SKILL_SPACT_ACID_HURRICANE) = lang("•…ђH‚М—у•—", "Acid Hurricane")
+	skilldesc(SKILL_SPACT_ACID_HURRICANE) = lang("Ћ_ЌUЊ‚/ЉZ‚вѓЃѓ^ѓ‹‚Й“Е", "Line(Acid)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_KAMUI) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF + 6, 0
-	skillname(SKILL_SPACT_KAMUI) = lang("神威", "Kamui")
-	skilldesc(SKILL_SPACT_KAMUI) = lang("神々の力で多彩な攻撃", "Various attacks")
+	skillname(SKILL_SPACT_KAMUI) = lang("ђ_€Р", "Kamui")
+	skilldesc(SKILL_SPACT_KAMUI) = lang("ђ_ЃX‚М—Н‚Е‘ЅЌК‚ИЌUЊ‚", "Various attacks")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BLAME_PAIN) = SKILL_ATTR_CON, SKILL_TYPE_SP, 19, TARGET_TYPE_ENEMY + 4, 500
-	skillname(SKILL_SPACT_BLAME_PAIN) = lang("地獄の責め苦", "Blame Pain")
-	skilldesc(SKILL_SPACT_BLAME_PAIN) = lang("地獄ダメージ/拷問成功時ゲージ減少", "Damage nether/Reduce power gauge")
+	skillname(SKILL_SPACT_BLAME_PAIN) = lang("’nЌ–‚МђУ‚Я‹к", "Blame Pain")
+	skilldesc(SKILL_SPACT_BLAME_PAIN) = lang("’nЌ–ѓ_ѓЃЃ[ѓW/Ќ‰–вђ¬ЊчЋћѓQЃ[ѓWЊёЏ­", "Damage nether/Reduce power gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_WIN) = SKILL_ATTR_SPD, SKILL_TYPE_SP, 1, TARGET_TYPE_ENEMY + 7, 500
-	skillname(SKILL_SPACT_WIN) = lang("*勝利*", "<Win>")
-	skilldesc(SKILL_SPACT_WIN) = lang("即死攻撃/Purgeモード専用", "Instant death attack / Purge mode only")
+	skillname(SKILL_SPACT_WIN) = lang("*Џџ—*", "<Win>")
+	skilldesc(SKILL_SPACT_WIN) = lang("‘¦ЋЂЌUЊ‚/Purgeѓ‚Ѓ[ѓhђк—p", "Instant death attack / Purge mode only")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PURGE) = SKILL_ATTR_SPD, SKILL_TYPE_SP, 1, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
 	skillname(SKILL_SPACT_PURGE) = lang("*Purge*", "<Purge>")
-	skilldesc(SKILL_SPACT_PURGE) = lang("視界内の敵瀕死化/Purgeモード専用", "Enemies dying / Purge mode only")
+	skilldesc(SKILL_SPACT_PURGE) = lang("Ћ‹ЉE“а‚М“G•mЋЂ‰»/Purgeѓ‚Ѓ[ѓhђк—p", "Enemies dying / Purge mode only")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_INDIVIDUAL_LEADING) = SKILL_ATTR_LER, SKILL_TYPE_SP, 5, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_INDIVIDUAL_LEADING) = lang("個別指導", "Individual Leading")
-	skilldesc(SKILL_SPACT_INDIVIDUAL_LEADING) = lang("味方のガードブレイクゲージ減少", "Decrease guard break gauge")
+	skillname(SKILL_SPACT_INDIVIDUAL_LEADING) = lang("ЊВ•КЋw“±", "Individual Leading")
+	skilldesc(SKILL_SPACT_INDIVIDUAL_LEADING) = lang("–Ў•ы‚МѓKЃ[ѓhѓuѓЊѓCѓNѓQЃ[ѓWЊёЏ­", "Decrease guard break gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_UNISON_IMPACT) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_UNISON_IMPACT) = lang("【合体攻撃発動】", "<Unison Impact>")
-	skilldesc(SKILL_SPACT_UNISON_IMPACT) = lang("全員のゲージ全消費して合体攻撃", "Attack with all ally")
+	skillname(SKILL_SPACT_UNISON_IMPACT) = lang("ЃyЌ‡‘МЌUЊ‚”­“®Ѓz", "<Unison Impact>")
+	skilldesc(SKILL_SPACT_UNISON_IMPACT) = lang("‘S€х‚МѓQЃ[ѓW‘SЏБ”п‚µ‚ДЌ‡‘МЌUЊ‚", "Attack with all ally")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GROUP_HYPNOSIS) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 25, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_GROUP_HYPNOSIS) = lang("集団催眠", "Group Hypnosis")
-	skilldesc(SKILL_SPACT_GROUP_HYPNOSIS) = lang("視界内の敵睡眠・洗脳", "Sleep or brainwashing enemies in sight")
+	skillname(SKILL_SPACT_GROUP_HYPNOSIS) = lang("ЏW’cЌГ–°", "Group Hypnosis")
+	skilldesc(SKILL_SPACT_GROUP_HYPNOSIS) = lang("Ћ‹ЉE“а‚М“Gђ‡–°ЃEђф”]", "Sleep or brainwashing enemies in sight")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_THREAD_OF_INNERVATION) = SKILL_ATTR_PER, SKILL_TYPE_SP, 14, TARGET_TYPE_ENEMY + 4, 0
-	skillname(SKILL_SPACT_THREAD_OF_INNERVATION) = lang("神経支配の糸", "Thread of Innervation")
-	skilldesc(SKILL_SPACT_THREAD_OF_INNERVATION) = lang("生化学感覚依存攻撃/瀕死なら人形化", "Nerve attack/Change doll")
+	skillname(SKILL_SPACT_THREAD_OF_INNERVATION) = lang("ђ_ЊoЋx”z‚МЋ…", "Thread of Innervation")
+	skilldesc(SKILL_SPACT_THREAD_OF_INNERVATION) = lang("ђ¶‰»ЉwЉґЉo€Л‘¶ЌUЊ‚/•mЋЂ‚И‚зђlЊ`‰»", "Nerve attack/Change doll")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MAGNECOAT) = SKILL_ATTR_PER, SKILL_TYPE_SP, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_MAGNECOAT) = lang("マグネコート", "Magnecoat")
-	skilldesc(SKILL_SPACT_MAGNECOAT) = lang("通常攻撃に影響するほどの磁気を付与/解除", "Add/remove magnetism enough to affect normal attacks")
+	skillname(SKILL_SPACT_MAGNECOAT) = lang("ѓ}ѓOѓlѓRЃ[ѓg", "Magnecoat")
+	skilldesc(SKILL_SPACT_MAGNECOAT) = lang("’КЏнЌUЊ‚‚Й‰e‹ї‚·‚й‚Щ‚З‚МЋҐ‹C‚р•t—^/‰рЏњ", "Add/remove magnetism enough to affect normal attacks")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_LINEAR_LAUNCHER) = SKILL_ATTR_PER, SKILL_TYPE_SP, 10, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_LINEAR_LAUNCHER) = lang("リニアランチャー", "Linear Launcher")
-	skilldesc(SKILL_SPACT_LINEAR_LAUNCHER) = lang("感覚重量依存攻撃/アイテム1つ消費", "Consume 1 item, PER and weight dependent attack")
+	skillname(SKILL_SPACT_LINEAR_LAUNCHER) = lang("ѓЉѓjѓAѓ‰ѓ“ѓ`ѓѓЃ[", "Linear Launcher")
+	skilldesc(SKILL_SPACT_LINEAR_LAUNCHER) = lang("ЉґЉoЏd—К€Л‘¶ЌUЊ‚/ѓAѓCѓeѓЂ1‚ВЏБ”п", "Consume 1 item, PER and weight dependent attack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_E_MAG_CAGE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF + 6, 0
-	skillname(SKILL_SPACT_E_MAG_CAGE) = lang("電磁獄", "E-Mag Cage")
-	skilldesc(SKILL_SPACT_E_MAG_CAGE) = lang("全域電撃疲労麻痺/ゲージ80％消費", "Lightning fatigue and paralysis field/Consumes 80% gauge")
+	skillname(SKILL_SPACT_E_MAG_CAGE) = lang("“dЋҐЌ–", "E-Mag Cage")
+	skilldesc(SKILL_SPACT_E_MAG_CAGE) = lang("‘S€ж“dЊ‚”жJ–ѓбѓ/ѓQЃ[ѓW80Ѓ“ЏБ”п", "Lightning fatigue and paralysis field/Consumes 80% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_E_MAG_TORNADO) = SKILL_ATTR_PER, SKILL_TYPE_SP, 25, TARGET_TYPE_ENEMY + 7, 0
-	skillname(SKILL_SPACT_E_MAG_TORNADO) = lang("超電磁トルネード", "E-Mag Tornado")
-	skilldesc(SKILL_SPACT_E_MAG_TORNADO) = lang("一直線電撃攻撃/束縛", "Line(Lightning)/bind")
+	skillname(SKILL_SPACT_E_MAG_TORNADO) = lang("’ґ“dЋҐѓgѓ‹ѓlЃ[ѓh", "E-Mag Tornado")
+	skilldesc(SKILL_SPACT_E_MAG_TORNADO) = lang("€к’јђь“dЊ‚ЌUЊ‚/‘©”›", "Line(Lightning)/bind")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_WIRE_WORLD) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 20, TARGET_TYPE_SELF + 6, 0
-	skillname(SKILL_SPACT_WIRE_WORLD) = lang("弦葬世界", "Wire World")
-	skilldesc(SKILL_SPACT_WIRE_WORLD) = lang("全域ワイヤー罠強化/ゲージ80％消費", "Wire trap strengthen field/Consumes 80% gauge")
+	skillname(SKILL_SPACT_WIRE_WORLD) = lang("Њ·‘’ђўЉE", "Wire World")
+	skilldesc(SKILL_SPACT_WIRE_WORLD) = lang("‘S€жѓЏѓCѓ„Ѓ[г©‹­‰»/ѓQЃ[ѓW80Ѓ“ЏБ”п", "Wire trap strengthen field/Consumes 80% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ROCRUSHER) = SKILL_ATTR_CON, SKILL_TYPE_SP, 20, 3000 + 6, 0
-	skillname(SKILL_SPACT_ROCRUSHER) = lang("ロックラッシャー", "Rocrusher")
-	skilldesc(SKILL_SPACT_ROCRUSHER) = lang("全域近接会心時束縛/ゲージ80％消費", "Lock with melee critical field/Consumes 80% gauge")
+	skillname(SKILL_SPACT_ROCRUSHER) = lang("ѓЌѓbѓNѓ‰ѓbѓVѓѓЃ[", "Rocrusher")
+	skilldesc(SKILL_SPACT_ROCRUSHER) = lang("‘S€ж‹ЯђЪ‰пђSЋћ‘©”›/ѓQЃ[ѓW80Ѓ“ЏБ”п", "Lock with melee critical field/Consumes 80% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TICKLING_HELL) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 8, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_TICKLING_HELL) = lang("くすぐり天地獄", "Tickling Hell")
-	skilldesc(SKILL_SPACT_TICKLING_HELL) = lang("束縛/条件次第でSPやゲージ減少", "Hold enemy/Tickling")
+	skillname(SKILL_SPACT_TICKLING_HELL) = lang("‚­‚·‚®‚и“V’nЌ–", "Tickling Hell")
+	skilldesc(SKILL_SPACT_TICKLING_HELL) = lang("‘©”›/ЏрЊЏЋџ‘ж‚ЕSP‚вѓQЃ[ѓWЊёЏ­", "Hold enemy/Tickling")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MARKING) = SKILL_ATTR_CON, SKILL_TYPE_SP, 10, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_MARKING) = lang("マーキング", "Marking")
-	skilldesc(SKILL_SPACT_MARKING) = lang("体内の水分を使いマーキングする", "Mark with body moisture")
+	skillname(SKILL_SPACT_MARKING) = lang("ѓ}Ѓ[ѓLѓ“ѓO", "Marking")
+	skilldesc(SKILL_SPACT_MARKING) = lang("‘М“а‚Мђ…•Є‚рЋg‚ўѓ}Ѓ[ѓLѓ“ѓO‚·‚й", "Mark with body moisture")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_GRAND_FINALE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 101, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_GRAND_FINALE) = lang("グランドフィナーレ", "Grand Finale")
-	skilldesc(SKILL_SPACT_GRAND_FINALE) = lang("プレイヤー駆逐", "Player extermination")
+	skillname(SKILL_SPACT_GRAND_FINALE) = lang("ѓOѓ‰ѓ“ѓhѓtѓBѓiЃ[ѓЊ", "Grand Finale")
+	skilldesc(SKILL_SPACT_GRAND_FINALE) = lang("ѓvѓЊѓCѓ„Ѓ[‹м’Ђ", "Player extermination")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DATA_DELETE) = SKILL_ATTR_MAG, SKILL_TYPE_SP, 1, TARGET_TYPE_ENEMY + SKILL_TYPE_FOV_BALL, 0
-	skillname(SKILL_SPACT_DATA_DELETE) = lang("メモリーデリート", "Data Delete")
-	skilldesc(SKILL_SPACT_DATA_DELETE) = lang("能力を一部抹消/ゲージ100％消費", "Delete skill and power/Consumes 100% gauge")
+	skillname(SKILL_SPACT_DATA_DELETE) = lang("ѓЃѓ‚ѓЉЃ[ѓfѓЉЃ[ѓg", "Data Delete")
+	skilldesc(SKILL_SPACT_DATA_DELETE) = lang("”\—Н‚р€к•”–•ЏБ/ѓQЃ[ѓW100Ѓ“ЏБ”п", "Delete skill and power/Consumes 100% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHINING_THROW) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 40, 2000 + 7, 0
-	skillname(SKILL_SPACT_SHINING_THROW) = lang("シャイニングスロー", "Shining Throw")
-	skilldesc(SKILL_SPACT_SHINING_THROW) = lang("PVDV範囲攻撃/ゲージ5％増加", "Surround(PVDV)/Gain 5% gauge")
+	skillname(SKILL_SPACT_SHINING_THROW) = lang("ѓVѓѓѓCѓjѓ“ѓOѓXѓЌЃ[", "Shining Throw")
+	skilldesc(SKILL_SPACT_SHINING_THROW) = lang("PVDV”Н€НЌUЊ‚/ѓQЃ[ѓW5Ѓ“‘ќ‰Б", "Surround(PVDV)/Gain 5% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SAND_CANNON) = SKILL_ATTR_CON, SKILL_TYPE_SP, 5, 9000 + 6, 0
-	skillname(SKILL_SPACT_SAND_CANNON) = lang("砂塵砲", "Sand Cannon")
-	skilldesc(SKILL_SPACT_SAND_CANNON) = lang("PVDV属性攻撃/盲目呼吸困難", "Breath(PVDV)")
+	skillname(SKILL_SPACT_SAND_CANNON) = lang("Ќ»ђo–C", "Sand Cannon")
+	skilldesc(SKILL_SPACT_SAND_CANNON) = lang("PVDV‘®ђ«ЌUЊ‚/–У–ЪЊД‹zЌў“п", "Breath(PVDV)")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DISPATCH_FLYING_BEAST) = SKILL_ATTR_DEX, SKILL_TYPE_TELEPORT, 5, TARGET_TYPE_DIRECTION, 0
-	skillname(SKILL_SPACT_DISPATCH_FLYING_BEAST) = lang("飛獣送り", "Dispatch Flying Beast")
-	skilldesc(SKILL_SPACT_DISPATCH_FLYING_BEAST) = lang("対象の適正距離へ送る/Chain切り", "Send off chara and chain cut")
+	skillname(SKILL_SPACT_DISPATCH_FLYING_BEAST) = lang("”тЏb‘—‚и", "Dispatch Flying Beast")
+	skilldesc(SKILL_SPACT_DISPATCH_FLYING_BEAST) = lang("‘ОЏЫ‚М“Kђі‹——Ј‚Ц‘—‚й/ChainђШ‚и", "Send off chara and chain cut")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_KILLING_DANCE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 44, TARGET_TYPE_SELF_ONLY, 500
-	skillname(SKILL_SPACT_KILLING_DANCE) = lang("死神の舞踏", "Killing Dance")
-	skilldesc(SKILL_SPACT_KILLING_DANCE) = lang("回避上昇/回避成功時反撃", "Adds chance to avoid and counterattack")
+	skillname(SKILL_SPACT_KILLING_DANCE) = lang("ЋЂђ_‚М•‘“Ґ", "Killing Dance")
+	skilldesc(SKILL_SPACT_KILLING_DANCE) = lang("‰с”рЏгЏё/‰с”рђ¬ЊчЋћ”ЅЊ‚", "Adds chance to avoid and counterattack")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DECAPITATION2) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 30, TARGET_TYPE_ENEMY + 1, 0
-	skillname(SKILL_SPACT_DECAPITATION2) = lang("首狩り攻撃", "Decapitation")
-	skilldesc(SKILL_SPACT_DECAPITATION2) = lang("対象が瀕死なら即死", "Kill low-health target")
+	skillname(SKILL_SPACT_DECAPITATION2) = lang("ЋсЋл‚иЌUЊ‚", "Decapitation")
+	skilldesc(SKILL_SPACT_DECAPITATION2) = lang("‘ОЏЫ‚Є•mЋЂ‚И‚з‘¦ЋЂ", "Kill low-health target")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ANAPHYLAXIS) = SKILL_ATTR_CON, SKILL_TYPE_SP, 22, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_ANAPHYLAXIS) = lang("アナフィラキシー", "Anaphylaxis")
-	skilldesc(SKILL_SPACT_ANAPHYLAXIS) = lang("視界内毒状態の敵に大ダメージ", "Attack enemies of the poison state")
+	skillname(SKILL_SPACT_ANAPHYLAXIS) = lang("ѓAѓiѓtѓBѓ‰ѓLѓVЃ[", "Anaphylaxis")
+	skilldesc(SKILL_SPACT_ANAPHYLAXIS) = lang("Ћ‹ЉE“а“ЕЏу‘Ф‚М“G‚Й‘еѓ_ѓЃЃ[ѓW", "Attack enemies of the poison state")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_DESTINY_DICE) = SKILL_ATTR_LUC, SKILL_TYPE_SP, 9, TARGET_TYPE_SELF + 6, 500
-	skillname(SKILL_SPACT_DESTINY_DICE) = lang("荒ぶるダイス", "Destiny dice")
-	skilldesc(SKILL_SPACT_DESTINY_DICE) = lang("判定に応じて視界内投擲ダメージ", "Attack enemies when successful")
+	skillname(SKILL_SPACT_DESTINY_DICE) = lang("Ќr‚Ф‚йѓ_ѓCѓX", "Destiny dice")
+	skilldesc(SKILL_SPACT_DESTINY_DICE) = lang("”»’и‚Й‰ћ‚¶‚ДЋ‹ЉE“а“Љќ±ѓ_ѓЃЃ[ѓW", "Attack enemies when successful")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_HAZARD_RECIPE) = SKILL_ATTR_PER, SKILL_TYPE_SP, 15, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_HAZARD_RECIPE) = lang("ハザードレシピ", "Hazard Recipe")
-	skilldesc(SKILL_SPACT_HAZARD_RECIPE) = lang("食品を化学兵器に作り変える", "Reshape food to chemical weapon")
+	skillname(SKILL_SPACT_HAZARD_RECIPE) = lang("ѓnѓUЃ[ѓhѓЊѓVѓs", "Hazard Recipe")
+	skilldesc(SKILL_SPACT_HAZARD_RECIPE) = lang("ђH•i‚р‰»Љw•єЉн‚ЙЌм‚и•П‚¦‚й", "Reshape food to chemical weapon")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CUSTOM_CHANGE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 5, TARGET_TYPE_SELF_ONLY, 0
-	skillname(SKILL_SPACT_CUSTOM_CHANGE) = lang("カスタムチェンジ", "Custom Change")
-	skilldesc(SKILL_SPACT_CUSTOM_CHANGE) = lang("パーツ構成を変えて性能を変化", "Change the performance by changing the parts")
+	skillname(SKILL_SPACT_CUSTOM_CHANGE) = lang("ѓJѓXѓ^ѓЂѓ`ѓFѓ“ѓW", "Custom Change")
+	skilldesc(SKILL_SPACT_CUSTOM_CHANGE) = lang("ѓpЃ[ѓcЌ\ђ¬‚р•П‚¦‚Дђ«”\‚р•П‰»", "Change the performance by changing the parts")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_VENOTRATE) = SKILL_ATTR_DEX, SKILL_TYPE_SP, 20, TARGET_TYPE_ENEMY + 10, 500
-	skillname(SKILL_SPACT_VENOTRATE) = lang("ヴェノトレイト", "Venotrate")
-	skilldesc(SKILL_SPACT_VENOTRATE) = lang("問答無用で毒状態/ゲージ25％消費", "Poison target/Consumes 25% gauge")
+	skillname(SKILL_SPACT_VENOTRATE) = lang("ѓ”ѓFѓmѓgѓЊѓCѓg", "Venotrate")
+	skilldesc(SKILL_SPACT_VENOTRATE) = lang("–в“љ–і—p‚Е“ЕЏу‘Ф/ѓQЃ[ѓW25Ѓ“ЏБ”п", "Poison target/Consumes 25% gauge")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PERSUASION) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PERSUASION) = lang("全力説得", "Persuasion")
-	skilldesc(SKILL_SPACT_PERSUASION) = lang("意志対抗/SP減っている対象ほど疲労", "Against WIL,Fatigue decreasing SP enemies")
+	skillname(SKILL_SPACT_PERSUASION) = lang("‘S—Нђа“ѕ", "Persuasion")
+	skilldesc(SKILL_SPACT_PERSUASION) = lang("€УЋu‘ОЌR/SPЊё‚Б‚Д‚ў‚й‘ОЏЫ‚Щ‚З”жJ", "Against WIL,Fatigue decreasing SP enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PECULIAR_JOKE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_PECULIAR_JOKE) = lang("渾身のギャグ", "Peculiar Joke")
-	skilldesc(SKILL_SPACT_PECULIAR_JOKE) = lang("感覚対抗/ゲージが低い対象ほど疲労", "Against PER,Fatigue low power gauge enemies")
+	skillname(SKILL_SPACT_PECULIAR_JOKE) = lang("џУђg‚МѓMѓѓѓO", "Peculiar Joke")
+	skilldesc(SKILL_SPACT_PECULIAR_JOKE) = lang("ЉґЉo‘ОЌR/ѓQЃ[ѓW‚Є’б‚ў‘ОЏЫ‚Щ‚З”жJ", "Against PER,Fatigue low power gauge enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_BLENDED_LIE) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_BLENDED_LIE) = lang("少しの大嘘", "Blended Lie")
-	skilldesc(SKILL_SPACT_BLENDED_LIE) = lang("器用対抗/MP減っている対象ほど疲労", "Against DEX,Fatigue decreasing MP enemies")
+	skillname(SKILL_SPACT_BLENDED_LIE) = lang("Џ­‚µ‚М‘е‰R", "Blended Lie")
+	skilldesc(SKILL_SPACT_BLENDED_LIE) = lang("Љн—p‘ОЌR/MPЊё‚Б‚Д‚ў‚й‘ОЏЫ‚Щ‚З”жJ", "Against DEX,Fatigue decreasing MP enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_INTIMIDATION) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_INTIMIDATION) = lang("脅迫地獄", "Intimidation")
-	skilldesc(SKILL_SPACT_INTIMIDATION) = lang("筋力対抗/HP減っている対象ほど疲労", "Against STR,Fatigue decreasing HP enemies")
+	skillname(SKILL_SPACT_INTIMIDATION) = lang("‹є”—’nЌ–", "Intimidation")
+	skilldesc(SKILL_SPACT_INTIMIDATION) = lang("‹Ш—Н‘ОЌR/HPЊё‚Б‚Д‚ў‚й‘ОЏЫ‚Щ‚З”жJ", "Against STR,Fatigue decreasing HP enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_MYSTERIOUS_SONG) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_MYSTERIOUS_SONG) = lang("魔唱", "Mysterious Song")
-	skilldesc(SKILL_SPACT_MYSTERIOUS_SONG) = lang("魔力対抗/ゲージが高い対象ほど疲労", "Against MAG,Fatigue high power gauge enemies")
+	skillname(SKILL_SPACT_MYSTERIOUS_SONG) = lang("–‚ЏҐ", "Mysterious Song")
+	skilldesc(SKILL_SPACT_MYSTERIOUS_SONG) = lang("–‚—Н‘ОЌR/ѓQЃ[ѓW‚ЄЌ‚‚ў‘ОЏЫ‚Щ‚З”жJ", "Against MAG,Fatigue high power gauge enemies")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_TUIN_DER_LUSTEN) = SKILL_ATTR_CHA, SKILL_TYPE_SP, 10, TARGET_TYPE_SELF + SKILL_TYPE_FOV_BOLT, 500
-	skillname(SKILL_SPACT_TUIN_DER_LUSTEN) = lang("快楽の園", "Tuin der Lusten")
-	skilldesc(SKILL_SPACT_TUIN_DER_LUSTEN) = lang("魅力対抗/広域気持ちいいこと/疲労大", "Against CHR,Give pleasure to drunken people")
+	skillname(SKILL_SPACT_TUIN_DER_LUSTEN) = lang("‰хЉy‚М‰Ђ", "Tuin der Lusten")
+	skilldesc(SKILL_SPACT_TUIN_DER_LUSTEN) = lang("–Ј—Н‘ОЌR/ЌL€ж‹CЋќ‚ї‚ў‚ў‚±‚Ж/”жJ‘е", "Against CHR,Give pleasure to drunken people")
 
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHADOW_HOP) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 30, TARGET_TYPE_SELF, 200
-	skillname(SKILL_SPACT_SHADOW_HOP) = lang("シャドウホップ", "Shadow Hop")
-	skilldesc(SKILL_SPACT_SHADOW_HOP) = lang("HP半分消費し影分身を召喚", "Summon clones/halve HP")
+	skillname(SKILL_SPACT_SHADOW_HOP) = lang("ѓVѓѓѓhѓEѓzѓbѓv", "Shadow Hop")
+	skilldesc(SKILL_SPACT_SHADOW_HOP) = lang("HP”ј•ЄЏБ”п‚µ‰e•Єђg‚рЏўЉ«", "Summon clones/halve HP")
 	
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_SHADOW_JUMP) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 5, TARGET_TYPE_SELF, 0
-	skillname(SKILL_SPACT_SHADOW_JUMP) = lang("シャドウジャンプ", "Shadow Jump")
-	skilldesc(SKILL_SPACT_SHADOW_JUMP) = lang("視界外でも敵を追跡束縛", "Chase and bind target")
+	skillname(SKILL_SPACT_SHADOW_JUMP) = lang("ѓVѓѓѓhѓEѓWѓѓѓ“ѓv", "Shadow Jump")
+	skilldesc(SKILL_SPACT_SHADOW_JUMP) = lang("Ћ‹ЉEЉO‚Е‚а“G‚р’ЗђХ‘©”›", "Chase and bind target")
 
 	return
 
