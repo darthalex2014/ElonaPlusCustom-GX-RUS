@@ -117,34 +117,34 @@
 			swend
 		}
 
-		locvar_matgetmain_s = "You get " + locvar_matgetmain_n + " " + matname(matgetmain_arg1) + material_plural + ". "
+		locvar_matgetmain_s = "Вы получи " + locvar_matgetmain_n + " " + matname(matgetmain_arg1) + material_plural + ". "
 
 		/********** BLOODYSHADE CUSTOM - ENDING **********/
 
 	}
 	else {
-		locvar_matgetmain_s = "マテリアル:" + matname(matgetmain_arg1) + "を" + locvar_matgetmain_n + "個"
+		locvar_matgetmain_s = "ѓ}ѓeѓЉѓAѓ‹:" + matname(matgetmain_arg1) + "‚р" + locvar_matgetmain_n + "ЊВ"
 		snd SOUNDLIST_ALERT1
 		if ( matgetmain_arg3 == 1 ) {
-			locvar_matgetmain_s += "掘り当てた。"
+			locvar_matgetmain_s += "Њ@‚и“–‚Д‚ЅЃB"
 		}
 		if ( matgetmain_arg3 == 2 ) {
-			locvar_matgetmain_s += "釣り上げた。"
+			locvar_matgetmain_s += "’Ю‚иЏг‚°‚ЅЃB"
 		}
 		if ( matgetmain_arg3 == 3 ) {
-			locvar_matgetmain_s += "採取した。"
+			locvar_matgetmain_s += "ЌМЋж‚µ‚ЅЃB"
 		}
 		if ( matgetmain_arg3 == 4 ) {
-			locvar_matgetmain_s += "回収した。"
+			locvar_matgetmain_s += "‰сЋы‚µ‚ЅЃB"
 		}
 		if ( matgetmain_arg3 == 5 ) {
-			locvar_matgetmain_s += "見つけた。"
+			locvar_matgetmain_s += "Њ©‚В‚Ї‚ЅЃB"
 		}
 		if ( matgetmain_arg3 == 6 ) {
-			locvar_matgetmain_s += "受け取った。"
+			locvar_matgetmain_s += "Ћу‚ЇЋж‚Б‚ЅЃB"
 		}
 		if ( matgetmain_arg3 == 0 ) {
-			locvar_matgetmain_s += "入手した。"
+			locvar_matgetmain_s += "“ьЋи‚µ‚ЅЃB"
 		}
 	}
 	txtef COLOR_BLUE
@@ -157,9 +157,9 @@
 		locvar_matgetmain_n = 1
 	}
 	mat(matdelmain_arg1) -= locvar_matgetmain_n
-	locvar_matgetmain_s = lang("マテリアル:" + matname(matdelmain_arg1) + "を" + locvar_matgetmain_n + "個失った", "" + locvar_matgetmain_n + " " + matname(matdelmain_arg1) + " was consumed.")
+	locvar_matgetmain_s = lang("ѓ}ѓeѓЉѓAѓ‹:" + matname(matdelmain_arg1) + "‚р" + locvar_matgetmain_n + "ЊВЋё‚Б‚Ѕ", "" + locvar_matgetmain_n + " " + matname(matdelmain_arg1) + " был использован. ")
 	txtef COLOR_BLUE
-	txt lang(locvar_matgetmain_s + "(残り " + mat(matdelmain_arg1) + "個) ", locvar_matgetmain_s + " (" + mat(matdelmain_arg1) + " remaining.)")
+	txt lang(locvar_matgetmain_s + "(Ћc‚и " + mat(matdelmain_arg1) + "ЊВ) ", locvar_matgetmain_s + " (" + mat(matdelmain_arg1) + " осталось. )")
 	return
 
 *com_product
@@ -216,12 +216,12 @@
 *com_product_loop
 	redraw 0
 	page_check
-	s = lang("生産品の選択", "Production"), strhint2 + strhint3b
+	s = lang("ђ¶ЋY•i‚М‘I‘р", "Производство "), strhint2 + strhint3b
 	display_window (windoww - 640) / 2 + inf_screenx, winposy(448), 640, 448
-	display_topic lang("生産品", "Product"), wx + 28, wy + 36
-	display_topic lang("説明", "Detail"), wx + 296, wy + 36
-	display_topic lang("詳細", "Requirement"), wx + 28, wy + 258
-	display_topic lang("必要素材", "Material"), wx + 28, wy + 304
+	display_topic lang("ђ¶ЋY•i", "Продукт "), wx + 28, wy + 36
+	display_topic lang("ђа–ѕ", "Детали "), wx + 296, wy + 36
+	display_topic lang("ЏЪЌЧ", "Требование "), wx + 28, wy + 258
+	display_topic lang("•K—v‘fЌЮ", "Материал "), wx + 28, wy + 304
 	keyrange = 0
 	repeat pagesize
 		p = pagesize * page + cnt
@@ -250,18 +250,18 @@
 			if ( invctrl == 0 ) {
 				gosub *recipe_ref
 				font lang(cfg_font1, cfg_font2), 13 - en * 2, 0
-				s = lang("必要スキル: ", "Skill needed: ")
+				s = lang("•K—vѓXѓLѓ‹: ", "Необходимые навыки: ")
 				if ( matval == SKILL_NORMAL_ALCHEMY ) {
-					s += lang("錬金術", "Alchemy")
+					s += lang("B‹аЏp", "Алхимия ")
 				}
 				if ( matval == SKILL_NORMAL_CARPENTRY ) {
-					s += lang("工作", "Carpentry")
+					s += lang("ЌHЌм", "Плотничество ")
 				}
 				if ( matval == SKILL_NORMAL_JEWELER ) {
-					s += lang("宝石細工", "Jeweler")
+					s += lang("•уђОЌЧЌH", "Ювелир ")
 				}
 				if ( matval == SKILL_NORMAL_TAILORING ) {
-					s += lang("裁縫", "Tailoring")
+					s += lang("ЌЩ–D", "Портняжное дело ")
 				}
 				s += " " + matval(1) + "(" + sdata(matval, CHARA_PLAYER) + ")"
 				if ( matval(1) <= sdata(matval, CHARA_PLAYER) ) {
@@ -278,7 +278,7 @@
 				if ( j == (-1) ) {
 					break
 				}
-				s = matname(j) + lang(" × ", " x ") + j(1) + "(" + mat(j) + ")"
+				s = matname(j) + lang(" Ѓ~ ", " x ") + j(1) + "(" + mat(j) + ")"
 				if ( mat(j) >= j(1) ) {
 					color 30, 30, 200
 				}
@@ -295,7 +295,7 @@
 
 	    preparePicItem p(1), 0
 
-		s(1) = lang("アイテム[" + s + "]", "Make [" + s + "]")
+		s(1) = lang("ѓAѓCѓeѓЂ[" + s + "]", "Сделать [" + s + "] ")
 		font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 		if ( int(listn(0, p)) == (-1) ) {
 			p(2) = 3
@@ -332,7 +332,7 @@
 		s = ioriginalnameref(matid)
 		if ( prodcheck() == (-1) ) {
 			snd SOUNDLIST_FAIL1
-			txt lang("生産の条件を満たしてない。", "You don't meet the requirements to create the item.")
+			txt lang("ђ¶ЋY‚МЏрЊЏ‚р–ћ‚Ѕ‚µ‚Д‚И‚ўЃB", "Вы не соответствуете требованиям для создания данного предмета. ")
 			goto *com_product_loop
 		}
 		if ( inv_getspace() == 0 ) {
@@ -361,7 +361,7 @@
 		itemcreate 0, p, -1, -1, 0
 		inv(INV_ITEM_STATUS, ci) = ITEM_STATUS_NORMAL
 		item_identify ci, ITEM_KNOWN_FULL
-		txt lang(itemname(ci, 1) + "を製造した。", "You produced " + itemname(ci, 1) + ".")
+		txt lang(itemname(ci, 1) + "‚рђ»‘ў‚µ‚ЅЃB", "Вы произвели " + itemname(ci, 1) + ". ")
 		item_stack CHARA_PLAYER, ci, 1
 		if ( matval == SKILL_NORMAL_ALCHEMY ) {
 			gdata(GDATA_FLAG_CREATED_BY_ALCHEMY)++
@@ -425,8 +425,8 @@
 	redraw 0
 	s = strhint2 + strhint3b
 	showscroll wx, wy, ww, wh
-	display_topic lang("所持マテリアル", "Name"), wx + 38, wy + 36
-	display_topic lang("説明", "Detail"), wx + 296, wy + 36
+	display_topic lang("ЏЉЋќѓ}ѓeѓЉѓAѓ‹", "Название "), wx + 38, wy + 36
+	display_topic lang("ђа–ѕ", "Детали "), wx + 296, wy + 36
 	keyrange = 0
 	repeat pagesize
 		p = pagesize * page + cnt
@@ -450,7 +450,7 @@
 			break
 		}
 		i = list(0, p)
-		s = "" + matname(i) + lang(" × ", " x ") + mat(i)
+		s = "" + matname(i) + lang(" Ѓ~ ", " x ") + mat(i)
 		cs_list s, wx + 96, wy + 66 + cnt * 19 - 1, 19, 0, 0
 		s = matdesc(i)
 		pos wx + 308, wy + 66 + cnt * 19 + 2
