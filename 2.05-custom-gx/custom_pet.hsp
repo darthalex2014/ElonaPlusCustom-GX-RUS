@@ -1,13 +1,13 @@
 *PetMenu
 	redraw 0
-	s = "Pet Configuration", strhint3b
+	s = "Конфигурация Питомца ", strhint3b
 	display_window (windoww - 680) / 2 + inf_screenx, winposy(500, 1) + 20, 680, 500
-	s = "Choose an option"
+	s = "Выберите опцию "
 	gosub *screen_drawMsg2
 
-	listn(0, 0) = "Customize AI"
-	listn(0, 1) = "Other Settings"
-	listn(0, 2) = "Exit"
+	listn(0, 0) = "Настройка ИИ "
+	listn(0, 1) = "Другие Настройки "
+	listn(0, 2) = "Выход "
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 
 	repeat 3
@@ -20,17 +20,17 @@
 
 	font lang(cfg_font1, cfg_font2), 13 - en * 2, 0
 	if ( listn(0, cs) == listn(0, 0) ) {
-		s = "Change your pet's AI."
+		s = "Изменение ИИ вашего питомца. "
 		pos wx + 38, wy + 359
 		mes s
 	}
 	if ( listn(0, cs) == listn(0, 1) ) {
-		s = "Choose other options."
+		s = "Выбор других опций. "
 		pos wx + 38, wy + 359
 		mes s
 	}
 	if ( listn(0, cs) == listn(0, 2) ) {
-		s = "Exit the menu."
+		s = "Выход из меню. "
 		pos wx + 38, wy + 359
 		mes s
 	}
@@ -61,30 +61,30 @@
 
 *PetOptionMenu
 	redraw 0
-	s = "Pet Configuration", strhint3b
+	s = "Конфигурация Питомца ", strhint3b
 	display_window (windoww - 680) / 2 + inf_screenx, winposy(500, 1) + 20, 680, 500
-	s = "Choose an option"
+	s = "Выберите опцию "
 	gosub *screen_drawMsg2
 
 	if ( CustomVal(0, tc) == 0 ) {
-		listn(0, 0) = "Eat items from your bag if you are hungry."
+		listn(0, 0) = "Ешь предметы из сумки, если ты голодна. "
 	}
 	if ( CustomVal(0, tc) == 1 ) {
-		listn(0, 0) = "Don't eat items from your bag."
+		listn(0, 0) = "Не ешь предметы из сумки. "
 	}
 	if ( CustomVal(1, tc) == 0 ) {
-		listn(0, 1) = "Drink potions in your bag if you are thirsty."
+		listn(0, 1) = "Пей зелья из сумки, если хочешь пить. "
 	}
 	if ( CustomVal(1, tc) == 1 ) {
-		listn(0, 1) = "Don't drink potions in your bag."
+		listn(0, 1) = "Не пей зелья из сумки. "
 	}
 	if ( CustomVal(2, tc) == 0 ) {
-		listn(0, 2) = "Tell me if you want to chat with me."
+		listn(0, 2) = "Скажи, если хочешь пообщаться со мной. "
 	}
 	if ( CustomVal(2, tc) == 1 ) {
-		listn(0, 2) = "I don't have time to chat right now."
+		listn(0, 2) = "У меня сейчас нет времени на общение. "
 	}
-	listn(0, 3) = "Exit"
+	listn(0, 3) = "Выход "
 	font lang(cfg_font1, cfg_font2), 14 - en * 2, 0
 
 	repeat 4
