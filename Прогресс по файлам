@@ -1,69 +1,71 @@
 Имя Файла               \ Кол-во строк+-     \ Готово \
 ========================================================================
-db_item                 \1568                \
-db_creature             \4060                \
 chat                    \4543                \
+db_creature             \4060                \
 db_card                 \2184                \
-proc                    \1169                \
-action                  \1444                \
-map                     \293                 \
-command                 \1391                \Частичный перевод (%?)
 text                    \1997                \Частичный перевод (%?)
-chara_func              \329                 \
-main                    \368                 \33%
-module                  \42                  \
-screen                  \111                 \
-scene2                  \Много               \
-chara                   \298                 \Частичный перевод
-scene1                  \0                   \
-db_race                 \87                  \100% (Нужна Верстка?)
-item                    \228                 \
+db_item                 \1568                \
+action                  \1444                \
+command                 \1391                \Частичный перевод (%?)
+proc                    \1169                \
 skill                   \870                 \99% (Нужна Верстка?)
-ai                      \106                 \
-custom_nefiatypes       \2                   \
+scene2                  \Много               \
 event                   \454                 \
-blend                   \193                 \
-system                  \62                  \90%
 custom_enemyevolution   \420                 \
-custom_ai               \31                  \
-map_user                \175                 \
-item_func               \184                 \
-calculation             \36                  \
-map_func                \0                   \
-item_data               \318                 \
 trait                   \400                 \
-init                    \171                 \
-chips                   \3                   \
-map_rand                \6                   \
+main                    \368                 \33%
+chara_func              \329                 \
+item_data               \318                 \
+chara                   \298                 \Частичный перевод
+map                     \293                 \
+item                    \228                 \
 buff                    \199                 \
-custom_tweaks           \14                  \
+blend                   \193                 \
 config                  \190                 \99% (Нужна Верстка?)
-tcg                     \56                  \
+item_func               \184                 \
+map_user                \175                 \
+init                    \171                 \
+material_data           \118                 \
 god                     \117                 \
-quest                   \26                  \
-sound                   \0                   \
+screen                  \111                 \
+ai                      \106                 \
+custom_tweaks           \101                 \
 txtadv                  \88                  \
-db_class                \48                  \
-net                     \39                  \
-adv                     \13                  \
-help                    \66                  \
-highdpi                 \0                   \  
 custom_autopick         \88                  \
+db_race                 \87                  \100% (Нужна Верстка?)
+help                    \66                  \
+system                  \62                  \90%
 economy                 \58                  \
+tcg                     \56                  \
+db_class                \48                  \
+module                  \42                  \
+net                     \39                  \
+calculation             \36                  \
+custom_ai               \31                  \
+quest                   \26                  \
+material                \22                  \100% (Нужна Верстка?)
 etc                     \17                  \99% (Нужна Верстка?)
+adv                     \13                  \99% (Нужна Верстка)
+map_rand                \6                   \100% (Нужна Верстка)
+custom_pet              \4                   \100% (Готово)
+chips                   \3                   \100% (Нужна Верстка)
+custom_nefiatypes       \2                   \100% (Нужна Верстка)
+========================================================================
+map_func                \0                   \(Не трубуется) ???
+custom_dmgparse         \0                   \(Не трубуется) ???
+randname                \0                   \(Не трубуется) ???
+========================================================================
+scene1                  \0                   \(Не трубуется)
+sound                   \0                   \(Не трубуется)
+highdpi                 \0                   \(Не трубуется)  
 custom_dmgpop           \0                   \(Не трубуется)
 custom_spellanimations  \0                   \(Не трубуется)
-material_data           \118                 \
-material                \22                  \100% (Нужна Верстка?)
 lua                     \0                   \(Не трубуется)
 scene                   \0                   \(Не трубуется)
 custom_lib              \0                   \(Не трубуется)
-custom_dmgparse         \0                   \(Не трубуется) ???
 uselib                  \0                   \(Не трубуется)
 tcg_skill               \0                   \(Не трубуется)
-randname                \0                   \(Не трубуется) ???
 tcg_ai                  \0                   \(Не трубуется)
-custom_pet              \4                   \100% (Готово)
 mock_defines            \0                   \(Не трубуется)
 custom_itemlist         \0                   \(Не трубуется)
 mock_lib                \0                   \(Не трубуется)
