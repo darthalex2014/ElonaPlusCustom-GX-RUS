@@ -8,6 +8,7 @@
 - 99% перевод custom_ai.hsp
 - 99% перевод calculation.hsp
 - 99% перевод net.hsp
+- 99% перевод module.hsp
 
 ## Перевод 26.08.23-27.08.23
 - Частичный перевод text.hsp
