@@ -6,6 +6,7 @@
 - 99% перевод adv.hsp
 - 99% перевод quest.hsp
 - 99% перевод custom_ai.hsp
+- 99% перевод calculation.hsp
 
 ## Перевод 26.08.23-27.08.23
 - Частичный перевод text.hsp
