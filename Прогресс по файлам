@@ -30,6 +30,7 @@ god                     \117                 \
 screen                  \111                 \
 ai                      \106                 \
 custom_tweaks           \101                 \
+custom_ai               \96                  \99% (Нужна Верстка?)
 txtadv                  \88                  \
 custom_autopick         \88                  \
 db_race                 \87                  \100% (Нужна Верстка?)
@@ -41,7 +42,6 @@ db_class                \48                  \
 module                  \42                  \
 net                     \39                  \
 calculation             \36                  \
-custom_ai               \31                  \
 quest                   \26                  \99% (Нужна Верстка?)
 material                \22                  \100% (Нужна Верстка?)
 etc                     \17                  \99% (Нужна Верстка?)
