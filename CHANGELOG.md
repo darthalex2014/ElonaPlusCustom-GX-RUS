@@ -2,7 +2,8 @@
 ## Перевод 28.08.23
 - 99% перевод tcg.hsp
 - 99% перевод economy.hsp
-
+- 98% Перевод system.hsp
+  
 ## Перевод 27.08.23
 - 100% перевод map_rand.hsp
 - 100% перевод chips.hsp custom_nefiatypes
