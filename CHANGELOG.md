@@ -1,4 +1,10 @@
 # 2.19R.1.1
+## Перевод 27.08.23
+- 100% перевод map_rand.hsp
+- 100% перевод chips.hsp custom_nefiatypes
+- 100% перевод custom_nefiatypes.hsp
+- 99% перевод adv.hsp
+
 ## Перевод 26.08.23-27.08.23
 - Частичный перевод text.hsp
 - 33% перевод main.hsp
