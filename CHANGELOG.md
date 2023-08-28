@@ -5,6 +5,7 @@
 - 99% перевод tcg.hsp
 - 99% перевод economy.hsp
 - 98% Перевод system.hsp
+- 100% Перевод tcg_custom.hsp
   
 ## Перевод 27.08.23
 - 100% перевод map_rand.hsp
